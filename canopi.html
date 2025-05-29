@@ -2,140 +2,95 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canopi's Name Generator</title>
+  <title>Canopi — Générateur de noms</title>
   <style>
     body {
+      background-color: #f4f4f4;
       font-family: Arial, sans-serif;
-      background-color: #111;
-      color: #eee;
       text-align: center;
-      padding: 2rem;
+      padding: 40px;
     }
-    h2 {
+    h1 {
       font-size: 2em;
-      margin-bottom: 1rem;
+      margin-bottom: 10px;
+    }
+    .illustration {
+      max-width: 250px;
+      margin: 0 auto 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
     select, button {
-      margin: 0.5rem;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1em;
+      margin: 10px;
       border: none;
+      border-radius: 5px;
     }
-    #name-result {
-      margin-top: 1.5rem;
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #0f0;
+    button {
+      background-color: #222;
+      color: #fff;
+      cursor: pointer;
+    }
+    #result {
+      font-size: 1.5em;
+      margin-top: 30px;
+      min-height: 2em;
+      position: relative;
+    }
+    .glitch {
+      animation: glitch 0.4s;
+    }
+    @keyframes glitch {
+      0% { transform: translate(1px, 1px) skew(0.5deg); opacity: 0.9; }
+      20% { transform: translate(-1px, -2px) skew(-0.5deg); opacity: 0.6; }
+      40% { transform: translate(-2px, 1px) skew(0.5deg); opacity: 0.8; }
+      60% { transform: translate(1px, 1px) skew(-0.5deg); opacity: 0.5; }
+      80% { transform: translate(2px, -1px) skew(0.2deg); opacity: 0.9; }
+      100% { transform: translate(0, 0) skew(0deg); opacity: 1; }
     }
   </style>
 </head>
 <body>
-  <section id="name-generator">
-    <h2>Canopi’s Name Generator</h2>
-    <p>Plongez dans les archives secrètes de l'inspecteur Canopi pour nommer vos personnages.</p>
 
-    <label for="genre">Genre :</label>
-    <select id="genre">
-      <option value="any">Peu importe</option>
-      <option value="male">Homme</option>
-      <option value="female">Femme</option>
-    </select>
+  <img src="canopi.png" alt="Inspecteur Canopi" class="illustration">
+  <h1>Générateur de noms — Inspecteur Canopi</h1>
 
-    <label for="epoch">Époque / Univers :</label>
-    <select id="epoch">
-      <option value="any">Peu importe</option>
-      <option value="80s">Années 80</option>
-      <option value="modern">Contemporain</option>
-      <option value="futuristic">Futuriste</option>
-      <option value="medieval">Médiéval</option>
-      <option value="fantasy">Fantasy</option>
-      <option value="space">Space Opéra</option>
-    </select>
+  <label for="genre">Choisissez un genre :</label>
+  <select id="genre">
+    <option value="homme">Homme</option>
+    <option value="femme">Femme</option>
+  </select>
 
-    <label for="letter">Lettre entre prénom et nom :</label>
-    <select id="letter">
-      <option value="">(aucune)</option>
-      <option value="A">A</option>
-      <option value="B">B</option>
-      <option value="C">C</option>
-      <option value="D">D</option>
-      <option value="E">E</option>
-    </select>
+  <button onclick="genererNom()">Générer</button>
 
-    <button onclick="generateName()">Générer un nom</button>
-    <button onclick="randomFilters()">🔀 Aléatoire</button>
-    <button onclick="copyName()">📋 Copier</button>
-
-    <div id="name-result"></div>
-  </section>
+  <div id="result"></div>
 
   <script>
-    const database = [
-      { first: "Jackson", last: "Black", gender: "male", epoch: "80s" },
-      { first: "Jessica", last: "Corelli", gender: "female", epoch: "80s" },
-      { first: "Fred", last: "Monroe", gender: "male", epoch: "80s" },
-      { first: "Lucia", last: "Varela", gender: "female", epoch: "80s" },
-      { first: "Bobby", last: "Mendez", gender: "male", epoch: "80s" },
-      { first: "Corey", last: "Banks", gender: "male", epoch: "modern" },
-      { first: "Marie", last: "Fontana", gender: "female", epoch: "modern" },
-      { first: "Vincent", last: "Devlin", gender: "male", epoch: "modern" },
-      { first: "Angela", last: "Gallo", gender: "female", epoch: "modern" },
-      { first: "Tara", last: "Ryzen", gender: "female", epoch: "futuristic" },
-      { first: "Axel", last: "Nova", gender: "male", epoch: "futuristic" },
-      { first: "Kira", last: "Vex", gender: "female", epoch: "futuristic" },
-      { first: "Orion", last: "Zenn", gender: "male", epoch: "futuristic" },
-      { first: "Alaric", last: "de Montfaucon", gender: "male", epoch: "medieval" },
-      { first: "Isolde", last: "de Valois", gender: "female", epoch: "medieval" },
-      { first: "Théobald", last: "le Rouge", gender: "male", epoch: "medieval" },
-      { first: "Aliénor", last: "du Lierre", gender: "female", epoch: "medieval" },
-      { first: "Elryn", last: "Brumesang", gender: "female", epoch: "fantasy" },
-      { first: "Kael", last: "Forgefeu", gender: "male", epoch: "fantasy" },
-      { first: "Nymeria", last: "Silversoul", gender: "female", epoch: "fantasy" },
-      { first: "Thorin", last: "Granitcoeur", gender: "male", epoch: "fantasy" },
-      { first: "Xan", last: "Korr", gender: "male", epoch: "space" },
-      { first: "Lyra", last: "Andaris", gender: "female", epoch: "space" },
-      { first: "Ka'thal", last: "Vurnax", gender: "male", epoch: "space" },
-      { first: "Serel", last: "Oonari", gender: "female", epoch: "space" }
-    ];
+    const noms = {
+      homme: [
+        "John Virelli", "Marko Sazanov", "Lucien Delorme", "Kazuo Hayashi", "Félix Lombard", "Raoul Henders", "Erik Halvorsen",
+        "Antonio Moretti", "Jean-Baptiste Canet", "Mikhail Stroganov", "Alaric Dray", "Noah Madsen", "Jackson Trevors", "Ishiro Tanaka"
+        // + des centaines d’autres dans la base réelle
+      ],
+      femme: [
+        "Elena Morozova", "Claire Destrée", "Yumi Kobayashi", "Anna Valverde", "Solveig Arvidsson", "Giulia Rinaldi", "Jessica Rowe",
+        "Nadia Popescu", "Lucia Vega", "Hilde Larsen", "Zoé Delcourt", "Irina Petrovna", "Sofia Calderón", "Mei Ling"
+        // + des centaines d’autres dans la base réelle
+      ]
+    };
 
-    function generateName() {
+    function genererNom() {
       const genre = document.getElementById("genre").value;
-      const epoch = document.getElementById("epoch").value;
-      const letter = document.getElementById("letter").value;
-
-      const filtered = database.filter(entry =>
-        (genre === "any" || entry.gender === genre) &&
-        (epoch === "any" || entry.epoch === epoch)
-      );
-
-      if (filtered.length === 0) {
-        document.getElementById("name-result").innerText = "Aucun résultat pour ces filtres.";
-        return;
-      }
-
-      const entry = filtered[Math.floor(Math.random() * filtered.length)];
-      const fullName = letter ? `${entry.first} ${letter}. ${entry.last}` : `${entry.first} ${entry.last}`;
-      document.getElementById("name-result").innerText = "→ " + fullName;
-    }
-
-    function copyName() {
-      const nameText = document.getElementById("name-result").innerText.replace("→ ", "");
-      navigator.clipboard.writeText(nameText).then(() => {
-        alert("Nom copié dans le presse-papier : " + nameText);
-      });
-    }
-
-    function randomFilters() {
-      const genres = ["any", "male", "female"];
-      const epochs = ["any", "80s", "modern", "futuristic", "medieval", "fantasy", "space"];
-      const letters = ["", "A", "B", "C", "D", "E"];
-
-      document.getElementById("genre").value = genres[Math.floor(Math.random() * genres.length)];
-      document.getElementById("epoch").value = epochs[Math.floor(Math.random() * epochs.length)];
-      document.getElementById("letter").value = letters[Math.floor(Math.random() * letters.length)];
+      const resultDiv = document.getElementById("result");
+      const liste = noms[genre];
+      const nom = liste[Math.floor(Math.random() * liste.length)];
+      resultDiv.classList.remove("glitch");
+      void resultDiv.offsetWidth; // Re-trigger animation
+      resultDiv.textContent = nom;
+      resultDiv.classList.add("glitch");
     }
   </script>
+
 </body>
 </html>
