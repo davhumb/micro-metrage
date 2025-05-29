@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,30 +7,39 @@
   <title>Micro-métrage</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Georgia', serif;
       background: url('papier.jpg') repeat;
-      background-size: auto;
+      font-family: 'Georgia', serif;
       color: #2c2c2c;
       text-align: center;
+      margin: 0;
       padding: 20px;
-      opacity: 0;
-      animation: fadeIn 2s ease-out forwards;
     }
 
-    @keyframes fadeIn {
-      to { opacity: 1; }
-    }
-
-    .page {
-      max-width: 600px;
-      margin: auto;
-      background: rgba(255, 255, 255, 0.92);
-      border: 4px solid #111;
-      box-shadow: 0 0 30px rgba(0,0,0,0.3);
-      padding: 30px 20px;
+    .cover-container {
       position: relative;
+      width: 400px;
+      height: 600px;
+      margin: 20px auto 40px auto;
     }
+
+    .cover-piece {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      opacity: 0;
+      transform: scale(0.8);
+      transition: all 0.8s ease;
+    }
+
+    .cover-piece.reveal {
+      opacity: 1;
+      transform: scale(1) translate(0, 0);
+    }
+
+    .piece1 { top: 0; left: 0; }
+    .piece2 { top: 0; left: 50%; }
+    .piece3 { top: 50%; left: 0; }
+    .piece4 { top: 50%; left: 50%; }
 
     .titre {
       font-size: 2em;
@@ -39,8 +49,8 @@
       margin-bottom: 10px;
       border-bottom: 2px solid #a70000;
       padding-bottom: 5px;
-      overflow: hidden;
       white-space: nowrap;
+      overflow: hidden;
       border-right: .15em solid #a70000;
       width: 0;
       animation: typing 2.5s steps(15, end) forwards, blink .75s step-end infinite;
@@ -64,18 +74,12 @@
       margin-bottom: 25px;
     }
 
-    .couverture {
-      width: 100%;
-      max-width: 400px;
-      border: 3px solid #333;
-      margin: 20px auto;
-      display: block;
-    }
-
     .texte {
       font-size: 1.1em;
       line-height: 1.6;
       padding: 0 10px;
+      max-width: 600px;
+      margin: auto;
     }
 
     a.bouton {
@@ -102,29 +106,43 @@
     }
   </style>
 </head>
-<body>
+<body onload="assemble()">
 
-  <div class="page">
-    <div class="titre">Micro-métrage</div>
-    <div class="bandeau">Un roman choral à pellicule brûlée</div>
-    <img src="couverture.jpg" alt="Couverture du livre Micro-métrage" class="couverture" />
-
-    <div class="texte">
-      Un roman choral comme un film éclaté.<br>
-      Les trajectoires se croisent, se fuient, s’entrechoquent.<br><br>
-      À chaque chapitre, un point de vue. À chaque voix, un morceau du puzzle.<br><br>
-      <em>Micro-métrage</em> explore les vies abîmées de personnages aussi drôles que désespérés, portés par des dialogues affûtés, des silences lourds, des coups de poing et des fuites impossibles.<br><br>
-      L’intrigue se construit par fragments. Elle s’imbrique, se déconstruit, s’obscurcit, puis éclaire soudain un détail oublié.<br><br>
-      Un roman noir, drôle parfois. Tendu souvent. Cinématographique toujours.
-    </div>
-
-    <a href="canopi.html" class="bouton">🎲 Canopi – Générateur de noms</a>
-    <a href="corey.html" class="bouton">🎬 Corey – Générateur de titres VHS</a>
-
-    <div class="footer">
-      &copy; David Humbert — 2025 — Éditions Faux Raccord
-    </div>
+  <div class="cover-container">
+    <img src="cover_1.jpg" class="cover-piece piece1" id="p1">
+    <img src="cover_2.jpg" class="cover-piece piece2" id="p2">
+    <img src="cover_3.jpg" class="cover-piece piece3" id="p3">
+    <img src="cover_4.jpg" class="cover-piece piece4" id="p4">
   </div>
+
+  <div class="titre">Micro-métrage</div>
+  <div class="bandeau">Un roman choral à pellicule brûlée</div>
+
+  <div class="texte">
+    Un roman choral comme un film éclaté.<br>
+    Les trajectoires se croisent, se fuient, s’entrechoquent.<br><br>
+    À chaque chapitre, un point de vue. À chaque voix, un morceau du puzzle.<br><br>
+    <em>Micro-métrage</em> explore les vies abîmées de personnages aussi drôles que désespérés, portés par des dialogues affûtés, des silences lourds, des coups de poing et des fuites impossibles.<br><br>
+    L’intrigue se construit par fragments. Elle s’imbrique, se déconstruit, s’obscurcit, puis éclaire soudain un détail oublié.<br><br>
+    Un roman noir, drôle parfois. Tendu souvent. Cinématographique toujours.
+  </div>
+
+  <a href="canopi.html" class="bouton">🎲 Canopi – Générateur de noms</a>
+  <a href="corey.html" class="bouton">🎬 Corey – Générateur de titres VHS</a>
+  <a href="lucious.html" class="bouton">💥 Lucious – Répliques Hard-Boiled</a>
+
+  <div class="footer">
+    &copy; David Humbert — 2025 — Éditions Faux Raccord
+  </div>
+
+  <script>
+    function assemble() {
+      setTimeout(() => document.getElementById("p1").classList.add("reveal"), 300);
+      setTimeout(() => document.getElementById("p2").classList.add("reveal"), 600);
+      setTimeout(() => document.getElementById("p3").classList.add("reveal"), 900);
+      setTimeout(() => document.getElementById("p4").classList.add("reveal"), 1200);
+    }
+  </script>
 
 </body>
 </html>

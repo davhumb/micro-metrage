@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucious – Générateur de Répliques</title>
+  <style>
+    body {
+      background: url('papier.jpg') repeat;
+      font-family: 'Courier New', monospace;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      background-color: #000;
+    }
+    img {
+      max-width: 300px;
+      margin-bottom: 1.5rem;
+      border-radius: 16px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: crimson;
+      margin-bottom: 0.2em;
+    }
+    #quote {
+      font-size: 1.5em;
+      margin: 2rem 0;
+      padding: 1rem;
+      border: 2px dashed crimson;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 12px;
+      min-height: 100px;
+    }
+    button {
+      background: crimson;
+      color: #000;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.2em;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <img src="lucious.jpg" alt="Lucious">
+  <h1>Lucious – Générateur de Répliques</h1>
+  <div id="quote">Clique pour une claque verbale.</div>
+  <button onclick="newQuote()">Balance une réplique</button>
+  <script>
+    const lines = `J’ai pas peur de mourir, j’ai peur que ça prenne trop de temps, Le mensonge, c’est la monnaie locale ici, Elle pleurait des balles, j’ai essuyé avec mes regrets, On ne m’achète pas. On me loue, à l’heure et sans reçu, Si tu veux la vérité, commence par enlever ton masque, Mon poing parle mieux que moi, J’écris pas de rapports, j’écris des confessions, Il faisait nuit, dans sa voix aussi, L’amour est un piège à mâchoires rouillées, La ville pue la corruption, et moi je pue la ville, Ma gueule est un dossier classé, J’ai trop bu pour oublier, mais pas assez pour pardonner, Il y a ceux qui creusent, et ceux qui signent les actes de décès, On m’a appris à survivre, pas à vivre, J’ai raté ma vie au premier coup de feu, Un bon flic dort seul ou dans une cellule, Je fuis pas les emmerdes, je fais le tour pour les doubler, Il m’a souri comme on vise, Je fais confiance à personne. Sauf à mon flingue, et encore, Les morts parlent moins, mais ils mentent pas, Ce qui m’a sauvé ? La haine, en intraveineuse, Y’avait du rouge sur ses lèvres, mais c’était pas du rouge à lèvres, Elle avait des yeux de cendres et des mots de feu, Un type m’a dit la vérité une fois. Il saigne encore, Je collectionne pas les regrets, je les encadre, Ma conscience s’est tirée en 1992, Le passé revient toujours. Armé jusqu’aux dents, Je croyais avoir touché le fond, puis j’ai reçu un appel, Une clope, un silence, et un flingue plein de nostalgie, Si la pluie pouvait laver les péchés, je serais sec, J’ai été un homme bien. Environ trois heures, Les bons sentiments, ça tient pas dans un chargeur, On m’a dit d’oublier. J’ai préféré riposter, Ma vie, c’est un roman noir mal relié, Les gentils meurent, les salauds vieillissent, Tant que t’as pas pris une balle pour rien, t’es pas un homme, Elle m’a laissé son parfum, et deux factures ouvertes, Le dernier mec à m’avoir trahi marche encore. En béquilles, Je suis pas dur. Juste plus fêlé que les autres, Le seul truc droit chez moi, c’est mon ombre à midi, Je dors peu. Et quand je dors, je rêve d’enquêtes sans issue, Il avait un flingue dans chaque main et une dette dans chaque œil, Je suis un fantôme avec une licence de détective, Ce quartier, c’est un cercueil avec des néons, Elle disait qu’elle m’aimait. Elle mentait bien. Trop bien, La vérité ? C’est une balle qui ricoche, J’ai vu le diable. Il avait mon sourire`.split(", ");
+    function newQuote() {
+      const r = Math.floor(Math.random() * lines.length);
+      document.getElementById('quote').innerText = lines[r];
+    }
+  </script>
+</body>
+</html>
