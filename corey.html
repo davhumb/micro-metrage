@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corey – Générateur de titres VHS</title>
+  <style>
+    body {
+      background: url('fond_clair.jpg') repeat;
+      font-family: 'Georgia', serif;
+      text-align: center;
+      padding: 20px;
+      color: #111;
+    }
+    .container {
+      max-width: 480px;
+      margin: auto;
+    }
+    .corey-img {
+      width: 160px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.2em;
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
+    button {
+      width: 100%;
+      font-size: 1.1em;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #aaa;
+    }
+    #resultat {
+      margin-top: 30px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="corey.jpg" alt="Corey" class="corey-img"/>
+    <h1>COREY’S<br>HORROR MOVIE<br>TITLE GENERATOR</h1>
+    <button onclick="genererTitre()">Générer un titre</button>
+    <div id="resultat">—</div>
+  </div>
+  <script>
+    const titres = [
+      "Un Zombie dans la Purée",
+      "Les Mutants du PMU",
+      "La Vengeance du Micro-ondes",
+      "Des Limaces dans Mon Slip",
+      "Le Retour du Cerveau Vomi",
+      "Un Vampire à la Cafétéria",
+      "Les Mains Coupées Reviennent"
+    ];
+    function genererTitre() {
+      const index = Math.floor(Math.random() * titres.length);
+      document.getElementById("resultat").textContent = titres[index];
+    }
+  </script>
+</body>
+</html>
