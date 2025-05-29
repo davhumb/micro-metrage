@@ -1,148 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Micro-métrage</title>
   <style>
     body {
-      background: url('papier.jpg') repeat;
+      background: url('fond_clair.jpg') repeat;
       font-family: 'Georgia', serif;
-      color: #2c2c2c;
-      text-align: center;
       margin: 0;
-      padding: 20px;
+      padding: 2rem 1rem;
+      color: #111;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      border-right: 2px solid #111;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typewriter 3s steps(30, end);
+      margin-bottom: 2rem;
+    }
+
+    @keyframes typewriter {
+      from { width: 0 }
+      to { width: 100% }
     }
 
     .cover-container {
-      position: relative;
-      width: 400px;
-      height: 600px;
-      margin: 20px auto 40px auto;
+      max-width: 360px;
+      margin: 0 auto 3rem;
     }
 
-    .cover-piece {
-      position: absolute;
-      width: 50%;
-      height: 50%;
-      opacity: 0;
-      transform: scale(0.8);
-      transition: all 0.8s ease;
-    }
-
-    .cover-piece.reveal {
-      opacity: 1;
-      transform: scale(1) translate(0, 0);
-    }
-
-    .piece1 { top: 0; left: 0; }
-    .piece2 { top: 0; left: 50%; }
-    .piece3 { top: 50%; left: 0; }
-    .piece4 { top: 50%; left: 50%; }
-
-    .titre {
-      font-size: 2em;
-      font-weight: bold;
-      text-transform: uppercase;
-      color: #a70000;
-      margin-bottom: 10px;
-      border-bottom: 2px solid #a70000;
-      padding-bottom: 5px;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: .15em solid #a70000;
-      width: 0;
-      animation: typing 2.5s steps(15, end) forwards, blink .75s step-end infinite;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 15ch }
-    }
-
-    @keyframes blink {
-      50% { border-color: transparent }
-    }
-
-    .bandeau {
-      font-size: 1em;
-      font-style: italic;
-      background: #111;
-      color: #fff;
-      padding: 6px 12px;
-      margin-bottom: 25px;
-    }
-
-    .texte {
-      font-size: 1.1em;
-      line-height: 1.6;
-      padding: 0 10px;
-      max-width: 600px;
-      margin: auto;
-    }
-
-    a.bouton {
+    .cover-container img {
+      width: 100%;
       display: block;
-      margin: 20px auto;
-      padding: 12px 24px;
-      background-color: #a70000;
+    }
+
+    .generator {
+      margin: 3rem auto;
+      max-width: 400px;
+    }
+
+    .portrait {
+      width: 120px;
+      border-radius: 100px;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 1rem 2rem;
+      background-color: #111;
       color: #fff;
       text-decoration: none;
       font-weight: bold;
-      border-radius: 8px;
+      border-radius: 12px;
+      font-family: 'Georgia', serif;
       transition: background-color 0.3s;
-      width: fit-content;
     }
 
-    a.bouton:hover {
-      background-color: #880000;
+    a:hover {
+      background-color: #444;
     }
 
-    .footer {
-      margin-top: 40px;
-      font-size: 0.8em;
-      color: #444;
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
 </head>
-<body onload="assemble()">
+<body>
+
+  <h1>Micro-métrage</h1>
 
   <div class="cover-container">
-    <img src="cover_1.jpg" class="cover-piece piece1" id="p1">
-    <img src="cover_2.jpg" class="cover-piece piece2" id="p2">
-    <img src="cover_3.jpg" class="cover-piece piece3" id="p3">
-    <img src="cover_4.jpg" class="cover-piece piece4" id="p4">
+    <img src="couverture.jpg" alt="Couverture Micro-métrage" />
   </div>
 
-  <div class="titre">Micro-métrage</div>
-  <div class="bandeau">Un roman choral à pellicule brûlée</div>
-
-  <div class="texte">
-    Un roman choral comme un film éclaté.<br>
-    Les trajectoires se croisent, se fuient, s’entrechoquent.<br><br>
-    À chaque chapitre, un point de vue. À chaque voix, un morceau du puzzle.<br><br>
-    <em>Micro-métrage</em> explore les vies abîmées de personnages aussi drôles que désespérés, portés par des dialogues affûtés, des silences lourds, des coups de poing et des fuites impossibles.<br><br>
-    L’intrigue se construit par fragments. Elle s’imbrique, se déconstruit, s’obscurcit, puis éclaire soudain un détail oublié.<br><br>
-    Un roman noir, drôle parfois. Tendu souvent. Cinématographique toujours.
+  <div class="generator">
+    <img src="canopi.jpg" alt="Canopi" class="portrait"/>
+    <a href="canopi.html">🎲 Canopi’s Name Generator</a>
   </div>
 
-  <a href="canopi.html" class="bouton">🎲 Canopi – Générateur de noms</a>
-  <a href="corey.html" class="bouton">🎬 Corey – Générateur de titres VHS</a>
-  <a href="lucious.html" class="bouton">💥 Lucious – Répliques Hard-Boiled</a>
-
-  <div class="footer">
-    &copy; David Humbert — 2025 — Éditions Faux Raccord
+  <div class="generator">
+    <img src="corey.jpg" alt="Corey" class="portrait"/>
+    <a href="corey.html">📼 Corey’s Horror Title Generator</a>
   </div>
 
-  <script>
-    function assemble() {
-      setTimeout(() => document.getElementById("p1").classList.add("reveal"), 300);
-      setTimeout(() => document.getElementById("p2").classList.add("reveal"), 600);
-      setTimeout(() => document.getElementById("p3").classList.add("reveal"), 900);
-      setTimeout(() => document.getElementById("p4").classList.add("reveal"), 1200);
-    }
-  </script>
+  <footer>
+    <p>&copy; David Humbert — 2025</p>
+  </footer>
 
 </body>
 </html>
