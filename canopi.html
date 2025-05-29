@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Canopi – Générateur de noms</title>
-  <link rel="stylesheet" href="canopi.css"/>
   <style>
     .canopi-img {
       width: 140px;
@@ -37,7 +36,7 @@
       font-size: 1.4em;
     }
     body {
-      background: url('papier.jpg') repeat;
+      background: url('fond_clair.jpg') repeat;
       font-family: 'Georgia', serif;
       text-align: center;
       padding: 20px;
@@ -62,6 +61,16 @@
     <button onclick="genererNom()">Générer un nom</button>
     <div id="resultat"></div>
   </div>
-  <script src="canopi.js"></script>
+  <script>
+    const noms_homme = ["Jean Delatour", "Lucien Morel", "Henri Gault", "Franck Valadier"];
+    const noms_femme = ["Claire Leblanc", "Sophie Derval", "Juliette Rameau", "Marion Fontanel"];
+
+    function genererNom() {
+      const genre = document.getElementById("genre").value;
+      const noms = genre === "femme" ? noms_femme : noms_homme;
+      const index = Math.floor(Math.random() * noms.length);
+      document.getElementById("resultat").textContent = noms[index];
+    }
+  </script>
 </body>
 </html>
