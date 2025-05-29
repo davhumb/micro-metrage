@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,13 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Canopi – Générateur de noms</title>
   <link rel="stylesheet" href="canopi.css"/>
+  <style>
+    .canopi-img {
+      width: 140px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    .selecteur {
+      margin-bottom: 20px;
+    }
+    #genre {
+      font-size: 1em;
+      padding: 6px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background-color: #555;
+    }
+    #resultat {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 1.4em;
+    }
+    body {
+      background: url('papier.jpg') repeat;
+      font-family: 'Georgia', serif;
+      text-align: center;
+      padding: 20px;
+      color: #111;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <img src="canopi.jpg" alt="Inspecteur Canopi" class="canopi-img"/>
-    <h1 class="titre">Canopi’s Name Generator</h1>
+    <h1>Canopi’s Name Generator</h1>
     <div class="selecteur">
-      <label for="genre">Genre :</label>
       <select id="genre">
         <option value="homme">Homme</option>
         <option value="femme">Femme</option>
