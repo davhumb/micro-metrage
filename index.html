@@ -29,42 +29,51 @@
       to { width: 100% }
     }
 
-    .intro {
+    .main-section {
       display: flex;
-      justify-content: center;
-      align-items: flex-start;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .intro-container {
+      display: flex;
       flex-wrap: wrap;
-      gap: 2rem;
-      max-width: 800px;
-      margin: 0 auto 3rem;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+
+    .intro-container img {
+      max-width: 280px;
+      margin: 1rem;
+      border-radius: 12px;
+    }
+
+    .intro-text {
+      max-width: 360px;
+      margin: 1rem;
       text-align: left;
     }
 
-    .intro img {
-      max-width: 360px;
-      width: 100%;
-      height: auto;
-    }
-
-    .resume {
-      max-width: 400px;
-      font-size: 1.1em;
-      line-height: 1.5em;
-    }
-
-    .generator, .chapters, .epub {
+    .generator {
       margin: 3rem auto;
       max-width: 400px;
     }
 
     .portrait {
-      width: 120px;
+      width: 140px;
       border-radius: 100px;
       display: block;
       margin: 0 auto 1rem;
     }
 
-    a {
+    .ebook {
+      width: 140px;
+      border-radius: 100px;
+      display: block;
+      margin: 2rem auto 1rem;
+    }
+
+    a.button {
       display: inline-block;
       margin-top: 0.5rem;
       padding: 1rem 2rem;
@@ -77,7 +86,7 @@
       transition: background-color 0.3s;
     }
 
-    a:hover {
+    a.button:hover {
       background-color: #444;
     }
 
@@ -92,34 +101,30 @@
 
   <h1>Micro-métrage</h1>
 
-  <div class="intro">
-    <img src="couverture.jpg" alt="Couverture du livre Micro-métrage" />
-    <div class="resume">
-      <p>
-        Une VHS oubliée, un revolver dans un coffre, une ombre dans un miroir : les histoires de
-        <strong>Micro-métrage</strong> se croisent, se répondent, s’effacent et se rejouent.
-        À mi-chemin entre polar, puzzle narratif et roman choral, ce livre construit un labyrinthe
-        où chaque chapitre est une pièce du piège.
-      </p>
-      <p>
-        Bienvenue dans un monde où le point de coupe peut tout réécrire.
-      </p>
+  <div class="main-section">
+    <div class="intro-container">
+      <img src="couverture.jpg" alt="Couverture Micro-métrage" />
+      <div class="intro-text">
+        <p>Une arme dans un coffre, une ombre dans un miroir : les histoires de <strong>Micro-métrage</strong> se croisent, se répondent, s’effacent et se rejouent.</p>
+        <p>À mi-chemin entre polar, puzzle narratif et roman choral, ce livre construit un labyrinthe où chaque chapitre est une pièce du piège.</p>
+        <p>Bienvenue dans un monde où le point de coupe peut tout réécrire.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="generator">
-    <img src="corey.jpg" alt="Corey" class="portrait"/>
-    <a href="corey.html">📼 Corey’s Horror Title Generator</a>
-  </div>
+    <div class="generator">
+      <img src="corey.jpg" alt="Corey" class="portrait"/>
+      <a href="corey.html" class="button">📼 Corey’s Horror Title Generator</a>
+    </div>
 
-  <div class="chapters">
-    <img src="chapitre.png" alt="Chapitres offerts" class="portrait"/>
-    <a href="chapitre.html">📖 Lire les deux premiers chapitres</a>
-  </div>
+    <div class="generator">
+      <img src="chapitres.png" alt="Illustration chapitres" class="portrait"/>
+      <a href="chapitres.html" class="button">📖 Lire les deux premiers chapitres</a>
+    </div>
 
-  <div class="epub">
-    <img src="epub.jpg" alt="ePub" class="portrait"/>
-    <a href="https://www.kobo.com/fr/fr/ebook/micro-metrage?sId=eafb740d-dfd4-4bbb-b2c5-0a8ba58386e3" target="_blank">📚 Acheter le ePub</a>
+    <div class="generator">
+      <img src="ebook.png" alt="Illustration liseuse" class="ebook"/>
+      <a href="https://www.kobo.com/fr/fr/ebook/micro-metrage" class="button">📱 Acheter le ePub</a>
+    </div>
   </div>
 
   <footer>
