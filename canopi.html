@@ -6,7 +6,7 @@
   <title>Canopi – Générateur de noms</title>
   <style>
     body {
-      background-color: #c49b5c;
+      background-color: #e9d2a5;
       font-family: 'Georgia', serif;
       text-align: center;
       padding: 20px;
@@ -73,21 +73,18 @@
     const noms_homme = [
       "Jean Delatour", "Lucien Morel", "Henri Gault", "Franck Valadier",
       "Georges Belmont", "Alain Perrier", "Michel Laroche", "André Savigny",
-      "Louis Martel", "Victor Blaise", "Émile Durand", "René Palavas"
+      "Louis Martel", "Victor Blaise", "Émile Durand", "René Palavas",
+      "Roland Mesnard", "Yves Lemoine", "Claude Bertin", "Laurent Soulié"
     ];
 
     const noms_femme = [
       "Claire Leblanc", "Sophie Derval", "Juliette Rameau", "Marion Fontanel",
       "Camille Laurens", "Agnès Dupré", "Nathalie Colbert", "Isabelle Vernier",
-      "Élise Fournier", "Céline Marteau", "Anne Giraud", "Véronique Bayle"
+      "Élise Fournier", "Céline Marteau", "Anne Giraud", "Véronique Bayle",
+      "Louise Rimbaud", "Delphine Roche", "Sabine Valois", "Hélène Montfort"
     ];
 
     function genererNom() {
       const genre = document.getElementById("genre").value;
       const noms = genre === "femme" ? noms_femme : noms_homme;
-      const index = Math.floor(Math.random() * noms.length);
-      document.getElementById("resultat").textContent = noms[index];
-    }
-  </script>
-</body>
-</html>
+      const index = Math.floor(Math.random() * noms
