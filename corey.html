@@ -22,8 +22,8 @@
     }
 
     .corey-img {
-      width: 200px;
-      max-width: 80%;
+      width: 300px;
+      max-width: 100%;
       display: block;
       margin: 2rem auto;
       background: transparent;
@@ -62,24 +62,29 @@
   <script>
     const data = {
       formes: [
-        "{prenom} et les {monstre}", "La {objet} de {prenom}", "La nuit des {monstre}", "Les {monstre} {adjectif}", "{lieu} de la {objet}",
-        "Massacre au(x) {objet}", "Invasion des {monstre}", "Le retour des {monstre}", "La revanche de {prenom}", "{prenom} contre le {monstre}",
-        "Le cri de la {objet}", "La {objet} qui {verbe}", "Le bal des {monstre}", "Les {monstre} qui {verbe}", "Dans les griffes de la {objet}",
-        "L'étrange cas de {prenom} et de la {objet}", "Les vacances de {prenom} au {lieu}", "Terreur à la {lieu}", "Le mystère de la {objet}",
-        "Nuit rouge de {verbe}", "{objet} pour {prenom}", "Les {adjectif} {monstre} du {lieu}", "{prenom} et la {objet} {adjectif}",
+        "{prenom} et les {monstre}", "La {objet} de {prenom}", "La nuit des {monstre}", "Les {monstre} {adjectif}",
+        "{lieu} de la {objet}", "Massacre au(x) {objet}", "Invasion des {monstre}", "Le retour des {monstre}",
+        "La revanche de {prenom}", "{prenom} contre le {monstre}", "Le cri de la {objet}", "La {objet} qui {verbe}",
+        "Le bal des {monstre}", "Les {monstre} qui {verbe}", "Dans les griffes de la {objet}", "L'étrange cas de {prenom} et de la {objet}",
+        "Les vacances de {prenom} au {lieu}", "Terreur à la {lieu}", "Le mystère de la {objet}", "Nuit rouge de {verbe}",
+        "{objet} pour {prenom}", "Les {adjectif} {monstre} du {lieu}", "{prenom} et la {objet} {adjectif}",
         "Panique chez les {monstre}", "Souper sanglant à la {lieu}", "Les yeux de la {objet}", "La {objet} a encore {verbe}",
-        "Les {monstre} ont mangé {prenom}", "La vérité sur les {monstre}", "{prenom} a peur du {monstre}", "Les {objet} de la honte",
-        "{objet} vs {monstre}"
+        "Les {monstre} ont mangé {prenom}", "La vérité sur les {monstre}", "{prenom} a peur du {monstre}",
+        "Les {objet} de la honte", "{objet} vs {monstre}", "Le mariage de {prenom} et du {monstre}"
       ],
       prenom: [ "Suzie", "Billy", "Mamie Jo", "Randy", "Tonton Greg", "Pam", "Kevin", "Brenda", "Dédé", "Bubba", "Trixie", "Raymond", "Loretta", "Jojo", "Chad",
-        "Lulu", "Eddy", "Josiane", "Manu", "Valérie", "Steeve", "Ange", "Micka", "Donald", "Carla", "Ginette", "Zoé", "Benoît", "Chuck", "Jess", "Kim", "Gégé", "Chloé", "Pascal", "Élodie", "Bruno", "Sandy", "Tony", "Valdo", "Maïté", "Norbert", "Mégane", "Riton", "Nadine", "Bruce", "Axelle", "Momo", "Lilou", "Corinne", "Patrick", "Bob", "Raoul", "Tania", "Lola", "Raph", "Yoyo", "Ghislaine", "Marlène", "Brigitte", "Cyril", "Bambi", "Véro", "Kévin Jr", "Michèle", "Stéph", "Daphné", "Clovis", "Gladys", "Renald"
+        "Lulu", "Eddy", "Josiane", "Manu", "Valérie", "Steeve", "Ange", "Micka", "Donald", "Carla", "Ginette", "Zoé", "Benoît", "Chuck", "Jess", "Kim", "Gégé",
+        "Chloé", "Pascal", "Élodie", "Bruno", "Sandy", "Tony", "Valdo", "Maïté", "Norbert", "Mégane", "Riton", "Nadine", "Bruce", "Axelle", "Momo", "Lilou",
+        "Corinne", "Patrick", "Bob", "Raoul", "Tania", "Lola", "Raph", "Yoyo", "Ghislaine", "Marlène", "Brigitte", "Cyril", "Bambi", "Véro", "Kévin Jr",
+        "Michèle", "Stéph", "Daphné", "Clovis", "Gladys", "Renald", "Jacky", "Josette", "Blaise", "Mauricette", "Mimile", "Arlette"
       ],
       monstre: [ "rats télépathes", "clowns atomiques", "zombies mous", "bébés mutants", "asticots hurleurs", "poules diaboliques", "vers carnivores",
         "extraterrestres myopes", "poupées suantes", "vampires déprimés", "gobelins flasques", "squelettes dansants", "fantômes hurlants",
         "sirènes pustuleuses", "taupes géantes", "chiens démoniaques", "chiens sans os", "bourrelets vivants", "cafards géants", "tritons venimeux",
         "fourmis géantes", "yeux volants", "doigts coupés", "corps mous", "masques hantés", "cousines mortes", "narines cannibales",
         "poissons qui parlent", "frigos tueurs", "pizzas vivantes", "bébés démoniaques", "crottes géantes", "vieux de l’espace", "éponges maudites",
-        "nains tueurs", "robots en peignoir", "chaussettes toxiques", "mains gluantes", "têtes hurlantes", "égouts vivants", "mamies carnivores"
+        "nains tueurs", "robots en peignoir", "chaussettes toxiques", "mains gluantes", "têtes hurlantes", "égouts vivants", "mamies carnivores",
+        "pères Noël psychotiques", "influenceuses cannibales"
       ],
       objet: [ "tronçonneuse vivante", "vidéocassette maudite", "micro-ondes cannibale", "pantoufle qui saigne", "dentier vengeur", "magnétoscope hanté",
         "litière radioactive", "téléviseur zombifié", "aspirateur lubrique", "essuie-glace maudit", "oreiller toxique", "fourchette tueuse",
