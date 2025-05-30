@@ -1,61 +1,113 @@
-<!DOCTYPE html><html lang="fr">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Corey – Générateur de titres VHS</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #f4efe8;
+      background-color: #e9ddc4;
       font-family: 'Georgia', serif;
       text-align: center;
       padding: 20px;
       color: #111;
     }
-    .container {
-      max-width: 480px;
-      margin: auto;
-    }
-    .corey-img {
-      width: 160px;
-      border-radius: 100px;
-      margin-bottom: 20px;
-    }
+
     h1 {
       font-family: 'Creepster', cursive;
-      font-size: 2.2em;
-      font-weight: bold;
-      margin-bottom: 1em;
+      color: darkred;
+      font-size: 3em;
+      margin-bottom: 1rem;
     }
+
+    .corey-img {
+      width: 200px;
+      max-width: 80%;
+      display: block;
+      margin: 2rem auto;
+      background: transparent;
+    }
+
     button {
       font-family: 'Creepster', cursive;
-      width: 100%;
-      font-size: 1.1em;
-      padding: 12px;
-      margin-top: 10px;
-      border-radius: 8px;
-      border: 1px solid #aaa;
-    }
-    #resultat {
-      margin-top: 30px;
       font-size: 1.5em;
-      font-weight: bold;
-      min-height: 2em;
+      background-color: darkred;
+      color: #fff;
+      padding: 0.6em 1.2em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 1.5rem;
+    }
+
+    button:hover {
+      background-color: #990000;
+    }
+
+    .generated-title {
+      font-family: 'Creepster', cursive;
+      color: darkred;
+      font-size: 2em;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="corey.png" alt="Corey" class="corey-img"/>
-    <h1>COREY’S<br>HORROR MOVIE<br>TITLE GENERATOR</h1>
-    <button onclick="genererTitre()">Générer un titre</button>
-    <div id="resultat">—</div>
-  </div>
+  <h1>Corey’s Horror Title Generator</h1>
+  <img src="corey.png" alt="Portrait de Corey" class="corey-img" />
+  <button onclick="genererTitre()">🎬 Génère un titre</button>
+  <div class="generated-title" id="resultat"></div>
+
   <script>
-    const titres = ['Beaufs Foudroyé de la Nationale 7', 'Camionneurs Infecté des Catacombes', 'Clowns Sanglant du Fast-Food', 'Croquemitaines Puant du buffet chinois', 'Docteurs Cramé du Bowling', 'Docteurs Mutant du Dernier Rencard', 'Gendarmes Puant du Bowling', 'Gosses Putride de la Cité Interdite', 'La Nuit des Aliens Démoniaque', 'La Nuit des Aliens Éventré', 'La Nuit des Animatroniques Vénéneux', 'La Nuit des Beaufs Gore', 'La Nuit des Blobs Pustuleux', 'La Nuit des Bouchers Putride', 'La Nuit des Camionneurs Gluant', 'La Nuit des Clowns Maigre', 'La Nuit des Croquemitaines Cramé', 'La Nuit des Dentiers Toxique', 'La Nuit des Docteurs Maigre', 'La Nuit des Lapins Cicatrisé', 'La Nuit des Livreurs Mutant', 'La Nuit des Livreurs Zombie', 'La Nuit des Papounets Infecté', 'La Nuit des Poneys Moisi', 'La Nuit des Serveuses Puant', 'La Nuit des Sorcières Déformé', 'La Nuit des Vampires Gluant', 'La Nuit des Zombiputes Mutant', 'La revanche du Alien Radioactif', 'La revanche du Blob Baveux', 'Le Blob Maigre fait sa loi', 'Le Clown Cicatrisé fait sa loi', 'Le Docteur Carbonisé attaque', 'Le Fœtus Gore fait sa loi', 'Le Livreur Gore attaque', 'Le Mannequin du diable du Club Med', 'Le Micro-onde Éventré attaque', 'Le Nain Gluant fait sa loi', 'Le Papounet qui pue du Dernier Rencard', 'Le Rôdeur du diable du Grenier', 'Le Serveuse Zombie fait sa loi', 'Le Sorcière qui pue du Camping', 'Le Zombipute Cramé fait sa loi', 'Les Clowns Pustuleux reviennent', 'Massacre du Supermarché', 'Nuit Toxique avec Vampire', 'Opération Radioactif Vampire', 'Panique du PMU', 'Terreur du Laserdisc', 'Un Lapin Troué du Fast-Food', 'Vacances avec un Animatronique Pustuleux'];
+    const data = {
+      formes: [
+        "{prenom} et les {monstre}", "La {objet} de {prenom}", "La nuit des {monstre}", "Les {monstre} {adjectif}", "{lieu} de la {objet}",
+        "Massacre au(x) {objet}", "Invasion des {monstre}", "Le retour des {monstre}", "La revanche de {prenom}", "{prenom} contre le {monstre}",
+        "Le cri de la {objet}", "La {objet} qui {verbe}", "Le bal des {monstre}", "Les {monstre} qui {verbe}", "Dans les griffes de la {objet}",
+        "L'étrange cas de {prenom} et de la {objet}", "Les vacances de {prenom} au {lieu}", "Terreur à la {lieu}", "Le mystère de la {objet}",
+        "Nuit rouge de {verbe}", "{objet} pour {prenom}", "Les {adjectif} {monstre} du {lieu}", "{prenom} et la {objet} {adjectif}",
+        "Panique chez les {monstre}", "Souper sanglant à la {lieu}", "Les yeux de la {objet}", "La {objet} a encore {verbe}",
+        "Les {monstre} ont mangé {prenom}", "La vérité sur les {monstre}", "{prenom} a peur du {monstre}", "Les {objet} de la honte",
+        "{objet} vs {monstre}"
+      ],
+      prenom: [ "Suzie", "Billy", "Mamie Jo", "Randy", "Tonton Greg", "Pam", "Kevin", "Brenda", "Dédé", "Bubba", "Trixie", "Raymond", "Loretta", "Jojo", "Chad",
+        "Lulu", "Eddy", "Josiane", "Manu", "Valérie", "Steeve", "Ange", "Micka", "Donald", "Carla", "Ginette", "Zoé", "Benoît", "Chuck", "Jess", "Kim", "Gégé", "Chloé", "Pascal", "Élodie", "Bruno", "Sandy", "Tony", "Valdo", "Maïté", "Norbert", "Mégane", "Riton", "Nadine", "Bruce", "Axelle", "Momo", "Lilou", "Corinne", "Patrick", "Bob", "Raoul", "Tania", "Lola", "Raph", "Yoyo", "Ghislaine", "Marlène", "Brigitte", "Cyril", "Bambi", "Véro", "Kévin Jr", "Michèle", "Stéph", "Daphné", "Clovis", "Gladys", "Renald"
+      ],
+      monstre: [ "rats télépathes", "clowns atomiques", "zombies mous", "bébés mutants", "asticots hurleurs", "poules diaboliques", "vers carnivores",
+        "extraterrestres myopes", "poupées suantes", "vampires déprimés", "gobelins flasques", "squelettes dansants", "fantômes hurlants",
+        "sirènes pustuleuses", "taupes géantes", "chiens démoniaques", "chiens sans os", "bourrelets vivants", "cafards géants", "tritons venimeux",
+        "fourmis géantes", "yeux volants", "doigts coupés", "corps mous", "masques hantés", "cousines mortes", "narines cannibales",
+        "poissons qui parlent", "frigos tueurs", "pizzas vivantes", "bébés démoniaques", "crottes géantes", "vieux de l’espace", "éponges maudites",
+        "nains tueurs", "robots en peignoir", "chaussettes toxiques", "mains gluantes", "têtes hurlantes", "égouts vivants", "mamies carnivores"
+      ],
+      objet: [ "tronçonneuse vivante", "vidéocassette maudite", "micro-ondes cannibale", "pantoufle qui saigne", "dentier vengeur", "magnétoscope hanté",
+        "litière radioactive", "téléviseur zombifié", "aspirateur lubrique", "essuie-glace maudit", "oreiller toxique", "fourchette tueuse",
+        "lampe possédée", "vibromasseur ancien", "télécommande sanglante", "poussette possédée", "pied de biche bavard", "grille-pain satanique",
+        "cafetière qui gémit", "meuble vivant", "bocal à œil", "table de nuit maléfique", "boîte à bijoux sadique", "perruque tueuse"
+      ],
+      adjectif: [ "gluants", "moisis", "vibrants", "mutants", "pustuleux", "enragés", "électriques", "baveux", "collants", "tranchants", "incontrôlables",
+        "nocturnes", "lubriques", "dégoulinants", "sales", "chevelus", "en slip", "muets", "odieux", "grognons", "grisâtres", "spongieux", "figés"
+      ],
+      lieu: [ "Cave", "Grenier", "Placard", "Bungalow", "Camping", "Décharge", "Station-service", "Cinéma", "Piscine", "Abattoir", "Forêt qui pue",
+        "Boîte de nuit", "Vidéo-club", "Parc d’attractions maudit", "Laverie", "Garage", "Chambre de mamie", "Crèche", "Borne d’arcade",
+        "Bureau du shérif", "Salon de coiffure", "Parking désert", "Caravane de l’enfer"
+      ],
+      verbe: [ "hurle", "bave", "saigne", "griffe", "ronfle", "pète", "possède", "tue", "vomit", "jouit", "explose", "éructe", "gémit",
+        "marche", "transpire", "avale", "sifflote", "creuse", "glisse", "boit", "brûle", "mastique", "tranche", "mord"
+      ]
+    };
+
     function genererTitre() {
-      const index = Math.floor(Math.random() * titres.length);
-      document.getElementById("resultat").textContent = titres[index];
+      const forme = data.formes[Math.floor(Math.random() * data.formes.length)];
+      const remplir = forme
+        .replace(/{prenom}/g, data.prenom[Math.floor(Math.random() * data.prenom.length)])
+        .replace(/{monstre}/g, data.monstre[Math.floor(Math.random() * data.monstre.length)])
+        .replace(/{objet}/g, data.objet[Math.floor(Math.random() * data.objet.length)])
+        .replace(/{adjectif}/g, data.adjectif[Math.floor(Math.random() * data.adjectif.length)])
+        .replace(/{lieu}/g, data.lieu[Math.floor(Math.random() * data.lieu.length)])
+        .replace(/{verbe}/g, data.verbe[Math.floor(Math.random() * data.verbe.length)]);
+      document.getElementById("resultat").innerText = remplir;
     }
   </script>
 </body>
