@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Micro-métrage</title>
+  <style>
+    body {
+      background-color: #e8dfcf;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 2rem 1rem;
+      color: #111;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      border-right: 2px solid #111;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typewriter 3s steps(30, end);
+      margin-bottom: 2rem;
+    }
+
+    @keyframes typewriter {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    .cover-container {
+      max-width: 360px;
+      margin: 0 auto 3rem;
+    }
+
+    .cover-container img {
+      width: 100%;
+      display: block;
+    }
+
+    .generator {
+      margin: 3rem auto;
+      max-width: 400px;
+    }
+
+    .portrait {
+      width: 120px;
+      border-radius: 100px;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 1rem 2rem;
+      background-color: #111;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 12px;
+      font-family: 'Georgia', serif;
+      transition: background-color 0.3s;
+    }
+
+    a:hover {
+      background-color: #444;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Micro-métrage</h1>
+
+  <div class="cover-container">
+    <img src="couverture.jpg" alt="Couverture Micro-métrage" />
+  </div>
+
+  <div class="generator">
+    <img src="canopi.jpg" alt="Canopi" class="portrait"/>
+    <a href="canopi.html">🎲 Canopi’s Name Generator</a>
+  </div>
+
+  <div class="generator">
+    <img src="corey.jpg" alt="Corey" class="portrait"/>
+    <a href="corey.html">📼 Corey’s Horror Title Generator</a>
+  </div>
+
+  <div class="generator">
+    <img src="chapitres.png" alt="Chapitres" class="portrait"/>
+    <a href="chapitre.html">📖 Découvre les deux premiers chapitres</a>
+  </div>
+
+  <div class="generator">
+    <img src="ebook.png" alt="Lire Micro-métrage sur liseuse" class="portrait"/>
+    <a href="https://www.kobo.com/fr/fr/ebook/micro-metrage" target="_blank">📖 Acheter le ePub</a>
+  </div>
+
+  <footer>
+    <p>&copy; David Humbert — 2025</p>
+  </footer>
+
+</body>
+</html>
