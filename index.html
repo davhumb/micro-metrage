@@ -29,23 +29,36 @@
       to { width: 100% }
     }
 
-    .cover-container {
-      max-width: 360px;
+    .intro {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 800px;
       margin: 0 auto 3rem;
+      text-align: left;
     }
 
-    .cover-container img {
+    .intro img {
+      max-width: 360px;
       width: 100%;
-      display: block;
+      height: auto;
     }
 
-    .generator {
+    .resume {
+      max-width: 400px;
+      font-size: 1.1em;
+      line-height: 1.5em;
+    }
+
+    .generator, .chapters, .epub {
       margin: 3rem auto;
       max-width: 400px;
     }
 
     .portrait {
-      width: 160px;
+      width: 120px;
       border-radius: 100px;
       display: block;
       margin: 0 auto 1rem;
@@ -79,8 +92,19 @@
 
   <h1>Micro-métrage</h1>
 
-  <div class="cover-container">
-    <img src="couverture.jpg" alt="Couverture Micro-métrage" />
+  <div class="intro">
+    <img src="couverture.jpg" alt="Couverture du livre Micro-métrage" />
+    <div class="resume">
+      <p>
+        Une VHS oubliée, un revolver dans un coffre, une ombre dans un miroir : les histoires de
+        <strong>Micro-métrage</strong> se croisent, se répondent, s’effacent et se rejouent.
+        À mi-chemin entre polar, puzzle narratif et roman choral, ce livre construit un labyrinthe
+        où chaque chapitre est une pièce du piège.
+      </p>
+      <p>
+        Bienvenue dans un monde où le point de coupe peut tout réécrire.
+      </p>
+    </div>
   </div>
 
   <div class="generator">
@@ -88,19 +112,14 @@
     <a href="corey.html">📼 Corey’s Horror Title Generator</a>
   </div>
 
-  <div class="generator">
-    <img src="canopi.jpg" alt="Canopi" class="portrait"/>
-    <a href="canopi.html">🎲 Canopi’s Name Generator</a>
+  <div class="chapters">
+    <img src="chapitre.png" alt="Chapitres offerts" class="portrait"/>
+    <a href="chapitre.html">📖 Lire les deux premiers chapitres</a>
   </div>
 
-  <div class="generator">
-    <img src="chapitre.jpg" alt="Chapitre" class="portrait"/>
-    <a href="chapitre.html">📖 Découvre les deux premiers chapitres</a>
-  </div>
-
-  <div class="generator">
-    <img src="ereader.jpg" alt="Epub" class="portrait"/>
-    <a href="https://www.kobo.com/fr/fr/ebook/micro-metrage" target="_blank">📱 Acheter le ePub</a>
+  <div class="epub">
+    <img src="epub.jpg" alt="ePub" class="portrait"/>
+    <a href="https://www.kobo.com/fr/fr/ebook/micro-metrage?sId=eafb740d-dfd4-4bbb-b2c5-0a8ba58386e3" target="_blank">📚 Acheter le ePub</a>
   </div>
 
   <footer>
