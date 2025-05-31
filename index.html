@@ -1,8 +1,10 @@
-<!DOCTYPE html><html lang="fr">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Micro-métrage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
   <style>
     body {
       background-color: #e1cead;
@@ -12,6 +14,7 @@
       color: #111;
       text-align: center;
     }
+
     h1 {
       font-size: 2.5em;
       font-weight: bold;
@@ -21,43 +24,50 @@
       animation: typewriter 3s steps(30, end);
       margin-bottom: 2rem;
     }
+
     @keyframes typewriter {
       from { width: 0 }
       to { width: 100% }
     }
+
     .main-section {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+
     .intro-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       margin-bottom: 3rem;
     }
+
     .intro-container img {
       max-width: 280px;
       margin: 1rem;
       border-radius: 12px;
     }
+
     .intro-text {
       max-width: 360px;
       margin: 1rem;
       text-align: left;
     }
+
     .generator {
       margin: 3rem auto;
       max-width: 400px;
     }
+
     .portrait,
     .ebook {
       width: 280px;
       display: block;
       margin: 0 auto 1rem;
-      border-radius: 0;
       background-color: transparent;
     }
+
     a.button {
       display: inline-block;
       margin-top: 0.5rem;
@@ -70,9 +80,23 @@
       font-family: 'Georgia', serif;
       transition: background-color 0.3s;
     }
+
     a.button:hover {
       background-color: #444;
     }
+
+    .corey-button {
+      font-family: 'Creepster', cursive;
+      font-size: 1.4em;
+      background-color: darkred;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+
+    .corey-button:hover {
+      background-color: #8b0000;
+    }
+
     footer {
       margin-top: 4rem;
       font-size: 0.9em;
@@ -105,8 +129,13 @@
     </div>
 
     <div class="generator">
+      <img src="jessica-livre.png" alt="Jessica lit Micro-métrage" class="portrait"/>
+      <a class="button" style="background-color: #777; cursor: not-allowed; pointer-events: none;">📚 Commander le livre papier (très bientôt)</a>
+    </div>
+
+    <div class="generator">
       <img src="corey.png" alt="Corey" class="portrait"/>
-      <a href="corey.html" class="button">📼 Corey’s Horror Title Generator</a>
+      <a href="corey.html" class="button corey-button">🎃 Corey’s Horror Title Generator</a>
     </div>
   </div>
 
