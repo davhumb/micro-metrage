@@ -4,37 +4,34 @@
     <meta charset="UTF-8">
     <title>writr – Générateur d’idées narratives</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Police élégante, effet vieux livre -->
+    <!-- Police effet vieux livre -->
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700,400&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
-            background: #f0d1c6;
-            color: #27304d;
+            background: #eab5a6;
+            color: #26304c;
             margin: 0;
             padding: 0;
             min-height: 100vh;
         }
-        .book-container {
-            max-width: 520px;
-            margin: 2.5rem auto 1.5rem auto;
+        .frame-container {
             position: relative;
+            max-width: 600px;
+            margin: 2.5rem auto 2rem auto;
         }
-        .book-frame-svg {
-            width: 100%;
-            height: 100%;
+        .frame-svg {
             position: absolute;
             top: 0; left: 0;
-            z-index: 0;
+            width: 100%; height: 100%;
             pointer-events: none;
+            z-index: 0;
         }
-        .book-content {
+        .content-in-frame {
             position: relative;
             z-index: 1;
-            background: #e9c4b7;
-            border-radius: 14px;
-            box-shadow: 0 10px 36px #7b5c4944;
-            padding: 2.5rem 1.5rem 1.7rem 1.5rem;
+            background: none;
+            padding: 2.7rem 1.3rem 2.2rem 1.3rem;
         }
         .logo-writr {
             display: block;
@@ -45,7 +42,7 @@
         }
         h1 {
             text-align: center;
-            font-size: 2.2rem;
+            font-size: 2.25rem;
             margin: 0.3em 0 0.1em 0;
             letter-spacing: 1px;
             font-family: 'EB Garamond', serif;
@@ -53,21 +50,21 @@
         }
         h2 {
             text-align: center;
-            font-size: 1.1rem;
-            color: #9c6857;
+            font-size: 1.13rem;
+            color: #7e5d7c;
             margin: 0.2em 0 1.6em 0;
             font-weight: 400;
             font-family: 'EB Garamond', serif;
         }
         .blocbuster-box {
-            background: #f6e3db;
-            border: 1.7px solid #9c6857;
-            border-radius: 11px;
-            box-shadow: 0 3px 15px #7b5c4922;
+            background: #f5ded5;
+            border: 1.6px solid #26304c;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px #9a788855;
             margin: 1.5rem auto 1.8rem auto;
-            max-width: 420px;
-            padding: 1.8rem 1rem 1.3rem 1rem;
-            font-size: 1.18rem;
+            max-width: 430px;
+            padding: 1.7rem 1rem 1.1rem 1rem;
+            font-size: 1.17rem;
             min-height: 90px;
             transition: box-shadow 0.3s;
             animation: fadeIn 0.8s;
@@ -80,7 +77,7 @@
             display: block;
             font-size: 1.01em;
             font-weight: 700;
-            color: #9c6857;
+            color: #7e5d7c;
             margin-bottom: 0.25em;
             letter-spacing: 1.1px;
             text-transform: uppercase;
@@ -93,7 +90,7 @@
             margin-bottom: 0.95em;
         }
         .consigne-text {
-            color: #27304d;
+            color: #26304c;
             font-size: 1.15em;
             line-height: 1.6;
             margin: 0.3em 0 0.2em 0;
@@ -101,7 +98,7 @@
             font-weight: 400;
         }
         button {
-            background: #9c6857;
+            background: #7e5d7c;
             color: #fff;
             border: none;
             padding: 0.92rem 2rem;
@@ -115,40 +112,42 @@
             transition: background 0.18s, transform 0.10s;
         }
         button:active {
-            background: #27304d;
+            background: #26304c;
             color: #fff;
             transform: scale(0.98);
         }
         footer {
             text-align: center;
             font-size: 1rem;
-            color: #9c6857;
+            color: #7e5d7c;
             margin: 2.5rem 0 1.3rem 0;
             font-family: 'EB Garamond', serif;
         }
         @media (max-width: 700px) {
-            .book-container { max-width: 97vw; }
-            .book-content { padding: 1.1rem 0.5rem 0.7rem 0.5rem;}
-            .blocbuster-box { max-width: 93vw; padding: 1.1rem 0.2rem 0.8rem 0.2rem;}
-            h1 { font-size: 1.3rem; }
+            .frame-container { max-width: 97vw; }
+            .content-in-frame { padding: 1.1rem 0.2rem 0.7rem 0.2rem;}
+            .blocbuster-box { max-width: 94vw; padding: 1.1rem 0.2rem 0.8rem 0.2rem;}
+            h1 { font-size: 1.25rem; }
         }
     </style>
 </head>
 <body>
-    <div class="book-container">
-        <!-- SVG liseré art déco façon vieux livre -->
-        <svg class="book-frame-svg" viewBox="0 0 560 760" width="100%" height="100%" preserveAspectRatio="none">
-            <!-- Grand rectangle -->
-            <rect x="10" y="10" width="540" height="740" rx="14" fill="none" stroke="#27304d" stroke-width="4"/>
-            <!-- Liseré intérieur (double trait) -->
-            <rect x="30" y="30" width="500" height="700" rx="12" fill="none" stroke="#27304d" stroke-width="2"/>
-            <!-- Coins en quart de cercle, style modèle -->
-            <path d="M30,60 Q30,30 60,30" stroke="#27304d" stroke-width="4" fill="none"/>
-            <path d="M530,30 Q560,30 560,60" stroke="#27304d" stroke-width="4" fill="none"/>
-            <path d="M30,700 Q30,730 60,730" stroke="#27304d" stroke-width="4" fill="none"/>
-            <path d="M530,730 Q560,730 560,700" stroke="#27304d" stroke-width="4" fill="none"/>
+    <div class="frame-container">
+        <!-- SVG Liseré double cadre à coins droits façon couverture d’ancien livre -->
+        <svg class="frame-svg" viewBox="0 0 600 850" width="100%" height="100%" preserveAspectRatio="none">
+            <!-- Grand cadre extérieur -->
+            <rect x="12" y="12" width="576" height="826"
+                stroke="#26304c" stroke-width="5" fill="none"/>
+            <!-- Cadre intérieur -->
+            <rect x="32" y="32" width="536" height="786"
+                stroke="#26304c" stroke-width="2.5" fill="none"/>
+            <!-- Coins en L rentrant, style modèle -->
+            <polyline points="12,42 12,12 42,12" stroke="#26304c" stroke-width="5" fill="none"/>
+            <polyline points="588,42 588,12 558,12" stroke="#26304c" stroke-width="5" fill="none"/>
+            <polyline points="12,808 12,838 42,838" stroke="#26304c" stroke-width="5" fill="none"/>
+            <polyline points="588,808 588,838 558,838" stroke="#26304c" stroke-width="5" fill="none"/>
         </svg>
-        <div class="book-content">
+        <div class="content-in-frame">
             <img src="logo-writr.png" alt="Logo writr" class="logo-writr">
             <h1>writr</h1>
             <h2>Générateur d’idées narratives</h2>
