@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <title>writr – Boîte à outils narrative</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link
-    href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap" rel="stylesheet">
   <style>
     body { font-family:'EB Garamond', serif; background:#e3e9f0; color:#26304c; margin:0; padding:0; display:flex; justify-content:center; }
     .tools-container { width:100%; max-width:420px; padding:2rem 1rem; }
@@ -35,6 +33,7 @@
       <div class="logo-text">writr</div>
     </div>
 
+    <!-- Générateur d'idées narratives (INCHANGÉ) -->
     <section class="tool-section" id="bloc-idees">
       <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
       <h2>Générateur d’idées narratives</h2>
@@ -45,6 +44,7 @@
       </div>
     </section>
 
+    <!-- Générateur de noms -->
     <section class="tool-section">
       <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
       <h2>Générateur de noms de personnages</h2>
@@ -63,49 +63,26 @@
           </select>
         </div>
       </div>
-      <button id="generate-name-btn">Générer un nom</button>
-      <div class="card" id="name">Clique sur le bouton pour générer un nom.</div>
+      <button id="generate-name-btn" disabled>Chargement…</button>
+      <div class="card" id="name">Chargement…</div>
     </section>
-
   </div>
 
   <script>
-    // ——— LISTES DE CONSIGNES ———
-    const base = [ /* … tes 25 consignes de base … */ ];
+    // ===============================
+    // Générateur d’idées narratives (inchangé)
+    // ===============================
+    const base = [ /* ... tes consignes de base ... */ ];
     const etSi = [
-      "votre héros se mettait à saigner du nez",
-      "le ciel devenait soudain vert",
-      "les animaux parlaient",
-      "un inconnu lisait vos pensées",
-      "le temps s’arrêtait une seconde",
-      "une porte apparaissait au plafond",
-      "un écho révélait un secret",
-      "la gravité s’inversait",
-      "les ombres bougeaient seules",
-      "le sol se fissurait doucement",
-      "un parfum inconnu envahissait la pièce",
-      "les objets évoquaient un souvenir",
-      "le narrateur changeait de voix",
-      "un souvenir d’enfance ressurgissait",
-      "les murs devenaient translucides",
-      "un chant lointain guidait le personnage",
-      "la couleur de tout changeait",
-      "les mots sur le papier disparaissaient",
-      "un rire résonnait sans source",
-      "le reflet ne vous ressemblait pas",
-      "un oiseau entrait dans la pièce fermée",
-      "un miroir montrait l’avenir",
-      "une lettre disparaissait",
-      "un détail se répétait bizarrement",
-      "un bruit sourd venait du sol",
-      "les pas sonnaient à l’intérieur du corps",
-      "un objet prenait vie",
-      "votre mémoire s’effaçait",
-      "un personnage secondaire devenait narrateur",
-      "les murs avaient des cicatrices"
+      "votre héros se mettait à saigner du nez", "le ciel devenait soudain vert", "les animaux parlaient", "un inconnu lisait vos pensées",
+      "le temps s’arrêtait une seconde", "une porte apparaissait au plafond", "un écho révélait un secret", "la gravité s’inversait",
+      "les ombres bougeaient seules", "le sol se fissurait doucement", "un parfum inconnu envahissait la pièce", "les objets évoquaient un souvenir",
+      "le narrateur changeait de voix", "un souvenir d’enfance ressurgissait", "les murs devenaient translucides", "un chant lointain guidait le personnage",
+      "la couleur de tout changeait", "les mots sur le papier disparaissaient", "un rire résonnait sans source", "le reflet ne vous ressemblait pas",
+      "un oiseau entrait dans la pièce fermée", "un miroir montrait l’avenir", "une lettre disparaissait", "un détail se répétait bizarrement",
+      "un bruit sourd venait du sol", "les pas sonnaient à l’intérieur du corps", "un objet prenait vie", "votre mémoire s’effaçait",
+      "un personnage secondaire devenait narrateur", "les murs avaient des cicatrices"
     ];
-
-    // Construire le pool à 250 idées
     let pool = base.map(c => ({categorie:c.categorie, abstraction:c.abstraction, consigne:c.consigne}))
                   .concat(etSi.map(t => ({categorie:"Et si…", abstraction:"idée", consigne:`Et si ${t} ?`})));
     while(pool.length < 250){
@@ -113,7 +90,6 @@
     }
     pool = pool.sort(() => Math.random() - 0.5).slice(0,250);
 
-    // Handlers
     document.getElementById('generate-idea-btn').addEventListener('click', ()=> {
       const c = pool[Math.floor(Math.random()*pool.length)];
       document.getElementById('idea').innerHTML = `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
@@ -122,44 +98,38 @@
       const text = etSi[Math.floor(Math.random()*etSi.length)];
       document.getElementById('idea').innerHTML = `<strong>Et si…</strong> (idée)<br>Et si ${text} ?`;
     });
-    // idée initiale
     window.addEventListener('DOMContentLoaded', ()=>document.getElementById('generate-idea-btn').click());
 
-    // ——— GÉNÉRATEUR DE NOMS ——— (300×300)  
-    function genNames(seeds, suffixes, count){
-      const out = [];
-      for(let i=0;i<count;i++){
-        out.push(seeds[i % seeds.length] + suffixes[Math.floor(i/seeds.length) % suffixes.length]);
-      }
-      return out;
-    }
-    const seeds_fr  = ["Jean","Pierre","Marie","Anne","Luc","Marc","Paul","Jacques","Louis","Sophie","Claire","Hélène","Julie","Cécile","Camille","Chloé","Émilie","Laure","Nathalie","Catherine"];
-    const seeds_en  = ["John","Michael","William","James","Robert","Joseph","Edward","George","David","Richard","Thomas","Charles","Henry","Arthur","Harry","Peter","Steven","Daniel","Paul","Mark"];
-    const seeds_ins = ["Zeus","Héra","Vlad","Igor","Draven","Leofric","Aurelius","Nyx","Freya","Eir","Ophelia","Seraphine","Artemis","Dorian","Valerian","Ragnar","Mordred","Saturn","Jupiter","Mercury"];
-    const suffix_fr = ["e","on","in","ard","ot","eux","iel","an","ine","aud"];
-    const suffix_en = ["son","man","ton","ley","field","more","wood","ford","well","borne"];
-    const suffix_in = ["os","us","ix","ar","on","or","is","ax","an","en"];
+    // ===============================
+    // Générateur de noms avec noms.json
+    // ===============================
+    let nomsDB = null;
+    const nameBtn = document.getElementById('generate-name-btn');
+    const nameDiv = document.getElementById('name');
+    nameBtn.disabled = true;
+    nameBtn.innerText = "Chargement…";
+    nameDiv.innerText = "Chargement…";
 
-    const DB = {
-      fr: { masculin: genNames(seeds_fr, suffix_fr, 300), féminin: genNames(seeds_fr.map(s=>s+"a"), suffix_fr, 300) },
-      en: { masculin: genNames(seeds_en, suffix_en, 300), féminin: genNames(seeds_en.map(s=>s+"a"), suffix_en, 300) },
-      insolite: { masculin: genNames(seeds_ins, suffix_in, 300), féminin: genNames(seeds_ins.map(s=>s+"a"), suffix_in, 300) }
-    };
-    const nomsSeeds_fr  = ["Martin","Dubois","Lefèvre","Moreau","Simon","Laurent","Marchand","Barbier","Perrot","Loiseau"];
-    const nomsSeeds_en  = ["Smith","Johnson","Williams","Brown","Jones","Taylor","Walker","Robinson","Clark"];
-    const nomsSeeds_ins = ["Dragonbane","Nightshade","Stormrider","Ravenshadow","Starborn","Frosthammer","Moonwhisper","Darkwood","Ironfist","Shadowmere"];
-    const noms_fr  = genNames(nomsSeeds_fr, suffix_fr, 300);
-    const noms_en  = genNames(nomsSeeds_en, suffix_en, 300);
-    const noms_ins = genNames(nomsSeeds_ins, suffix_in, 300);
+    fetch('data/noms.json')
+      .then(r => r.json())
+      .then(data => {
+        nomsDB = data;
+        nameBtn.disabled = false;
+        nameBtn.innerText = "Générer un nom";
+        nameDiv.innerText = "Clique sur le bouton pour générer un nom.";
+      });
 
-    document.getElementById('generate-name-btn').addEventListener('click', ()=> {
+    nameBtn.addEventListener('click', () => {
+      if(!nomsDB) return;
       const genre = document.getElementById('genre').value;
       const style = document.getElementById('style').value;
-      const pList = DB[style][genre];
-      const nList = style==="fr"? noms_fr : style==="en"? noms_en : noms_ins;
-      const p = pList[Math.floor(Math.random()*pList.length)];
-      const n = nList[Math.floor(Math.random()*nList.length)];
-      document.getElementById('name').innerHTML = `<strong>${p} ${n}</strong>`;
+      // Récupérer listes selon le format du JSON (adapté à ton format)
+      const prenoms = nomsDB.prenoms?.[style]?.[genre] || [];
+      const noms    = nomsDB.noms?.[style] || [];
+      // Tirage aléatoire
+      const prenom = prenoms.length ? prenoms[Math.floor(Math.random()*prenoms.length)] : "(prénom)";
+      const nom = noms.length ? noms[Math.floor(Math.random()*noms.length)] : "(nom)";
+      nameDiv.innerHTML = `<strong>${prenom} ${nom}</strong>`;
     });
   </script>
 </body>
