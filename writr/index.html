@@ -3,62 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>writr – Générateur d’idées narratives</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: #f8f6ef;
-            color: #2d2d2d;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            margin-top: 2rem;
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-        }
-        h2 {
-            font-weight: 400;
-            color: #ae7d25;
-        }
-        .blocbuster-box {
-            background: #fffbe8;
-            margin: 2rem auto;
-            max-width: 500px;
-            border-radius: 14px;
-            box-shadow: 0 4px 20px #0001;
-            padding: 2rem;
-            font-size: 1.3rem;
-            min-height: 90px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        button {
-            background: #ae7d25;
-            color: #fff;
-            border: none;
-            padding: 1rem 2rem;
-            font-size: 1.2rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px #0001;
-            cursor: pointer;
-            margin-bottom: 2rem;
-            transition: background 0.2s;
-        }
-        button:hover {
-            background: #cda450;
-        }
-        footer {
-            font-size: 0.9rem;
-            color: #555;
-            margin: 2rem 0 1rem 0;
-        }
-        footer a {
-            color: #ae7d25;
-            text-decoration: none;
-        }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f6ef; color: #2d2d2d; text-align: center; margin: 0; padding: 0; }
+        h1 { margin-top: 2rem; font-size: 2.5rem; letter-spacing: 2px; }
+        h2 { font-weight: 400; color: #ae7d25; }
+        .blocbuster-box { background: #fffbe8; margin: 2rem auto; max-width: 500px; border-radius: 14px; box-shadow: 0 4px 20px #0001; padding: 2rem; font-size: 1.3rem; min-height: 90px; display: flex; flex-direction: column; justify-content: center; }
+        button { background: #ae7d25; color: #fff; border: none; padding: 1rem 2rem; font-size: 1.2rem; border-radius: 10px; box-shadow: 0 2px 10px #0001; cursor: pointer; margin-bottom: 2rem; transition: background 0.2s; }
+        button:hover { background: #cda450; }
+        footer { font-size: 0.9rem; color: #555; margin: 2rem 0 1rem 0; }
+        footer a { color: #ae7d25; text-decoration: none; }
     </style>
 </head>
 <body>
@@ -70,25 +23,29 @@
     <button id="generate-btn">Générer une idée</button>
 
     <footer>
-        © 2025 writr — Fabriqué avec ❤️ | <a href="../data/blocbuster.csv" download>Télécharger la base</a>
+        © 2025 writr — Fabriqué avec ❤️
     </footer>
 
     <script>
-        let consignes = [];
-
-        function chargerCSV(url, callback) {
-            fetch(url)
-                .then(response => response.text())
-                .then(text => {
-                    const lignes = text.trim().split('\n').slice(1); // saute l'en-tête
-                    consignes = lignes.map(line => {
-                        // Split CSV ligne en tenant compte des guillemets
-                        const [id, categorie, abstraction, consigne] = line.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(s => s.replace(/^"|"$/g, ''));
-                        return { id, categorie, abstraction, consigne };
-                    });
-                    callback();
-                });
-        }
+        // Toutes les consignes ici
+        const consignes = [
+            {categorie: "introspection", abstraction: "concret", consigne: "Votre narrateur relie un souvenir à sa situation présente."},
+            {categorie: "structure", abstraction: "intermédiaire", consigne: "Commencez la scène par une question sans réponse."},
+            {categorie: "sensoriel", abstraction: "concret", consigne: "Décrivez l’odeur dominante dans la pièce et ce qu’elle évoque chez le personnage."},
+            {categorie: "dialogue", abstraction: "concret", consigne: "Faites intervenir un dialogue qui tourne en rond, sans avancer."},
+            {categorie: "action", abstraction: "concret", consigne: "Quelqu’un fait irruption et interrompt la scène."},
+            {categorie: "personnage", abstraction: "concret", consigne: "Donnez à un personnage un tic ou une manie soudaine."},
+            {categorie: "émotion", abstraction: "intermédiaire", consigne: "Mettez l’accent sur ce que ressent le personnage… mais sans jamais nommer l’émotion."},
+            {categorie: "structure", abstraction: "abstrait", consigne: "Inversez la cause et la conséquence."},
+            {categorie: "sensoriel", abstraction: "concret", consigne: "Décrivez la température de la scène : chaud, froid, moite, et son effet sur les corps."},
+            {categorie: "rythme", abstraction: "abstrait", consigne: "Accélérez le rythme, puis cassez-le d’un coup."},
+            {categorie: "action", abstraction: "concret", consigne: "Un personnage fait tomber ou casse un objet important."},
+            {categorie: "introspection", abstraction: "abstrait", consigne: "Laissez un blanc, un silence, une absence de mots."},
+            {categorie: "structure", abstraction: "intermédiaire", consigne: "Racontez la scène à la deuxième personne du singulier (« tu »)."},
+            {categorie: "sensoriel", abstraction: "concret", consigne: "Un son ou une musique parasite l’attention des personnages."},
+            {categorie: "structure", abstraction: "abstrait", consigne: "Écrivez la scène comme si c’était la dernière de l’histoire."},
+            // ... Ajoute ici autant de consignes que tu veux ...
+        ];
 
         function afficherConsigne() {
             if (consignes.length === 0) return;
@@ -102,10 +59,8 @@
 
         document.getElementById('generate-btn').addEventListener('click', afficherConsigne);
 
-        // Charge le CSV au chargement de la page
-        chargerCSV('../data/blocbuster.csv', () => {
-            afficherConsigne();
-        });
+        // Affiche une consigne dès l'ouverture de la page
+        afficherConsigne();
     </script>
 </body>
 </html>
