@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>writr – Générateur d’idées narratives</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8f6ef;
+            color: #2d2d2d;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 2rem;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        h2 {
+            font-weight: 400;
+            color: #ae7d25;
+        }
+        .blocbuster-box {
+            background: #fffbe8;
+            margin: 2rem auto;
+            max-width: 500px;
+            border-radius: 14px;
+            box-shadow: 0 4px 20px #0001;
+            padding: 2rem;
+            font-size: 1.3rem;
+            min-height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        button {
+            background: #ae7d25;
+            color: #fff;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px #0001;
+            cursor: pointer;
+            margin-bottom: 2rem;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #cda450;
+        }
+        footer {
+            font-size: 0.9rem;
+            color: #555;
+            margin: 2rem 0 1rem 0;
+        }
+        footer a {
+            color: #ae7d25;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>writr</h1>
+    <h2>Générateur d’idées narratives</h2>
+    <div id="idea" class="blocbuster-box">
+        Clique sur le bouton pour générer une idée !
+    </div>
+    <button id="generate-btn">Générer une idée</button>
 
+    <footer>
+        © 2025 writr — Fabriqué avec ❤️ | <a href="../data/blocbuster.csv" download>Télécharger la base</a>
+    </footer>
+
+    <script>
+        let consignes = [];
+
+        function chargerCSV(url, callback) {
+            fetch(url)
+                .then(response => response.text())
+                .then(text => {
+                    const lignes = text.trim().split('\n').slice(1); // saute l'en-tête
+                    consignes = lignes.map(line => {
+                        // Split CSV ligne en tenant compte des guillemets
+                        const [id, categorie, abstraction, consigne] = line.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(s => s.replace(/^"|"$/g, ''));
+                        return { id, categorie, abstraction, consigne };
+                    });
+                    callback();
+                });
+        }
+
+        function afficherConsigne() {
+            if (consignes.length === 0) return;
+            const index = Math.floor(Math.random() * consignes.length);
+            const c = consignes[index];
+            document.getElementById('idea').innerHTML = `
+                <strong>[${c.categorie}]</strong> (${c.abstraction})<br>
+                ${c.consigne}
+            `;
+        }
+
+        document.getElementById('generate-btn').addEventListener('click', afficherConsigne);
+
+        // Charge le CSV au chargement de la page
+        chargerCSV('../data/blocbuster.csv', () => {
+            afficherConsigne();
+        });
+    </script>
+</body>
+</html>
