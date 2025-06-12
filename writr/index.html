@@ -48,13 +48,15 @@
       <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
       <h2>Générateur de noms de personnages</h2>
       <div class="filters">
-        <div><label for="genre">Sexe</label>
+        <div>
+          <label for="genre">Sexe</label>
           <select id="genre">
             <option value="masculin">Masculin</option>
             <option value="féminin">Féminin</option>
           </select>
         </div>
-        <div><label for="style">Style</label>
+        <div>
+          <label for="style">Style</label>
           <select id="style">
             <option value="fr">Français</option>
             <option value="en">Anglo-saxon</option>
@@ -62,15 +64,13 @@
           </select>
         </div>
       </div>
-      <button id="generate-name-btn" disabled>Chargement…</button>
+      <button id="generate-name-btn">Générer un nom</button>
       <div class="card" id="name">Chargement…</div>
     </section>
   </div>
 
   <script>
-    // ===============================
-    // Générateur d’idées narratives (250 conseils variés)
-    // ===============================
+    // Générateur d’idées narratives (exemple de pool, à compléter si besoin)
     const pool = [
       {categorie:"Dialogue",abstraction:"concret",consigne:"Faites intervenir un dialogue qui tourne en rond, sans avancer."},
       {categorie:"Sensoriel",abstraction:"concret",consigne:"Décrivez la température de la scène : chaud, froid, moite, et son effet sur les corps."},
@@ -91,23 +91,10 @@
       {categorie:"Mise en abyme",abstraction:"structurel",consigne:"Un personnage évoque une histoire qui reflète sa propre situation."},
       {categorie:"Motif",abstraction:"structurel",consigne:"Introduisez un motif qui revient tout au long du texte."},
       {categorie:"Surnaturel",abstraction:"concret",consigne:"Un élément mystérieux s’immisce sans être expliqué."},
-      {categorie:"Objet perdu",abstraction:"concret",consigne:"Le personnage cherche un objet dont il n’a pas besoin, mais dont il se persuade du contraire."},
-      {categorie:"Cadence",abstraction:"rythme",consigne:"Utilisez de très longues phrases, sans ponctuation forte."},
-      {categorie:"Cadence",abstraction:"rythme",consigne:"Alternez phrases très courtes et longues descriptions."},
-      {categorie:"Incertitude",abstraction:"psychologique",consigne:"Le personnage doute de la réalité de ce qu’il vit."},
-      {categorie:"Déplacement",abstraction:"structurel",consigne:"Votre personnage doit traverser un espace inconnu, sans aucune explication."},
-      {categorie:"Lumière",abstraction:"concret",consigne:"Décrivez la lumière d’une façon inattendue (par la couleur, la texture, la sensation physique)."},
-      {categorie:"Échec",abstraction:"structurel",consigne:"Le protagoniste échoue volontairement à une tâche importante."},
-      {categorie:"Solitude",abstraction:"psychologique",consigne:"Appuyez la solitude à travers l’environnement, pas seulement les pensées."},
-      {categorie:"Miroir",abstraction:"concret",consigne:"Un miroir ou une surface réfléchissante joue un rôle perturbant."},
-      {categorie:"Rêve",abstraction:"psychologique",consigne:"Mêlez un rêve ou un souvenir à la réalité, de façon ambiguë."},
-      {categorie:"Temporalité",abstraction:"structurel",consigne:"Changez la temporalité du récit (futur, passé, présent, conditionnel…)."},
-      {categorie:"Animal",abstraction:"concret",consigne:"Un animal ou une présence silencieuse accompagne la scène."},
-      // ... (continue à 250 entrées variées)
-      // — Tu peux copier-coller ou compléter ici avec la suite de ta BDD de consignes —
+      {categorie:"Objet perdu",abstraction:"concret",consigne:"Le personnage cherche un objet dont il n’a pas besoin, mais dont il se persuade du contraire."}
+      // ... Ajoute ici autant de consignes que tu veux (jusqu’à 250 ou plus)
     ];
-
-    // Remplissage pour atteindre 250 conseils (si tu n’as pas encore 250 entrées, ce code duplique pour compléter)
+    // Remplissage automatique jusqu’à 250 idées si tu n’en as pas encore assez
     while(pool.length < 250){
       pool.push(pool[Math.floor(Math.random()*pool.length)]);
     }
@@ -119,35 +106,31 @@
     });
     window.addEventListener('DOMContentLoaded', ()=>document.getElementById('generate-idea-btn').click());
 
-    // ===============================
-    // Générateur de noms avec noms.json
-    // ===============================
-    let nomsDB = null;
-    const nameBtn = document.getElementById('generate-name-btn');
-    const nameDiv = document.getElementById('name');
-    nameBtn.disabled = true;
-    nameBtn.innerText = "Chargement…";
-    nameDiv.innerText = "Chargement…";
+    // Générateur de noms à partir du JSON externe
+    let nomsData = null;
+    async function loadNames() {
+      try {
+        const response = await fetch('data/noms.json');
+        nomsData = await response.json();
+        document.getElementById('name').innerText = 'Clique sur le bouton pour générer un nom.';
+      } catch (e) {
+        document.getElementById('name').innerText = "Erreur de chargement des noms.";
+      }
+    }
+    window.addEventListener('DOMContentLoaded', loadNames);
 
-    fetch('data/noms.json')
-      .then(r => r.json())
-      .then(data => {
-        nomsDB = data;
-        nameBtn.disabled = false;
-        nameBtn.innerText = "Générer un nom";
-        nameDiv.innerText = "Clique sur le bouton pour générer un nom.";
-      });
-
-    nameBtn.addEventListener('click', () => {
-      if(!nomsDB) return;
+    document.getElementById('generate-name-btn').addEventListener('click', () => {
+      if (!nomsData) {
+        document.getElementById('name').innerText = "Chargement…";
+        return;
+      }
       const genre = document.getElementById('genre').value;
       const style = document.getElementById('style').value;
-      // Récupérer listes selon le format du JSON (adapté à ton format)
-      const prenoms = nomsDB.prenoms?.[style]?.[genre] || [];
-      const noms    = nomsDB.noms?.[style] || [];
-      const prenom = prenoms.length ? prenoms[Math.floor(Math.random()*prenoms.length)] : "(prénom)";
-      const nom = noms.length ? noms[Math.floor(Math.random()*noms.length)] : "(nom)";
-      nameDiv.innerHTML = `<strong>${prenom} ${nom}</strong>`;
+      const prenoms = nomsData.prenoms[style][genre];
+      const noms = nomsData.noms[style];
+      const p = prenoms[Math.floor(Math.random() * prenoms.length)];
+      const n = noms[Math.floor(Math.random() * noms.length)];
+      document.getElementById('name').innerHTML = `<strong>${p} ${n}</strong>`;
     });
   </script>
 </body>
