@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>writr – Boîte à outils narrative</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Polices EB Garamond pour le corps et Pacifico pour le logo manuscrit -->
+  <!-- Polices EB Garamond pour le texte, Pacifico pour le logo manuscrit -->
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap" rel="stylesheet">
   <style>
     body {
@@ -33,6 +33,18 @@
       font-size: 1.25rem;
       color: #41516a;
       margin: 1rem 0;
+    }
+    .logo-img {
+      display: block;
+      margin: 0 auto 1rem auto;
+      width: 64px;
+      height: auto;
+    }
+    .logo-text {
+      font-family: 'Pacifico', cursive;
+      color: #5a3a28;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
     }
     .card {
       background: #f5ded5;
@@ -88,28 +100,9 @@
 
     <!-- Module 1 : Générateur d'idées narratives -->
     <section class="tool-section" id="bloc-idees">
-      <!-- Logo SVG unifié : ampoule-crayon + texte “writr” -->
-      <div style="text-align:center; margin-bottom:1rem;">
-        <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
-          <rect width="150" height="150" fill="none"/>
-          <ellipse cx="75" cy="60" rx="50" ry="60" fill="#fff7ea"/>
-          <ellipse cx="75" cy="54" rx="27" ry="30" fill="#ffe2c1" stroke="#eab5a6" stroke-width="1.8"/>
-          <ellipse cx="75" cy="54" rx="22.5" ry="25" fill="#fff" stroke="#eab5a6" stroke-width="1.2"/>
-          <polygon points="45,110 50,85 58,110 65,85 72,110 80,85 85,110"
-                   fill="#ebd5b0" stroke="#26304c" stroke-width="1"/>
-          <rect x="50" y="112" width="50" height="8" rx="3"
-                fill="#eab5a6" stroke="#26304c" stroke-width="1.2"/>
-          <polyline points="75,64 75,85" stroke="#26304c" stroke-width="2"/>
-          <ellipse cx="75" cy="75" rx="3.5" ry="2" fill="#fff" stroke="#26304c" stroke-width="0.8"/>
-          <text x="75" y="140"
-                text-anchor="middle"
-                font-family="Pacifico, cursive"
-                font-size="28"
-                fill="#5a3a28">
-            writr
-          </text>
-        </svg>
-      </div>
+      <!-- Logo PNG + texte “writr” -->
+      <img src="logo-writr.png" alt="Logo writr" class="logo-img">
+      <div class="logo-text">writr</div>
       <h2>Générateur d’idées narratives</h2>
       <div class="card" id="idea">Clique sur « Nouvelle idée » pour commencer.</div>
       <button id="generate-idea-btn">Nouvelle idée</button>
@@ -141,7 +134,7 @@
   </div>
 
   <script>
-    // Module Idées narratives
+    // Module idées narratives
     const consignes = [
       {categorie:"Introspection",abstraction:"concret",consigne:"Votre narrateur relie un souvenir à sa situation présente."},
       {categorie:"Structure",abstraction:"intermédiaire",consigne:"Commencez la scène par une question sans réponse."},
@@ -152,33 +145,30 @@
       {categorie:"Émotion",abstraction:"intermédiaire",consigne:"Mettez l’accent sur ce que ressent le personnage… sans nommer l’émotion."},
       {categorie:"Structure",abstraction:"abstrait",consigne:"Inversez la cause et la conséquence."},
       {categorie:"Rythme",abstraction:"abstrait",consigne:"Accélérez le rythme, puis cassez-le d’un coup."}
-      // … ajoute ici le reste de tes 50+ consignes …
+      // … ajoute ici tes 50+ autres consignes …
     ];
-    function afficherConsigne() {
-      const i = Math.floor(Math.random()*consignes.length);
-      const c = consignes[i];
+    function afficherConsigne(){
+      const i = Math.floor(Math.random()*consignes.length),
+            c = consignes[i];
       document.getElementById('idea').innerHTML =
         `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
     }
     document.getElementById('generate-idea-btn')
       .addEventListener('click', afficherConsigne);
 
-    // Module Noms de personnages
+    // Module noms de personnages
     const prenoms = {
       fr:{masculin:["Arthur","Benoît","Damien"],féminin:["Alice","Camille","Diane"]},
       en:{masculin:["Jack","Michael","William"],féminin:["Emily","Sarah","Jessica"]}
     };
-    const noms = {
-      fr:["Martin","Dubois","Lefèvre"],
-      en:["Smith","Johnson","Williams"]
-    };
-    function genererNom() {
-      const g = document.getElementById('genre').value;
-      const n = document.getElementById('nationalite').value;
-      const pTab = prenoms[n][g];
-      const nTab = noms[n];
-      const p = pTab[Math.floor(Math.random()*pTab.length)];
-      const f = nTab[Math.floor(Math.random()*nTab.length)];
+    const noms = { fr:["Martin","Dubois","Lefèvre"], en:["Smith","Johnson","Williams"] };
+    function genererNom(){
+      const g = document.getElementById('genre').value,
+            n = document.getElementById('nationalite').value,
+            pTab = prenoms[n][g],
+            fTab = noms[n],
+            p = pTab[Math.floor(Math.random()*pTab.length)],
+            f = fTab[Math.floor(Math.random()*fTab.length)];
       document.getElementById('name').innerHTML = `<strong>${p} ${f}</strong>`;
     }
     document.getElementById('generate-name-btn')
