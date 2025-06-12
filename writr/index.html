@@ -6,17 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700,400&display=swap" rel="stylesheet">
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #eab5a6;
+        }
         body {
             font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
-            background: #eab5a6;
             color: #26304c;
-            margin: 0; padding: 0;
             min-height: 100vh;
         }
         .frame-container {
             position: relative;
             max-width: 600px;
+            width: 96vw;
             margin: 2.5rem auto 2rem auto;
+            /* hauteur min pour permettre au cadre SVG d'exister même sans contenu long */
+            min-height: 750px;
         }
         .frame-svg {
             position: absolute;
@@ -28,10 +35,9 @@
         .content-in-frame {
             position: relative;
             z-index: 1;
-            background: none;
-            /* Marge intérieure pour ne jamais toucher le cadre ! */
-            padding: 3.7rem 2.3rem 2.7rem 2.3rem;
             box-sizing: border-box;
+            /* espace intérieur garanti : doit correspondre au décalage des liserés SVG */
+            padding: 3.7rem 2.6rem 2.7rem 2.6rem;
             min-height: 650px;
             display: flex;
             flex-direction: column;
@@ -66,14 +72,15 @@
             border-radius: 10px;
             box-shadow: 0 2px 12px #9a788855;
             margin: 1.2rem 0 1.2rem 0;
-            max-width: 430px;
             width: 100%;
+            max-width: 100%;
             padding: 1.7rem 1.2rem 1.1rem 1.2rem;
             font-size: 1.17rem;
             min-height: 90px;
             box-sizing: border-box;
             transition: box-shadow 0.3s;
             animation: fadeIn 0.8s;
+            overflow-wrap: break-word;
         }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px);}
@@ -117,6 +124,9 @@
             margin: 1.2rem 0 0 0;
             transition: background 0.18s, transform 0.10s;
             display: block;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
         }
         button:active {
             background: #26304c;
@@ -131,9 +141,9 @@
             font-family: 'EB Garamond', serif;
         }
         @media (max-width: 700px) {
-            .frame-container { max-width: 97vw; }
-            .content-in-frame { padding: 1.6rem 0.4rem 0.7rem 0.4rem; min-height: 350px;}
-            .blocbuster-box { max-width: 97vw; padding: 1.1rem 0.3rem 0.8rem 0.3rem;}
+            .frame-container { max-width: 99vw; width: 99vw; min-height: 420px;}
+            .content-in-frame { padding: 1.5rem 0.7rem 1.2rem 0.7rem; min-height: 350px;}
+            .blocbuster-box { padding: 1.1rem 0.3rem 0.8rem 0.3rem; }
             h1 { font-size: 1.25rem; }
         }
     </style>
