@@ -6,44 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700,400&display=swap" rel="stylesheet">
     <style>
-        html, body {
-            height: 100%;
+        body {
+            font-family: 'EB Garamond', Garamond, serif;
+            background: #eab5a6;
+            color: #26304c;
             margin: 0;
             padding: 0;
-            background: #eab5a6;
-        }
-        body {
-            font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
-            color: #26304c;
             min-height: 100vh;
         }
-        .frame-container {
-            position: relative;
-            max-width: 600px;
-            width: 96vw;
-            margin: 2.5rem auto 2rem auto;
-            min-height: 730px;
-        }
-        .frame-svg {
-            position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            pointer-events: none;
-            z-index: 0;
-        }
-        .content-in-frame {
-            position: relative;
-            z-index: 1;
-            padding: 2.5rem 3.7rem 2.5rem 3.7rem;  /* padding latéral bien large ! */
-            box-sizing: border-box;
-            min-height: 640px;
+        .center {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding-top: 3rem;
         }
         .logo-writr {
             display: block;
-            margin: 0 auto 1.2rem auto;
+            margin: 0 auto 1.1rem auto;
             max-width: 85px;
             width: 28vw;
             height: auto;
@@ -52,34 +33,40 @@
             text-align: center;
             font-size: 1.13rem;
             color: #7e5d7c;
-            margin: 0.3em 0 1.8em 0;
+            margin: 0.2em 0 2em 0;
             font-weight: 400;
             font-family: 'EB Garamond', serif;
-            letter-spacing: 0.3px;
         }
-        .blocbuster-box {
+
+        .framed-module {
+            position: relative;
+            margin-bottom: 1.6rem;
+            background: none;
+            /* pour le bouton juste en dessous */
+        }
+        .framed-content {
+            position: relative;
+            z-index: 1;
             background: #f5ded5;
-            border: 1.6px solid #26304c;
-            border-radius: 14px;
-            box-shadow: 0 2px 12px #9a788855;
-            margin: 1.2rem 0 1.2rem 0;
-            width: 100%;
-            max-width: 360px;    /* Largeur max strictement contrôlée */
-            padding: 1.3rem 1.1rem 1.1rem 1.1rem;
-            font-size: 1.12rem;
-            min-height: 90px;
+            padding: 1.3rem 1.5rem 1.1rem 1.5rem;
+            border-radius: 18px;
+            min-width: 250px;
+            max-width: 370px;
+            width: 90vw;
             box-sizing: border-box;
-            transition: box-shadow 0.3s;
-            animation: fadeIn 0.8s;
-            overflow-wrap: break-word;
+            text-align: left;
+            margin: 0 auto;
+            box-shadow: 0 2px 10px #9a78882a;
         }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px);}
-            to { opacity: 1; transform: translateY(0);}
+        .framed-svg {
+            position: absolute;
+            pointer-events: none;
+            left: 0; top: 0; width: 100%; height: 100%;
+            z-index: 0;
         }
         .category-label {
             display: block;
-            font-size: 1.01em;
+            font-size: 1.03em;
             font-weight: 700;
             color: #7e5d7c;
             margin-bottom: 0.25em;
@@ -95,35 +82,53 @@
         }
         .consigne-text {
             color: #26304c;
-            font-size: 1.13em;
-            line-height: 1.5;
+            font-size: 1.15em;
+            line-height: 1.6;
             margin: 0.3em 0 0.2em 0;
             font-family: 'EB Garamond', serif;
             font-weight: 400;
         }
-        button {
+
+        /* Bouton encadré */
+        .framed-btn-wrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-width: 370px;
+            margin: 0 auto;
+        }
+        .framed-btn {
+            position: relative;
+            z-index: 1;
             background: #7e5d7c;
             color: #fff;
             border: none;
             padding: 0.92rem 2rem;
             font-size: 1.09rem;
             border-radius: 14px;
-            box-shadow: 0 2px 10px #7b5c4929;
-            cursor: pointer;
             font-family: inherit;
             font-weight: 600;
-            margin: 1.2rem 0 0 0;
-            display: block;
-            width: 100%;
-            max-width: 360px;  /* Bouton JAMAIS plus large que la carte ! */
             box-sizing: border-box;
+            width: 100%;
+            max-width: 370px;
+            cursor: pointer;
+            margin: 0;
             transition: background 0.18s, transform 0.10s;
+            box-shadow: 0 2px 10px #7b5c4929;
         }
-        button:active {
+        .framed-btn:active {
             background: #26304c;
             color: #fff;
             transform: scale(0.98);
         }
+        .framed-btn-svg {
+            position: absolute;
+            pointer-events: none;
+            left: 0; top: 0; width: 100%; height: 100%;
+            z-index: 0;
+        }
+
         footer {
             text-align: center;
             font-size: 1rem;
@@ -131,33 +136,41 @@
             margin: 2.5rem 0 1.3rem 0;
             font-family: 'EB Garamond', serif;
         }
-        @media (max-width: 700px) {
-            .frame-container { max-width: 99vw; width: 99vw; min-height: 420px;}
-            .content-in-frame { padding: 1.1rem 0.8rem 1rem 0.8rem; min-height: 330px;}
-            .blocbuster-box, button { width: 100%; max-width: 99vw; }
-            h2 { font-size: 1.03rem; margin-bottom: 1.2em;}
+        @media (max-width: 460px) {
+            .framed-content, .framed-btn-wrapper { max-width: 99vw; }
         }
     </style>
 </head>
 <body>
-    <div class="frame-container">
-        <!-- SVG Liseré double cadre à coins droits façon couverture d’ancien livre -->
-        <svg class="frame-svg" viewBox="0 0 600 850" width="100%" height="100%" preserveAspectRatio="none">
-            <rect x="12" y="12" width="576" height="826" stroke="#26304c" stroke-width="5" fill="none"/>
-            <rect x="32" y="32" width="536" height="786" stroke="#26304c" stroke-width="2.5" fill="none"/>
-            <polyline points="12,42 12,12 42,12" stroke="#26304c" stroke-width="5" fill="none"/>
-            <polyline points="588,42 588,12 558,12" stroke="#26304c" stroke-width="5" fill="none"/>
-            <polyline points="12,808 12,838 42,838" stroke="#26304c" stroke-width="5" fill="none"/>
-            <polyline points="588,808 588,838 558,838" stroke="#26304c" stroke-width="5" fill="none"/>
-        </svg>
-        <div class="content-in-frame">
-            <img src="logo-writr.png" alt="Logo writr" class="logo-writr">
-            <h2>Générateur d’idées narratives</h2>
-            <div id="idea" class="blocbuster-box">
+    <div class="center">
+        <img src="logo-writr.png" alt="Logo writr" class="logo-writr">
+        <h2>Générateur d’idées narratives</h2>
+
+        <!-- Module carte d'idée avec liseré -->
+        <div class="framed-module" style="width:100%; max-width:370px;">
+            <svg class="framed-svg" viewBox="0 0 400 140" width="100%" height="100%" preserveAspectRatio="none">
+                <rect x="8" y="8" width="384" height="124" stroke="#26304c" stroke-width="4" fill="none"/>
+                <rect x="23" y="23" width="354" height="94" stroke="#26304c" stroke-width="2.2" fill="none"/>
+                <!-- Coins L rétro -->
+                <polyline points="8,38 8,8 38,8" stroke="#26304c" stroke-width="4" fill="none"/>
+                <polyline points="392,38 392,8 362,8" stroke="#26304c" stroke-width="4" fill="none"/>
+                <polyline points="8,112 8,132 38,132" stroke="#26304c" stroke-width="4" fill="none"/>
+                <polyline points="392,112 392,132 362,132" stroke="#26304c" stroke-width="4" fill="none"/>
+            </svg>
+            <div id="idea" class="framed-content">
                 Clique sur le bouton pour générer une idée.
             </div>
-            <button id="generate-btn">Générer une idée</button>
         </div>
+
+        <!-- Module bouton avec liseré discret -->
+        <div class="framed-btn-wrapper" style="margin-bottom:1.2em;">
+            <svg class="framed-btn-svg" viewBox="0 0 400 66" width="100%" height="100%" preserveAspectRatio="none">
+                <rect x="7" y="7" width="386" height="52" stroke="#26304c" stroke-width="3" fill="none"/>
+                <rect x="19" y="19" width="362" height="28" stroke="#26304c" stroke-width="1.5" fill="none"/>
+            </svg>
+            <button class="framed-btn" id="generate-btn">Générer une idée</button>
+        </div>
+
     </div>
     <footer>
         © 2025 writr — Fabriqué avec ❤️
