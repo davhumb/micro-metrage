@@ -37,17 +37,142 @@
             font-weight: 400;
             font-family: 'EB Garamond', serif;
         }
-        .blocbuster-box {
+        .idea-box {
             background: #f5ded5;
             border-radius: 18px;
-            box-shadow: 0 2px 16px #9a788825;
-            margin: 0 0 1.6rem 0;
-            max-width: 410px;
-            width: 93vw;
-            padding: 1.4rem 1.3rem 1.2rem 1.3rem;
+            box-shadow: 0 2px 12px #9a78882a;
+            padding: 1.3rem 1.5rem 1.1rem 1.5rem;
+            min-width: 250px;
+            max-width: 370px;
+            width: 90vw;
+            margin: 0 auto 1.6rem auto;
+            text-align: left;
             font-size: 1.13rem;
-            min-height: 85px;
-            box-sizing: border-box;
-            overflow-wrap: break-word;
+            animation: fadeIn 0.8s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px);}
+            to { opacity: 1; transform: translateY(0);}
         }
         .category-label {
+            display: block;
+            font-size: 1.03em;
+            font-weight: 700;
+            color: #7e5d7c;
+            margin-bottom: 0.25em;
+            letter-spacing: 1.1px;
+            text-transform: uppercase;
+            font-family: 'EB Garamond', serif;
+        }
+        .abstraction {
+            font-size: 1em;
+            color: #7b5c49;
+            font-style: italic;
+            margin-bottom: 0.95em;
+        }
+        .consigne-text {
+            color: #26304c;
+            font-size: 1.15em;
+            line-height: 1.6;
+            margin: 0.3em 0 0.2em 0;
+            font-family: 'EB Garamond', serif;
+            font-weight: 400;
+        }
+        .btn-box {
+            width: 100%;
+            max-width: 370px;
+            margin: 0 auto;
+        }
+        button {
+            background: #7e5d7c;
+            color: #fff;
+            border: none;
+            padding: 0.92rem 2rem;
+            font-size: 1.09rem;
+            border-radius: 14px;
+            font-family: inherit;
+            font-weight: 600;
+            box-sizing: border-box;
+            width: 100%;
+            cursor: pointer;
+            margin: 0;
+            transition: background 0.18s, transform 0.10s;
+            box-shadow: 0 2px 10px #7b5c4929;
+            display: block;
+        }
+        button:active {
+            background: #26304c;
+            color: #fff;
+            transform: scale(0.98);
+        }
+        footer {
+            text-align: center;
+            font-size: 1rem;
+            color: #7e5d7c;
+            margin: 2.5rem 0 1.3rem 0;
+            font-family: 'EB Garamond', serif;
+        }
+        @media (max-width: 460px) {
+            .idea-box, .btn-box { max-width: 99vw; }
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <img src="logo-writr.png" alt="Logo writr" class="logo-writr">
+        <h2>Générateur d’idées narratives</h2>
+
+        <!-- Module carte d'idée -->
+        <div id="idea" class="idea-box">
+            Clique sur le bouton pour générer une idée.
+        </div>
+
+        <!-- Bouton -->
+        <div class="btn-box">
+            <button id="generate-btn">Générer une idée</button>
+        </div>
+    </div>
+    <footer>
+        © 2025 writr — Fabriqué avec ❤️
+    </footer>
+    <script>
+        const consignes = [
+            {categorie: "Introspection", abstraction: "concret", consigne: "Votre narrateur relie un souvenir à sa situation présente."},
+            {categorie: "Structure", abstraction: "intermédiaire", consigne: "Commencez la scène par une question sans réponse."},
+            {categorie: "Sensoriel", abstraction: "concret", consigne: "Décrivez l’odeur dominante dans la pièce et ce qu’elle évoque chez le personnage."},
+            {categorie: "Dialogue", abstraction: "concret", consigne: "Faites intervenir un dialogue qui tourne en rond, sans avancer."},
+            {categorie: "Action", abstraction: "concret", consigne: "Quelqu’un fait irruption et interrompt la scène."},
+            {categorie: "Personnage", abstraction: "concret", consigne: "Donnez à un personnage un tic ou une manie soudaine."},
+            {categorie: "Émotion", abstraction: "intermédiaire", consigne: "Mettez l’accent sur ce que ressent le personnage… mais sans jamais nommer l’émotion."},
+            {categorie: "Structure", abstraction: "abstrait", consigne: "Inversez la cause et la conséquence."},
+            {categorie: "Sensoriel", abstraction: "concret", consigne: "Décrivez la température de la scène : chaud, froid, moite, et son effet sur les corps."},
+            {categorie: "Rythme", abstraction: "abstrait", consigne: "Accélérez le rythme, puis cassez-le d’un coup."},
+            {categorie: "Action", abstraction: "concret", consigne: "Un personnage fait tomber ou casse un objet important."},
+            {categorie: "Introspection", abstraction: "abstrait", consigne: "Laissez un blanc, un silence, une absence de mots."},
+            {categorie: "Structure", abstraction: "intermédiaire", consigne: "Racontez la scène à la deuxième personne du singulier (« tu »)."},
+            {categorie: "Sensoriel", abstraction: "concret", consigne: "Un son ou une musique parasite l’attention des personnages."},
+            {categorie: "Structure", abstraction: "abstrait", consigne: "Écrivez la scène comme si c’était la dernière de l’histoire."},
+            {categorie: "Twist", abstraction: "intermédiaire", consigne: "Révélez qu’un personnage ment, mais sur un détail sans importance apparente."},
+            {categorie: "Dialogue", abstraction: "concret", consigne: "Faites prononcer une phrase absurde à un personnage."},
+            {categorie: "Ambiance", abstraction: "abstrait", consigne: "Traitez la scène comme un rêve ou une hallucination."},
+            {categorie: "Personnage", abstraction: "intermédiaire", consigne: "Faites changer un personnage d’avis au milieu de la scène, sans raison claire."},
+            {categorie: "Action", abstraction: "concret", consigne: "Faites commencer la scène par un accident minuscule."},
+        ];
+        function afficherConsigne() {
+            if (consignes.length === 0) return;
+            const index = Math.floor(Math.random() * consignes.length);
+            const c = consignes[index];
+            document.getElementById('idea').innerHTML = `
+                <span class="category-label">${c.categorie}</span>
+                <div class="abstraction">${c.abstraction}</div>
+                <div class="consigne-text">${c.consigne}</div>
+            `;
+            document.getElementById('idea').style.animation = "none";
+            void document.getElementById('idea').offsetWidth;
+            document.getElementById('idea').style.animation = "fadeIn 0.8s";
+        }
+        document.getElementById('generate-btn').addEventListener('click', afficherConsigne);
+        afficherConsigne();
+    </script>
+</body>
+</html>
