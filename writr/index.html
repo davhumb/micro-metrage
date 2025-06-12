@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <title>writr – Boîte à outils narrative</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Polices EB Garamond pour le texte, Pacifico pour le logo manuscrit -->
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap"
+    rel="stylesheet">
   <style>
     body {
       font-family: 'EB Garamond', serif;
@@ -22,21 +23,50 @@
       padding: 2rem 1rem;
     }
     .tool-section {
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      padding: 1.8rem;
+      position: relative;
       margin-bottom: 2rem;
-      text-align: center;
+      padding: 2rem 1.5rem;
+      background: #fff;
+      /* double ligne */
+      border: 4px solid #26304c;
+      box-shadow: inset 0 0 0 2px #26304c;
     }
+    /* Les quatre coins */
+    .tool-section .corner {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+    }
+    .tool-section .corner.tl {
+      top: -4px; left: -4px;
+      border-top: 4px solid #26304c;
+      border-left: 4px solid #26304c;
+    }
+    .tool-section .corner.tr {
+      top: -4px; right: -4px;
+      border-top: 4px solid #26304c;
+      border-right: 4px solid #26304c;
+    }
+    .tool-section .corner.bl {
+      bottom: -4px; left: -4px;
+      border-bottom: 4px solid #26304c;
+      border-left: 4px solid #26304c;
+    }
+    .tool-section .corner.br {
+      bottom: -4px; right: -4px;
+      border-bottom: 4px solid #26304c;
+      border-right: 4px solid #26304c;
+    }
+
     .tool-section h2 {
       font-size: 1.25rem;
       color: #41516a;
       margin: 1rem 0;
+      text-align: center;
     }
     .logo-img {
       display: block;
-      margin: 0 auto 1rem auto;
+      margin: 0 auto 0.5rem auto;
       width: 64px;
       height: auto;
     }
@@ -44,6 +74,7 @@
       font-family: 'Pacifico', cursive;
       color: #5a3a28;
       font-size: 1.4rem;
+      text-align: center;
       margin-bottom: 1rem;
     }
     .card {
@@ -86,6 +117,10 @@
       font-size: 1rem;
       cursor: pointer;
       transition: background .2s;
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: 0.5rem auto 0 auto;
     }
     button:active {
       background: #26304c;
@@ -98,18 +133,33 @@
 <body>
   <div class="tools-container">
 
-    <!-- Module 1 : Générateur d'idées narratives -->
+    <!-- Générateur d’idées narratives -->
     <section class="tool-section" id="bloc-idees">
-      <!-- Logo PNG + texte “writr” -->
+      <!-- coins décoratifs -->
+      <span class="corner tl"></span>
+      <span class="corner tr"></span>
+      <span class="corner bl"></span>
+      <span class="corner br"></span>
+
       <img src="logo-writr.png" alt="Logo writr" class="logo-img">
       <div class="logo-text">writr</div>
       <h2>Générateur d’idées narratives</h2>
-      <div class="card" id="idea">Clique sur « Nouvelle idée » pour commencer.</div>
+      <div class="card" id="idea">
+        Clique sur « Nouvelle idée » pour commencer.
+      </div>
       <button id="generate-idea-btn">Nouvelle idée</button>
     </section>
 
-    <!-- Module 2 : Générateur de noms de personnages -->
+    <!-- Générateur de noms de personnages -->
     <section class="tool-section" id="bloc-noms">
+      <!-- coins décoratifs -->
+      <span class="corner tl"></span>
+      <span class="corner tr"></span>
+      <span class="corner bl"></span>
+      <span class="corner br"></span>
+
+      <img src="logo-writr.png" alt="Logo writr" class="logo-img">
+      <div class="logo-text">writr</div>
       <h2>Générateur de noms de personnages</h2>
       <div class="filters">
         <div>
@@ -128,7 +178,9 @@
         </div>
       </div>
       <button id="generate-name-btn">Générer un nom</button>
-      <div class="card" id="name">Clique sur le bouton pour générer un nom.</div>
+      <div class="card" id="name">
+        Clique sur le bouton pour générer un nom.
+      </div>
     </section>
 
   </div>
@@ -139,17 +191,11 @@
       {categorie:"Introspection",abstraction:"concret",consigne:"Votre narrateur relie un souvenir à sa situation présente."},
       {categorie:"Structure",abstraction:"intermédiaire",consigne:"Commencez la scène par une question sans réponse."},
       {categorie:"Sensoriel",abstraction:"concret",consigne:"Décrivez l’odeur dominante dans la pièce et ce qu’elle évoque."},
-      {categorie:"Dialogue",abstraction:"concret",consigne:"Faites intervenir un dialogue qui tourne en rond."},
-      {categorie:"Action",abstraction:"concret",consigne:"Quelqu’un fait irruption et interrompt la scène."},
-      {categorie:"Personnage",abstraction:"concret",consigne:"Donnez à un personnage un tic ou une manie soudaine."},
-      {categorie:"Émotion",abstraction:"intermédiaire",consigne:"Mettez l’accent sur ce que ressent le personnage… sans nommer l’émotion."},
-      {categorie:"Structure",abstraction:"abstrait",consigne:"Inversez la cause et la conséquence."},
-      {categorie:"Rythme",abstraction:"abstrait",consigne:"Accélérez le rythme, puis cassez-le d’un coup."}
-      // … ajoute ici tes 50+ autres consignes …
+      // … ajoute tes 50+ autres consignes ici …
     ];
-    function afficherConsigne(){
-      const i = Math.floor(Math.random()*consignes.length),
-            c = consignes[i];
+    function afficherConsigne() {
+      const idx = Math.floor(Math.random() * consignes.length),
+            c   = consignes[idx];
       document.getElementById('idea').innerHTML =
         `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
     }
@@ -161,8 +207,11 @@
       fr:{masculin:["Arthur","Benoît","Damien"],féminin:["Alice","Camille","Diane"]},
       en:{masculin:["Jack","Michael","William"],féminin:["Emily","Sarah","Jessica"]}
     };
-    const noms = { fr:["Martin","Dubois","Lefèvre"], en:["Smith","Johnson","Williams"] };
-    function genererNom(){
+    const noms = {
+      fr:["Martin","Dubois","Lefèvre"],
+      en:["Smith","Johnson","Williams"]
+    };
+    function genererNom() {
       const g = document.getElementById('genre').value,
             n = document.getElementById('nationalite').value,
             pTab = prenoms[n][g],
