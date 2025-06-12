@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>writr tools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f0e5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        header img {
+            height: 100px;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+        }
+        .module {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            width: 100%;
+            max-width: 500px;
+            box-sizing: border-box;
+        }
+        .module h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        button {
+            background-color: #604c3e;
+            color: #fff;
+            border: none;
+            padding: 0.6rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        button:hover {
+            background-color: #48372c;
+        }
+        .card {
+            background-color: #fefcf7;
+            padding: 1rem;
+            border: 1px dashed #aaa;
+            margin-top: 1rem;
+            border-radius: 5px;
+            min-height: 80px;
+            font-style: italic;
+        }
+        .category-label {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            color: #7d5a4f;
+        }
+        .abstraction {
+            font-size: 0.8rem;
+            color: #999;
+            margin-bottom: 0.5rem;
+        }
+        .generated-name {
+            font-size: 1.4rem;
+            font-weight: bold;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Light_bulb_icon.svg/1024px-Light_bulb_icon.svg.png" alt="Logo writr">
+        <h1>writr tools</h1>
+    </header>
+    <main>
+        <section class="module">
+            <h2>Générateur de situations</h2>
+            <div class="card" id="idea">Une idée apparaîtra ici…</div>
+            <button id="generate-idea-btn">Nouvelle idée</button>
+        </section>
+        <section class="module">
+            <h2>Générateur de noms</h2>
+            <label for="genre">Genre :</label>
+            <select id="genre">
+                <option value="masculin">Masculin</option>
+                <option value="féminin">Féminin</option>
+            </select>
+            <br><br>
+            <label for="nationalite">Nationalité :</label>
+            <select id="nationalite">
+                <option value="fr">Français</option>
+                <option value="en">Anglo-saxon</option>
+            </select>
+            <br><br>
+            <button id="generate-name-btn">Générer un nom</button>
+            <div class="card" id="name">Un nom apparaîtra ici…</div>
+        </section>
+    </main>
+    <script>
+        const consignes = [
+            {categorie: "Action", abstraction: "concret", consigne: "Votre narrateur relie un souvenir à sa situation actuelle."},
+            {categorie: "Introspection", abstraction: "abstrait", consigne: "Un personnage doute de la réalité de ce qu’il vit."},
+            {categorie: "Structure", abstraction: "intermédiaire", consigne: "L’ordre des événements est inversé, comme un retour dans le temps."}
+        ];
+
+        function afficherConsigne() {
+            const index = Math.floor(Math.random() * consignes.length);
+            const c = consignes[index];
+            document.getElementById('idea').innerHTML = `
+                <span class="category-label">${c.categorie}</span>
+                <div class="abstraction">${c.abstraction}</div>
+                <div class="consigne-text">${c.consigne}</div>
+            `;
+        }
+
+        document.getElementById('generate-idea-btn').addEventListener('click', afficherConsigne);
+        afficherConsigne();
+
+        const prenoms = {
+            fr: {
+                masculin: ["Arthur", "Benoît", "Damien"],
+                féminin: ["Alice", "Camille", "Diane"]
+            },
+            en: {
+                masculin: ["Jack", "Michael", "William"],
+                féminin: ["Emily", "Sarah", "Jessica"]
+            }
+        };
+
+        const noms = {
+            fr: ["Martin", "Dubois", "Lefèvre"],
+            en: ["Smith", "Johnson", "Williams"]
+        };
+
+        function genererNom() {
+            const genre = document.getElementById('genre').value;
+            const nationalite = document.getElementById('nationalite').value;
+            const prenomTab = prenoms[nationalite][genre];
+            const nomTab = noms[nationalite];
+            const prenom = prenomTab[Math.floor(Math.random() * prenomTab.length)];
+            const nom = nomTab[Math.floor(Math.random() * nomTab.length)];
+            document.getElementById('name').innerHTML = `<span class="generated-name">${prenom} ${nom}</span>`;
+        }
+
+        document.getElementById('generate-name-btn').addEventListener('click', genererNom);
+    </script>
+</body>
+</html>
