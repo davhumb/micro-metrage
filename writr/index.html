@@ -17,40 +17,32 @@
     .site-logo { text-align:center; margin-bottom:1.5rem; }
     .site-logo img { width:64px; display:block; margin:0 auto .5rem; }
     .site-logo .logo-text { font-family:'Pacifico', cursive; color:#5a3a28; font-size:1.6rem; }
-    .tool-section {
-      position:relative;
-      margin-bottom:2rem;
-      padding:2rem 1.5rem;
-      background:#fff;
-      border:4px solid #26304c;
-      box-shadow:inset 0 0 0 2px #26304c;
-    }
+    .tool-section { position:relative; margin-bottom:2rem; padding:2rem 1.5rem; background:#fff;
+      border:4px solid #26304c; box-shadow:inset 0 0 0 2px #26304c; }
     .tool-section .corner { position:absolute; width:24px; height:24px; }
-    .tool-section .corner.tl { top:-4px; left:-4px; border-top:4px solid #26304c; border-left:4px solid #26304c; }
-    .tool-section .corner.tr { top:-4px; right:-4px; border-top:4px solid #26304c; border-right:4px solid #26304c; }
-    .tool-section .corner.bl { bottom:-4px; left:-4px; border-bottom:4px solid #26304c; border-left:4px solid #26304c; }
-    .tool-section .corner.br { bottom:-4px; right:-4px; border-bottom:4px solid #26304c; border-right:4px solid #26304c; }
+    .corner.tl{ top:-4px; left:-4px; border-top:4px solid #26304c; border-left:4px solid #26304c; }
+    .corner.tr{ top:-4px; right:-4px; border-top:4px solid #26304c; border-right:4px solid #26304c; }
+    .corner.bl{ bottom:-4px; left:-4px; border-bottom:4px solid #26304c; border-left:4px solid #26304c; }
+    .corner.br{ bottom:-4px; right:-4px; border-bottom:4px solid #26304c; border-right:4px solid #26304c; }
     h2 { font-size:1.25rem; color:#41516a; margin:1rem 0; text-align:center; }
-    .card { background:#f5ded5; border-radius:12px; padding:1rem; min-height:4rem; font-style:italic; color:#26304c; margin-bottom:1rem; }
+    .card { background:#f5ded5; border-radius:12px; padding:1rem; min-height:4rem;
+      font-style:italic; color:#26304c; margin-bottom:1rem; }
     .filters { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:1rem; }
     .filters label { display:block; font-weight:600; color:#41516a; margin-bottom:.25rem; font-size:.95rem; }
-    .filters select { padding:.4rem .6rem; border-radius:6px; border:1px solid #b0b3be; background:#f5f7fa; font-size:1rem; color:#26304c; }
+    .filters select { padding:.4rem .6rem; border-radius:6px; border:1px solid #b0b3be;
+      background:#f5f7fa; font-size:1rem; color:#26304c; }
     button {
-      background:#41516a; color:#fff; border:none;
-      padding:.75rem 1.5rem; border-radius:12px; font-size:1rem;
-      cursor:pointer; transition:background .2s;
+      background:#41516a; color:#fff; border:none; padding:.75rem 1.5rem;
+      border-radius:12px; font-size:1rem; cursor:pointer; transition:background .2s;
       display:block; width:100%; max-width:300px; margin:.5rem auto 0 auto;
     }
     button:active { background:#26304c; }
-    @media (max-width:480px) { .filters { flex-direction:column; align-items:center; } }
-    /* Debug panel */
+    @media (max-width:480px){ .filters{ flex-direction:column; align-items:center; } }
+    /* panneau debug */
     #debug-panel {
-      display:none;
-      position:fixed; bottom:0; left:0; right:0;
+      display:none; position:fixed; bottom:0; left:0; right:0;
       max-height:40%; overflow:auto;
-      background:rgba(0,0,0,0.8); color:#fff;
-      font-size:0.85rem; padding:0.5rem;
-      z-index:100;
+      background:rgba(0,0,0,0.85); color:#fff; font-size:0.8rem; padding:0.5rem; z-index:100;
     }
     #debug-panel pre { white-space:pre-wrap; }
   </style>
@@ -73,7 +65,7 @@
       <button id="generate-idea-btn">Nouvelle idée</button>
     </section>
 
-    <!-- Générateur de noms de personnages -->
+    <!-- Générateur de noms -->
     <section class="tool-section" id="bloc-noms">
       <span class="corner tl"></span><span class="corner tr"></span>
       <span class="corner bl"></span><span class="corner br"></span>
@@ -101,42 +93,55 @@
 
   </div>
 
-  <!-- Debug panel (affiche si ?debug=1) -->
+  <!-- panneau debug -->
   <div id="debug-panel">
     <strong>Debug CSV</strong>
     <pre id="debug-output"></pre>
   </div>
 
   <script>
+    // 1) calcule dynamiquement le chemin jusqu'à /data/
+    const origin  = window.location.origin;
+    const parts   = window.location.pathname.split('/');
+    const idx     = parts.indexOf('writr');
+    const baseDir = parts.slice(0, idx + 1).join('/');
+    const basePath= origin + baseDir + 'data/';
+
+    // 2) structure pour stocker les CSV
     const DB = { fr:{m:[],f:[],noms:[]}, en:{m:[],f:[],noms:[]}, insolite:{m:[],f:[],noms:[]} };
 
-    function loadCSV(path) {
-      return new Promise(resolve => {
+    // 3) utilitaire PapaParse
+    function loadCSV(path){
+      return new Promise(res=>{
         Papa.parse(path, {
-          download: true,
-          skipEmptyLines: true,
-          complete: result => resolve(result.data.flat())
+          download:true,
+          skipEmptyLines:true,
+          complete:r=>res(r.data.flat())
         });
       });
     }
 
-    async function chargerBases() {
-      DB.fr.m = DB.fr.f = await loadCSV('data/prenoms_fr.csv');
-      DB.en.m = DB.en.f = await loadCSV('data/prenoms_en.csv');
-      DB.insolite.m = DB.insolite.f = await loadCSV('data/prenoms_insolite.csv');
-      DB.fr.noms = await loadCSV('data/noms_fr.csv');
-      DB.en.noms = await loadCSV('data/noms_en.csv');
-      DB.insolite.noms = await loadCSV('data/noms_insolite.csv');
+    // 4) chargement et debug
+    async function chargerBases(){
+      DB.fr.m = DB.fr.f = await loadCSV(basePath+'prenoms_fr.csv');
+      DB.en.m = DB.en.f = await loadCSV(basePath+'prenoms_en.csv');
+      DB.insolite.m = DB.insolite.f = await loadCSV(basePath+'prenoms_insolite.csv');
+      DB.fr.noms = await loadCSV(basePath+'noms_fr.csv');
+      DB.en.noms = await loadCSV(basePath+'noms_en.csv');
+      DB.insolite.noms = await loadCSV(basePath+'noms_insolite.csv');
 
+      // activer bouton
       document.getElementById('generate-name-btn').disabled = false;
       document.getElementById('idea').innerText = 'Clique sur « Nouvelle idée » pour commencer.';
       document.getElementById('name').innerText = 'Choisis un style et génère un nom.';
 
-      if (location.search.includes('debug=1')) {
-        const panel = document.getElementById('debug-panel');
-        const out   = document.getElementById('debug-output');
-        panel.style.display = 'block';
-        out.textContent = JSON.stringify({
+      // panneau debug
+      if(location.search.includes('debug=1')){
+        const p = document.getElementById('debug-panel');
+        const o = document.getElementById('debug-output');
+        p.style.display = 'block';
+        o.textContent = JSON.stringify({
+          cheminData: basePath,
           fr_prenoms: DB.fr.m.length,
           fr_noms:    DB.fr.noms.length,
           en_prenoms: DB.en.m.length,
@@ -147,32 +152,34 @@
       }
     }
 
+    // 5) consignes idées
     const consignes = [
-      {categorie:"Introspection", abstraction:"concret",       consigne:"Votre narrateur relie un souvenir à sa situation présente."},
-      {categorie:"Structure",    abstraction:"intermédiaire", consigne:"Commencez la scène par une question sans réponse."},
-      {categorie:"Sensoriel",     abstraction:"concret",       consigne:"Décrivez l’odeur dominante et ce qu’elle évoque."},
-      {categorie:"Dialogue",      abstraction:"concret",       consigne:"Faites intervenir un dialogue qui tourne en rond."}
-      // … etc.
+      {categorie:"Introspection",abstraction:"concret",consigne:"Votre narrateur relie un souvenir à sa situation présente."},
+      {categorie:"Structure",    abstraction:"intermédiaire",consigne:"Commencez la scène par une question sans réponse."},
+      {categorie:"Sensoriel",     abstraction:"concret",consigne:"Décrivez l’odeur dominante et ce qu’elle évoque."}
+      // …etc.
     ];
-
-    function afficherConsigne() {
+    function afficherConsigne(){
       const c = consignes[Math.floor(Math.random()*consignes.length)];
-      document.getElementById('idea').innerHTML =
-        `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
+      document.getElementById('idea').innerHTML = `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
     }
     document.getElementById('generate-idea-btn').addEventListener('click', afficherConsigne);
 
-    function genererNom() {
+    // 6) génération des noms
+    function genererNom(){
+      alert('clic générerNom()'); // <= vérifie que la fonction se déclenche
       const genre = document.getElementById('genre').value;
       const nat   = document.getElementById('nationalite').value;
       const pTab  = DB[nat][genre==='masculin'?'m':'f'];
       const nTab  = DB[nat].noms;
+      alert(`prénoms dispo : ${pTab.length}, noms dispo : ${nTab.length}`);
       const p = pTab[Math.floor(Math.random()*pTab.length)];
       const n = nTab[Math.floor(Math.random()*nTab.length)];
       document.getElementById('name').innerHTML = `<strong>${p} ${n}</strong>`;
     }
     document.getElementById('generate-name-btn').addEventListener('click', genererNom);
 
+    // 7) lancer
     window.addEventListener('DOMContentLoaded', chargerBases);
   </script>
 </body>
