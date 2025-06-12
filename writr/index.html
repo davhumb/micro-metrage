@@ -25,9 +25,8 @@
         .logo-character {
             display: block;
             margin: 0 auto 1.1rem auto;
-            max-width: 82px;
-            width: 28vw;
-            height: auto;
+            width: 68px;
+            height: 68px;
         }
         h2 {
             text-align: center;
@@ -130,7 +129,16 @@
 </head>
 <body>
     <div class="center">
-        <img src="logo-character.png" alt="Logo personnage" class="logo-character">
+        <!-- Logo SVG "fiche personnage" -->
+        <svg class="logo-character" viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="32" fill="#fff3db"/>
+            <ellipse cx="32" cy="25" rx="10" ry="11" fill="#e3e9f0" stroke="#41516a" stroke-width="1.6"/>
+            <ellipse cx="32" cy="48" rx="17" ry="10" fill="#e3e9f0" stroke="#41516a" stroke-width="1.6"/>
+            <ellipse cx="32" cy="25" rx="9" ry="9.5" fill="#fff" stroke="#41516a" stroke-width="1.2"/>
+            <ellipse cx="32" cy="47.2" rx="15.4" ry="8.5" fill="#fff" stroke="#41516a" stroke-width="1.2"/>
+            <circle cx="32" cy="23" r="6" fill="#e3e9f0" stroke="#41516a" stroke-width="1.2"/>
+            <circle cx="32" cy="23" r="4.1" fill="#fff" stroke="#41516a" stroke-width="1"/>
+        </svg>
         <h2>Générateur de noms de personnages</h2>
 
         <div class="filters">
