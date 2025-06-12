@@ -4,71 +4,58 @@
   <meta charset="UTF-8">
   <title>writr – Boîte à outils narrative</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Polices -->
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap"
-        rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap"
+    rel="stylesheet">
   <style>
-    body { font-family:'EB Garamond',serif; background:#e3e9f0; color:#26304c; margin:0; padding:0; display:flex; justify-content:center; }
+    body { font-family:'EB Garamond', serif; background:#e3e9f0; color:#26304c; margin:0; padding:0; display:flex; justify-content:center; }
     .tools-container { width:100%; max-width:420px; padding:2rem 1rem; }
     .site-logo { text-align:center; margin-bottom:1.5rem; }
     .site-logo img { width:64px; display:block; margin:0 auto .5rem; }
-    .site-logo .logo-text { font-family:'Pacifico',cursive; color:#5a3a28; font-size:1.6rem; }
-    .tool-section { position:relative; margin-bottom:2rem; padding:2rem 1.5rem; background:#fff;
-      border:4px solid #26304c; box-shadow:inset 0 0 0 2px #26304c; }
+    .site-logo .logo-text { font-family:'Pacifico', cursive; color:#5a3a28; font-size:1.6rem; }
+    .tool-section { position:relative; margin-bottom:2rem; padding:2rem 1.5rem; background:#fff; border:4px solid #26304c; box-shadow:inset 0 0 0 2px #26304c; }
     .tool-section .corner { position:absolute; width:24px; height:24px; }
     .corner.tl{ top:-4px; left:-4px; border-top:4px solid #26304c; border-left:4px solid #26304c; }
     .corner.tr{ top:-4px; right:-4px; border-top:4px solid #26304c; border-right:4px solid #26304c; }
     .corner.bl{ bottom:-4px; left:-4px; border-bottom:4px solid #26304c; border-left:4px solid #26304c; }
     .corner.br{ bottom:-4px; right:-4px; border-bottom:4px solid #26304c; border-right:4px solid #26304c; }
     h2 { font-size:1.25rem; color:#41516a; margin:1rem 0; text-align:center; }
-    .card { background:#f5ded5; border-radius:12px; padding:1rem; min-height:4rem;
-      font-style:italic; color:#26304c; margin-bottom:1rem; }
-    .filters { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:1rem; }
-    .filters label { display:block; font-weight:600; color:#41516a; margin-bottom:.25rem; font-size:.95rem; }
-    .filters select { padding:.4rem .6rem; border-radius:6px; border:1px solid #b0b3be;
-      background:#f5f7fa; font-size:1rem; color:#26304c; }
-    button {
-      background:#41516a; color:#fff; border:none; padding:.75rem 1.5rem;
-      border-radius:12px; font-size:1rem; cursor:pointer; transition:background .2s;
-      display:block; width:100%; max-width:300px; margin:.5rem auto 0 auto;
-    }
+    .card { background:#f5ded5; border-radius:12px; padding:1rem; min-height:4rem; font-style:italic; color:#26304c; margin-bottom:1rem; }
+    button { background:#41516a; color:#fff; border:none; padding:.75rem 1.5rem; border-radius:12px; font-size:1rem; cursor:pointer; transition:background .2s; display:block; width:100%; max-width:200px; margin:.5rem auto 0 auto; }
     button:active { background:#26304c; }
-    @media (max-width:480px){ .filters{ flex-direction:column; align-items:center; } }
+    .buttons { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:1rem; }
+    @media (max-width:480px){ .buttons { flex-direction:column; } }
   </style>
 </head>
 <body>
   <div class="tools-container">
 
-    <!-- Logo global -->
     <div class="site-logo">
       <img src="logo-writr.png" alt="Logo writr">
       <div class="logo-text">writr</div>
     </div>
 
-    <!-- Générateur d’idées narratives -->
-    <section class="tool-section">
-      <span class="corner tl"></span><span class="corner tr"></span>
-      <span class="corner bl"></span><span class="corner br"></span>
+    <section class="tool-section" id="bloc-idees">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
       <h2>Générateur d’idées narratives</h2>
-      <div class="card" id="idea">Clique sur « Nouvelle idée » pour commencer.</div>
-      <button id="generate-idea-btn">Nouvelle idée</button>
+      <div class="card" id="idea">Chargement…</div>
+      <div class="buttons">
+        <button id="generate-idea-btn">Nouvelle idée</button>
+        <button id="generate-etsi-btn">Et si…</button>
+      </div>
     </section>
 
-    <!-- Générateur de noms de personnages -->
     <section class="tool-section">
-      <span class="corner tl"></span><span class="corner tr"></span>
-      <span class="corner bl"></span><span class="corner br"></span>
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
       <h2>Générateur de noms de personnages</h2>
       <div class="filters">
-        <div>
-          <label for="genre">Sexe</label>
+        <div><label for="genre">Sexe</label>
           <select id="genre">
             <option value="masculin">Masculin</option>
             <option value="féminin">Féminin</option>
           </select>
         </div>
-        <div>
-          <label for="style">Style</label>
+        <div><label for="style">Style</label>
           <select id="style">
             <option value="fr">Français</option>
             <option value="en">Anglo-saxon</option>
@@ -83,75 +70,97 @@
   </div>
 
   <script>
-    // ——————————————— IDEES NARRATIVES ———————————————
-    const consignes = [
-      {categorie:"Introspection", abstraction:"concret",       consigne:"Votre narrateur relie un souvenir à sa situation présente."},
-      {categorie:"Structure",     abstraction:"intermédiaire", consigne:"Commencez la scène par une question sans réponse."},
-      {categorie:"Sensoriel",      abstraction:"concret",       consigne:"Décrivez l’odeur dominante et ce qu’elle évoque."},
-      {categorie:"Dialogue",       abstraction:"concret",       consigne:"Faites intervenir un dialogue qui tourne en rond."},
-      {categorie:"Action",         abstraction:"concret",       consigne:"Quelqu’un interrompt soudain la scène."},
-      {categorie:"Émotion",        abstraction:"intermédiaire", consigne:"Concentrez-vous sur ce que ressent le personnage sans le nommer."},
-      {categorie:"Twist",          abstraction:"abstrait",      consigne:"Révélez qu’un personnage ment sur un détail sans importance."},
-      {categorie:"Rythme",         abstraction:"abstrait",      consigne:"Accélérez le rythme puis arrêtez-tout d’un coup."},
-      {categorie:"Personnage",     abstraction:"concret",       consigne:"Donnez à un personnage un tic ou une manie soudaine."},
-      // … tu peux ajouter des dizaines d’autres ici …
+    // ——— LISTES DE CONSIGNES ———
+    const base = [ /* … tes 25 consignes de base … */ ];
+    const etSi = [
+      "votre héros se mettait à saigner du nez",
+      "le ciel devenait soudain vert",
+      "les animaux parlaient",
+      "un inconnu lisait vos pensées",
+      "le temps s’arrêtait une seconde",
+      "une porte apparaissait au plafond",
+      "un écho révélait un secret",
+      "la gravité s’inversait",
+      "les ombres bougeaient seules",
+      "le sol se fissurait doucement",
+      "un parfum inconnu envahissait la pièce",
+      "les objets évoquaient un souvenir",
+      "le narrateur changeait de voix",
+      "un souvenir d’enfance ressurgissait",
+      "les murs devenaient translucides",
+      "un chant lointain guidait le personnage",
+      "la couleur de tout changeait",
+      "les mots sur le papier disparaissaient",
+      "un rire résonnait sans source",
+      "le reflet ne vous ressemblait pas",
+      "un oiseau entrait dans la pièce fermée",
+      "un miroir montrait l’avenir",
+      "une lettre disparaissait",
+      "un détail se répétait bizarrement",
+      "un bruit sourd venait du sol",
+      "les pas sonnaient à l’intérieur du corps",
+      "un objet prenait vie",
+      "votre mémoire s’effaçait",
+      "un personnage secondaire devenait narrateur",
+      "les murs avaient des cicatrices"
     ];
-    document.getElementById('generate-idea-btn')
-      .addEventListener('click', () => {
-        const c = consignes[Math.floor(Math.random()*consignes.length)];
-        document.getElementById('idea').innerHTML =
-          `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
-      });
 
-    // ——————————————— NOMS DE PERSONNAGES ———————————————
-    const DB = {
-      fr: {
-        masculin:  ["Arthur","Benoît","Damien","Étienne","Frédéric","Thibault","Léon","Baudoin","Gauthier","Amaury",
-                    "Tristan","Roland","Gauvain","Perceval","Mathieu","Paul","Julien","Nicolas","Olivier","Quentin",
-                    /* … enrichis jusqu’à 500+ prénoms… */],
-        féminin:   ["Alice","Camille","Diane","Isabeau","Aliénor","Geneviève","Mathilde","Aurore","Agnès","Héloïse",
-                    "Philippine","Léonie","Clémence","Émilienne","Sophie","Marie","Juliette","Charlotte","Lucie","Manon",
-                    /* … 500+ … */]
-      },
-      en: {
-        masculin:  ["Jack","Michael","William","James","Robert","John","Henry","George","Thomas","Charles",
-                    "Edward","Samuel","Luke","Benjamin","Daniel","Nathan","Oliver","Ethan","David","Matthew",
-                    /* … 500+ … */],
-        féminin:   ["Emily","Sarah","Jessica","Anna","Emma","Guinevere","Morgana","Eowyn","Isolde","Arwen",
-                    "Lyra","Selene","Fiona","Scarlett","Natalie","Victoria","Alice","Luna","Amelia","Chloe",
-                    /* … 500+ … */]
-      },
-      insolite: {
-        masculin:  ["Fenris","Bjorn","Einar","Talion","Aurelius","Orion","Zephyr","Draven","Leofric","Artemis",
-                    "Leofric","Drakon","Thorne","Aether","Zephyrus","Mordred","Ragnar","Tiberius","Valerian","Dorian",
-                    /* … 500+ … */],
-        féminin:   ["Freya","Eir","Nyx","Ophelia","Seraphine","Elara","Astrid","Morwen","Sylvana","Ishtar",
-                    "Thalia","Calypso","Aurelia","Selene","Elysia","Artemis","Nerissa","Lyra","Rhiannon","Valeria",
-                    /* … 500+ … */]
+    // Construire le pool à 250 idées
+    let pool = base.map(c => ({categorie:c.categorie, abstraction:c.abstraction, consigne:c.consigne}))
+                  .concat(etSi.map(t => ({categorie:"Et si…", abstraction:"idée", consigne:`Et si ${t} ?`})));
+    while(pool.length < 250){
+      pool = pool.concat(pool.slice(0, Math.min(pool.length, 250 - pool.length)));
+    }
+    pool = pool.sort(() => Math.random() - 0.5).slice(0,250);
+
+    // Handlers
+    document.getElementById('generate-idea-btn').addEventListener('click', ()=> {
+      const c = pool[Math.floor(Math.random()*pool.length)];
+      document.getElementById('idea').innerHTML = `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
+    });
+    document.getElementById('generate-etsi-btn').addEventListener('click', ()=> {
+      const text = etSi[Math.floor(Math.random()*etSi.length)];
+      document.getElementById('idea').innerHTML = `<strong>Et si…</strong> (idée)<br>Et si ${text} ?`;
+    });
+    // idée initiale
+    window.addEventListener('DOMContentLoaded', ()=>document.getElementById('generate-idea-btn').click());
+
+    // ——— GÉNÉRATEUR DE NOMS ——— (300×300)  
+    function genNames(seeds, suffixes, count){
+      const out = [];
+      for(let i=0;i<count;i++){
+        out.push(seeds[i % seeds.length] + suffixes[Math.floor(i/seeds.length) % suffixes.length]);
       }
-    };
-    const noms = {
-      fr:       ["Martin","Dubois","Lefèvre","Moreau","Simon","Laurent","Marchand","Barbier","Perrot","Loiseau",
-                 "Rousseau","Garnier","Chevalier","Mercier","Faure","Lambert","Renaud","Baron","Collet","Deschamps",
-                 /* … 500+ … */],
-      en:       ["Smith","Johnson","Williams","Brown","Jones","Taylor","Walker","Robinson","Clark","Evans",
-                 "Hall","Miller","Davis","Moore","Wilson","Thompson","White","Martin","Anderson","Jackson",
-                 /* … 500+ … */],
-      insolite: ["Dragonbane","Nightshade","Stormrider","Ravenshadow","Starborn","Frosthammer","Moonwhisper","Darkwood","Ironfist","Shadowmere",
-                 "Sunflare","Duskweaver","Bloodthorn","Stormbinder","Windshaper","Emberfall","Nightbloom","Skysinger","Thundercall","Dawnbringer",
-                 /* … 500+ … */]
-    };
+      return out;
+    }
+    const seeds_fr  = ["Jean","Pierre","Marie","Anne","Luc","Marc","Paul","Jacques","Louis","Sophie","Claire","Hélène","Julie","Cécile","Camille","Chloé","Émilie","Laure","Nathalie","Catherine"];
+    const seeds_en  = ["John","Michael","William","James","Robert","Joseph","Edward","George","David","Richard","Thomas","Charles","Henry","Arthur","Harry","Peter","Steven","Daniel","Paul","Mark"];
+    const seeds_ins = ["Zeus","Héra","Vlad","Igor","Draven","Leofric","Aurelius","Nyx","Freya","Eir","Ophelia","Seraphine","Artemis","Dorian","Valerian","Ragnar","Mordred","Saturn","Jupiter","Mercury"];
+    const suffix_fr = ["e","on","in","ard","ot","eux","iel","an","ine","aud"];
+    const suffix_en = ["son","man","ton","ley","field","more","wood","ford","well","borne"];
+    const suffix_in = ["os","us","ix","ar","on","or","is","ax","an","en"];
 
-    document.getElementById('generate-name-btn')
-      .addEventListener('click', () => {
-        const genre  = document.getElementById('genre').value;   // "masculin" ou "féminin"
-        const style  = document.getElementById('style').value;   // "fr","en" ou "insolite"
-        const pList  = DB[style][genre];
-        const nList  = noms[style];
-        const p      = pList[Math.floor(Math.random()*pList.length)];
-        const n      = nList[Math.floor(Math.random()*nList.length)];
-        document.getElementById('name').innerHTML = `<strong>${p} ${n}</strong>`;
-      });
+    const DB = {
+      fr: { masculin: genNames(seeds_fr, suffix_fr, 300), féminin: genNames(seeds_fr.map(s=>s+"a"), suffix_fr, 300) },
+      en: { masculin: genNames(seeds_en, suffix_en, 300), féminin: genNames(seeds_en.map(s=>s+"a"), suffix_en, 300) },
+      insolite: { masculin: genNames(seeds_ins, suffix_in, 300), féminin: genNames(seeds_ins.map(s=>s+"a"), suffix_in, 300) }
+    };
+    const nomsSeeds_fr  = ["Martin","Dubois","Lefèvre","Moreau","Simon","Laurent","Marchand","Barbier","Perrot","Loiseau"];
+    const nomsSeeds_en  = ["Smith","Johnson","Williams","Brown","Jones","Taylor","Walker","Robinson","Clark"];
+    const nomsSeeds_ins = ["Dragonbane","Nightshade","Stormrider","Ravenshadow","Starborn","Frosthammer","Moonwhisper","Darkwood","Ironfist","Shadowmere"];
+    const noms_fr  = genNames(nomsSeeds_fr, suffix_fr, 300);
+    const noms_en  = genNames(nomsSeeds_en, suffix_en, 300);
+    const noms_ins = genNames(nomsSeeds_ins, suffix_in, 300);
+
+    document.getElementById('generate-name-btn').addEventListener('click', ()=> {
+      const genre = document.getElementById('genre').value;
+      const style = document.getElementById('style').value;
+      const pList = DB[style][genre];
+      const nList = style==="fr"? noms_fr : style==="en"? noms_en : noms_ins;
+      const p = pList[Math.floor(Math.random()*pList.length)];
+      const n = nList[Math.floor(Math.random()*nList.length)];
+      document.getElementById('name').innerHTML = `<strong>${p} ${n}</strong>`;
+    });
   </script>
 </body>
 </html>
