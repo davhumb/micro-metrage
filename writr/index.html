@@ -3,18 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>writr – Générateur d’idées narratives</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f6ef; color: #2d2d2d; text-align: center; margin: 0; padding: 0; }
-        h1 { margin-top: 2rem; font-size: 2.5rem; letter-spacing: 2px; }
-        h2 { font-weight: 400; color: #ae7d25; }
+        h1 { margin-top: 1rem; font-size: 2.5rem; letter-spacing: 2px; }
+        h2 { font-weight: 400; color: #ae7d25; margin-bottom: 2rem; }
         .blocbuster-box { background: #fffbe8; margin: 2rem auto; max-width: 500px; border-radius: 14px; box-shadow: 0 4px 20px #0001; padding: 2rem; font-size: 1.3rem; min-height: 90px; display: flex; flex-direction: column; justify-content: center; }
         button { background: #ae7d25; color: #fff; border: none; padding: 1rem 2rem; font-size: 1.2rem; border-radius: 10px; box-shadow: 0 2px 10px #0001; cursor: pointer; margin-bottom: 2rem; transition: background 0.2s; }
         button:hover { background: #cda450; }
         footer { font-size: 0.9rem; color: #555; margin: 2rem 0 1rem 0; }
         footer a { color: #ae7d25; text-decoration: none; }
+        .logo-writr {
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 120px;
+            width: 40vw;
+            height: auto;
+        }
+        @media (max-width: 600px) {
+            .blocbuster-box { font-size: 1rem; padding: 1.2rem; }
+            h1 { font-size: 2rem; }
+        }
     </style>
 </head>
 <body>
+    <img src="logo-writr.png" alt="Logo writr" class="logo-writr">
     <h1>writr</h1>
     <h2>Générateur d’idées narratives</h2>
     <div id="idea" class="blocbuster-box">
@@ -27,7 +43,7 @@
     </footer>
 
     <script>
-        // Toutes les consignes ici (au moins 10 pour le test)
+        // Tu peux enrichir ce tableau à volonté
         const consignes = [
             {categorie: "introspection", abstraction: "concret", consigne: "Votre narrateur relie un souvenir à sa situation présente."},
             {categorie: "structure", abstraction: "intermédiaire", consigne: "Commencez la scène par une question sans réponse."},
@@ -38,7 +54,18 @@
             {categorie: "émotion", abstraction: "intermédiaire", consigne: "Mettez l’accent sur ce que ressent le personnage… mais sans jamais nommer l’émotion."},
             {categorie: "structure", abstraction: "abstrait", consigne: "Inversez la cause et la conséquence."},
             {categorie: "sensoriel", abstraction: "concret", consigne: "Décrivez la température de la scène : chaud, froid, moite, et son effet sur les corps."},
-            {categorie: "rythme", abstraction: "abstrait", consigne: "Accélérez le rythme, puis cassez-le d’un coup."}
+            {categorie: "rythme", abstraction: "abstrait", consigne: "Accélérez le rythme, puis cassez-le d’un coup."},
+            {categorie: "action", abstraction: "concret", consigne: "Un personnage fait tomber ou casse un objet important."},
+            {categorie: "introspection", abstraction: "abstrait", consigne: "Laissez un blanc, un silence, une absence de mots."},
+            {categorie: "structure", abstraction: "intermédiaire", consigne: "Racontez la scène à la deuxième personne du singulier (« tu »)."},
+            {categorie: "sensoriel", abstraction: "concret", consigne: "Un son ou une musique parasite l’attention des personnages."},
+            {categorie: "structure", abstraction: "abstrait", consigne: "Écrivez la scène comme si c’était la dernière de l’histoire."},
+            {categorie: "twist", abstraction: "intermédiaire", consigne: "Révélez qu’un personnage ment, mais sur un détail sans importance apparente."},
+            {categorie: "dialogue", abstraction: "concret", consigne: "Faites prononcer une phrase absurde à un personnage."},
+            {categorie: "ambiance", abstraction: "abstrait", consigne: "Traitez la scène comme un rêve ou une hallucination."},
+            {categorie: "personnage", abstraction: "intermédiaire", consigne: "Faites changer un personnage d’avis au milieu de la scène, sans raison claire."},
+            {categorie: "action", abstraction: "concret", consigne: "Faites commencer la scène par un accident minuscule."},
+            // Ajoute tes consignes ici !
         ];
 
         function afficherConsigne() {
@@ -52,8 +79,6 @@
         }
 
         document.getElementById('generate-btn').addEventListener('click', afficherConsigne);
-
-        // Affiche une consigne dès l'ouverture de la page
         afficherConsigne();
     </script>
 </body>
