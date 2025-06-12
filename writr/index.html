@@ -22,7 +22,7 @@
             max-width: 600px;
             width: 96vw;
             margin: 2.5rem auto 2rem auto;
-            min-height: 750px;
+            min-height: 730px;
         }
         .frame-svg {
             position: absolute;
@@ -34,10 +34,9 @@
         .content-in-frame {
             position: relative;
             z-index: 1;
-            /* Marge intérieure importante pour ne jamais toucher les liserés */
-            padding: 2.5rem 3.4rem 2.5rem 3.4rem;
+            padding: 2.5rem 3.7rem 2.5rem 3.7rem;  /* padding latéral bien large ! */
             box-sizing: border-box;
-            min-height: 650px;
+            min-height: 640px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -64,10 +63,10 @@
             border-radius: 14px;
             box-shadow: 0 2px 12px #9a788855;
             margin: 1.2rem 0 1.2rem 0;
-            width: 95%;
-            max-width: 410px;
-            padding: 1.5rem 1.2rem 1.2rem 1.2rem;
-            font-size: 1.17rem;
+            width: 100%;
+            max-width: 360px;    /* Largeur max strictement contrôlée */
+            padding: 1.3rem 1.1rem 1.1rem 1.1rem;
+            font-size: 1.12rem;
             min-height: 90px;
             box-sizing: border-box;
             transition: box-shadow 0.3s;
@@ -96,8 +95,8 @@
         }
         .consigne-text {
             color: #26304c;
-            font-size: 1.15em;
-            line-height: 1.6;
+            font-size: 1.13em;
+            line-height: 1.5;
             margin: 0.3em 0 0.2em 0;
             font-family: 'EB Garamond', serif;
             font-weight: 400;
@@ -115,8 +114,8 @@
             font-weight: 600;
             margin: 1.2rem 0 0 0;
             display: block;
-            width: 95%;
-            max-width: 410px;
+            width: 100%;
+            max-width: 360px;  /* Bouton JAMAIS plus large que la carte ! */
             box-sizing: border-box;
             transition: background 0.18s, transform 0.10s;
         }
@@ -134,8 +133,8 @@
         }
         @media (max-width: 700px) {
             .frame-container { max-width: 99vw; width: 99vw; min-height: 420px;}
-            .content-in-frame { padding: 1.1rem 0.4rem 1rem 0.4rem; min-height: 330px;}
-            .blocbuster-box, button { width: 99%; max-width: 99vw; }
+            .content-in-frame { padding: 1.1rem 0.8rem 1rem 0.8rem; min-height: 330px;}
+            .blocbuster-box, button { width: 100%; max-width: 99vw; }
             h2 { font-size: 1.03rem; margin-bottom: 1.2em;}
         }
     </style>
