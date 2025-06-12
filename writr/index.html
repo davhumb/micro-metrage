@@ -2,13 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>writr – Générateur d’idées narratives</title>
+    <title>Générateur de noms de personnages – writr tools</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700,400&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'EB Garamond', Garamond, serif;
-            background: #eab5a6;
+            background: #e3e9f0;
             color: #26304c;
             margin: 0;
             padding: 0;
@@ -22,69 +22,79 @@
             min-height: 100vh;
             padding-top: 3rem;
         }
-        .logo-writr {
+        .logo-character {
             display: block;
             margin: 0 auto 1.1rem auto;
-            max-width: 85px;
+            max-width: 82px;
             width: 28vw;
             height: auto;
         }
         h2 {
             text-align: center;
             font-size: 1.13rem;
-            color: #7e5d7c;
+            color: #41516a;
             margin: 0.2em 0 2em 0;
             font-weight: 400;
             font-family: 'EB Garamond', serif;
         }
-        .idea-box {
-            background: #f5ded5;
+        .filters {
+            display: flex;
+            gap: 1.5em;
+            margin-bottom: 2em;
+            flex-wrap: wrap;
+        }
+        .filter-block {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        label {
+            font-size: 1.03em;
+            font-weight: 600;
+            color: #41516a;
+            margin-bottom: 0.3em;
+            font-family: 'EB Garamond', serif;
+        }
+        select {
+            font-size: 1.08em;
+            padding: 0.37em 1.3em 0.37em 0.6em;
+            border-radius: 8px;
+            border: 1.3px solid #b0b3be;
+            background: #f5f7fa;
+            color: #26304c;
+            font-family: inherit;
+            min-width: 118px;
+        }
+        .name-box {
+            background: #fff;
             border-radius: 18px;
-            box-shadow: 0 2px 12px #9a78882a;
-            padding: 1.3rem 1.5rem 1.1rem 1.5rem;
-            min-width: 250px;
-            max-width: 370px;
+            box-shadow: 0 2px 12px #9a788825;
+            padding: 1.3rem 1.2rem 1.1rem 1.2rem;
+            min-width: 200px;
+            max-width: 340px;
             width: 90vw;
-            margin: 0 auto 1.6rem auto;
-            text-align: left;
-            font-size: 1.13rem;
+            margin: 0 auto 1.4rem auto;
+            text-align: center;
+            font-size: 1.19rem;
             animation: fadeIn 0.8s;
         }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px);}
             to { opacity: 1; transform: translateY(0);}
         }
-        .category-label {
-            display: block;
-            font-size: 1.03em;
+        .generated-name {
+            font-size: 1.35em;
             font-weight: 700;
-            color: #7e5d7c;
-            margin-bottom: 0.25em;
-            letter-spacing: 1.1px;
-            text-transform: uppercase;
-            font-family: 'EB Garamond', serif;
-        }
-        .abstraction {
-            font-size: 1em;
-            color: #7b5c49;
-            font-style: italic;
-            margin-bottom: 0.95em;
-        }
-        .consigne-text {
             color: #26304c;
-            font-size: 1.15em;
-            line-height: 1.6;
-            margin: 0.3em 0 0.2em 0;
-            font-family: 'EB Garamond', serif;
-            font-weight: 400;
+            letter-spacing: 1.2px;
         }
         .btn-box {
             width: 100%;
-            max-width: 370px;
+            max-width: 340px;
             margin: 0 auto;
         }
         button {
-            background: #7e5d7c;
+            background: #41516a;
             color: #fff;
             border: none;
             padding: 0.92rem 2rem;
@@ -108,124 +118,92 @@
         footer {
             text-align: center;
             font-size: 1rem;
-            color: #7e5d7c;
+            color: #41516a;
             margin: 2.5rem 0 1.3rem 0;
             font-family: 'EB Garamond', serif;
         }
-        @media (max-width: 460px) {
-            .idea-box, .btn-box { max-width: 99vw; }
+        @media (max-width: 480px) {
+            .filters { flex-direction: column; align-items: center; gap: 1em;}
+            .name-box, .btn-box { max-width: 99vw; }
         }
     </style>
 </head>
 <body>
     <div class="center">
-        <img src="logo-writr.png" alt="Logo writr" class="logo-writr">
-        <h2>Générateur d’idées narratives</h2>
+        <img src="logo-character.png" alt="Logo personnage" class="logo-character">
+        <h2>Générateur de noms de personnages</h2>
 
-        <!-- Module carte d'idée -->
-        <div id="idea" class="idea-box">
-            Clique sur le bouton pour générer une idée.
+        <div class="filters">
+            <div class="filter-block">
+                <label for="genre">Sexe</label>
+                <select id="genre">
+                    <option value="masculin">Masculin</option>
+                    <option value="féminin">Féminin</option>
+                </select>
+            </div>
+            <div class="filter-block">
+                <label for="nationalite">Nationalité</label>
+                <select id="nationalite">
+                    <option value="fr">Français</option>
+                    <option value="en">Anglo-saxon</option>
+                </select>
+            </div>
         </div>
 
-        <!-- Bouton -->
+        <div id="name" class="name-box">
+            Clique sur le bouton pour générer un nom.
+        </div>
+
         <div class="btn-box">
-            <button id="generate-btn">Générer une idée</button>
+            <button id="generate-btn">Générer un nom</button>
         </div>
     </div>
     <footer>
         © 2025 writr — Fabriqué avec ❤️
     </footer>
     <script>
-        const consignes = [
-            {categorie: "Introspection", abstraction: "concret", consigne: "Votre narrateur relie un souvenir à sa situation présente."},
-            {categorie: "Structure", abstraction: "intermédiaire", consigne: "Commencez la scène par une question sans réponse."},
-            {categorie: "Sensoriel", abstraction: "concret", consigne: "Décrivez l’odeur dominante dans la pièce et ce qu’elle évoque chez le personnage."},
-            {categorie: "Dialogue", abstraction: "concret", consigne: "Faites intervenir un dialogue qui tourne en rond, sans avancer."},
-            {categorie: "Action", abstraction: "concret", consigne: "Quelqu’un fait irruption et interrompt la scène."},
-            {categorie: "Personnage", abstraction: "concret", consigne: "Donnez à un personnage un tic ou une manie soudaine."},
-            {categorie: "Émotion", abstraction: "intermédiaire", consigne: "Mettez l’accent sur ce que ressent le personnage… mais sans jamais nommer l’émotion."},
-            {categorie: "Structure", abstraction: "abstrait", consigne: "Inversez la cause et la conséquence."},
-            {categorie: "Sensoriel", abstraction: "concret", consigne: "Décrivez la température de la scène : chaud, froid, moite, et son effet sur les corps."},
-            {categorie: "Rythme", abstraction: "abstrait", consigne: "Accélérez le rythme, puis cassez-le d’un coup."},
-            {categorie: "Action", abstraction: "concret", consigne: "Un personnage fait tomber ou casse un objet important."},
-            {categorie: "Introspection", abstraction: "abstrait", consigne: "Laissez un blanc, un silence, une absence de mots."},
-            {categorie: "Structure", abstraction: "intermédiaire", consigne: "Racontez la scène à la deuxième personne du singulier (« tu »)."},
-            {categorie: "Sensoriel", abstraction: "concret", consigne: "Un son ou une musique parasite l’attention des personnages."},
-            {categorie: "Structure", abstraction: "abstrait", consigne: "Écrivez la scène comme si c’était la dernière de l’histoire."},
-            {categorie: "Twist", abstraction: "intermédiaire", consigne: "Révélez qu’un personnage ment, mais sur un détail sans importance apparente."},
-            {categorie: "Dialogue", abstraction: "concret", consigne: "Faites prononcer une phrase absurde à un personnage."},
-            {categorie: "Ambiance", abstraction: "abstrait", consigne: "Traitez la scène comme un rêve ou une hallucination."},
-            {categorie: "Personnage", abstraction: "intermédiaire", consigne: "Faites changer un personnage d’avis au milieu de la scène, sans raison claire."},
-            {categorie: "Action", abstraction: "concret", consigne: "Faites commencer la scène par un accident minuscule."},
+        // Base de prénoms et noms par sexe et nationalité
+        const prenoms = {
+            fr: {
+                masculin: [
+                    "Arthur", "Benoît", "Damien", "Edgar", "Gaspard", "Hugo", "Jules", "Lucien", "Marcel", "Nicolas", "Olivier", "Quentin", "Romain", "Théo", "Victor", "Antoine", "Charles", "Clément", "Mathieu", "Paul"
+                ],
+                féminin: [
+                    "Alice", "Camille", "Diane", "Élise", "Florence", "Gabrielle", "Hélène", "Inès", "Jeanne", "Lucie", "Manon", "Nina", "Océane", "Pauline", "Romane", "Sophie", "Valentine", "Zoé", "Louise", "Claire"
+                ]
+            },
+            en: {
+                masculin: [
+                    "Jack", "Michael", "William", "James", "Robert", "John", "Henry", "George", "Thomas", "Charles", "Edward", "Samuel", "Luke", "Benjamin", "Daniel", "Nathan", "Oliver", "Ethan", "David", "Matthew"
+                ],
+                féminin: [
+                    "Emily", "Sarah", "Jessica", "Anna", "Emma", "Olivia", "Sophia", "Grace", "Charlotte", "Megan", "Lauren", "Hannah", "Rachel", "Lucy", "Chloe", "Lily", "Alice", "Amelia", "Mia", "Victoria"
+                ]
+            }
+        };
 
-            // 50+ nouvelles consignes enrichies
-            {categorie: "Ambiance", abstraction: "abstrait", consigne: "Ajoutez un détail incongru qui trouble l’atmosphère sans explication."},
-            {categorie: "Structure", abstraction: "intermédiaire", consigne: "Débutez la scène en plein milieu d’une action, sans introduction."},
-            {categorie: "Introspection", abstraction: "concret", consigne: "Le personnage doute d’un souvenir précis : introduisez ce flou dans la narration."},
-            {categorie: "Action", abstraction: "concret", consigne: "Quelqu’un laisse tomber un objet apparemment anodin qui prend une importance inattendue."},
-            {categorie: "Dialogue", abstraction: "intermédiaire", consigne: "Le dialogue se fait en chuchotements ou à voix basse, modifiant la tension."},
-            {categorie: "Personnage", abstraction: "abstrait", consigne: "Un personnage réagit de façon inattendue à une situation banale."},
-            {categorie: "Rythme", abstraction: "abstrait", consigne: "Alternez phrases très courtes et phrases très longues dans ce passage."},
-            {categorie: "Sensoriel", abstraction: "concret", consigne: "Faites sentir la texture d’un objet, d’un vêtement, ou d’un sol sous les doigts ou les pieds."},
-            {categorie: "Émotion", abstraction: "abstrait", consigne: "Faites grandir une émotion chez le personnage sans jamais la nommer, uniquement par les gestes et sensations."},
-            {categorie: "Structure", abstraction: "intermédiaire", consigne: "Écrivez la scène sous forme de liste ou d’énumération."},
-            {categorie: "Twist", abstraction: "abstrait", consigne: "À la fin de la scène, révélez que le narrateur n’était pas le personnage qu’on croyait."},
-            {categorie: "Ambiance", abstraction: "concret", consigne: "La météo ou la lumière influence directement l’état d’esprit des personnages."},
-            {categorie: "Action", abstraction: "concret", consigne: "Un personnage interrompt l’autre en faisant un geste brusque ou inattendu."},
-            {categorie: "Structure", abstraction: "abstrait", consigne: "Faites avancer la scène en supprimant toute ponctuation forte (pas de points, que des virgules ou tirets)."},
-            {categorie: "Dialogue", abstraction: "concret", consigne: "Insérez un dialogue téléphonique ou par messages, entrecoupé de silences ou d’attente."},
-            {categorie: "Personnage", abstraction: "concret", consigne: "Un personnage parle de lui à la troisième personne, comme s’il s’observait de l’extérieur."},
-            {categorie: "Rythme", abstraction: "intermédiaire", consigne: "Ralentissez le temps : détaillez une action anodine seconde par seconde."},
-            {categorie: "Sensoriel", abstraction: "abstrait", consigne: "Faites sentir une odeur forte ou un parfum marquant et liez-le à un souvenir ou une émotion."},
-            {categorie: "Émotion", abstraction: "concret", consigne: "Décrivez l’effet physique de la peur, de la honte ou du désir sur le corps d’un personnage."},
-            {categorie: "Structure", abstraction: "intermédiaire", consigne: "Incluez un flashback, mais glissé de façon trouble : est-ce un vrai souvenir ou une invention ?"},
-            {categorie: "Introspection", abstraction: "abstrait", consigne: "Le personnage se demande s’il rêve ou s’il vit réellement cette scène."},
-            {categorie: "Twist", abstraction: "concret", consigne: "Un personnage révèle une vérité qui n’en est pas une (mensonge ou manipulation)."},
-            {categorie: "Dialogue", abstraction: "abstrait", consigne: "Faites dialoguer deux personnages qui ne parlent pas la même langue, jouez sur l’incompréhension."},
-            {categorie: "Ambiance", abstraction: "concret", consigne: "Utilisez un bruit de fond constant (ventilateur, route, pluie…) pour influencer l’ambiance."},
-            {categorie: "Action", abstraction: "abstrait", consigne: "La scène est montrée à travers une fenêtre ou une porte entrouverte, tout est filtré ou tronqué."},
-            {categorie: "Structure", abstraction: "intermédiaire", consigne: "La scène s’arrête brutalement sur une phrase coupée, sans point final."},
-            {categorie: "Sensoriel", abstraction: "concret", consigne: "Décrivez un goût inhabituel (amer, métallique, sucré…) et sa provenance dans la scène."},
-            {categorie: "Émotion", abstraction: "intermédiaire", consigne: "Rendez l’émotion contagieuse : un personnage transmet son humeur à l’autre, sans mots."},
-            {categorie: "Personnage", abstraction: "abstrait", consigne: "Un personnage se répète, comme s’il essayait de se convaincre lui-même."},
-            {categorie: "Rythme", abstraction: "abstrait", consigne: "Faites un passage elliptique : plusieurs heures ou jours passent en quelques lignes."},
-            {categorie: "Ambiance", abstraction: "concret", consigne: "Les ombres, les reflets ou la lumière jouent un rôle central dans cette scène."},
-            {categorie: "Twist", abstraction: "abstrait", consigne: "Le lecteur découvre à la toute fin que la scène était observée ou filmée."},
-            {categorie: "Structure", abstraction: "concret", consigne: "Écrivez ce passage en phrases nominales, sans verbe conjugué."},
-            {categorie: "Dialogue", abstraction: "intermédiaire", consigne: "L’un des personnages ne répond jamais, le dialogue devient un monologue."},
-            {categorie: "Action", abstraction: "concret", consigne: "Un personnage fait exprès de casser le rythme (par un geste absurde ou déplacé)."},
-            {categorie: "Introspection", abstraction: "concret", consigne: "Le personnage se parle à lui-même, dans sa tête ou à voix haute."},
-            {categorie: "Sensoriel", abstraction: "intermédiaire", consigne: "Mettez l’accent sur la sensation de vide, de froid ou de chaleur extrême."},
-            {categorie: "Émotion", abstraction: "abstrait", consigne: "Exprimez l’euphorie, la colère ou la tristesse uniquement à travers la description d’un décor."},
-            {categorie: "Ambiance", abstraction: "concret", consigne: "Un élément du décor bouge ou change sans explication (objet déplacé, lumière qui vacille…)."},
-            {categorie: "Rythme", abstraction: "intermédiaire", consigne: "Accélérez soudain le rythme : succession de très courtes phrases d’action."},
-            {categorie: "Structure", abstraction: "concret", consigne: "La scène se déroule en boucle, comme si le temps se répétait."},
-            {categorie: "Dialogue", abstraction: "abstrait", consigne: "Insérez une phrase célèbre ou un proverbe, mais sorti de son contexte."},
-            {categorie: "Personnage", abstraction: "concret", consigne: "Un personnage imite, parodie ou singe le comportement d’un autre."},
-            {categorie: "Action", abstraction: "intermédiaire", consigne: "Un animal ou un élément extérieur perturbe la scène."},
-            {categorie: "Twist", abstraction: "abstrait", consigne: "À la dernière ligne, on comprend que la scène s’est passée dans le passé ou le futur."},
-            {categorie: "Introspection", abstraction: "concret", consigne: "Le personnage fait une pause, s’arrête, observe ce qui l’entoure longuement."},
-            {categorie: "Ambiance", abstraction: "intermédiaire", consigne: "La scène doit faire naître un malaise subtil, sans menace évidente."},
-            {categorie: "Rythme", abstraction: "abstrait", consigne: "Répétez un même mot ou une même image à plusieurs reprises, comme un motif obsessionnel."},
-            {categorie: "Structure", abstraction: "concret", consigne: "Mettez la scène sens dessus dessous : commencez par la fin, puis revenez en arrière."},
-            {categorie: "Sensoriel", abstraction: "abstrait", consigne: "Le silence devient assourdissant, faites-le ressentir physiquement."},
-            {categorie: "Action", abstraction: "concret", consigne: "Quelqu’un sort de la pièce ou quitte le champ, et cela change la dynamique."}
-        ];
-        function afficherConsigne() {
-            if (consignes.length === 0) return;
-            const index = Math.floor(Math.random() * consignes.length);
-            const c = consignes[index];
-            document.getElementById('idea').innerHTML = `
-                <span class="category-label">${c.categorie}</span>
-                <div class="abstraction">${c.abstraction}</div>
-                <div class="consigne-text">${c.consigne}</div>
-            `;
-            document.getElementById('idea').style.animation = "none";
-            void document.getElementById('idea').offsetWidth;
-            document.getElementById('idea').style.animation = "fadeIn 0.8s";
+        const noms = {
+            fr: [
+                "Martin", "Dubois", "Lefèvre", "Moreau", "Simon", "Laurent", "Lemoine", "Girard", "Mercier", "Faure", "Rousseau", "Garnier", "Chevalier", "Lambert", "Renaud", "Marchand", "Barbier", "Perrot", "Collet", "Loiseau"
+            ],
+            en: [
+                "Smith", "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis", "Wilson", "Taylor", "Clark", "Hall", "Walker", "Lewis", "Robinson", "Scott", "Young", "King", "Moore", "Evans", "Carter"
+            ]
+        };
+
+        function genererNom() {
+            const genre = document.getElementById('genre').value;
+            const nationalite = document.getElementById('nationalite').value;
+            const prenomTab = prenoms[nationalite][genre];
+            const nomTab = noms[nationalite];
+            const prenom = prenomTab[Math.floor(Math.random() * prenomTab.length)];
+            const nom = nomTab[Math.floor(Math.random() * nomTab.length)];
+            document.getElementById('name').innerHTML = `<span class="generated-name">${prenom} ${nom}</span>`;
+            document.getElementById('name').style.animation = "none";
+            void document.getElementById('name').offsetWidth;
+            document.getElementById('name').style.animation = "fadeIn 0.8s";
         }
-        document.getElementById('generate-btn').addEventListener('click', afficherConsigne);
-        afficherConsigne();
+        document.getElementById('generate-btn').addEventListener('click', genererNom);
     </script>
 </body>
 </html>
