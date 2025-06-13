@@ -1,104 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>writr – Générateur de noms</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <title>Générateur de noms</title>
   <style>
-    body { font-family:'EB Garamond', serif; background:#e3e9f0; color:#26304c; margin:0; padding:0; display:flex; justify-content:center; }
-    .tools-container { width:100%; max-width:420px; padding:2rem 1rem; }
-    .tool-section { position:relative; padding:2rem 1.5rem; background:#fff; border:4px solid #26304c; box-shadow:inset 0 0 0 2px #26304c; }
-    h2 { text-align:center; margin-bottom:1rem; font-size:1.25rem; color:#41516a; }
-    .tabs { display:flex; border:2px solid #41516a; border-radius:8px; overflow:hidden; margin-bottom:1rem; }
-    .tab { flex:1; padding:.75rem; text-align:center; cursor:pointer; background:#fff; color:#41516a; transition:background .2s; }
-    .tab.active { background:#41516a; color:#fff; }
-    .card { background:#f5ded5; border-radius:12px; padding:1.5rem; min-height:4rem; font-style:italic; color:#26304c; text-align:center; margin-bottom:1rem; }
-    button { background:#41516a; color:#fff; border:none; padding:.75rem 1.5rem; border-radius:12px; font-size:1rem; cursor:pointer; display:block; margin:0 auto; }
+    /* Vos styles ici */
   </style>
 </head>
 <body>
-  <div class="tools-container">
-    <section class="tool-section">
-      <h2>Générateur de noms</h2>
-      <!-- Origine -->
-      <div class="tabs" id="origin-tabs">
-        <div class="tab active" data-origin="fr">Français</div>
-        <div class="tab" data-origin="en">Anglo-Saxon</div>
-        <div class="tab" data-origin="insolite">Insolite</div>
-      </div>
-      <!-- Genre -->
-      <div class="tabs" id="gender-tabs">
-        <div class="tab active" data-gender="masculin">Masculin</div>
-        <div class="tab" data-gender="féminin">Féminin</div>
-      </div>
-      <!-- Affichage du nom -->
-      <div class="card" id="name-card">Chargement…</div>
-      <button id="new-name-btn">Nouveau nom</button>
-    </section>
-  </div>
+  <h1>Générateur de prénoms</h1>
+  <select id="langue">
+    <option value="fr">Français</option>
+    <option value="en">Anglais</option>
+    <option value="insolite">Insolite</option>
+  </select>
+  <button id="btn-gen">Générer</button>
+  <p id="result"></p>
 
+  <!-- 1. Charger le fichier noms.js qui définit `const data = {...}` -->
+  <script src="noms.js"></script>
+
+  <!-- 2. Votre code de génération, qui utilise directement `data` -->
   <script>
-    let data = null;
-    let origin = 'fr', gender = 'masculin';
-    const card = document.getElementById('name-card');
-    const btn  = document.getElementById('new-name-btn');
-
-    // Helper pour gérer les onglets
-    function initTabs(containerId, attrName, onChange) {
-      const tabs = document.getElementById(containerId).children;
-      Array.from(tabs).forEach(tab => {
-        tab.addEventListener('click', () => {
-          Array.from(tabs).forEach(t => t.classList.remove('active'));
-          tab.classList.add('active');
-          onChange(tab.getAttribute(attrName));
-          renderName();
-        });
-      });
-    }
-
-    // Tirage aléatoire d'un élément dans un tableau
-    function pick(arr) {
-      return arr[Math.floor(Math.random() * arr.length)];
-    }
-
-    // Génère et affiche Prénom + Nom
-    function renderName() {
-      if (!data) return;
-      try {
-        const prList = data.prenoms[origin][gender];
-        const nomList = data.noms[origin];
-        const prenom = pick(prList);
-        const nom    = pick(nomList);
-        card.innerHTML = `<strong>${prenom} ${nom}</strong>`;
-      } catch (e) {
-        card.textContent = 'Erreur de chargement.';
-        console.error(e);
-      }
-    }
-
-    // Chargement du JSON
-    fetch('noms.json')
-      .then(res => {
-        if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
-        return res.json();
-      })
-      .then(json => {
-        data = json;
-        card.textContent = '';  // on vide le message de chargement
-        renderName();
-      })
-      .catch(err => {
-        card.textContent = 'Erreur de chargement.';
-        console.error('Fetch failed:', err);
-      });
-
-    // Initialisation des onglets
-    initTabs('origin-tabs', 'data-origin', o => origin = o);
-    initTabs('gender-tabs', 'data-gender', g => gender = g);
-
-    // Bouton Nouveau nom
-    btn.addEventListener('click', renderName);
+    document.getElementById('btn-gen').addEventListener('click', () => {
+      const langue = document.getElementById('langue').value;
+      const liste = data.prenoms[langue].masculin; // ou .féminin selon votre UI
+      const choix = liste[Math.floor(Math.random() * liste.length)];
+      document.getElementById('result').textContent = choix;
+    });
   </script>
 </body>
 </html>
