@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <title>Générateur de noms</title>
+  <meta charset="UTF-8">
+  <title>Générateur de noms de personnages</title>
   <style>
-    /* Vos styles ici */
+    body { background:#e9ddc4; font-family: 'Georgia', serif; }
+    .container { max-width:400px; margin:40px auto; padding:2em; background:#fff7e6; border-radius:18px; box-shadow:0 4px 16px #ccc; }
+    h1 { text-align:center; font-size:1.7em; }
+    select, button { font-size:1em; padding:0.4em 1em; margin:0.5em; }
+    .result { text-align:center; margin-top:2em; font-size:1.4em; font-weight:bold; color:#156; }
+    .options { display:flex; justify-content:center; gap:0.5em; flex-wrap:wrap; }
   </style>
+  <!-- Inclure noms.js AVANT le script principal -->
+  <script src="noms.js"></script>
 </head>
 <body>
-  <h1>Générateur de prénoms</h1>
-  <select id="langue">
-    <option value="fr">Français</option>
-    <option value="en">Anglais</option>
-    <option value="insolite">Insolite</option>
-  </select>
-  <button id="btn-gen">Générer</button>
-  <p id="result"></p>
+  <div class="container">
+    <h1>Générateur de noms de personnages</h1>
+    <div class="options">
+      <select id="origine">
+        <option value="fr">Français</option>
+        <option value="en">Anglo-saxon</option>
+        <option value="insolite">Insolite</option>
+      </select>
+      <select id="genre">
+        <option value="masculin">Masculin</option>
+        <option value="féminin">Féminin</option>
+      </select>
+      <button onclick="genererNom()">Générer</button>
+    </div>
+    <div class="result" id="resultat"></div>
+  </div>
 
-  <!-- 1. Charger le fichier noms.js qui définit `const data = {...}` -->
-  <script src="noms.js"></script>
-
-  <!-- 2. Votre code de génération, qui utilise directement `data` -->
   <script>
-    document.getElementById('btn-gen').addEventListener('click', () => {
-      const langue = document.getElementById('langue').value;
-      const liste = data.prenoms[langue].masculin; // ou .féminin selon votre UI
-      const choix = liste[Math.floor(Math.random() * liste.length)];
-      document.getElementById('result').textContent = choix;
-    });
+    function genererNom() {
+      try {
+        // Récupérer les sélections
+        var origine = document.getElementById('origine').value;
+        var genre = document.getElementById('genre').value;
+
+        // Récupérer tableau des prénoms et noms selon origine/genre
+        var prenoms = data.prenoms[origine][genre];
+        var noms = data.noms[origine];
+
+        // Prendre au hasard
+        var prenom = prenoms[Math.floor(Math.random() * prenoms.length)];
+        var nom = noms[Math.floor(Math.random() * noms.length)];
+
+        document.getElementById('resultat').innerText = prenom + ' ' + nom;
+      } catch(e) {
+        document.getElementById('resultat').innerText = "Erreur : impossible de générer ce nom.";
+      }
+    }
   </script>
 </body>
 </html>
