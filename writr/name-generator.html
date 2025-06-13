@@ -1,94 +1,104 @@
-<!DOCTYPE html><html lang="fr">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>writr – Générateur de noms</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap" rel="stylesheet">
   <style>
     body { font-family:'EB Garamond', serif; background:#e3e9f0; color:#26304c; margin:0; padding:0; display:flex; justify-content:center; }
     .tools-container { width:100%; max-width:420px; padding:2rem 1rem; }
-    .tool-section { position:relative; margin-bottom:2rem; padding:2rem 1.5rem; background:#fff; border:4px solid #26304c; box-shadow:inset 0 0 0 2px #26304c; text-align:center; }
-    h2 { font-size:1.25rem; color:#41516a; margin:1rem 0; }
-    .card { background:#f5ded5; border-radius:12px; padding:1rem; min-height:4rem; font-style:italic; color:#26304c; margin-bottom:1rem; }
-    .tab-group { display:flex; justify-content:center; margin-bottom:1rem; }
-    .tab-group button { flex:1; background:#e3e9f0; border:2px solid #26304c; padding:.5rem; cursor:pointer; font-size:1rem; }
-    .tab-group button.active { background:#41516a; color:#fff; }
-    #generate-name-btn { background:#41516a; color:#fff; border:none; padding:.75rem 1.5rem; border-radius:12px; font-size:1rem; cursor:pointer; transition:background .2s; }
-    #generate-name-btn:active { background:#26304c; }
-    #generate-name-btn:disabled { opacity:.5; cursor:not-allowed; }
-    .link { text-align:center; margin-top:1rem; }
-    .link a { color:#41516a; text-decoration:none; font-weight:bold; }
+    .tool-section { position:relative; padding:2rem 1.5rem; background:#fff; border:4px solid #26304c; box-shadow:inset 0 0 0 2px #26304c; }
+    h2 { text-align:center; margin-bottom:1rem; font-size:1.25rem; color:#41516a; }
+    .tabs { display:flex; border:2px solid #41516a; border-radius:8px; overflow:hidden; margin-bottom:1rem; }
+    .tab { flex:1; padding:.75rem; text-align:center; cursor:pointer; background:#fff; color:#41516a; transition:background .2s; }
+    .tab.active { background:#41516a; color:#fff; }
+    .card { background:#f5ded5; border-radius:12px; padding:1.5rem; min-height:4rem; font-style:italic; color:#26304c; text-align:center; margin-bottom:1rem; }
+    button { background:#41516a; color:#fff; border:none; padding:.75rem 1.5rem; border-radius:12px; font-size:1rem; cursor:pointer; display:block; margin:0 auto; }
   </style>
 </head>
 <body>
   <div class="tools-container">
     <section class="tool-section">
       <h2>Générateur de noms</h2>
-      <!-- onglets pour origine -->
-      <div class="tab-group" id="origin-tabs">
-        <button data-origin="fr" class="active">Français</button>
-        <button data-origin="en">Anglo-Saxon</button>
-        <button data-origin="insolite">Insolite</button>
+      <!-- Origine -->
+      <div class="tabs" id="origin-tabs">
+        <div class="tab active" data-origin="fr">Français</div>
+        <div class="tab" data-origin="en">Anglo-Saxon</div>
+        <div class="tab" data-origin="insolite">Insolite</div>
       </div>
-      <!-- onglets pour genre -->
-      <div class="tab-group" id="gender-tabs">
-        <button data-gender="masculin" class="active">Masculin</button>
-        <button data-gender="féminin">Féminin</button>
+      <!-- Genre -->
+      <div class="tabs" id="gender-tabs">
+        <div class="tab active" data-gender="masculin">Masculin</div>
+        <div class="tab" data-gender="féminin">Féminin</div>
       </div>
-      <div class="card" id="fullName">Chargement…</div>
-      <button id="generate-name-btn" disabled>Nouveau nom</button>
+      <!-- Affichage du nom -->
+      <div class="card" id="name-card">Chargement…</div>
+      <button id="new-name-btn">Nouveau nom</button>
     </section>
-    <div class="link">
-      ← <a href="index.html">Retour au générateur d’idées</a>
-    </div>
-  </div>  <script>
-    let dataJSON = null;
-    let currentOrigin = 'fr';
-    let currentGender = 'masculin';
+  </div>
 
-    const originTabs = document.querySelectorAll('#origin-tabs button');
-    originTabs.forEach(btn => btn.addEventListener('click', () => {
-      originTabs.forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      currentOrigin = btn.getAttribute('data-origin');
-      generateAndDisplay();
-    }));
+  <script>
+    let data = null;
+    let origin = 'fr', gender = 'masculin';
+    const card = document.getElementById('name-card');
+    const btn  = document.getElementById('new-name-btn');
 
-    const genderTabs = document.querySelectorAll('#gender-tabs button');
-    genderTabs.forEach(btn => btn.addEventListener('click', () => {
-      genderTabs.forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      currentGender = btn.getAttribute('data-gender');
-      generateAndDisplay();
-    }));
+    // Helper pour gérer les onglets
+    function initTabs(containerId, attrName, onChange) {
+      const tabs = document.getElementById(containerId).children;
+      Array.from(tabs).forEach(tab => {
+        tab.addEventListener('click', () => {
+          Array.from(tabs).forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          onChange(tab.getAttribute(attrName));
+          renderName();
+        });
+      });
+    }
 
-    function randomPick(arr) {
+    // Tirage aléatoire d'un élément dans un tableau
+    function pick(arr) {
       return arr[Math.floor(Math.random() * arr.length)];
     }
-    function generateFullName() {
-      const prenoms = dataJSON.prenoms[currentOrigin][currentGender];
-      const noms    = dataJSON.noms[currentOrigin];
-      return `${randomPick(prenoms)} ${randomPick(noms)}`;
-    }
-    function generateAndDisplay() {
-      if (!dataJSON) return;
-      document.getElementById('fullName').textContent = generateFullName();
+
+    // Génère et affiche Prénom + Nom
+    function renderName() {
+      if (!data) return;
+      try {
+        const prList = data.prenoms[origin][gender];
+        const nomList = data.noms[origin];
+        const prenom = pick(prList);
+        const nom    = pick(nomList);
+        card.innerHTML = `<strong>${prenom} ${nom}</strong>`;
+      } catch (e) {
+        card.textContent = 'Erreur de chargement.';
+        console.error(e);
+      }
     }
 
-    // fetch JSON et activation
+    // Chargement du JSON
     fetch('noms.json')
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+        return res.json();
+      })
       .then(json => {
-        dataJSON = json;
-        document.getElementById('generate-name-btn').disabled = false;
-        generateAndDisplay();
+        data = json;
+        card.textContent = '';  // on vide le message de chargement
+        renderName();
       })
       .catch(err => {
-        console.error(err);
-        document.getElementById('fullName').textContent = 'Erreur de chargement.';
+        card.textContent = 'Erreur de chargement.';
+        console.error('Fetch failed:', err);
       });
 
-    document.getElementById('generate-name-btn')
-      .addEventListener('click', generateAndDisplay);
-  </script></body>
+    // Initialisation des onglets
+    initTabs('origin-tabs', 'data-origin', o => origin = o);
+    initTabs('gender-tabs', 'data-gender', g => gender = g);
+
+    // Bouton Nouveau nom
+    btn.addEventListener('click', renderName);
+  </script>
+</body>
 </html>
