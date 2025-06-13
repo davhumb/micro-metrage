@@ -1,57 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Générateur de noms de personnages</title>
-  <style>
-    body { background:#e9ddc4; font-family: 'Georgia', serif; }
-    .container { max-width:400px; margin:40px auto; padding:2em; background:#fff7e6; border-radius:18px; box-shadow:0 4px 16px #ccc; }
-    h1 { text-align:center; font-size:1.7em; }
-    select, button { font-size:1em; padding:0.4em 1em; margin:0.5em; }
-    .result { text-align:center; margin-top:2em; font-size:1.4em; font-weight:bold; color:#156; }
-    .options { display:flex; justify-content:center; gap:0.5em; flex-wrap:wrap; }
-  </style>
-  <!-- Inclure noms.js AVANT le script principal -->
-  <script src="noms.js"></script>
+    <meta charset="UTF-8">
+    <title>Générateur de noms de personnages</title>
+    <script src="noms.js"></script>
+    <style>
+        body { font-family: 'Georgia', serif; background: #e9ddc4; }
+        .container {
+            max-width: 400px; margin: 40px auto; background: #f7f0e2; border-radius: 20px; box-shadow: 0 0 10px #b0a48a;
+            padding: 2rem; text-align: center;
+        }
+        h1 { font-size: 2rem; margin-bottom: 1.5rem; }
+        .choices { margin-bottom: 1.2rem; }
+        label { margin: 0 1rem; }
+        .result { font-size: 1.4rem; margin-top: 2rem; font-weight: bold; }
+        .error { color: #b34c4c; font-weight: bold; margin-top: 2rem; }
+        button { font-size: 1.2rem; padding: 0.5rem 2rem; border-radius: 8px; border: none; background: #533a25; color: #fff; margin-top: 1.2rem; }
+        button:hover { background: #7e6142; }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Générateur de noms de personnages</h1>
-    <div class="options">
-      <select id="origine">
-        <option value="fr">Français</option>
-        <option value="en">Anglo-saxon</option>
-        <option value="insolite">Insolite</option>
-      </select>
-      <select id="genre">
-        <option value="masculin">Masculin</option>
-        <option value="féminin">Féminin</option>
-      </select>
-      <button onclick="genererNom()">Générer</button>
+    <div class="container">
+        <h1>Générateur de noms de personnages</h1>
+        <div class="choices">
+            <div>
+                <label><input type="radio" name="categorie" value="fr" checked> Français</label>
+                <label><input type="radio" name="categorie" value="en"> Anglo-saxon</label>
+                <label><input type="radio" name="categorie" value="insolite"> Original</label>
+            </div>
+            <div style="margin-top: 1rem;">
+                <label><input type="radio" name="genre" value="masculin" checked> Masculin</label>
+                <label><input type="radio" name="genre" value="féminin"> Féminin</label>
+            </div>
+        </div>
+        <button onclick="genererNom()">Générer</button>
+        <div id="resultat" class="result"></div>
+        <div id="erreur" class="error" style="display:none"></div>
     </div>
-    <div class="result" id="resultat"></div>
-  </div>
+    <script>
+        function genererNom() {
+            const categorie = document.querySelector('input[name="categorie"]:checked').value;
+            const genre = document.querySelector('input[name="genre"]:checked').value;
 
-  <script>
-    function genererNom() {
-      try {
-        // Récupérer les sélections
-        var origine = document.getElementById('origine').value;
-        var genre = document.getElementById('genre').value;
+            try {
+                // Prénom
+                const prenoms = data.prenoms[categorie][genre];
+                // Nom
+                const noms = data.noms[categorie];
 
-        // Récupérer tableau des prénoms et noms selon origine/genre
-        var prenoms = data.prenoms[origine][genre];
-        var noms = data.noms[origine];
+                if (!prenoms || prenoms.length === 0 || !noms || noms.length === 0) {
+                    throw "Erreur : impossible de générer ce nom.";
+                }
 
-        // Prendre au hasard
-        var prenom = prenoms[Math.floor(Math.random() * prenoms.length)];
-        var nom = noms[Math.floor(Math.random() * noms.length)];
+                const prenom = prenoms[Math.floor(Math.random() * prenoms.length)];
+                const nom = noms[Math.floor(Math.random() * noms.length)];
 
-        document.getElementById('resultat').innerText = prenom + ' ' + nom;
-      } catch(e) {
-        document.getElementById('resultat').innerText = "Erreur : impossible de générer ce nom.";
-      }
-    }
-  </script>
+                document.getElementById('resultat').innerText = prenom + " " + nom;
+                document.getElementById('erreur').style.display = "none";
+            } catch (e) {
+                document.getElementById('resultat').innerText = "";
+                document.getElementById('erreur').style.display = "block";
+                document.getElementById('erreur').innerText = "Erreur : impossible de générer ce nom.";
+            }
+        }
+    </script>
 </body>
 </html>
