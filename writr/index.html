@@ -23,6 +23,9 @@
     button:active { background:#26304c; }
     .buttons { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:1rem; }
     @media (max-width:480px){ .buttons { flex-direction:column; } }
+    .filters { display: flex; gap: 1rem; justify-content: center; margin-bottom: 1rem; }
+    .filters label { margin-right: .5em; }
+    .filters select { border-radius:8px; padding:0.4em; }
   </style>
 </head>
 <body>
@@ -83,7 +86,6 @@ const pool = [
 {categorie:"Attente",abstraction:"tension",consigne:"Un personnage attend un appel qui ne vient jamais."},
 {categorie:"Geste",abstraction:"action",consigne:"Un geste anodin déclenche une réaction disproportionnée."},
 {categorie:"Coupure",abstraction:"structure",consigne:"La scène est interrompue par un bruit violent (explosion, fracas, hurlement…)."},
-
 {categorie:"Répétition",abstraction:"rythme",consigne:"Un motif (son, geste, phrase) revient plusieurs fois dans la scène."},
 {categorie:"Regard",abstraction:"ambiance",consigne:"Les personnages évitent le regard les uns des autres."},
 {categorie:"Montre",abstraction:"temps",consigne:"L’horloge avance ou recule soudainement."},
@@ -149,14 +151,11 @@ const pool = [
 {categorie:"Répétition de mots",abstraction:"rythme",consigne:"Un mot ou une expression est répété jusqu’à l’obsession."},
 {categorie:"Fracas",abstraction:"son",consigne:"Un bruit fracassant fait sursauter tout le monde."},
 {categorie:"Étrangeté",abstraction:"ambiance",consigne:"Quelque chose cloche dans la scène, sans que personne ne le formule."},
-{categorie:"Promesse",abstraction:"dialogue",consigne:"Une promesse est faite mais ne sera jamais tenue."}
-];
-pool.push(
+{categorie:"Promesse",abstraction:"dialogue",consigne:"Une promesse est faite mais ne sera jamais tenue."},
 {categorie:"Hésitation",abstraction:"psychologique",consigne:"Un personnage hésite à tout avouer mais se ravise."},
 {categorie:"Changement de rythme",abstraction:"structure",consigne:"La narration accélère ou ralentit brusquement."},
 {categorie:"Objets",abstraction:"détail",consigne:"Un objet minuscule prend soudain une importance capitale."},
 {categorie:"Accident",abstraction:"événement",consigne:"Un personnage se blesse légèrement (chute, brûlure, coupure…)."},
-
 {categorie:"Erreur de jugement",abstraction:"structure",consigne:"Un personnage réalise qu’il s’est trompé sur quelqu’un."},
 {categorie:"Animaux",abstraction:"détail",consigne:"La présence ou l’absence d’un animal change l’atmosphère."},
 {categorie:"Incompréhension",abstraction:"dialogue",consigne:"Un quiproquo génère un conflit inattendu."},
@@ -234,8 +233,7 @@ pool.push(
 {categorie:"Objet fétiche perdu",abstraction:"objet",consigne:"Un personnage perd un objet qu’il considère porte-bonheur."},
 {categorie:"Erreur d’itinéraire",abstraction:"structure",consigne:"Un personnage se perd, ou fait semblant de se perdre."},
 {categorie:"Regard de défi",abstraction:"tension",consigne:"Un échange de regards marque le début d’une rivalité."},
-{categorie:"Cauchemar",abstraction:"psychologique",consigne:"Un personnage se réveille en sursaut d’un rêve effrayant."}
-);
+{categorie:"Cauchemar",abstraction:"psychologique",consigne:"Un personnage se réveille en sursaut d’un rêve effrayant."},
 {categorie:"Démasquage",abstraction:"structure",consigne:"Un secret ou une identité cachée éclate soudainement."},
 {categorie:"Panique",abstraction:"action",consigne:"La panique se propage sans cause évidente."},
 {categorie:"Manque d’air",abstraction:"physique",consigne:"Un personnage suffoque, par peur ou pour de vrai."},
@@ -308,41 +306,41 @@ pool.push(
 {categorie:"Contact physique",abstraction:"action",consigne:"Un contact physique inattendu provoque un électrochoc."}
 ];
 // Gestion du bouton et affichage idée
-    document.getElementById('generate-idea-btn').addEventListener('click', ()=> {
-      const c = pool[Math.floor(Math.random()*pool.length)];
-      document.getElementById('idea').innerHTML = `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
-    });
-    window.addEventListener('DOMContentLoaded', ()=>document.getElementById('generate-idea-btn').click());
+document.getElementById('generate-idea-btn').addEventListener('click', ()=> {
+  const c = pool[Math.floor(Math.random()*pool.length)];
+  document.getElementById('idea').innerHTML = `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
+});
+window.addEventListener('DOMContentLoaded', ()=>document.getElementById('generate-idea-btn').click());
 
-    // --- Générateur de noms : chargement depuis noms.json ---
-    let nomsData = null;
-    async function loadNames() {
-      try {
-        const resp = await fetch('data/noms.json');
-        nomsData = await resp.json();
-      } catch(e) {
-        document.getElementById('name').innerText = "Erreur de chargement des noms.";
-      }
-    }
-    loadNames();
+// --- Générateur de noms : chargement depuis noms.json ---
+let nomsData = null;
+async function loadNames() {
+  try {
+    const resp = await fetch('data/noms.json');
+    nomsData = await resp.json();
+  } catch(e) {
+    document.getElementById('name').innerText = "Erreur de chargement des noms.";
+  }
+}
+loadNames();
 
-    document.getElementById('generate-name-btn').addEventListener('click', () => {
-      if (!nomsData) {
-        document.getElementById('name').innerText = "Chargement des noms...";
-        return;
-      }
-      const genre = document.getElementById('genre').value;
-      const style = document.getElementById('style').value;
-      const prenoms = nomsData.prenoms?.[style]?.[genre] ?? [];
-      const noms = nomsData.noms?.[style] ?? [];
-      if (!prenoms.length || !noms.length) {
-        document.getElementById('name').innerText = "Pas de noms pour cette catégorie.";
-        return;
-      }
-      const prenom = prenoms[Math.floor(Math.random()*prenoms.length)];
-      const nom = noms[Math.floor(Math.random()*noms.length)];
-      document.getElementById('name').innerHTML = `<strong>${prenom} ${nom}</strong>`;
-    });
-  </script>
+document.getElementById('generate-name-btn').addEventListener('click', () => {
+  if (!nomsData) {
+    document.getElementById('name').innerText = "Chargement des noms...";
+    return;
+  }
+  const genre = document.getElementById('genre').value;
+  const style = document.getElementById('style').value;
+  const prenoms = nomsData.prenoms?.[style]?.[genre] ?? [];
+  const noms = nomsData.noms?.[style] ?? [];
+  if (!prenoms.length || !noms.length) {
+    document.getElementById('name').innerText = "Pas de noms pour cette catégorie.";
+    return;
+  }
+  const prenom = prenoms[Math.floor(Math.random()*prenoms.length)];
+  const nom = noms[Math.floor(Math.random()*noms.length)];
+  document.getElementById('name').innerHTML = `<strong>${prenom} ${nom}</strong>`;
+});
+</script>
 </body>
 </html>
