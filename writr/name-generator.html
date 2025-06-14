@@ -1,41 +1,81 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Générateur de noms Art Déco</title>
+  <title>Générateur de noms</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
   <style>
+    /* === Variables de couleurs === */
     :root {
       --bg: #faf8f0;
       --frame: #2b2b2b;
       --accent: #c9a14b;
       --text-light: #555;
+      --overlay-opacity: 0.05;
     }
     *, *::before, *::after { box-sizing: border-box; }
     body {
       margin: 0; padding: 0;
       min-height: 100vh;
       background: var(--bg);
-      display: flex; align-items: center; justify-content: center;
       font-family: 'Libre Baskerville', serif;
       color: var(--text-light);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-image: radial-gradient(var(--frame) var(--overlay-opacity), transparent 0);
+      background-size: 200px 200px;
+    }
+    header, footer {
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+      background: var(--frame);
+      color: #fff;
+      font-family: 'Cinzel', serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    header {
+      font-size: 1.2rem;
+    }
+    footer {
+      font-size: 0.9rem;
+      opacity: 0.7;
     }
     .container {
       background: #fff;
       padding: 3rem 2rem;
-      max-width: 500px; width: 100%;
+      max-width: 500px; width: 90%;
       text-align: center;
       border: 4px solid var(--frame);
       border-radius: 8px;
       box-shadow: 0 0 0 2px var(--accent) inset, 0 8px 24px rgba(0,0,0,0.2);
+      position: relative;
+      margin: 2rem 0;
+    }
+    /* Ornements géométriques autour de la container */
+    .container::before, .container::after {
+      content: '';
+      position: absolute;
+      width: 60px; height: 60px;
+      border: 4px solid var(--accent);
+    }
+    .container::before {
+      top: -30px; left: -30px;
+      border-right: none; border-bottom: none;
+    }
+    .container::after {
+      bottom: -30px; right: -30px;
+      border-left: none; border-top: none;
     }
     h1 {
       position: relative;
       margin: 0 0 1.5rem;
       font-family: 'Cinzel', serif;
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       color: var(--frame);
-      letter-spacing: 2px;
+      letter-spacing: 3px;
     }
     h1::before, h1::after {
       content: '';
@@ -44,84 +84,79 @@
       background: var(--accent);
       left: 50%; transform: translateX(-50%);
     }
-    h1::before { top: -0.6em; }
-    h1::after  { bottom: -0.6em; }
+    h1::before { top: -0.8em; }
+    h1::after  { bottom: -0.8em; }.choices {
+  margin: 2rem 0;
+  display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;
+}
+.choices label {
+  position: relative;
+  padding-left: 1.8em;
+  font-size: 0.95rem;
+  color: var(--frame);
+  text-transform: uppercase; letter-spacing: 1px;
+  cursor: pointer;
+}
+.choices input {
+  position: absolute;
+  left: 0; top: 0.2em;
+  width: 1.2em; height: 1.2em;
+  accent-color: var(--accent);
+}
+.result {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--frame);
+  min-height: 1.2em;
+}
+.error {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #a33;
+}
+button {
+  margin: 0.5rem;
+  padding: 0.8rem 2rem;
+  background: transparent;
+  color: var(--frame);
+  border: 2px solid var(--accent);
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+button:hover {
+  background: var(--accent);
+  color: #fff;
+}
 
-    .choices {
-      margin: 2rem 0;
-      display: flex; gap: 1rem; justify-content: center;
-    }
-    .choices label {
-      position: relative;
-      padding-left: 1.5em;
-      font-size: 1rem; color: var(--frame);
-      text-transform: uppercase; letter-spacing: 1px;
-      cursor: pointer;
-    }
-    .choices input {
-      position: absolute;
-      left: 0; top: 0.1em;
-      width: 1em; height: 1em;
-      accent-color: var(--accent);
-    }
-    .result {
-      margin-top: 2rem;
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: var(--frame);
-      min-height: 1.2em;
-    }
-    .error {
-      margin-top: 1rem;
-      font-size: 1rem;
-      color: #a33;
-    }
-    button {
-      margin: 0.5rem 0.5rem 0;
-      padding: 0.6rem 1.6rem;
-      background: transparent;
-      color: var(--frame);
-      border: 2px solid var(--accent);
-      border-radius: 4px;
-      font-family: 'Cinzel', serif;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      cursor: pointer;
-      transition: background 0.2s, color 0.2s;
-    }
-    button:hover {
-      background: var(--accent);
-      color: #fff;
-    }
   </style>
 </head>
 <body>
+  <header>Générateur de noms</header>
   <div class="container">
-    <h1>Générateur de noms</h1>
+    <h1>Générateur de noms</h1><div class="choices">
+  <label><input type="radio" name="origine" value="fr" checked> Français</label>
+  <label><input type="radio" name="origine" value="en"> Anglo-saxon</label>
+  <label><input type="radio" name="origine" value="insolite"> Original</label>
+</div>
+<div class="choices">
+  <label><input type="radio" name="genre" value="masculin" checked> Masculin</label>
+  <label><input type="radio" name="genre" value="féminin"> Féminin</label>
+</div>
 
-    <div class="choices">
-      <label><input type="radio" name="origine" value="fr" checked> Français</label>
-      <label><input type="radio" name="origine" value="en"> Anglo-saxon</label>
-      <label><input type="radio" name="origine" value="insolite"> Original</label>
-    </div>
-    <div class="choices">
-      <label><input type="radio" name="genre" value="masculin" checked> Masculin</label>
-      <label><input type="radio" name="genre" value="féminin"> Féminin</label>
-    </div>
+<button id="btn-gen">Générer</button>
+<button id="btn-rand">Aléatoire</button>
 
-    <button id="btn-gen">Générer</button>
-    <button id="btn-rand">Aléatoire</button>
+<div id="resultat" class="result"></div>
+<div id="erreur" class="error"></div>
 
-    <div id="resultat" class="result"></div>
-    <div id="erreur" class="error"></div>
   </div>
-
-  <!-- 1. Chargement de vos données externes -->
-  <script src="noms.js"></script>
-  <!-- 2. Votre script de génération -->
-  <script>
+  <footer>&copy; 2025 - Générateur Art Déco</footer>  <script src="noms.js"></script>  <script>
     const data = window.personnageData;
-
     function genererNom() {
       const err = document.getElementById('erreur');
       const res = document.getElementById('resultat');
@@ -138,7 +173,6 @@
       }
       res.textContent = `${p[Math.floor(Math.random()*p.length)]} ${n[Math.floor(Math.random()*n.length)]}`;
     }
-
     function genererAleatoire() {
       const origines = Object.keys(data.prenoms);
       const orig  = origines[Math.floor(Math.random() * origines.length)];
@@ -148,9 +182,7 @@
       document.querySelector(`input[name="genre"][value="${genre}"]`).checked = true;
       genererNom();
     }
-
     document.getElementById('btn-gen').onclick  = genererNom;
     document.getElementById('btn-rand').onclick = genererAleatoire;
-  </script>
-</body>
+  </script></body>
 </html>
