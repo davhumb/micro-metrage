@@ -1,29 +1,111 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>writr – Générateur d’idées</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:400,700&family=Pacifico&display=swap" rel="stylesheet">
   <style>
-    body { font-family:'EB Garamond', serif; background:#e3e9f0; color:#26304c; margin:0; padding:0; display:flex; justify-content:center; }
-    .tools-container { width:100%; max-width:420px; padding:2rem 1rem; }
-    .site-logo { text-align:center; margin-bottom:1.5rem; }
-    .site-logo img { width:64px; display:block; margin:0 auto .5rem; }
-    .site-logo .logo-text { font-family:'Pacifico', cursive; color:#5a3a28; font-size:1.6rem; }
-    .tool-section { position:relative; margin-bottom:2rem; padding:2rem 1.5rem; background:#fff; border:4px solid #26304c; box-shadow:inset 0 0 0 2px #26304c; }
-    .tool-section .corner { position:absolute; width:24px; height:24px; }
-    .corner.tl{ top:-4px; left:-4px; border-top:4px solid #26304c; border-left:4px solid #26304c; }
-    .corner.tr{ top:-4px; right:-4px; border-top:4px solid #26304c; border-right:4px solid #26304c; }
-    .corner.bl{ bottom:-4px; left:-4px; border-bottom:4px solid #26304c; border-left:4px solid #26304c; }
-    .corner.br{ bottom:-4px; right:-4px; border-bottom:4px solid #26304c; border-right:4px solid #26304c; }
-    h2 { font-size:1.25rem; color:#41516a; margin:1rem 0; text-align:center; }
-    .card { background:#f5ded5; border-radius:12px; padding:1rem; min-height:4rem; font-style:italic; color:#26304c; margin-bottom:1rem; }
-    button { background:#41516a; color:#fff; border:none; padding:.75rem 1.5rem; border-radius:12px; font-size:1rem; cursor:pointer; transition:background .2s; display:block; width:100%; max-width:200px; margin:.5rem auto 0 auto; }
-    button:active { background:#26304c; }
-    .buttons { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:1rem; }
-    .link { text-align:center; margin-top:1rem; }
-    .link a { color:#41516a; text-decoration:none; font-weight:bold; }
+    :root {
+      --citroen-green: #00503D;
+      --accent: #C9A14B;
+      --frame: #1b1b1b;
+      --text-light: #faf8e6;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: var(--citroen-green);
+      font-family: 'EB Garamond', serif;
+      color: var(--text-light);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .tools-container {
+      width: 100%;
+      max-width: 500px;
+      padding: 2rem;
+      background: var(--citroen-green);
+      border: 4px solid var(--accent);
+      box-shadow:
+        inset 0 0 0 6px var(--frame),
+        0 4px 20px rgba(0,0,0,0.3);
+      border-radius: 8px;
+      text-align: center;
+    }
+    .site-logo img {
+      max-width: 120px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .logo-text {
+      font-family: 'Pacifico', cursive;
+      font-size: 1.6rem;
+      color: var(--text-light);
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      position: relative;
+      margin: 0 0 1rem;
+      font-size: 2rem;
+      font-family: 'Cinzel', serif;
+      color: var(--text-light);
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+    h2::before, h2::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 4px;
+      background: var(--accent);
+      margin: 0.5rem auto;
+    }
+    .card {
+      background: var(--citroen-green);
+      border-radius: 12px;
+      padding: 1.5rem;
+      min-height: 6rem;
+      font-style: italic;
+      color: var(--text-light);
+      margin-bottom: 1.5rem;
+      border: 2px solid var(--frame);
+      box-shadow: inset 0 0 0 4px var(--frame);
+    }
+    .buttons button {
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background: var(--accent);
+      color: var(--citroen-green);
+      border: 2px solid var(--frame);
+      border-radius: 12px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-family: 'Cinzel', serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: opacity 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .buttons button.secondary {
+      background: transparent;
+      color: var(--text-light);
+      border-color: var(--accent);
+    }
+    .buttons button:hover { opacity: 0.9; }
+    .link a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--text-light);
+      text-decoration: none;
+      border-bottom: 1px solid var(--text-light);
+      padding-bottom: 0.2rem;
+      transition: color 0.2s;
+    }
+    .link a:hover { color: var(--accent); }
   </style>
 </head>
 <body>
@@ -32,32 +114,21 @@
       <img src="logo-writr.png" alt="Logo writr">
       <div class="logo-text">writr</div>
     </div>
-
-    <!-- Générateur d'idées narratives -->
-    <section class="tool-section" id="bloc-idees">
-      <span class="corner tl"></span><span class="corner tr"></span>
-      <span class="corner bl"></span><span class="corner br"></span>
+    <section class="tool-section">
       <h2>Générateur d’idées narratives</h2>
       <div class="card" id="idea">Chargement…</div>
       <div class="buttons">
         <button id="generate-idea-btn">Nouvelle idée</button>
       </div>
     </section>
-
     <div class="link">
       <a href="name-generator.html">→ Aller au générateur de noms</a>
     </div>
-  </div>
-
-  <!-- on charge ici le pool depuis un fichier externe -->
-  <script src="ideas.js"></script>
-  <script>
-    // ideas.js doit définir une variable `const pool = [ …250 objets… ];`
+  </div>  <script src="ideas.js"></script>  <script>
     document.getElementById('generate-idea-btn').addEventListener('click', () => {
       const c = pool[Math.floor(Math.random() * pool.length)];
       document.getElementById('idea').innerHTML = `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
     });
     window.addEventListener('DOMContentLoaded', () => document.getElementById('generate-idea-btn').click());
-  </script>
-</body>
-</html>
+  </script></body>
+    </html>
