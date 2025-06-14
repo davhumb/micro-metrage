@@ -149,23 +149,23 @@
 
   <footer>© 2025</footer>
 
-  <!-- 1) Charger vos données externes depuis le même dossier : -->
-  <script src="./noms.js"></script>
-  <!-- 2) Code de génération : -->
+  <!-- 1) Charger vos données externes depuis data/ -->
+  <script src="./data/noms.js"></script>
+  <!-- 2) Code de génération -->
   <script>
     if (!window.personnageData) {
-      console.error('personnageData non défini. Vérifiez votre noms.js');
+      console.error('personnageData non défini');
       document.getElementById('erreur').textContent = 'Erreur de chargement des données.';
     }
-    const data = window.personnageData;
+    const data = window.personnageData || {};
 
     function genererNom() {
       document.getElementById('erreur').textContent = '';
       document.getElementById('resultat').textContent = '';
       const orig  = document.querySelector('input[name="origine"]:checked').value;
       const genre = document.querySelector('input[name="genre"]:checked').value;
-      const p = data?.prenoms?.[orig]?.[genre] || [];
-      const n = data?.noms?.[orig] || [];
+      const p = data.prenoms?.[orig]?.[genre] || [];
+      const n = data.noms?.[orig] || [];
       if (!p.length || !n.length) {
         document.getElementById('erreur').textContent = 'Données manquantes.';
         return;
@@ -175,7 +175,7 @@
     }
 
     function genererAleatoire() {
-      const origines = Object.keys(data.prenoms);
+      const origines = Object.keys(data.prenoms || {});
       const orig  = origines[Math.floor(Math.random() * origines.length)];
       const genres = ['masculin','féminin'];
       const genre = genres[Math.floor(Math.random() * genres.length)];
