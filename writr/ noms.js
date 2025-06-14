@@ -1,5 +1,6 @@
 // noms.js
-const data = {
+
+window.personnageData = {
   "prenoms": {
     "fr": {
       "masculin": [ 
