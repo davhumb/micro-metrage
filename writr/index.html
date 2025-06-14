@@ -40,12 +40,6 @@
       height: auto;
       margin-bottom: 1rem;
     }
-    .logo-text {
-      font-family: 'Pacifico', cursive;
-      font-size: 1.6rem;
-      color: var(--text-light);
-      margin-bottom: 1.5rem;
-    }
     h2 {
       position: relative;
       margin: 0 0 1rem;
@@ -106,13 +100,18 @@
       transition: color 0.2s;
     }
     .link a:hover { color: var(--accent); }
+    .footer-text {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--text-light);
+      opacity: 0.8;
+    }
   </style>
 </head>
 <body>
   <div class="tools-container">
     <div class="site-logo">
       <img src="logo-writr.png" alt="Logo writr">
-      <div class="logo-text">writr</div>
     </div>
     <section class="tool-section">
       <h2>Générateur d’idées narratives</h2>
@@ -124,6 +123,7 @@
     <div class="link">
       <a href="name-generator.html">→ Aller au générateur de noms</a>
     </div>
+    <div class="footer-text">© 2025 Celluloïd Scalpel Productions – fait avec ❤️</div>
   </div>  <script src="ideas.js"></script>  <script>
     document.getElementById('generate-idea-btn').addEventListener('click', () => {
       const c = pool[Math.floor(Math.random() * pool.length)];
@@ -131,4 +131,4 @@
     });
     window.addEventListener('DOMContentLoaded', () => document.getElementById('generate-idea-btn').click());
   </script></body>
-    </html>
+</html>
