@@ -6,16 +6,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f0f4f3;
+      --citroen-green: #004225;
+      --accent: #C9A14B;
       --frame: #1b1b1b;
-      --accent: #2a9d8f;
-      --text-light: #555;
+      --text-light: #faf8e6;
     }
     *, *::before, *::after { box-sizing: border-box; }
     body {
-      margin: 0; padding: 3rem 1rem;
+      margin: 0;
+      padding: 0;
       min-height: 100vh;
-      background: var(--bg);
+      background: var(--citroen-green);
       font-family: 'Libre Baskerville', serif;
       color: var(--text-light);
       display: flex;
@@ -23,138 +24,170 @@
       align-items: center;
       justify-content: space-between;
     }
-    header.site-logo {
-      width: 100%; text-align: center; padding: 1rem 0;
-      background: var(--frame);
+    header {
+      width: 100%;
+      background: var(--citroen-green);
+      padding: 1rem 0;
+      text-align: center;
     }
-    header.site-logo img {
-      max-width: 180px; height: auto;
+    header img {
+      max-width: 120px;
+      height: auto;
     }
     .container {
       position: relative;
-      background: #fff;
-      padding: 2.5rem 2rem;
-      max-width: 500px; width: 90%;
+      background: var(--citroen-green);
+      padding: 2rem;
+      max-width: 500px;
+      width: 90%;
       text-align: center;
-      border: 3px solid var(--frame);
+      border: 4px solid var(--accent);
       border-radius: 8px;
       box-shadow:
-        inset 0 0 0 6px var(--accent),
-        0 4px 20px rgba(0,0,0,0.15);
+        inset 0 0 0 6px var(--frame),
+        0 4px 20px rgba(0,0,0,0.3);
       margin: 2rem 0;
     }
     .container::before, .container::after {
       content: '';
       position: absolute;
-      width: 50px; height: 50px;
-      border: 3px solid var(--accent);
+      width: 50px;
+      height: 50px;
+      border: 4px solid var(--accent);
     }
     .container::before {
-      top: -20px; left: -20px;
-      border-right: none; border-bottom: none;
+      top: -24px;
+      left: -24px;
+      border-right: none;
+      border-bottom: none;
     }
     .container::after {
-      bottom: -20px; right: -20px;
-      border-left: none; border-top: none;
+      bottom: -24px;
+      right: -24px;
+      border-left: none;
+      border-top: none;
     }
     h1 {
-      position: relative;
       margin: 0 0 1rem;
       font-family: 'Cinzel', serif;
       font-size: 2.4rem;
-      color: var(--frame);
+      color: var(--text-light);
       letter-spacing: 3px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     }
     h1::before, h1::after {
       content: '';
-      position: absolute;
-      width: 50%; height: 4px;
+      display: block;
+      width: 50px;
+      height: 4px;
       background: var(--accent);
-      left: 50%; transform: translateX(-50%);
+      margin: 0.5rem auto;
     }
-    h1::before { top: -0.6em; }
-    h1::after  { bottom: -0.6em; }
     .choices {
       margin: 1.5rem 0;
-      display: flex; gap: 1rem;
-      justify-content: center; flex-wrap: wrap;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
     }
     .choices label {
       position: relative;
-      padding-left: 1.6em;
-      font-size: 0.95rem;
-      color: var(--frame);
-      text-transform: uppercase; letter-spacing: 1px;
+      padding-left: 1.8em;
+      font-size: 1rem;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 1px;
       cursor: pointer;
     }
     .choices input[type="radio"] {
-      position: absolute; left: 0; top: 0.2em;
-      width: 1.2em; height: 1.2em;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1.4em;
+      height: 1.4em;
       accent-color: var(--accent);
     }
     .result {
       margin-top: 1.5rem;
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: bold;
-      color: var(--frame);
-      min-height: 1.2em;
+      color: var(--text-light);
+      min-height: 1.4em;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     }
     .error {
-      margin-top: 1rem; font-size: 1rem; color: #a33;
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #e07a5f;
     }
     button {
-      margin: 0.5rem; padding: 0.7rem 1.8rem;
-      background: var(--accent); color: #fff; border: none;
+      margin: 0.5rem;
+      padding: 0.7rem 2rem;
+      background: var(--accent);
+      color: var(--citroen-green);
+      border: 2px solid var(--frame);
       border-radius: 4px;
-      font-family: 'Cinzel', serif; text-transform: uppercase;
-      letter-spacing: 1px; cursor: pointer;
-      transition: background 0.2s;
-      overflow: hidden; position: relative;
+      font-family: 'Cinzel', serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: background 0.3s;
+      position: relative;
+      overflow: hidden;
     }
     button::after {
       content: '';
-      position: absolute; top: 100%; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(255,255,255,0.15);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,0.2);
       transition: top 0.3s;
     }
     button:hover::after { top: 0; }
     button.secondary {
-      background: transparent; color: var(--frame);
-      border: 2px solid var(--accent);
+      background: transparent;
+      color: var(--text-light);
+      border-color: var(--accent);
+    }
+    footer {
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+      color: var(--text-light);
+      font-size: 0.8rem;
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
-  <header class="site-logo">
-    <a href="index.html">
-      <img src="logo-writr.png" alt="writr">
-    </a>
-  </header>
-  <div class="container">
-    <h1>Générateur de noms</h1>
-    <div class="choices">
-      <label><input type="radio" name="origine" value="fr" checked> Français</label>
-      <label><input type="radio" name="origine" value="en"> Anglo-saxon</label>
-      <label><input type="radio" name="origine" value="insolite"> Original</label>
-    </div>
-    <div class="choices">
-      <label><input type="radio" name="genre" value="masculin" checked> Masculin</label>
-      <label><input type="radio" name="genre" value="féminin"> Féminin</label>
-    </div>
-    <button id="btn-gen">Générer</button>
-    <button id="btn-rand" class="secondary">Aléatoire</button>
-    <div id="resultat" class="result"></div>
-    <div id="erreur" class="error"></div>
-  </div>
-  <footer>© 2025</footer>
-  <script src="./data/noms.js"></script>
-  <script>
+  <header>
+    <img src="logo-writr.png" alt="writr">
+  </header>  <div class="container">
+    <h1>Générateur de noms</h1><div class="choices">
+  <label><input type="radio" name="origine" value="fr" checked> Français</label>
+  <label><input type="radio" name="origine" value="en"> Anglo-saxon</label>
+  <label><input type="radio" name="origine" value="insolite"> Original</label>
+</div>
+<div class="choices">
+  <label><input type="radio" name="genre" value="masculin" checked> Masculin</label>
+  <label><input type="radio" name="genre" value="féminin"> Féminin</label>
+</div>
+
+<button id="btn-gen">Générer</button>
+<button id="btn-rand" class="secondary">Aléatoire</button>
+
+<div id="resultat" class="result"></div>
+<div id="erreur" class="error"></div>
+
+  </div>  <footer>© 2025</footer>  <script src="./data/noms.js"></script>  <script>
     if (!window.personnageData) {
       console.error('personnageData non défini');
       document.getElementById('erreur').textContent = 'Erreur de chargement des données.';
     }
     const data = window.personnageData || {};
+
     function genererNom() {
       document.getElementById('erreur').textContent = '';
       document.getElementById('resultat').textContent = '';
@@ -163,11 +196,13 @@
       const p = data.prenoms?.[orig]?.[genre] || [];
       const n = data.noms?.[orig] || [];
       if (!p.length || !n.length) {
-        document.getElementById('erreur').textContent = 'Données manquantes.'; return;
+        document.getElementById('erreur').textContent = 'Données manquantes.';
+        return;
       }
       document.getElementById('resultat').textContent =
         `${p[Math.floor(Math.random()*p.length)]} ${n[Math.floor(Math.random()*n.length)]}`;
     }
+
     function genererAleatoire() {
       const origines = Object.keys(data.prenoms||{});
       const orig = origines[Math.floor(Math.random()*origines.length)];
@@ -177,8 +212,8 @@
       document.querySelector(`input[name="genre"][value="${genre}"]`).checked = true;
       genererNom();
     }
+
     document.getElementById('btn-gen').onclick = genererNom;
     document.getElementById('btn-rand').onclick = genererAleatoire;
-  </script>
-</body>
+  </script></body>
 </html>
