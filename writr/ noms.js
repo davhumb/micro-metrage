@@ -1,4 +1,4 @@
-// noms.js
+alert('noms.js chargé');// noms.js
 const data = {
   "prenoms": {
     "fr": {
