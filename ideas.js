@@ -1,1202 +1,1228 @@
-[
+const ideas = [
   {
-    "categorie": "Cycle",
-    "abstraction": "structure",
-    "consigne": "Un dialogue éclate à propos de un nom sur une liste – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Rupture",
+    "categorie": "Incident",
     "abstraction": "événement",
-    "consigne": "Un événement mineur lié à la disparition d’un objet familier déclenche une réaction en chaîne."
+    "consigne": "Ton héros se met à saigner du nez sans raison."
   },
   {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par la présence d’un animal silencieux."
+    "categorie": "Alerte",
+    "abstraction": "bruit",
+    "consigne": "Une alarme retentit soudain tout près."
   },
   {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de la présence d’un animal silencieux."
+    "categorie": "Douleur",
+    "abstraction": "physique",
+    "consigne": "Un personnage a une rage de dents fulgurante."
   },
   {
-    "categorie": "Présage",
-    "abstraction": "tension / mystère",
-    "consigne": "Incorpore un rêve récurrent dans une scène de tension sans en faire le centre."
+    "categorie": "Musique",
+    "abstraction": "ambiance",
+    "consigne": "Ajoute une musique (connue ou inventée) à la scène, qui change la perception des personnages."
+  },
+  {
+    "categorie": "Intrus",
+    "abstraction": "animal",
+    "consigne": "Un animal (chien, chat, oiseau...) surgit dans la scène, tout le monde doit réagir."
   },
   {
     "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Incorpore la voix d’un proche, alors qu’il est loin dans une scène de tension sans en faire le centre."
+    "abstraction": "action",
+    "consigne": "Un personnage brise un objet auquel il tenait beaucoup."
   },
   {
-    "categorie": "Décalage",
+    "categorie": "Climat",
+    "abstraction": "météo",
+    "consigne": "Un orage éclate, forçant les personnages à s’abriter."
+  },
+  {
+    "categorie": "Choc",
+    "abstraction": "événement",
+    "consigne": "Quelqu’un tombe dans les pommes, sans prévenir."
+  },
+  {
+    "categorie": "Surprise",
+    "abstraction": "objet",
+    "consigne": "Un objet inattendu est découvert dans un sac ou une poche."
+  },
+  {
+    "categorie": "Attente",
+    "abstraction": "tension",
+    "consigne": "Un personnage attend un appel qui ne vient jamais."
+  },
+  {
+    "categorie": "Geste",
+    "abstraction": "action",
+    "consigne": "Un geste anodin déclenche une réaction disproportionnée."
+  },
+  {
+    "categorie": "Coupure",
     "abstraction": "structure",
-    "consigne": "Un dialogue éclate à propos de une vieille photo trouvée dans un livre – mais aucun mot important n’est prononcé."
+    "consigne": "La scène est interrompue par un bruit violent (explosion, fracas, hurlement…)."
   },
   {
-    "categorie": "Rupture",
+    "categorie": "Répétition",
+    "abstraction": "rythme",
+    "consigne": "Un motif (son, geste, phrase) revient plusieurs fois dans la scène."
+  },
+  {
+    "categorie": "Regard",
+    "abstraction": "ambiance",
+    "consigne": "Les personnages évitent le regard les uns des autres."
+  },
+  {
+    "categorie": "Montre",
+    "abstraction": "temps",
+    "consigne": "L’horloge avance ou recule soudainement."
+  },
+  {
+    "categorie": "Songe",
+    "abstraction": "flou",
+    "consigne": "Le personnage principal ne sait plus s’il rêve ou non."
+  },
+  {
+    "categorie": "Appel",
     "abstraction": "événement",
-    "consigne": "Fais ressentir la sensation d’avoir déjà été ici comme un malaise diffus, jamais expliqué."
+    "consigne": "Un téléphone sonne, personne ne décroche."
   },
   {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Incorpore un objet qui n’a rien à faire là dans une scène de tension sans en faire le centre."
+    "categorie": "Déplacement",
+    "abstraction": "action",
+    "consigne": "Les personnages changent brusquement de lieu."
   },
   {
-    "categorie": "Présage",
-    "abstraction": "tension / mystère",
-    "consigne": "Ton personnage croit que un objet qui n’a rien à faire là, mais tout le monde nie."
+    "categorie": "Vitre",
+    "abstraction": "incident",
+    "consigne": "Une vitre se brise ou un miroir éclate."
   },
   {
-    "categorie": "Cycle",
-    "abstraction": "structure",
-    "consigne": "Incorpore une note de musique obsédante dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Rituel",
-    "abstraction": "structure / répétition",
-    "consigne": "Un événement mineur lié à une note de musique obsédante déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Incorpore la présence d’un animal silencieux dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Décris une scène marquée par le goût d’un fruit qui ramène en enfance, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par la sensation d’avoir déjà été ici."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Fais ressentir une note de musique obsédante comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Décris une scène marquée par le retour inespéré d’un personnage oublié, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Un dialogue éclate à propos de le goût d’un fruit qui ramène en enfance – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Voix",
-    "abstraction": "perturbation sensorielle",
-    "consigne": "Décris une scène marquée par une blessure sans origine, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Présage",
-    "abstraction": "tension / mystère",
-    "consigne": "Ton personnage croit que le goût d’un fruit qui ramène en enfance, mais tout le monde nie."
-  },
-  {
-    "categorie": "Rituel",
-    "abstraction": "structure / répétition",
-    "consigne": "Fais ressentir une vieille photo trouvée dans un livre comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de le goût d’un fruit qui ramène en enfance."
-  },
-  {
-    "categorie": "Rituel",
-    "abstraction": "structure / répétition",
-    "consigne": "Incorpore une erreur dans une date de naissance dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Décris une scène marquée par une odeur de brûlé, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de la voix d’un proche, alors qu’il est loin."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par le goût d’un fruit qui ramène en enfance."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Fais ressentir la présence d’un animal silencieux comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Présage",
-    "abstraction": "tension / mystère",
-    "consigne": "Un événement mineur lié à une vieille photo trouvée dans un livre déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Fais ressentir le regard insistant d’un inconnu comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Un dialogue éclate à propos de un texte retrouvé sans signature – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Culpabilité",
+    "categorie": "Secret",
     "abstraction": "émotion",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur une note de musique obsédante."
+    "consigne": "Un personnage révèle à voix basse un secret."
   },
   {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de une note de musique obsédante."
+    "categorie": "Fuite",
+    "abstraction": "action",
+    "consigne": "Quelqu’un prend soudain la fuite sans explication."
   },
   {
-    "categorie": "Décalage",
+    "categorie": "Solitude",
+    "abstraction": "psychologique",
+    "consigne": "Le personnage se sent totalement seul, même entouré."
+  },
+  {
+    "categorie": "Musique",
+    "abstraction": "ambiance",
+    "consigne": "Un personnage fredonne une mélodie obsédante."
+  },
+  {
+    "categorie": "Erreur",
     "abstraction": "structure",
-    "consigne": "Quelqu’un affirme que la présence d’un animal silencieux n’est jamais arrivé."
+    "consigne": "Un mot ou un geste mal placé déclenche une crise."
   },
   {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Fais ressentir un rêve récurrent comme un malaise diffus, jamais expliqué."
+    "categorie": "Flash",
+    "abstraction": "structure",
+    "consigne": "Un souvenir envahit la scène, en plein dialogue."
   },
   {
-    "categorie": "Présage",
-    "abstraction": "tension / mystère",
-    "consigne": "Incorpore la mémoire d’un événement jamais vécu dans une scène de tension sans en faire le centre."
+    "categorie": "Parfum",
+    "abstraction": "sensoriel",
+    "consigne": "Une odeur forte envahit l’air, sans origine évidente."
   },
   {
-    "categorie": "Culpabilité",
+    "categorie": "Ombre",
+    "abstraction": "détail",
+    "consigne": "Une ombre étrange se dessine sur le mur ou au sol."
+  },
+  {
+    "categorie": "Miroir",
+    "abstraction": "ambiance",
+    "consigne": "Le reflet d’un personnage semble lui échapper."
+  },
+  {
+    "categorie": "Blessure",
+    "abstraction": "physique",
+    "consigne": "Un personnage se coupe, se cogne ou se brûle accidentellement."
+  },
+  {
+    "categorie": "Objet perdu",
+    "abstraction": "incident",
+    "consigne": "Un objet indispensable manque au pire moment."
+  },
+  {
+    "categorie": "Clé",
+    "abstraction": "détail",
+    "consigne": "Un trousseau de clés disparaît mystérieusement."
+  },
+  {
+    "categorie": "Fatigue",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage s’endort contre sa volonté."
+  },
+  {
+    "categorie": "Chanson",
+    "abstraction": "musique",
+    "consigne": "Un vieux tube passe à la radio et trouble l’ambiance."
+  },
+  {
+    "categorie": "Absence",
+    "abstraction": "structure",
+    "consigne": "Quelqu’un est attendu mais ne viendra jamais."
+  },
+  {
+    "categorie": "Peur",
     "abstraction": "émotion",
-    "consigne": "Un dialogue éclate à propos de une blessure sans origine – mais aucun mot important n’est prononcé."
+    "consigne": "Le personnage a la chair de poule, sans comprendre pourquoi."
   },
   {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Un événement mineur lié à le regard insistant d’un inconnu déclenche une réaction en chaîne."
+    "categorie": "Bruit",
+    "abstraction": "ambiance",
+    "consigne": "Un bruit mécanique ou naturel se répète, obsédant."
   },
   {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de le retour inespéré d’un personnage oublié."
+    "categorie": "Tache",
+    "abstraction": "détail",
+    "consigne": "Une tache étrange apparaît sur les vêtements ou un mur."
   },
   {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par un cri entendu la nuit."
+    "categorie": "Apparition",
+    "abstraction": "structure",
+    "consigne": "Quelqu’un ou quelque chose d’inattendu entre en scène."
   },
   {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur un nom sur une liste."
+    "categorie": "Lettre",
+    "abstraction": "objet",
+    "consigne": "Un personnage trouve ou reçoit une lettre énigmatique."
   },
   {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Un événement mineur lié à une odeur de brûlé déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par la voix d’un proche, alors qu’il est loin."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Ton personnage croit que le regard insistant d’un inconnu, mais tout le monde nie."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur le regard insistant d’un inconnu."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Un dialogue éclate à propos de le retour inespéré d’un personnage oublié – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Un événement mineur lié à un texte retrouvé sans signature déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur la disparition d’un objet familier."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Quelqu’un affirme que un objet qui n’a rien à faire là n’est jamais arrivé."
-  },
-  {
-    "categorie": "Culpabilité",
+    "categorie": "Manque",
     "abstraction": "émotion",
-    "consigne": "Décris une scène marquée par une note de musique obsédante, sans jamais nommer ce que c’est."
+    "consigne": "Le héros réalise qu’il n’a plus faim, plus soif, ou plus envie de parler."
   },
   {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par une blessure sans origine."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Décris une scène marquée par le reflet qui ne correspond pas, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Ton personnage croit que la sensation d’avoir déjà été ici, mais tout le monde nie."
-  },
-  {
-    "categorie": "Voix",
-    "abstraction": "perturbation sensorielle",
-    "consigne": "Incorpore un mot prononcé au mauvais moment dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Présage",
-    "abstraction": "tension / mystère",
-    "consigne": "Un dialogue éclate à propos de un mot prononcé au mauvais moment – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur une erreur dans une date de naissance."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Incorpore la sensation d’avoir déjà été ici dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Cycle",
-    "abstraction": "structure",
-    "consigne": "Un dialogue éclate à propos de la présence d’un animal silencieux – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Quelqu’un affirme que le retour inespéré d’un personnage oublié n’est jamais arrivé."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Ton personnage croit que une odeur de brûlé, mais tout le monde nie."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Décris une scène marquée par la voix d’un proche, alors qu’il est loin, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Un événement mineur lié à un cri entendu la nuit déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Décris une scène marquée par un nom sur une liste, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Ton personnage croit que un rêve récurrent, mais tout le monde nie."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Un dialogue éclate à propos de une odeur de brûlé – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de une vieille photo trouvée dans un livre."
-  },
-  {
-    "categorie": "Présage",
-    "abstraction": "tension / mystère",
-    "consigne": "Quelqu’un affirme que une note de musique obsédante n’est jamais arrivé."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Décris une scène marquée par un texte retrouvé sans signature, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur la présence d’un animal silencieux."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Incorpore le regard insistant d’un inconnu dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Quelqu’un affirme que une odeur de brûlé n’est jamais arrivé."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Incorpore un nom sur une liste dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Incorpore le goût d’un fruit qui ramène en enfance dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Fais ressentir un objet qui n’a rien à faire là comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de un mot prononcé au mauvais moment."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Un événement mineur lié à un mot prononcé au mauvais moment déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par le regard insistant d’un inconnu."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Décris une scène marquée par une vieille photo trouvée dans un livre, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Quelqu’un affirme que la voix d’un proche, alors qu’il est loin n’est jamais arrivé."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Un événement mineur lié à le goût d’un fruit qui ramène en enfance déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Fais ressentir un nom sur une liste comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Fais ressentir le retour inespéré d’un personnage oublié comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Décris une scène marquée par un mot prononcé au mauvais moment, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Quelqu’un affirme que un mot prononcé au mauvais moment n’est jamais arrivé."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Un dialogue éclate à propos de la disparition d’un objet familier – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur une blessure sans origine."
-  },
-  {
-    "categorie": "Rituel",
-    "abstraction": "structure / répétition",
-    "consigne": "Décris une scène marquée par la présence d’un animal silencieux, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Rituel",
-    "abstraction": "structure / répétition",
-    "consigne": "Un dialogue éclate à propos de un objet qui n’a rien à faire là – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Quelqu’un affirme que le goût d’un fruit qui ramène en enfance n’est jamais arrivé."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par une note de musique obsédante."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Incorpore une odeur de brûlé dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Un dialogue éclate à propos de un rêve récurrent – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Voix",
-    "abstraction": "perturbation sensorielle",
-    "consigne": "Un dialogue éclate à propos de une note de musique obsédante – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Ton personnage croit que la mémoire d’un événement jamais vécu, mais tout le monde nie."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Décris une scène marquée par un rêve récurrent, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Voix",
-    "abstraction": "perturbation sensorielle",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par une odeur de brûlé."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de le regard insistant d’un inconnu."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Un dialogue éclate à propos de la mémoire d’un événement jamais vécu – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Incorpore un texte retrouvé sans signature dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Quelqu’un affirme que un texte retrouvé sans signature n’est jamais arrivé."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Décris une scène marquée par la sensation d’avoir déjà été ici, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Ton personnage croit que la disparition d’un objet familier, mais tout le monde nie."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Fais ressentir le goût d’un fruit qui ramène en enfance comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Quelqu’un affirme que la mémoire d’un événement jamais vécu n’est jamais arrivé."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur un objet qui n’a rien à faire là."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Décris une scène marquée par le regard insistant d’un inconnu, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Rituel",
-    "abstraction": "structure / répétition",
-    "consigne": "Un dialogue éclate à propos de le regard insistant d’un inconnu – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Culpabilité",
+    "categorie": "Suspicion",
     "abstraction": "émotion",
-    "consigne": "Quelqu’un affirme que une vieille photo trouvée dans un livre n’est jamais arrivé."
+    "consigne": "Un soupçon s’insinue sans preuve tangible."
   },
   {
-    "categorie": "Culpabilité",
+    "categorie": "Bruit sourd",
+    "abstraction": "ambiance",
+    "consigne": "Un grondement ou une vibration trouble l’atmosphère."
+  },
+  {
+    "categorie": "Erreur d’identité",
+    "abstraction": "tension",
+    "consigne": "On confond un personnage avec un autre."
+  },
+  {
+    "categorie": "Blessure cachée",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage masque une douleur."
+  },
+  {
+    "categorie": "Échange de rôles",
+    "abstraction": "structure",
+    "consigne": "Deux personnages changent de place ou de statut (physiquement ou symboliquement)."
+  },
+  {
+    "categorie": "Nourriture",
+    "abstraction": "détail",
+    "consigne": "Un plat renversé ou une boisson répandue déclenche une tension."
+  },
+  {
+    "categorie": "Froid",
+    "abstraction": "ambiance",
+    "consigne": "La scène est glaciale, au propre ou au figuré."
+  },
+  {
+    "categorie": "Renversement",
+    "abstraction": "structure",
+    "consigne": "Le plus faible devient soudain le plus fort."
+  },
+  {
+    "categorie": "Annonce",
+    "abstraction": "événement",
+    "consigne": "Un message important est reçu (oral, écrit, SMS, etc.)."
+  },
+  {
+    "categorie": "Malaise",
+    "abstraction": "ambiance",
+    "consigne": "Quelqu’un tombe malade ou fait un malaise léger."
+  },
+  {
+    "categorie": "Cris",
+    "abstraction": "son",
+    "consigne": "Un cri résonne, sans que l’on sache d’où il vient."
+  },
+  {
+    "categorie": "Rupture",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage rompt une relation ou un contrat."
+  },
+  {
+    "categorie": "Revoir",
+    "abstraction": "structure",
+    "consigne": "Un personnage croise quelqu’un qu’il n’avait pas vu depuis longtemps."
+  },
+  {
+    "categorie": "Épuisement",
+    "abstraction": "physique",
+    "consigne": "Un personnage agit de façon étrange à cause de la fatigue."
+  },
+  {
+    "categorie": "Chaleur",
+    "abstraction": "ambiance",
+    "consigne": "La scène est moite, suffocante, ou caniculaire."
+  },
+  {
+    "categorie": "Regret",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage regrette un choix ou une parole, sans pouvoir revenir en arrière."
+  },
+  {
+    "categorie": "Odeur",
+    "abstraction": "sensoriel",
+    "consigne": "Une odeur agréable ou repoussante modifie l’atmosphère."
+  },
+  {
+    "categorie": "Gêne",
+    "abstraction": "ambiance",
+    "consigne": "Un silence gênant s’installe, personne n’ose parler."
+  },
+  {
+    "categorie": "Lumière",
+    "abstraction": "détail",
+    "consigne": "Une lumière étrange change l’ambiance sans raison visible."
+  },
+  {
+    "categorie": "Changement météo",
+    "abstraction": "structure",
+    "consigne": "Le temps change brusquement (pluie, neige, soleil, vent)."
+  },
+  {
+    "categorie": "Souvenir",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage revoit une scène de son passé en pleine action."
+  },
+  {
+    "categorie": "Faiblesse",
     "abstraction": "émotion",
-    "consigne": "Quelqu’un affirme que une blessure sans origine n’est jamais arrivé."
+    "consigne": "Un personnage montre une faiblesse qu’il tente de cacher."
   },
   {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de la sensation d’avoir déjà été ici."
+    "categorie": "Perte de contrôle",
+    "abstraction": "structure",
+    "consigne": "Quelqu’un perd totalement le contrôle de ses émotions ou de son corps."
   },
   {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par le reflet qui ne correspond pas."
+    "categorie": "Changement de décor",
+    "abstraction": "structure",
+    "consigne": "La scène bascule dans un autre lieu, sans transition."
   },
   {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Ton personnage croit que un cri entendu la nuit, mais tout le monde nie."
+    "categorie": "Gifle",
+    "abstraction": "action",
+    "consigne": "Un personnage gifle un autre (légèrement ou violemment)."
   },
   {
-    "categorie": "Culpabilité",
-    "abstraction": "émotion",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par un nom sur une liste."
+    "categorie": "Oublier",
+    "abstraction": "psychologique",
+    "consigne": "Un détail essentiel est oublié par tous les personnages."
   },
   {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Un événement mineur lié à une erreur dans une date de naissance déclenche une réaction en chaîne."
+    "categorie": "Tension",
+    "abstraction": "structure",
+    "consigne": "Le narrateur sent que la catastrophe est imminente, mais ne sait pas d’où elle viendra."
   },
   {
-    "categorie": "Culpabilité",
-    "abstraction": "émotion",
-    "consigne": "Un dialogue éclate à propos de la voix d’un proche, alors qu’il est loin – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Culpabilité",
-    "abstraction": "émotion",
-    "consigne": "Incorpore le retour inespéré d’un personnage oublié dans une scène de tension sans en faire le centre."
+    "categorie": "Coupure de courant",
+    "abstraction": "événement",
+    "consigne": "Tout s’éteint, la scène plonge dans l’obscurité."
   },
   {
     "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de une blessure sans origine."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Ton personnage croit que un nom sur une liste, mais tout le monde nie."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Décris une scène marquée par une erreur dans une date de naissance, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur un mot prononcé au mauvais moment."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Fais ressentir un cri entendu la nuit comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Quelqu’un affirme que le regard insistant d’un inconnu n’est jamais arrivé."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Quelqu’un affirme que le reflet qui ne correspond pas n’est jamais arrivé."
-  },
-  {
-    "categorie": "Cycle",
-    "abstraction": "structure",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de une odeur de brûlé."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Fais ressentir la mémoire d’un événement jamais vécu comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Rituel",
-    "abstraction": "structure / répétition",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur le reflet qui ne correspond pas."
-  },
-  {
-    "categorie": "Voix",
-    "abstraction": "perturbation sensorielle",
-    "consigne": "Décris une scène marquée par la disparition d’un objet familier, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Quelqu’un affirme que une erreur dans une date de naissance n’est jamais arrivé."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Incorpore le reflet qui ne correspond pas dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Cycle",
-    "abstraction": "structure",
-    "consigne": "Un événement mineur lié à la présence d’un animal silencieux déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Un dialogue éclate à propos de une erreur dans une date de naissance – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Fais ressentir la voix d’un proche, alors qu’il est loin comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Fais ressentir la disparition d’un objet familier comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Ton personnage croit que la présence d’un animal silencieux, mais tout le monde nie."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par un texte retrouvé sans signature."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Fais ressentir une odeur de brûlé comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Incorpore un cri entendu la nuit dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Quelqu’un affirme que la disparition d’un objet familier n’est jamais arrivé."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de un nom sur une liste."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur une odeur de brûlé."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Un dialogue éclate à propos de la sensation d’avoir déjà été ici – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Voix",
-    "abstraction": "perturbation sensorielle",
-    "consigne": "Ton personnage croit que le retour inespéré d’un personnage oublié, mais tout le monde nie."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Un événement mineur lié à la mémoire d’un événement jamais vécu déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur le goût d’un fruit qui ramène en enfance."
-  },
-  {
-    "categorie": "Culpabilité",
     "abstraction": "émotion",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par une vieille photo trouvée dans un livre."
+    "consigne": "Un personnage doute de la version qu’on lui raconte."
   },
   {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Décris une scène marquée par un objet qui n’a rien à faire là, sans jamais nommer ce que c’est."
+    "categorie": "Chute",
+    "abstraction": "structure",
+    "consigne": "Un personnage tombe, trébuche, ou rate une marche à un moment clé."
   },
   {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par un mot prononcé au mauvais moment."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par la disparition d’un objet familier."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de la disparition d’un objet familier."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Un événement mineur lié à la sensation d’avoir déjà été ici déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Empreinte",
-    "abstraction": "élément de mystère",
-    "consigne": "Ton personnage croit que une blessure sans origine, mais tout le monde nie."
-  },
-  {
-    "categorie": "Culpabilité",
+    "categorie": "Larme",
     "abstraction": "émotion",
-    "consigne": "Ton personnage croit que une note de musique obsédante, mais tout le monde nie."
+    "consigne": "Quelqu’un pleure, discrètement ou bruyamment."
   },
   {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Incorpore une blessure sans origine dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de un objet qui n’a rien à faire là."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Décris une scène marquée par un cri entendu la nuit, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Voix",
-    "abstraction": "perturbation sensorielle",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de un texte retrouvé sans signature."
-  },
-  {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur une vieille photo trouvée dans un livre."
-  },
-  {
-    "categorie": "Cycle",
+    "categorie": "Rupture de ton",
     "abstraction": "structure",
-    "consigne": "Un événement mineur lié à un objet qui n’a rien à faire là déclenche une réaction en chaîne."
+    "consigne": "Le ton du récit change brutalement (comique/triste, sérieux/absurde, etc.)."
   },
   {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par la mémoire d’un événement jamais vécu."
+    "categorie": "Regard appuyé",
+    "abstraction": "ambiance",
+    "consigne": "Un regard insistant met un personnage mal à l’aise."
   },
   {
-    "categorie": "Cycle",
+    "categorie": "Excuse",
+    "abstraction": "dialogue",
+    "consigne": "Un personnage invente une excuse absurde ou invraisemblable."
+  },
+  {
+    "categorie": "Répétition de mots",
+    "abstraction": "rythme",
+    "consigne": "Un mot ou une expression est répété jusqu’à l’obsession."
+  },
+  {
+    "categorie": "Fracas",
+    "abstraction": "son",
+    "consigne": "Un bruit fracassant fait sursauter tout le monde."
+  },
+  {
+    "categorie": "Étrangeté",
+    "abstraction": "ambiance",
+    "consigne": "Quelque chose cloche dans la scène, sans que personne ne le formule."
+  },
+  {
+    "categorie": "Promesse",
+    "abstraction": "dialogue",
+    "consigne": "Une promesse est faite mais ne sera jamais tenue."
+  },
+  {
+    "categorie": "Hésitation",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage hésite à tout avouer mais se ravise."
+  },
+  {
+    "categorie": "Changement de rythme",
     "abstraction": "structure",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur un cri entendu la nuit."
+    "consigne": "La narration accélère ou ralentit brusquement."
   },
   {
-    "categorie": "Doute",
-    "abstraction": "tension",
-    "consigne": "Fais ressentir un texte retrouvé sans signature comme un malaise diffus, jamais expliqué."
+    "categorie": "Objets",
+    "abstraction": "détail",
+    "consigne": "Un objet minuscule prend soudain une importance capitale."
   },
   {
-    "categorie": "Culpabilité",
+    "categorie": "Accident",
+    "abstraction": "événement",
+    "consigne": "Un personnage se blesse légèrement (chute, brûlure, coupure…)."
+  },
+  {
+    "categorie": "Erreur de jugement",
+    "abstraction": "structure",
+    "consigne": "Un personnage réalise qu’il s’est trompé sur quelqu’un."
+  },
+  {
+    "categorie": "Animaux",
+    "abstraction": "détail",
+    "consigne": "La présence ou l’absence d’un animal change l’atmosphère."
+  },
+  {
+    "categorie": "Incompréhension",
+    "abstraction": "dialogue",
+    "consigne": "Un quiproquo génère un conflit inattendu."
+  },
+  {
+    "categorie": "Retard",
+    "abstraction": "structure",
+    "consigne": "Un personnage arrive en retard et bouleverse les plans."
+  },
+  {
+    "categorie": "Peur du noir",
     "abstraction": "émotion",
-    "consigne": "Quelqu’un affirme que un cri entendu la nuit n’est jamais arrivé."
+    "consigne": "La peur du noir ressurgit chez un personnage adulte."
   },
   {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Un dialogue éclate à propos de le reflet qui ne correspond pas – mais aucun mot important n’est prononcé."
+    "categorie": "Doute de soi",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage n’a plus confiance en lui le temps d’une scène."
   },
   {
-    "categorie": "Rituel",
-    "abstraction": "structure / répétition",
-    "consigne": "Quelqu’un affirme que un nom sur une liste n’est jamais arrivé."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par un objet qui n’a rien à faire là."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de un cri entendu la nuit."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Incorpore la disparition d’un objet familier dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Un événement mineur lié à le reflet qui ne correspond pas déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Incorpore une vieille photo trouvée dans un livre dans une scène de tension sans en faire le centre."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur la sensation d’avoir déjà été ici."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Un événement mineur lié à un rêve récurrent déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de la mémoire d’un événement jamais vécu."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Un événement mineur lié à une blessure sans origine déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Quelqu’un affirme que un rêve récurrent n’est jamais arrivé."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Ton personnage croit que un mot prononcé au mauvais moment, mais tout le monde nie."
-  },
-  {
-    "categorie": "Culpabilité",
-    "abstraction": "émotion",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par un rêve récurrent."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Fais ressentir une blessure sans origine comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Fais ressentir une erreur dans une date de naissance comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Cycle",
-    "abstraction": "structure",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de une erreur dans une date de naissance."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Un événement mineur lié à la voix d’un proche, alors qu’il est loin déclenche une réaction en chaîne."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de le reflet qui ne correspond pas."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par une erreur dans une date de naissance."
-  },
-  {
-    "categorie": "Projection",
-    "abstraction": "psychologie",
-    "consigne": "Fais ressentir un mot prononcé au mauvais moment comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Ton personnage croit que une erreur dans une date de naissance, mais tout le monde nie."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Ton personnage croit que le reflet qui ne correspond pas, mais tout le monde nie."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur un rêve récurrent."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Fais ressentir le reflet qui ne correspond pas comme un malaise diffus, jamais expliqué."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Ton personnage croit que un texte retrouvé sans signature, mais tout le monde nie."
-  },
-  {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Quelqu’un affirme que la sensation d’avoir déjà été ici n’est jamais arrivé."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Décris une scène marquée par la mémoire d’un événement jamais vécu, sans jamais nommer ce que c’est."
-  },
-  {
-    "categorie": "Voix",
-    "abstraction": "perturbation sensorielle",
-    "consigne": "Écris une scène dont l’émotion dominante est provoquée par le retour inespéré d’un personnage oublié."
-  },
-  {
-    "categorie": "Décalage",
-    "abstraction": "structure",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur un texte retrouvé sans signature."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur le retour inespéré d’un personnage oublié."
-  },
-  {
-    "categorie": "Vision",
-    "abstraction": "perception",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur la mémoire d’un événement jamais vécu."
-  },
-  {
-    "categorie": "Dédoublement",
-    "abstraction": "trouble identitaire",
-    "consigne": "Transforme une scène banale par l’introduction soudaine de un rêve récurrent."
-  },
-  {
-    "categorie": "Disparition",
-    "abstraction": "événement",
-    "consigne": "Ton personnage croit que la voix d’un proche, alors qu’il est loin, mais tout le monde nie."
-  },
-  {
-    "categorie": "Rupture",
-    "abstraction": "événement",
-    "consigne": "Ton personnage croit que une vieille photo trouvée dans un livre, mais tout le monde nie."
-  },
-  {
-    "categorie": "Mirage",
-    "abstraction": "situation étrange",
-    "consigne": "Un dialogue éclate à propos de un cri entendu la nuit – mais aucun mot important n’est prononcé."
-  },
-  {
-    "categorie": "Doute",
+    "categorie": "Affrontement",
     "abstraction": "tension",
-    "consigne": "Un événement mineur lié à le retour inespéré d’un personnage oublié déclenche une réaction en chaîne."
+    "consigne": "Deux personnages s’affrontent en silence."
   },
   {
-    "categorie": "Rupture",
+    "categorie": "Musique forte",
+    "abstraction": "ambiance",
+    "consigne": "La musique couvre toutes les autres voix."
+  },
+  {
+    "categorie": "Excès",
+    "abstraction": "structure",
+    "consigne": "Quelqu’un en fait trop, à en devenir ridicule ou inquiétant."
+  },
+  {
+    "categorie": "Souvenir d’enfance",
+    "abstraction": "psychologique",
+    "consigne": "Un détail du décor rappelle l’enfance d’un personnage."
+  },
+  {
+    "categorie": "Pause",
+    "abstraction": "rythme",
+    "consigne": "Une scène de pause ou de transition permet de relâcher la tension."
+  },
+  {
+    "categorie": "Nuit blanche",
+    "abstraction": "structure",
+    "consigne": "Un personnage n’a pas dormi de la nuit et tout vacille."
+  },
+  {
+    "categorie": "Tempête",
+    "abstraction": "météo",
+    "consigne": "La météo devient extrême et enferme les personnages."
+  },
+  {
+    "categorie": "Message codé",
+    "abstraction": "objet",
+    "consigne": "Un message cryptique est laissé dans un lieu inattendu."
+  },
+  {
+    "categorie": "Jeu d’enfants",
+    "abstraction": "ambiance",
+    "consigne": "Le récit est ponctué par des bruits ou des souvenirs d’enfants."
+  },
+  {
+    "categorie": "Habitude",
+    "abstraction": "structure",
+    "consigne": "Un personnage rompt avec une habitude tenace."
+  },
+  {
+    "categorie": "Tâche impossible",
+    "abstraction": "action",
+    "consigne": "Un personnage s’acharne sur une tâche manifestement vouée à l’échec."
+  },
+  {
+    "categorie": "Voix lointaine",
+    "abstraction": "son",
+    "consigne": "Une voix lointaine semble appeler un personnage."
+  },
+  {
+    "categorie": "Alcool fort",
+    "abstraction": "ambiance",
+    "consigne": "Un personnage boit trop, sa perception change."
+  },
+  {
+    "categorie": "Trésor",
+    "abstraction": "objet",
+    "consigne": "Un personnage trouve un trésor personnel, sans valeur pour les autres."
+  },
+  {
+    "categorie": "Délai",
+    "abstraction": "structure",
+    "consigne": "Quelque chose doit être fait dans un temps très court."
+  },
+  {
+    "categorie": "Chiffre",
+    "abstraction": "détail",
+    "consigne": "Un chiffre, une date ou un code hante la scène."
+  },
+  {
+    "categorie": "Bousculade",
+    "abstraction": "incident",
+    "consigne": "Un personnage bouscule involontairement un autre."
+  },
+  {
+    "categorie": "Regard furtif",
+    "abstraction": "détail",
+    "consigne": "Un échange de regards furtifs change l’équilibre du groupe."
+  },
+  {
+    "categorie": "Erreur de nom",
+    "abstraction": "dialogue",
+    "consigne": "Quelqu’un se trompe de prénom ou de nom, provoquant la gêne."
+  },
+  {
+    "categorie": "Nostalgie",
+    "abstraction": "psychologique",
+    "consigne": "La nostalgie prend tout l’espace, et paralyse l’action."
+  },
+  {
+    "categorie": "Doute sur le temps",
+    "abstraction": "structure",
+    "consigne": "On ne sait plus quelle heure, quel jour, ou quelle année on est."
+  },
+  {
+    "categorie": "Rivalité",
+    "abstraction": "tension",
+    "consigne": "Deux personnages se disputent l’attention d’un tiers."
+  },
+  {
+    "categorie": "Feu",
+    "abstraction": "incident",
+    "consigne": "Un début d’incendie, même minime, inquiète tout le monde."
+  },
+  {
+    "categorie": "Poignée de main",
+    "abstraction": "détail",
+    "consigne": "Une poignée de main est refusée ou trop appuyée."
+  },
+  {
+    "categorie": "Fatigue extrême",
+    "abstraction": "physique",
+    "consigne": "Un personnage s’endort debout, ou parle en dormant."
+  },
+  {
+    "categorie": "Peur du ridicule",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage a honte d’une erreur passée."
+  },
+  {
+    "categorie": "Pluie battante",
+    "abstraction": "météo",
+    "consigne": "Une pluie diluvienne isole les personnages du reste du monde."
+  },
+  {
+    "categorie": "Coup de fil interrompu",
+    "abstraction": "structure",
+    "consigne": "Une conversation téléphonique est brutalement interrompue."
+  },
+  {
+    "categorie": "Toux",
+    "abstraction": "physique",
+    "consigne": "Un personnage tousse au point d’alerter les autres."
+  },
+  {
+    "categorie": "Trouble de mémoire",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage n’arrive plus à se souvenir d’un détail essentiel."
+  },
+  {
+    "categorie": "Arrivée tardive",
+    "abstraction": "structure",
+    "consigne": "Un personnage important arrive à la fin d’une scène clé."
+  },
+  {
+    "categorie": "Blague",
+    "abstraction": "dialogue",
+    "consigne": "Quelqu’un tente une blague, et l’ambiance se tend."
+  },
+  {
+    "categorie": "Choc thermique",
+    "abstraction": "détail",
+    "consigne": "Un personnage passe brutalement du chaud au froid."
+  },
+  {
+    "categorie": "Surprise ratée",
+    "abstraction": "structure",
+    "consigne": "Une surprise est dévoilée trop tôt."
+  },
+  {
+    "categorie": "Fausse accusation",
+    "abstraction": "tension",
+    "consigne": "Un personnage accuse à tort un autre d’un vol, d’un mensonge ou d’une trahison."
+  },
+  {
+    "categorie": "Souvenir tactile",
+    "abstraction": "sensoriel",
+    "consigne": "Le contact d’une matière ramène le héros à un événement passé."
+  },
+  {
+    "categorie": "Odeur de brûlé",
+    "abstraction": "sensoriel",
+    "consigne": "Tout le monde sent une odeur suspecte."
+  },
+  {
+    "categorie": "Grincement",
+    "abstraction": "son",
+    "consigne": "Un bruit métallique ou sinistre agace ou effraie les personnages."
+  },
+  {
+    "categorie": "Crise de rire",
+    "abstraction": "psychologique",
+    "consigne": "Un fou rire incontrôlable éclate à un moment inopportun."
+  },
+  {
+    "categorie": "Gratitude inattendue",
+    "abstraction": "émotion",
+    "consigne": "Un personnage remercie un autre de façon excessive ou déplacée."
+  },
+  {
+    "categorie": "Échange de vêtements",
+    "abstraction": "structure",
+    "consigne": "Deux personnages échangent d’habits ou accessoires, pour tromper quelqu’un."
+  },
+  {
+    "categorie": "Photo abîmée",
+    "abstraction": "objet",
+    "consigne": "Une vieille photo est retrouvée, déchirée ou tâchée."
+  },
+  {
+    "categorie": "Message vocal",
+    "abstraction": "structure",
+    "consigne": "Un message vocal mal compris déclenche une action."
+  },
+  {
+    "categorie": "Jeu de regard",
+    "abstraction": "tension",
+    "consigne": "Un personnage dévisage un autre, sans raison claire."
+  },
+  {
+    "categorie": "Erreur de porte",
+    "abstraction": "structure",
+    "consigne": "Un personnage entre dans la mauvaise pièce ou le mauvais lieu."
+  },
+  {
+    "categorie": "Manque d’argent",
+    "abstraction": "tension",
+    "consigne": "La question d’argent devient un problème central, même brièvement."
+  },
+  {
+    "categorie": "Fausse piste",
+    "abstraction": "structure",
+    "consigne": "On suit un détail ou une rumeur qui ne mène à rien."
+  },
+  {
+    "categorie": "Honte",
+    "abstraction": "émotion",
+    "consigne": "Un personnage a honte d’une action récente."
+  },
+  {
+    "categorie": "Rangement",
+    "abstraction": "action",
+    "consigne": "Quelqu’un range frénétiquement, révélant un trouble intérieur."
+  },
+  {
+    "categorie": "Portes qui claquent",
+    "abstraction": "son",
+    "consigne": "Des portes claquent, volontairement ou par accident, modifiant la tension."
+  },
+  {
+    "categorie": "Traces",
+    "abstraction": "détail",
+    "consigne": "Des traces (boue, sang, peinture…) perturbent les personnages."
+  },
+  {
+    "categorie": "Désorientation",
+    "abstraction": "psychologique",
+    "consigne": "Personne ne sait vraiment où il est, ou comment il est arrivé là."
+  },
+  {
+    "categorie": "Fausse déclaration",
+    "abstraction": "structure",
+    "consigne": "Un personnage fait une déclaration solennelle mais fausse."
+  },
+  {
+    "categorie": "Douche froide",
+    "abstraction": "détail",
+    "consigne": "Un événement coupe court à l’enthousiasme général."
+  },
+  {
+    "categorie": "Rêve éveillé",
+    "abstraction": "psychologique",
+    "consigne": "Le héros croit rêver alors que tout est réel."
+  },
+  {
+    "categorie": "Mains sales",
+    "abstraction": "détail",
+    "consigne": "Un personnage remarque que ses mains sont sales ou blessées."
+  },
+  {
+    "categorie": "Odeur de tabac",
+    "abstraction": "sensoriel",
+    "consigne": "L’odeur du tabac ou d’une cigarette trouble la scène."
+  },
+  {
+    "categorie": "Proposition absurde",
+    "abstraction": "dialogue",
+    "consigne": "Un personnage propose quelque chose d’irréaliste ou d’impossible."
+  },
+  {
+    "categorie": "Fenêtre ouverte",
+    "abstraction": "détail",
+    "consigne": "Le vent s’engouffre par une fenêtre restée ouverte."
+  },
+  {
+    "categorie": "Choc du passé",
+    "abstraction": "psychologique",
+    "consigne": "Le retour d’un personnage ancien trouble l’équilibre du groupe."
+  },
+  {
+    "categorie": "Mensonge flagrant",
+    "abstraction": "tension",
+    "consigne": "Un personnage ment effrontément et personne ne le relève."
+  },
+  {
+    "categorie": "Épice",
+    "abstraction": "sensoriel",
+    "consigne": "Un plat trop épicé déclenche une mini-crise."
+  },
+  {
+    "categorie": "Regard dans le vide",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage fixe le vide, absent ou inquiet."
+  },
+  {
+    "categorie": "Changement de plan",
+    "abstraction": "structure",
+    "consigne": "Le plan initial est abandonné sur un coup de tête."
+  },
+  {
+    "categorie": "Refus",
+    "abstraction": "structure",
+    "consigne": "Un personnage refuse catégoriquement une demande banale."
+  },
+  {
+    "categorie": "Échange de sacs",
+    "abstraction": "incident",
+    "consigne": "Des sacs sont échangés, volontairement ou non, et brouillent la suite."
+  },
+  {
+    "categorie": "Souvenir olfactif",
+    "abstraction": "sensoriel",
+    "consigne": "Une odeur ramène brutalement un souvenir d’enfance ou d’amour."
+  },
+  {
+    "categorie": "Coupure d’eau",
+    "abstraction": "incident",
+    "consigne": "L’eau s’arrête au pire moment."
+  },
+  {
+    "categorie": "Objet fétiche perdu",
+    "abstraction": "objet",
+    "consigne": "Un personnage perd un objet qu’il considère porte-bonheur."
+  },
+  {
+    "categorie": "Erreur d’itinéraire",
+    "abstraction": "structure",
+    "consigne": "Un personnage se perd, ou fait semblant de se perdre."
+  },
+  {
+    "categorie": "Regard de défi",
+    "abstraction": "tension",
+    "consigne": "Un échange de regards marque le début d’une rivalité."
+  },
+  {
+    "categorie": "Cauchemar",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage se réveille en sursaut d’un rêve effrayant."
+  },
+  {
+    "categorie": "Démasquage",
+    "abstraction": "structure",
+    "consigne": "Un secret ou une identité cachée éclate soudainement."
+  },
+  {
+    "categorie": "Panique",
+    "abstraction": "action",
+    "consigne": "La panique se propage sans cause évidente."
+  },
+  {
+    "categorie": "Manque d’air",
+    "abstraction": "physique",
+    "consigne": "Un personnage suffoque, par peur ou pour de vrai."
+  },
+  {
+    "categorie": "Tension sexuelle",
+    "abstraction": "ambiance",
+    "consigne": "Une tension érotique sous-jacente trouble la scène."
+  },
+  {
+    "categorie": "Brûlure du regard",
+    "abstraction": "détail",
+    "consigne": "Un regard intense en dit plus que mille mots."
+  },
+  {
+    "categorie": "Douleur refoulée",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage tente de cacher une douleur profonde."
+  },
+  {
+    "categorie": "Effondrement",
+    "abstraction": "action",
+    "consigne": "Un personnage s’effondre, physiquement ou moralement."
+  },
+  {
+    "categorie": "Geste manqué",
+    "abstraction": "structure",
+    "consigne": "Quelqu’un manque un geste important à cause du stress."
+  },
+  {
+    "categorie": "Explosion",
     "abstraction": "événement",
-    "consigne": "Un personnage secondaire apporte un point de vue étrange sur la voix d’un proche, alors qu’il est loin."
+    "consigne": "Quelque chose explose ou se casse de façon inattendue."
   },
   {
-    "categorie": "Erreur",
-    "abstraction": "déclencheur",
-    "consigne": "Un événement mineur lié à un nom sur une liste déclenche une réaction en chaîne."
+    "categorie": "Fausse confession",
+    "abstraction": "structure",
+    "consigne": "Un personnage ment lors d’une confession supposée sincère."
   },
   {
-    "categorie": "Langage détourné",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Écris un dialogue entier sans utiliser la lettre « e »."
+    "categorie": "Confusion des prénoms",
+    "abstraction": "détail",
+    "consigne": "Un personnage est appelé par un autre prénom."
   },
   {
-    "categorie": "Interférence",
-    "abstraction": "perturbation narrative",
-    "consigne": "Une voix extérieure interrompt régulièrement le récit, sans qu'on en comprenne la source."
+    "categorie": "Cauchemar éveillé",
+    "abstraction": "psychologique",
+    "consigne": "Un élément de cauchemar s’invite dans la réalité."
   },
   {
-    "categorie": "Objet déclencheur",
-    "abstraction": "élément déclencheur",
-    "consigne": "Ton personnage découvre un objet dont il ne peut se débarrasser. Chaque tentative échoue ou empire la situation."
+    "categorie": "Disparition soudaine",
+    "abstraction": "structure",
+    "consigne": "Un personnage quitte la scène sans prévenir."
   },
   {
-    "categorie": "Suspension du réel",
-    "abstraction": "déformation de la réalité",
-    "consigne": "Les lois du monde se figent pendant quelques minutes. Tout s’immobilise, sauf ton personnage."
+    "categorie": "Rumeur",
+    "abstraction": "structure",
+    "consigne": "Une rumeur se répand et influence la scène."
   },
   {
-    "categorie": "Incertitude morale",
-    "abstraction": "dilemme",
-    "consigne": "Fais agir ton personnage pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+    "categorie": "Absence de réaction",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage reste de marbre malgré l’émotion ambiante."
   },
   {
-    "categorie": "Structure inversée",
-    "abstraction": "forme narrative",
-    "consigne": "Raconte une scène à l’envers, en partant de la fin pour remonter jusqu’au commencement."
+    "categorie": "Rappel à l’ordre",
+    "abstraction": "dialogue",
+    "consigne": "Quelqu’un rappelle la règle ou l’ordre oublié de tous."
   },
   {
-    "categorie": "Texte contaminé",
-    "abstraction": "altération de la narration",
-    "consigne": "Le texte semble infecté par une voix parasite qui interrompt, modifie ou contredit le récit."
+    "categorie": "Choc des générations",
+    "abstraction": "structure",
+    "consigne": "Deux générations s’opposent frontalement."
   },
   {
-    "categorie": "Empreinte invisible",
-    "abstraction": "influence latente",
-    "consigne": "Un personnage agit sous l’influence d’une personne qu’il ne mentionne jamais. À toi de suggérer cette présence par petites touches."
+    "categorie": "Retard",
+    "abstraction": "structure",
+    "consigne": "Quelqu’un arrive en retard, bouleversant l’organisation."
   },
   {
-    "categorie": "Rémanence",
-    "abstraction": "persistances sensorielles",
-    "consigne": "Ton personnage est hanté par une odeur qui réapparaît sans raison apparente."
+    "categorie": "Cadeau empoisonné",
+    "abstraction": "structure",
+    "consigne": "Un cadeau inattendu complique la situation."
   },
   {
-    "categorie": "Cadavre narratif",
-    "abstraction": "fragment troublant",
-    "consigne": "Insère un paragraphe sans lien logique avec l’histoire. Il ne sera jamais expliqué."
+    "categorie": "Jet de liquide",
+    "abstraction": "action",
+    "consigne": "Un liquide est jeté, renversé, ou éclabousse involontairement."
   },
   {
-    "categorie": "Interférence",
-    "abstraction": "perturbation narrative",
-    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+    "categorie": "Doute sur le passé",
+    "abstraction": "psychologique",
+    "consigne": "Le personnage doute de ses propres souvenirs."
   },
   {
-    "categorie": "Rémanence",
-    "abstraction": "persistances sensorielles",
-    "consigne": "Ton personnage est hanté par une odeur qui réapparaît sans raison apparente."
+    "categorie": "Colère froide",
+    "abstraction": "émotion",
+    "consigne": "Un personnage exprime sa colère par des gestes retenus."
   },
   {
-    "categorie": "Texte contaminé",
-    "abstraction": "altération de la narration",
-    "consigne": "Le texte semble infecté par une voix parasite qui interrompt, modifie ou contredit l’histoire."
+    "categorie": "Sursaut collectif",
+    "abstraction": "structure",
+    "consigne": "Plusieurs personnages réagissent en même temps à un événement."
   },
   {
-    "categorie": "Empreinte invisible",
-    "abstraction": "influence latente",
-    "consigne": "Un personnage agit sous l’influence d’une personne qu’il ne mentionne jamais. À toi de suggérer cette présence par petites touches."
+    "categorie": "Longue lettre",
+    "abstraction": "objet",
+    "consigne": "Un personnage écrit ou reçoit une lettre interminable."
   },
   {
-    "categorie": "Incertitude morale",
-    "abstraction": "dilemme",
-    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+    "categorie": "Fausse alerte",
+    "abstraction": "structure",
+    "consigne": "Une fausse alerte provoque l’agitation."
   },
   {
-    "categorie": "Incertitude morale",
-    "abstraction": "dilemme",
-    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+    "categorie": "Rituel absurde",
+    "abstraction": "structure",
+    "consigne": "Un rituel ou une routine étrange s’installe."
   },
   {
-    "categorie": "Empreinte invisible",
-    "abstraction": "influence latente",
-    "consigne": "Un personnage agit sous l’influence d’une personne qu’il ne mentionne jamais. À toi de suggérer cette présence par petites touches."
+    "categorie": "Plaisanterie déplacée",
+    "abstraction": "dialogue",
+    "consigne": "Une blague mal placée déclenche un malaise."
   },
   {
-    "categorie": "Suspension du réel",
-    "abstraction": "déformation de la réalité",
-    "consigne": "Les lois du monde se figent pendant quelques minutes. Tout s’immobilise, sauf votre héros."
+    "categorie": "Oubli volontaire",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage feint d’avoir oublié un fait crucial."
   },
   {
-    "categorie": "Rémanence",
-    "abstraction": "persistances sensorielles",
-    "consigne": "Ton personnage est hanté par une odeur qui réapparaît sans raison apparente."
+    "categorie": "Changement de langue",
+    "abstraction": "dialogue",
+    "consigne": "Un personnage change brusquement de langue."
   },
   {
-    "categorie": "Rémanence",
-    "abstraction": "persistances sensorielles",
-    "consigne": "Ton personnage est hanté par une odeur qui réapparaît sans raison apparente."
+    "categorie": "Geste de tendresse",
+    "abstraction": "action",
+    "consigne": "Un geste inattendu d’affection déstabilise la scène."
   },
   {
-    "categorie": "Suspension du réel",
-    "abstraction": "déformation de la réalité",
-    "consigne": "Les lois du monde se figent pendant quelques minutes. Tout s’immobilise, sauf votre héros."
+    "categorie": "Faible luminosité",
+    "abstraction": "ambiance",
+    "consigne": "Tout se joue dans la pénombre ou l’obscurité."
   },
   {
-    "categorie": "Cadavre narratif",
-    "abstraction": "fragment troublant",
-    "consigne": "Insère un paragraphe sans lien logique avec l’histoire. Il ne sera jamais expliqué."
+    "categorie": "Plaie ouverte",
+    "abstraction": "détail",
+    "consigne": "Un personnage montre ou cache une plaie récente."
   },
   {
-    "categorie": "Incertitude morale",
-    "abstraction": "dilemme",
-    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+    "categorie": "Répétition d’un rêve",
+    "abstraction": "psychologique",
+    "consigne": "Un rêve ou cauchemar récurrent perturbe la narration."
   },
   {
-    "categorie": "Structure inversée",
-    "abstraction": "forme narrative",
-    "consigne": "Raconte une scène à l’envers, en partant de la fin pour remonter jusqu’au commencement."
+    "categorie": "Jeu de mains",
+    "abstraction": "action",
+    "consigne": "Un jeu de mains (bague, pièce, briquet…) trahit l’état d’esprit d’un personnage."
   },
   {
-    "categorie": "Interférence",
-    "abstraction": "perturbation narrative",
-    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+    "categorie": "Montée de fièvre",
+    "abstraction": "physique",
+    "consigne": "Un personnage est pris d’une fièvre soudaine."
   },
   {
-    "categorie": "Empreinte invisible",
-    "abstraction": "influence latente",
-    "consigne": "Un personnage agit sous l’influence d’une personne qu’il ne mentionne jamais. À toi de suggérer cette présence par petites touches."
+    "categorie": "Objet brisé",
+    "abstraction": "détail",
+    "consigne": "Un objet symbolique se brise au pire moment."
   },
   {
-    "categorie": "Suspension du réel",
-    "abstraction": "déformation de la réalité",
-    "consigne": "Les lois du monde se figent pendant quelques minutes. Tout s’immobilise, sauf votre héros."
+    "categorie": "Main tendue",
+    "abstraction": "action",
+    "consigne": "Un personnage propose son aide contre toute attente."
   },
   {
-    "categorie": "Structure inversée",
-    "abstraction": "forme narrative",
-    "consigne": "Raconte une scène à l’envers, en partant de la fin pour remonter jusqu’au commencement."
+    "categorie": "Détail déplacé",
+    "abstraction": "détail",
+    "consigne": "Un élément du décor n’a rien à faire là."
   },
   {
-    "categorie": "Incertitude morale",
-    "abstraction": "dilemme",
-    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+    "categorie": "Fausse identité",
+    "abstraction": "structure",
+    "consigne": "Un personnage se fait passer pour un autre."
   },
   {
-    "categorie": "Interférence",
-    "abstraction": "perturbation narrative",
-    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+    "categorie": "Vibration",
+    "abstraction": "son",
+    "consigne": "Une vibration (téléphone, machine…) trouble le silence."
   },
   {
-    "categorie": "Interférence",
-    "abstraction": "perturbation narrative",
-    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+    "categorie": "Silence assourdissant",
+    "abstraction": "ambiance",
+    "consigne": "Le silence devient pesant, jusqu’à rendre tout dialogue impossible."
   },
   {
-    "categorie": "Interférence",
-    "abstraction": "perturbation narrative",
-    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+    "categorie": "Déni",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage refuse d’admettre une évidence."
   },
   {
-    "categorie": "Structure inversée",
-    "abstraction": "forme narrative",
-    "consigne": "Raconte une scène à l’envers, en partant de la fin pour remonter jusqu’au commencement."
+    "categorie": "Dernier mot",
+    "abstraction": "dialogue",
+    "consigne": "Un personnage impose le dernier mot, à tout prix."
   },
   {
-    "categorie": "Objet déclencheur",
-    "abstraction": "élément déclencheur",
-    "consigne": "Ton personnage découvre un objet dont il ne peut se débarrasser. Chaque tentative échoue ou empire la situation."
+    "categorie": "Dispute",
+    "abstraction": "action",
+    "consigne": "Un conflit éclate et emporte tous les personnages."
   },
   {
-    "categorie": "Interférence",
-    "abstraction": "perturbation narrative",
-    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+    "categorie": "Déplacement de mobilier",
+    "abstraction": "action",
+    "consigne": "Un meuble ou un objet lourd est déplacé, révélant un secret."
   },
   {
-    "categorie": "Incertitude morale",
-    "abstraction": "dilemme",
-    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+    "categorie": "Lapsus révélateur",
+    "abstraction": "dialogue",
+    "consigne": "Un lapsus change la tournure de la scène."
   },
   {
-    "categorie": "Cadavre narratif",
-    "abstraction": "fragment troublant",
-    "consigne": "Insère un paragraphe sans lien logique avec l’histoire. Il ne sera jamais expliqué."
+    "categorie": "Suspense prolongé",
+    "abstraction": "structure",
+    "consigne": "On fait durer le suspense jusqu’à l’absurde."
   },
   {
-    "categorie": "Incertitude morale",
-    "abstraction": "dilemme",
-    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+    "categorie": "Apparition inopinée",
+    "abstraction": "structure",
+    "consigne": "Un personnage entre en scène sans logique apparente."
   },
   {
-    "categorie": "Objet déclencheur",
-    "abstraction": "élément déclencheur",
-    "consigne": "Ton personnage découvre un objet dont il ne peut se débarrasser. Chaque tentative échoue ou empire la situation."
+    "categorie": "Oubli de rendez-vous",
+    "abstraction": "structure",
+    "consigne": "Un rendez-vous important est oublié ou raté."
   },
   {
-    "categorie": "Langage détourné",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Écris un dialogue entier sans utiliser la lettre « e »."
+    "categorie": "Doute existentiel",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage remet en cause toute son existence."
+  },
+  {
+    "categorie": "Chaleur étouffante",
+    "abstraction": "ambiance",
+    "consigne": "La chaleur pèse sur les corps et les esprits."
+  },
+  {
+    "categorie": "Voix off intrusive",
+    "abstraction": "structure",
+    "consigne": "Une voix intérieure interrompt le déroulement de la scène."
+  },
+  {
+    "categorie": "Retour du passé",
+    "abstraction": "structure",
+    "consigne": "Un élément du passé fait irruption dans le présent."
+  },
+  {
+    "categorie": "Changement brutal de décor",
+    "abstraction": "structure",
+    "consigne": "Tout bascule, le lieu ou le temps change d’un coup."
+  },
+  {
+    "categorie": "Dégoût",
+    "abstraction": "émotion",
+    "consigne": "Un personnage est pris de dégoût pour un lieu, une personne, ou lui-même."
+  },
+  {
+    "categorie": "Marque corporelle",
+    "abstraction": "détail",
+    "consigne": "Une marque (grain de beauté, tatouage, cicatrice) prend un sens nouveau."
+  },
+  {
+    "categorie": "Invitation refusée",
+    "abstraction": "dialogue",
+    "consigne": "Un personnage décline une invitation ou un ordre avec force."
+  },
+  {
+    "categorie": "Crise de panique",
+    "abstraction": "psychologique",
+    "consigne": "Un personnage panique, entraînant les autres dans sa spirale."
+  },
+  {
+    "categorie": "Réaction inattendue",
+    "abstraction": "structure",
+    "consigne": "Un personnage réagit à contre-emploi (rires face au danger, calme face au chaos…)."
+  },
+  {
+    "categorie": "Fausse mort",
+    "abstraction": "structure",
+    "consigne": "Quelqu’un fait croire à sa propre mort ou celle d’un autre."
+  },
+  {
+    "categorie": "Obstacle inattendu",
+    "abstraction": "structure",
+    "consigne": "Un obstacle imprévu change tout le déroulé de la scène."
+  },
+  {
+    "categorie": "Honte",
+    "abstraction": "émotion",
+    "consigne": "Un personnage éprouve de la honte pour lui ou un autre."
+  },
+  {
+    "categorie": "Épuisement collectif",
+    "abstraction": "ambiance",
+    "consigne": "Tous les personnages sont au bout de leurs forces."
+  },
+  {
+    "categorie": "Garde du secret",
+    "abstraction": "structure",
+    "consigne": "Un personnage décide de ne jamais révéler ce qu’il sait."
+  },
+  {
+    "categorie": "Objets qui tombent",
+    "abstraction": "action",
+    "consigne": "Des objets tombent ou s’effondrent, sans explication claire."
+  },
+  {
+    "categorie": "Refus du dialogue",
+    "abstraction": "dialogue",
+    "consigne": "Un personnage se mure dans le silence face à toute tentative de discussion."
+  },
+  {
+    "categorie": "Imitation",
+    "abstraction": "action",
+    "consigne": "Un personnage imite ou parodie un autre, volontairement ou non."
+  },
+  {
+    "categorie": "Souvenir douloureux",
+    "abstraction": "psychologique",
+    "consigne": "Un souvenir douloureux ressurgit, bouleversant la scène."
+  },
+  {
+    "categorie": "Dérive",
+    "abstraction": "structure",
+    "consigne": "La scène s’éloigne complètement de son objectif initial."
+  },
+  {
+    "categorie": "Contact physique",
+    "abstraction": "action",
+    "consigne": "Un contact physique inattendu provoque un électrochoc."
+  },
+  {
+    "categorie": "Point de vue",
+    "abstraction": "tension",
+    "consigne": "Faites commencer un chapitre par la fin."
+  },
+  {
+    "categorie": "Motif",
+    "abstraction": "obstacle",
+    "consigne": "Créez un personnage secondaire dont l’existence change l’intrigue par sa seule absence."
+  },
+  {
+    "categorie": "Objet",
+    "abstraction": "inspiration",
+    "consigne": "Racontez une scène du point de vue d’un animal ou d’un objet."
+  },
+  {
+    "categorie": "Tonalité",
+    "abstraction": "ouverture",
+    "consigne": "Ajoutez un personnage qui ne parle jamais mais que tout le monde semble comprendre."
+  },
+  {
+    "categorie": "Tonalité",
+    "abstraction": "tension",
+    "consigne": "Introduisez un silence trop long dans un dialogue."
+  },
+  {
+    "categorie": "Personnage",
+    "abstraction": "recentrage",
+    "consigne": "Ajoutez une superstition locale que tous les personnages respectent sans savoir pourquoi."
+  },
+  {
+    "categorie": "Situation",
+    "abstraction": "recentrage",
+    "consigne": "Décrivez un rêve qui éclaire l’intrigue sans l’expliquer."
+  },
+  {
+    "categorie": "Situation",
+    "abstraction": "métaphore",
+    "consigne": "Décrivez un lieu comme s’il avait une mémoire propre."
+  },
+  {
+    "categorie": "Point de vue",
+    "abstraction": "recentrage",
+    "consigne": "Introduisez un objet anodin qui devient essentiel à la fin."
+  },
+  {
+    "categorie": "Dynamique",
+    "abstraction": "inspiration",
+    "consigne": "Faites écrire un mot ou une lettre à un personnage que personne ne lira jamais."
+  },
+  {
+    "categorie": "Structure",
+    "abstraction": "tension",
+    "consigne": "Ajoutez une règle invisible qui structure le monde (physique, social, narratif…)."
+  },
+  {
+    "categorie": "Conflit",
+    "abstraction": "métaphore",
+    "consigne": "Un personnage ment à tout le monde, y compris au lecteur."
+  },
+  {
+    "categorie": "Dynamique",
+    "abstraction": "inspiration",
+    "consigne": "Faites répéter une scène deux fois dans le récit, avec deux points de vue opposés."
+  },
+  {
+    "categorie": "Cadre",
+    "abstraction": "inspiration",
+    "consigne": "Transformez la scène la plus banale du récit en événement fondateur."
+  },
+  {
+    "categorie": "Objet",
+    "abstraction": "recentrage",
+    "consigne": "Donnez à votre protagoniste un souvenir qu’il ne devrait pas avoir."
   }
-]
+];
+export default ideas;
