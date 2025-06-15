@@ -1,4 +1,4 @@
-const ideas = [
+[
   {
     "categorie": "Cycle",
     "abstraction": "structure",
@@ -1055,9 +1055,19 @@ const ideas = [
     "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
   },
   {
+    "categorie": "Rémanence",
+    "abstraction": "persistances sensorielles",
+    "consigne": "Ton personnage est hanté par une odeur qui réapparaît sans raison apparente."
+  },
+  {
     "categorie": "Texte contaminé",
     "abstraction": "altération de la narration",
     "consigne": "Le texte semble infecté par une voix parasite qui interrompt, modifie ou contredit l’histoire."
+  },
+  {
+    "categorie": "Empreinte invisible",
+    "abstraction": "influence latente",
+    "consigne": "Un personnage agit sous l’influence d’une personne qu’il ne mentionne jamais. À toi de suggérer cette présence par petites touches."
   },
   {
     "categorie": "Incertitude morale",
@@ -1065,9 +1075,129 @@ const ideas = [
     "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
   },
   {
+    "categorie": "Incertitude morale",
+    "abstraction": "dilemme",
+    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+  },
+  {
+    "categorie": "Empreinte invisible",
+    "abstraction": "influence latente",
+    "consigne": "Un personnage agit sous l’influence d’une personne qu’il ne mentionne jamais. À toi de suggérer cette présence par petites touches."
+  },
+  {
     "categorie": "Suspension du réel",
     "abstraction": "déformation de la réalité",
     "consigne": "Les lois du monde se figent pendant quelques minutes. Tout s’immobilise, sauf votre héros."
+  },
+  {
+    "categorie": "Rémanence",
+    "abstraction": "persistances sensorielles",
+    "consigne": "Ton personnage est hanté par une odeur qui réapparaît sans raison apparente."
+  },
+  {
+    "categorie": "Rémanence",
+    "abstraction": "persistances sensorielles",
+    "consigne": "Ton personnage est hanté par une odeur qui réapparaît sans raison apparente."
+  },
+  {
+    "categorie": "Suspension du réel",
+    "abstraction": "déformation de la réalité",
+    "consigne": "Les lois du monde se figent pendant quelques minutes. Tout s’immobilise, sauf votre héros."
+  },
+  {
+    "categorie": "Cadavre narratif",
+    "abstraction": "fragment troublant",
+    "consigne": "Insère un paragraphe sans lien logique avec l’histoire. Il ne sera jamais expliqué."
+  },
+  {
+    "categorie": "Incertitude morale",
+    "abstraction": "dilemme",
+    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+  },
+  {
+    "categorie": "Structure inversée",
+    "abstraction": "forme narrative",
+    "consigne": "Raconte une scène à l’envers, en partant de la fin pour remonter jusqu’au commencement."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+  },
+  {
+    "categorie": "Empreinte invisible",
+    "abstraction": "influence latente",
+    "consigne": "Un personnage agit sous l’influence d’une personne qu’il ne mentionne jamais. À toi de suggérer cette présence par petites touches."
+  },
+  {
+    "categorie": "Suspension du réel",
+    "abstraction": "déformation de la réalité",
+    "consigne": "Les lois du monde se figent pendant quelques minutes. Tout s’immobilise, sauf votre héros."
+  },
+  {
+    "categorie": "Structure inversée",
+    "abstraction": "forme narrative",
+    "consigne": "Raconte une scène à l’envers, en partant de la fin pour remonter jusqu’au commencement."
+  },
+  {
+    "categorie": "Incertitude morale",
+    "abstraction": "dilemme",
+    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+  },
+  {
+    "categorie": "Structure inversée",
+    "abstraction": "forme narrative",
+    "consigne": "Raconte une scène à l’envers, en partant de la fin pour remonter jusqu’au commencement."
+  },
+  {
+    "categorie": "Objet déclencheur",
+    "abstraction": "élément déclencheur",
+    "consigne": "Ton personnage découvre un objet dont il ne peut se débarrasser. Chaque tentative échoue ou empire la situation."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Une voix extérieure interrompt régulièrement l’histoire, sans qu'on en comprenne la source."
+  },
+  {
+    "categorie": "Incertitude morale",
+    "abstraction": "dilemme",
+    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+  },
+  {
+    "categorie": "Cadavre narratif",
+    "abstraction": "fragment troublant",
+    "consigne": "Insère un paragraphe sans lien logique avec l’histoire. Il ne sera jamais expliqué."
+  },
+  {
+    "categorie": "Incertitude morale",
+    "abstraction": "dilemme",
+    "consigne": "Fais agir votre héros pour ce qu’il pense être une bonne cause... mais découvre ensuite qu’il a empiré les choses."
+  },
+  {
+    "categorie": "Objet déclencheur",
+    "abstraction": "élément déclencheur",
+    "consigne": "Ton personnage découvre un objet dont il ne peut se débarrasser. Chaque tentative échoue ou empire la situation."
+  },
+  {
+    "categorie": "Langage détourné",
+    "abstraction": "contrainte stylistique",
+    "consigne": "Écris un dialogue entier sans utiliser la lettre « e »."
   },
   {
     "categorie": "Langage détourné",
@@ -1120,9 +1250,34 @@ const ideas = [
     "consigne": "Commence par la conséquence finale, puis remonte vers l’origine émotionnelle."
   },
   {
+    "categorie": "Langage détourné",
+    "abstraction": "contrainte stylistique",
+    "consigne": "Compose un monologue intérieur en n'utilisant que des phrases interrogatives."
+  },
+  {
+    "categorie": "Objet omniscient",
+    "abstraction": "point de vue détourné",
+    "consigne": "Un objet raconte ce qu’il a vu, sans comprendre ce qu’il a causé."
+  },
+  {
     "categorie": "Micro-fiction buissonnière",
     "abstraction": "fragment narratif",
     "consigne": "Imagine une scène qui commence, mais ne se termine jamais."
+  },
+  {
+    "categorie": "Temps suspendu",
+    "abstraction": "altération temporelle",
+    "consigne": "Ton personnage vit une journée où l’heure ne change jamais."
+  },
+  {
+    "categorie": "Cadavre narratif",
+    "abstraction": "fragment troublant",
+    "consigne": "Ajoute un chapitre dont la pagination ne correspond à rien."
+  },
+  {
+    "categorie": "Personnage troué",
+    "abstraction": "construction lacunaire",
+    "consigne": "Un personnage n’apparaît jamais directement, mais tout tourne autour de lui."
   },
   {
     "categorie": "Écriture médiumnique",
@@ -1130,9 +1285,69 @@ const ideas = [
     "consigne": "Compose une page où votre protagoniste retranscrit une voix qu’il entend sans comprendre."
   },
   {
+    "categorie": "Style mimétique",
+    "abstraction": "jeu littéraire",
+    "consigne": "Imite le style d’un auteur célèbre pour raconter une scène banale."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Ton personnage est interrompu par des flashs d’un récit parallèle."
+  },
+  {
+    "categorie": "Structure inversée",
+    "abstraction": "forme narrative",
+    "consigne": "Commence par la conséquence finale, puis remonte vers l’origine émotionnelle."
+  },
+  {
+    "categorie": "Langage détourné",
+    "abstraction": "contrainte stylistique",
+    "consigne": "Compose un monologue intérieur en n'utilisant que des phrases interrogatives."
+  },
+  {
+    "categorie": "Objet omniscient",
+    "abstraction": "point de vue détourné",
+    "consigne": "Un objet raconte ce qu’il a vu, sans comprendre ce qu’il a causé."
+  },
+  {
     "categorie": "Micro-fiction buissonnière",
     "abstraction": "fragment narratif",
     "consigne": "Compose une scène qui commence, mais ne se termine jamais."
+  },
+  {
+    "categorie": "Temps suspendu",
+    "abstraction": "altération temporelle",
+    "consigne": "Ton personnage vit une journée où l’heure ne change jamais."
+  },
+  {
+    "categorie": "Cadavre narratif",
+    "abstraction": "fragment troublant",
+    "consigne": "Ajoute un chapitre dont la pagination ne correspond à rien."
+  },
+  {
+    "categorie": "Personnage troué",
+    "abstraction": "construction lacunaire",
+    "consigne": "Un personnage n’apparaît jamais directement, mais tout tourne autour de lui."
+  },
+  {
+    "categorie": "Écriture médiumnique",
+    "abstraction": "forme inspirée",
+    "consigne": "Compose une page où votre protagoniste retranscrit une voix qu’il entend sans comprendre."
+  },
+  {
+    "categorie": "Style mimétique",
+    "abstraction": "jeu littéraire",
+    "consigne": "Imite le style d’un auteur célèbre pour raconter une scène banale."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Ton personnage est interrompu par des flashs d’un récit parallèle."
+  },
+  {
+    "categorie": "Structure inversée",
+    "abstraction": "forme narrative",
+    "consigne": "Commence par la conséquence finale, puis remonte vers l’origine émotionnelle."
   },
   {
     "categorie": "Langage détourné",
@@ -1140,9 +1355,149 @@ const ideas = [
     "consigne": "Décris un monologue intérieur en n'utilisant que des phrases interrogatives."
   },
   {
+    "categorie": "Objet omniscient",
+    "abstraction": "point de vue détourné",
+    "consigne": "Un objet raconte ce qu’il a vu, sans comprendre ce qu’il a causé."
+  },
+  {
+    "categorie": "Micro-fiction buissonnière",
+    "abstraction": "fragment narratif",
+    "consigne": "Imagine une scène qui commence, mais ne se termine jamais."
+  },
+  {
+    "categorie": "Temps suspendu",
+    "abstraction": "altération temporelle",
+    "consigne": "Ton personnage vit une journée où l’heure ne change jamais."
+  },
+  {
+    "categorie": "Cadavre narratif",
+    "abstraction": "fragment troublant",
+    "consigne": "Ajoute un chapitre dont la pagination ne correspond à rien."
+  },
+  {
+    "categorie": "Personnage troué",
+    "abstraction": "construction lacunaire",
+    "consigne": "Un personnage n’apparaît jamais directement, mais tout tourne autour de lui."
+  },
+  {
+    "categorie": "Écriture médiumnique",
+    "abstraction": "forme inspirée",
+    "consigne": "Compose une page où votre protagoniste retranscrit une voix qu’il entend sans comprendre."
+  },
+  {
+    "categorie": "Style mimétique",
+    "abstraction": "jeu littéraire",
+    "consigne": "Imite le style d’un auteur célèbre pour raconter une scène banale."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Ton personnage est interrompu par des flashs d’un récit parallèle."
+  },
+  {
+    "categorie": "Structure inversée",
+    "abstraction": "forme narrative",
+    "consigne": "Commence par la conséquence finale, puis remonte vers l’origine émotionnelle."
+  },
+  {
+    "categorie": "Langage détourné",
+    "abstraction": "contrainte stylistique",
+    "consigne": "Décris un monologue intérieur en n'utilisant que des phrases interrogatives."
+  },
+  {
+    "categorie": "Objet omniscient",
+    "abstraction": "point de vue détourné",
+    "consigne": "Un objet raconte ce qu’il a vu, sans comprendre ce qu’il a causé."
+  },
+  {
+    "categorie": "Micro-fiction buissonnière",
+    "abstraction": "fragment narratif",
+    "consigne": "Compose une scène qui commence, mais ne se termine jamais."
+  },
+  {
+    "categorie": "Temps suspendu",
+    "abstraction": "altération temporelle",
+    "consigne": "Ton personnage vit une journée où l’heure ne change jamais."
+  },
+  {
+    "categorie": "Cadavre narratif",
+    "abstraction": "fragment troublant",
+    "consigne": "Ajoute un chapitre dont la pagination ne correspond à rien."
+  },
+  {
+    "categorie": "Personnage troué",
+    "abstraction": "construction lacunaire",
+    "consigne": "Un personnage n’apparaît jamais directement, mais tout tourne autour de lui."
+  },
+  {
     "categorie": "Écriture médiumnique",
     "abstraction": "forme inspirée",
     "consigne": "Raconte une page où votre protagoniste retranscrit une voix qu’il entend sans comprendre."
+  },
+  {
+    "categorie": "Style mimétique",
+    "abstraction": "jeu littéraire",
+    "consigne": "Imite le style d’un auteur célèbre pour raconter une scène banale."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Ton personnage est interrompu par des flashs d’un récit parallèle."
+  },
+  {
+    "categorie": "Structure inversée",
+    "abstraction": "forme narrative",
+    "consigne": "Commence par la conséquence finale, puis remonte vers l’origine émotionnelle."
+  },
+  {
+    "categorie": "Langage détourné",
+    "abstraction": "contrainte stylistique",
+    "consigne": "Compose un monologue intérieur en n'utilisant que des phrases interrogatives."
+  },
+  {
+    "categorie": "Objet omniscient",
+    "abstraction": "point de vue détourné",
+    "consigne": "Un objet raconte ce qu’il a vu, sans comprendre ce qu’il a causé."
+  },
+  {
+    "categorie": "Micro-fiction buissonnière",
+    "abstraction": "fragment narratif",
+    "consigne": "Décris une scène qui commence, mais ne se termine jamais."
+  },
+  {
+    "categorie": "Temps suspendu",
+    "abstraction": "altération temporelle",
+    "consigne": "Ton personnage vit une journée où l’heure ne change jamais."
+  },
+  {
+    "categorie": "Cadavre narratif",
+    "abstraction": "fragment troublant",
+    "consigne": "Ajoute un chapitre dont la pagination ne correspond à rien."
+  },
+  {
+    "categorie": "Personnage troué",
+    "abstraction": "construction lacunaire",
+    "consigne": "Un personnage n’apparaît jamais directement, mais tout tourne autour de lui."
+  },
+  {
+    "categorie": "Écriture médiumnique",
+    "abstraction": "forme inspirée",
+    "consigne": "Raconte une page où votre protagoniste retranscrit une voix qu’il entend sans comprendre."
+  },
+  {
+    "categorie": "Style mimétique",
+    "abstraction": "jeu littéraire",
+    "consigne": "Imite le style d’un auteur célèbre pour raconter une scène banale."
+  },
+  {
+    "categorie": "Interférence",
+    "abstraction": "perturbation narrative",
+    "consigne": "Ton personnage est interrompu par des flashs d’un récit parallèle."
+  },
+  {
+    "categorie": "Structure inversée",
+    "abstraction": "forme narrative",
+    "consigne": "Commence par la conséquence finale, puis remonte vers l’origine émotionnelle."
   },
   {
     "categorie": "Déplacement invisible",
@@ -1208,796 +1563,5 @@ const ideas = [
     "categorie": "Répétition étrange",
     "abstraction": "altération temporelle",
     "consigne": "Décris une journée qui recommence à chaque lever de soleil, mais change subtilement."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Fais durer un frigo vide bien trop longtemps."
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Un personnage entend parler de un mot d’enfant, mais il n’existe pas."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot un billet oublié, même s’il est partout."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Construit une scène où une valise pleine de lettres devient vital."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Tout le chapitre tourne autour de une voix dans le mur, sans jamais le nommer."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Un personnage entend parler de un jumeau imaginaire, mais il n’existe pas."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Insère un paragraphe absurde sur une porte entrouverte."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Construit une scène où une gifle qui n’arrive jamais devient vital."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Commence un chapitre par : « Ce jour-là, un mot interdit »"
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Insère un paragraphe absurde sur un secret en papier."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot un miroir flou, même s’il est partout."
-  },
-  {
-    "categorie": "Point de vue",
-    "abstraction": "forme narrative",
-    "consigne": "Fais intervenir un animal mort au pire moment."
-  },
-  {
-    "categorie": "Lieu",
-    "abstraction": "espace narratif",
-    "consigne": "Tout le chapitre tourne autour de un pull trop grand, sans jamais le nommer."
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Transforme une boîte scellée en métaphore filée."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Commence un chapitre par : « Ce jour-là, un frigo vide »"
-  },
-  {
-    "categorie": "Objet",
-    "abstraction": "élément symbolique",
-    "consigne": "Commence un chapitre par : « Ce jour-là, une silhouette derrière le rideau »"
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Transforme un frigo vide en métaphore filée."
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Crée une attente autour de le prénom d’un ex, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Tout le chapitre tourne autour de le prénom d’un ex, sans jamais le nommer."
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Tout le chapitre tourne autour de un frigo vide, sans jamais le nommer."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Transforme une porte entrouverte en métaphore filée."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot un stylo rouge, même s’il est partout."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Transforme une cicatrice en métaphore filée."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Crée une attente autour de une boîte scellée, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot une promesse tenue, même s’il est partout."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Fais durer un secret en papier bien trop longtemps."
-  },
-  {
-    "categorie": "Lieu",
-    "abstraction": "espace narratif",
-    "consigne": "Un personnage entend parler de un chuchotement dans le noir, mais il n’existe pas."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Commence un chapitre par : « Ce jour-là, une voix dans le mur »"
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Transforme une coupure de courant en métaphore filée."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Construit une scène où une silhouette derrière le rideau devient vital."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot un mot d’enfant, même s’il est partout."
-  },
-  {
-    "categorie": "Point de vue",
-    "abstraction": "forme narrative",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot une tache indélébile, même s’il est partout."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Insère un paragraphe absurde sur un appel inconnu."
-  },
-  {
-    "categorie": "Contrainte",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Crée une attente autour de un mot d’enfant, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Lieu",
-    "abstraction": "espace narratif",
-    "consigne": "Insère un paragraphe absurde sur une valise pleine de lettres."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot un chuchotement dans le noir, même s’il est partout."
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Construit une scène où un billet oublié devient vital."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Commence un chapitre par : « Ce jour-là, un jumeau imaginaire »"
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Insère un paragraphe absurde sur une voix dans le mur."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Tout le chapitre tourne autour de un chuchotement dans le noir, sans jamais le nommer."
-  },
-  {
-    "categorie": "Contrainte",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Insère un paragraphe absurde sur un animal mort."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Tout le chapitre tourne autour de un miroir flou, sans jamais le nommer."
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot un animal mort, même s’il est partout."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Fais de la mauvaise clé un piège narratif."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Écris une scène où un animal mort est au centre de l’attention."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Un personnage entend parler de une promesse tenue, mais il n’existe pas."
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Commence un chapitre par : « Ce jour-là, un mot d’enfant »"
-  },
-  {
-    "categorie": "Contrainte",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Tout le chapitre tourne autour de un mot interdit, sans jamais le nommer."
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Fais intervenir le prénom d’un ex au pire moment."
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Construit une scène où un pull trop grand devient vital."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Fais intervenir une gifle qui n’arrive jamais au pire moment."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Transforme un billet oublié en métaphore filée."
-  },
-  {
-    "categorie": "Contrainte",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Transforme une gifle qui n’arrive jamais en métaphore filée."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Insère un paragraphe absurde sur une promesse tenue."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Transforme une tache indélébile en métaphore filée."
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Crée une attente autour de un jumeau imaginaire, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Écris une scène où une voix dans le mur est au centre de l’attention."
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Construit une scène où une tache indélébile devient vital."
-  },
-  {
-    "categorie": "Lieu",
-    "abstraction": "espace narratif",
-    "consigne": "Crée une attente autour de un stylo rouge, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Fais durer un mot interdit bien trop longtemps."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Un personnage entend parler de un miroir flou, mais il n’existe pas."
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Commence un chapitre par : « Ce jour-là, le prénom d’un ex »"
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Tout le chapitre tourne autour de un jumeau imaginaire, sans jamais le nommer."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Insère un paragraphe absurde sur une coupure de courant."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Commence un chapitre par : « Ce jour-là, une tache indélébile »"
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Fais durer un chuchotement dans le noir bien trop longtemps."
-  },
-  {
-    "categorie": "Objet",
-    "abstraction": "élément symbolique",
-    "consigne": "Tout le chapitre tourne autour de un billet oublié, sans jamais le nommer."
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Écris une scène où une valise pleine de lettres est au centre de l’attention."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Insère un paragraphe absurde sur une cicatrice."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Commence un chapitre par : « Ce jour-là, une gifle qui n’arrive jamais »"
-  },
-  {
-    "categorie": "Objet",
-    "abstraction": "élément symbolique",
-    "consigne": "Insère un paragraphe absurde sur une gifle qui n’arrive jamais."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Écris une scène où une cicatrice est au centre de l’attention."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Un personnage entend parler de une valise pleine de lettres, mais il n’existe pas."
-  },
-  {
-    "categorie": "Objet",
-    "abstraction": "élément symbolique",
-    "consigne": "Fais durer un miroir flou bien trop longtemps."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Fais intervenir une cicatrice au pire moment."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Crée une attente autour de une coupure de courant, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Construit une scène où le prénom d’un ex devient vital."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Crée une attente autour de un chuchotement dans le noir, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Insère un paragraphe absurde sur un jumeau imaginaire."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Fais durer la mauvaise clé bien trop longtemps."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Commence un chapitre par : « Ce jour-là, une porte entrouverte »"
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Fais intervenir un frigo vide au pire moment."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Un personnage entend parler de un frigo vide, mais il n’existe pas."
-  },
-  {
-    "categorie": "Point de vue",
-    "abstraction": "forme narrative",
-    "consigne": "Construit une scène où une cicatrice devient vital."
-  },
-  {
-    "categorie": "Objet",
-    "abstraction": "élément symbolique",
-    "consigne": "Fais durer une porte entrouverte bien trop longtemps."
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Écris une scène où un mot interdit est au centre de l’attention."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Fais intervenir une porte entrouverte au pire moment."
-  },
-  {
-    "categorie": "Point de vue",
-    "abstraction": "forme narrative",
-    "consigne": "Construit une scène où une boîte scellée devient vital."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Un personnage entend parler de un appel inconnu, mais il n’existe pas."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot une gifle qui n’arrive jamais, même s’il est partout."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Écris une scène où un chuchotement dans le noir est au centre de l’attention."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Construit une scène où un jumeau imaginaire devient vital."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Fais intervenir une tache indélébile au pire moment."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Transforme la mauvaise clé en métaphore filée."
-  },
-  {
-    "categorie": "Contrainte",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Insère un paragraphe absurde sur un mot d’enfant."
-  },
-  {
-    "categorie": "Contrainte",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Construit une scène où un miroir flou devient vital."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Un personnage entend parler de un billet oublié, mais il n’existe pas."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Fais durer un billet oublié bien trop longtemps."
-  },
-  {
-    "categorie": "Point de vue",
-    "abstraction": "forme narrative",
-    "consigne": "Tout le chapitre tourne autour de une cicatrice, sans jamais le nommer."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Un personnage entend parler de une silhouette derrière le rideau, mais il n’existe pas."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Commence un chapitre par : « Ce jour-là, un miroir flou »"
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Écris une scène où une boîte scellée est au centre de l’attention."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Fais durer une voix dans le mur bien trop longtemps."
-  },
-  {
-    "categorie": "Point de vue",
-    "abstraction": "forme narrative",
-    "consigne": "Fais durer une gifle qui n’arrive jamais bien trop longtemps."
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Écris une scène où un mot d’enfant est au centre de l’attention."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Tout le chapitre tourne autour de un mot d’enfant, sans jamais le nommer."
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Construit une scène où un appel inconnu devient vital."
-  },
-  {
-    "categorie": "Fragment",
-    "abstraction": "extrait isolé",
-    "consigne": "Écris une scène où un secret en papier est au centre de l’attention."
-  },
-  {
-    "categorie": "Lieu",
-    "abstraction": "espace narratif",
-    "consigne": "Fais durer une promesse tenue bien trop longtemps."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Construit une scène où un animal mort devient vital."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Construit une scène où une voix dans le mur devient vital."
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Insère un paragraphe absurde sur une tache indélébile."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Un personnage entend parler de un animal mort, mais il n’existe pas."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Tout le chapitre tourne autour de une porte entrouverte, sans jamais le nommer."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Un personnage entend parler de la mauvaise clé, mais il n’existe pas."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Fais croire que la mauvaise clé est réel, puis déjoue cette attente."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Fais intervenir une valise pleine de lettres au pire moment."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Crée une attente autour de une tache indélébile, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Objet",
-    "abstraction": "élément symbolique",
-    "consigne": "Crée une attente autour de une chanson oubliée, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Crée une attente autour de une valise pleine de lettres, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Perturbation",
-    "abstraction": "rupture de rythme",
-    "consigne": "Crée une attente autour de un mot interdit, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Tout le chapitre tourne autour de une promesse tenue, sans jamais le nommer."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Crée une attente autour de un pull trop grand, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Fais durer une cicatrice bien trop longtemps."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Insère un paragraphe absurde sur une boîte scellée."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot un appel inconnu, même s’il est partout."
-  },
-  {
-    "categorie": "Point de vue",
-    "abstraction": "forme narrative",
-    "consigne": "Tout le chapitre tourne autour de une silhouette derrière le rideau, sans jamais le nommer."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Insère un paragraphe absurde sur une silhouette derrière le rideau."
-  },
-  {
-    "categorie": "Point de vue",
-    "abstraction": "forme narrative",
-    "consigne": "Tout le chapitre tourne autour de un stylo rouge, sans jamais le nommer."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Écris une scène où le prénom d’un ex est au centre de l’attention."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Commence un chapitre par : « Ce jour-là, un stylo rouge »"
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot un mot interdit, même s’il est partout."
-  },
-  {
-    "categorie": "Temporalité",
-    "abstraction": "altération temporelle",
-    "consigne": "Tout le chapitre tourne autour de une gifle qui n’arrive jamais, sans jamais le nommer."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Fais intervenir une chanson oubliée au pire moment."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Insère un paragraphe absurde sur un billet oublié."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Un personnage entend parler de un stylo rouge, mais il n’existe pas."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Écris une scène où un jumeau imaginaire est au centre de l’attention."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Écris une scène où une silhouette derrière le rideau est au centre de l’attention."
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Écris une scène où une tache indélébile est au centre de l’attention."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Fais intervenir un billet oublié au pire moment."
-  },
-  {
-    "categorie": "Déclencheur",
-    "abstraction": "événement",
-    "consigne": "Crée une attente autour de une silhouette derrière le rideau, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Fais intervenir une silhouette derrière le rideau au pire moment."
-  },
-  {
-    "categorie": "Répétition",
-    "abstraction": "motif",
-    "consigne": "Commence un chapitre par : « Ce jour-là, un secret en papier »"
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Crée une attente autour de un billet oublié, puis change de sujet au dernier moment."
-  },
-  {
-    "categorie": "Contrainte",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Fais intervenir la mauvaise clé au pire moment."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Insère un paragraphe absurde sur un miroir flou."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Transforme un appel inconnu en métaphore filée."
-  },
-  {
-    "categorie": "Silence",
-    "abstraction": "absence",
-    "consigne": "Un personnage entend parler de une porte entrouverte, mais il n’existe pas."
-  },
-  {
-    "categorie": "Structure",
-    "abstraction": "forme",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot une voix dans le mur, même s’il est partout."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Tout le chapitre tourne autour de la mauvaise clé, sans jamais le nommer."
-  },
-  {
-    "categorie": "Contrainte",
-    "abstraction": "contrainte stylistique",
-    "consigne": "Fais intervenir une promesse tenue au pire moment."
-  },
-  {
-    "categorie": "Personnage",
-    "abstraction": "construction psychologique",
-    "consigne": "Un personnage entend parler de le prénom d’un ex, mais il n’existe pas."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Fais intervenir un mot interdit au pire moment."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Écris une scène où un billet oublié est au centre de l’attention."
-  },
-  {
-    "categorie": "Langage",
-    "abstraction": "expérimentation linguistique",
-    "consigne": "Fais intervenir un stylo rouge au pire moment."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Construit une scène où une promesse tenue devient vital."
-  },
-  {
-    "categorie": "Incertitude",
-    "abstraction": "situation ambiguë",
-    "consigne": "Écris toute une scène sans jamais utiliser le mot une silhouette derrière le rideau, même s’il est partout."
-  },
-  {
-    "categorie": "Souvenir",
-    "abstraction": "passé rémanent",
-    "consigne": "Insère un paragraphe absurde sur un stylo rouge."
   }
-];
-export default ideas;
+]
