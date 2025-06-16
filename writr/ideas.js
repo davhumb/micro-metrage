@@ -1,4 +1,4 @@
-const ideas = [
+window.ideas = [
   {
     "categorie": "Dissonance",
     "abstraction": "contraste",
