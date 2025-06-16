@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="fr">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>writr – Générateur d’idées</title>
@@ -124,11 +125,17 @@
       <a href="name-generator.html">→ Aller au générateur de noms</a>
     </div>
     <div class="footer-text">© 2025 Celluloïd Scalpel Productions – fait avec ❤️</div>
-  </div>  <script src="ideas.js"></script>  <script>
+  </div>
+
+  <script src="ideas.js"></script>
+  <script>
     document.getElementById('generate-idea-btn').addEventListener('click', () => {
-      const c = pool[Math.floor(Math.random() * pool.length)];
+      const c = ideas[Math.floor(Math.random() * ideas.length)];
       document.getElementById('idea').innerHTML = `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
     });
-    window.addEventListener('DOMContentLoaded', () => document.getElementById('generate-idea-btn').click());
-  </script></body>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('generate-idea-btn').click();
+    });
+  </script>
+</body>
 </html>
