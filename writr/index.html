@@ -36,11 +36,6 @@
       border-radius: 8px;
       text-align: center;
     }
-    .site-logo img {
-      max-width: 120px;
-      height: auto;
-      margin-bottom: 1rem;
-    }
     h2 {
       position: relative;
       margin: 0 0 1rem;
@@ -82,8 +77,6 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       transition: opacity 0.2s;
-      position: relative;
-      overflow: hidden;
     }
     .buttons button.secondary {
       background: transparent;
@@ -91,16 +84,6 @@
       border-color: var(--accent);
     }
     .buttons button:hover { opacity: 0.9; }
-    .link a {
-      display: inline-block;
-      margin-top: 1rem;
-      color: var(--text-light);
-      text-decoration: none;
-      border-bottom: 1px solid var(--text-light);
-      padding-bottom: 0.2rem;
-      transition: color 0.2s;
-    }
-    .link a:hover { color: var(--accent); }
     .footer-text {
       margin-top: 2rem;
       font-size: 0.8rem;
@@ -111,31 +94,17 @@
 </head>
 <body>
   <div class="tools-container">
-    <div class="site-logo">
-      <img src="logo-writr.png" alt="Logo writr">
-    </div>
-    <section class="tool-section">
-      <h2>Générateur d’idées narratives</h2>
-      <div class="card" id="idea">Chargement…</div>
-      <div class="buttons">
-        <button id="generate-idea-btn">Nouvelle idée</button>
-      </div>
-    </section>
-    <div class="link">
-      <a href="name-generator.html">→ Aller au générateur de noms</a>
+    <h2>Générateur d’idées narratives</h2>
+    <div class="card" id="idea">Chargement…</div>
+    <div class="buttons">
+      <button id="generate-idea-btn">Nouvelle idée</button>
     </div>
     <div class="footer-text">© 2025 Celluloïd Scalpel Productions – fait avec ❤️</div>
   </div>
 
+  <!-- Charge d'abord la “BDD” JS -->
   <script src="ideas.js"></script>
-  <script>
-    document.getElementById('generate-idea-btn').addEventListener('click', () => {
-      const c = ideas[Math.floor(Math.random() * ideas.length)];
-      document.getElementById('idea').innerHTML = `<strong>${c.categorie}</strong> (${c.abstraction})<br>${c.consigne}`;
-    });
-    window.addEventListener('DOMContentLoaded', () => {
-      document.getElementById('generate-idea-btn').click();
-    });
-  </script>
+  <!-- Puis la logique de génération -->
+  <script src="script.js"></script>
 </body>
 </html>
