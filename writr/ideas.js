@@ -1823,5 +1823,250 @@ window.ideas = [
   categorie: "Contrainte mathématique",
   abstraction: "contrainte formelle",
   consigne: "Structure ton texte de façon fractale : chaque paragraphe reprend et complexifie la structure du précédent."
-}
+},
+  {
+  categorie: "Figures de style",
+  abstraction: "contrainte formelle",
+  consigne: "Écris un acrostiche dont chaque ligne forme un mot-clé lié à ton histoire."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "contrainte formelle",
+  consigne: "Écris un texte où chaque paragraphe utilise une comparaison filée différente : feu, mer, forêt, etc."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "contrainte formelle",
+  consigne: "Fais parler une ville, un objet ou un paysage en personnifiant toutes ses émotions."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "contrainte formelle",
+  consigne: "Utilise uniquement des phrases commençant par la même construction syntaxique (ex : « Il y a... »)."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "contrainte formelle",
+  consigne: "Crée une scène où toutes les actions sont décrites par métaphore animale."
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration inhabituelle",
+  consigne: "Raconte une scène du point de vue du foie d’un alcoolique."
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration inhabituelle",
+  consigne: "Décris une rupture amoureuse vue par la mémoire olfactive."
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration inhabituelle",
+  consigne: "Fais parler la main d’un pickpocket, comme si elle était autonome."
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration inhabituelle",
+  consigne: "Raconte une journée entière vue par l’estomac d’un personnage anxieux."
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration inhabituelle",
+  consigne: "Fais parler un cœur qui refuse de tomber amoureux à nouveau."
+},
+{
+  categorie: "Contrainte mathématique",
+  abstraction: "contrainte formelle",
+  consigne: "Écris 8 phrases qui respectent la suite de Fibonacci en nombre de mots (1, 1, 2, 3, 5, 8, 13, 21)."
+},
+{
+  categorie: "Contrainte mathématique",
+  abstraction: "contrainte formelle",
+  consigne: "Fais croître chaque paragraphe selon une suite géométrique en nombre de phrases."
+},
+{
+  categorie: "Contrainte mathématique",
+  abstraction: "contrainte formelle",
+  consigne: "Écris un texte palindrome, qui peut être lu dans les deux sens."
+},
+{
+  categorie: "Contrainte mathématique",
+  abstraction: "contrainte formelle",
+  consigne: "Compose un texte dont chaque mot commence par une lettre suivant l'alphabet."
+},
+{
+  categorie: "Contrainte mathématique",
+  abstraction: "contrainte formelle",
+  consigne: "Chaque phrase contient un mot de plus que la précédente."
+},
+{
+  categorie: "Conseil d’un enfant de 3 ans",
+  abstraction: "ton décalé",
+  consigne: "Écris une histoire où personne ne doit jamais marcher sur les lignes du sol, sinon un monstre vient."
+},
+{
+  categorie: "Conseil d’un enfant de 5 ans",
+  abstraction: "logique enfantine",
+  consigne: "Écris un dialogue où chaque personnage doit avoir un animal invisible qui parle à sa place."
+},
+{
+  categorie: "Conseil d’un enfant de 10 ans",
+  abstraction: "conseil naïf mais pertinent",
+  consigne: "Commence ton histoire par la fin, comme ça t’as plus qu’à t’amuser pour le début."
+},
+{
+  categorie: "Conseil d’un enfant de 12 ans",
+  abstraction: "logique ludique",
+  consigne: "Écris un chapitre où tout se passe dans un rêve, mais les autres personnages ne savent pas que c’est un rêve."
+},
+{
+  categorie: "Conseil d’un enfant de 5 ans",
+  abstraction: "logique enfantine",
+  consigne: "Ton personnage principal doit toujours avoir une cape. Même pour aller aux toilettes."
+},
+{
+  categorie: "Conseil d’un enfant de 3 ans",
+  abstraction: "ton décalé",
+  consigne: "Tous les objets parlent quand on a le dos tourné. Ton histoire doit le prouver."
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration inhabituelle",
+  consigne: "Fais parler la dernière dent de lait d’un enfant."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "langage symbolique",
+  consigne: "Écris une scène entière où chaque élément naturel représente un sentiment (le vent = l'angoisse, la pluie = le désir, etc.)."
+},
+{
+  categorie: "Contrainte mathématique",
+  abstraction: "structure en miroir",
+  consigne: "Écris un récit en forme de sablier : nombre de mots décroissant jusqu’à un point central, puis croissant à nouveau."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "accumulation",
+  consigne: "Raconte une scène à travers une accumulation progressive d'objets trouvés dans une pièce."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "technique d'écrivain",
+  consigne: "Submerge le 'je'. Repousse le plus loin possible l’apparition du narrateur à la première personne. (Chuck Palahniuk)"
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "technique narrative",
+  consigne: "Une idée de fiction n’est pas un scénario, mais une tension. Ne la dissipe pas trop vite. (Alan Moore)"
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "structure expérimentale",
+  consigne: "Commence à écrire depuis le moment le plus intense. Ce n’est pas le début, c’est la fin. (Vonnegut)"
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "manifeste littéraire",
+  consigne: "Écris sans avoir peur de dire la vérité. Même si c’est moche. Surtout si c’est moche. (Bukowski)"
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "voix intérieure",
+  consigne: "Écris avec le langage que tu n’oses pas prononcer à voix haute. (Boris Vian)"
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration corporelle",
+  consigne: "Fais parler une blessure ouverte sur le genou d’un enfant."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "description poétique",
+  consigne: "Décris un paysage uniquement par analogie avec des parties du corps."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "ellipse",
+  consigne: "Écris un texte où chaque saut de ligne dissimule une action ou un secret."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "anaphore",
+  consigne: "Commence chaque phrase par 'Et pourtant'."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "hyperbole",
+  consigne: "Raconte une scène quotidienne (faire les courses, se lever...) comme si c’était un exploit mythologique."
+},
+{
+  categorie: "Conseil d’enfant",
+  abstraction: "défi absurde",
+  consigne: "Ton personnage doit éviter tous les mots avec la lettre E pendant 1 page. Sinon il meurt."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "minimalisme",
+  consigne: "Utilise le moins d’adjectifs possible. Si tu peux t’en passer, fais-le. (Hemingway)"
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "métatextualité",
+  consigne: "Ton personnage doit deviner qu’il est écrit. Puis faire avec. (Moore)"
+},
+{
+  categorie: "Figures de style",
+  abstraction: "synesthésie",
+  consigne: "Décris un souvenir en associant les couleurs, les sons et les goûts dans une même phrase."
+},
+{
+  categorie: "Contrainte mathématique",
+  abstraction: "rythme contrôlé",
+  consigne: "Compose un texte en cinq phrases de longueurs exactement 1, 3, 5, 7, puis 9 mots."
+},
+{
+  categorie: "Conseil d’enfant",
+  abstraction: "logique ludique",
+  consigne: "Les chaussures de ton héros parlent entre elles la nuit. Elles en savent long."
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration corporelle",
+  consigne: "Une scène vue par les yeux fermés d’un mourant."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "dissonance",
+  consigne: "Décris un moment de violence extrême avec des métaphores de tendresse ou d’enfance."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "oxymore",
+  consigne: "Fais dialoguer deux personnages qui disent l’exact opposé de ce qu’ils pensent, mais se comprennent parfaitement."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "chute sonore",
+  consigne: "Fais une scène où tous les dialogues se terminent en chute de syllabes (murmures, soupirs...)."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "parallélisme",
+  consigne: "Construit deux scènes en miroir, qui racontent la même chose dans des lieux et styles opposés."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "allitération",
+  consigne: "Écris un texte où chaque ligne commence par la même lettre (de ton choix)."
+},
+{
+  categorie: "Point de vue singulier",
+  abstraction: "narration sensorielle",
+  consigne: "Une scène entière racontée par l’odeur qui flotte dans l’air."
+},
+{
+  categorie: "Figures de style",
+  abstraction: "personnification",
+  consigne: "Le silence devient un personnage dans ton histoire."
+    }
 ];
