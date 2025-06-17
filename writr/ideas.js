@@ -3679,7 +3679,6 @@ window.ideas = [
   abstraction: "perte d'identité",
   consigne: "Un personnage se transforme lentement en un autre, mais personne ne le remarque."
 },
-  ,
   {
     "categorie": "Conseil d’un enfant de 10 ans",
     "abstraction": "point de vue naïf",
