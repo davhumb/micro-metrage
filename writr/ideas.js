@@ -4068,5 +4068,105 @@ window.ideas = [
     "categorie": "Exil intérieur",
     "abstraction": "amnésie volontaire",
     "consigne": "Le personnage choisit de ne plus se souvenir. Décris le vide qu’il entretient."
-    }
+    },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "structure dirigée",
+    "consigne": "Écris une histoire courte qui se termine par cette morale : « L’habit ne fait pas le moine. »"
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "dicton guidé",
+    "consigne": "Ton texte doit s’achever sur la phrase : « Il ne faut pas vendre la peau de l’ours avant de l’avoir tué. »"
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "relecture proverbiale",
+    "consigne": "Écris un récit qui illustre cette maxime : « La vengeance est un plat qui se mange froid. »"
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "sens détourné",
+    "consigne": "Ton texte se conclura par : « À bon chat, bon rat. » Fais en sorte que cette phrase change de sens à la lumière de ce qui précède."
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "fin programmée",
+    "consigne": "Raconte une histoire banale ou étrange, mais qui se termine logiquement par : « Mieux vaut tard que jamais. »"
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "fable détournée",
+    "consigne": "Construis un texte moderne qui trouve sa chute sur : « On ne fait pas d’omelette sans casser des œufs. »"
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "final imposé",
+    "consigne": "Quel que soit ton récit, il doit se conclure par : « Qui trop embrasse mal étreint. »"
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "paradoxe latent",
+    "consigne": "Ton histoire doit illustrer la maxime : « Il n’y a pas de fumée sans feu. » Littéralement ou non."
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "twist proverbial",
+    "consigne": "Ton texte mène à cette conclusion : « Bien mal acquis ne profite jamais. »"
+  },
+  {
+    "categorie": "Morale imposée",
+    "abstraction": "déviation guidée",
+    "consigne": "Raconte une histoire dans laquelle cette morale devient inévitable : « L’enfer est pavé de bonnes intentions. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "proverbe inventé",
+    "consigne": "Écris un texte court qui se conclut par cette morale absurde mais plausible : « À force de courir après les ombres, on finit par perdre son corps. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "chute grotesque",
+    "consigne": "Ton texte se termine sur cette phrase inventée : « Les absents sont rarement blessés. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "fable tordue",
+    "consigne": "Écris une histoire qui aboutit naturellement à : « Mieux vaut mentir avec panache que vivre sans panique. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "dérive ironique",
+    "consigne": "Ton récit doit logiquement se conclure par : « La sincérité est un luxe réservé aux lâches. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "conte tordu",
+    "consigne": "Termine ton texte sur cette morale inédite : « Le silence est souvent plus cruel que le crime. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "punchline absurde",
+    "consigne": "Écris un récit qui se boucle avec cette leçon inventée : « Il vaut mieux regretter d’avoir fait que d’avoir été. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "chute contradictoire",
+    "consigne": "Construis une histoire qui mène à : « L’honnêteté est une forme paresseuse de stratégie. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "aphorisme fictif",
+    "consigne": "Termine ton texte sur cette phrase : « Un bon cauchemar vaut mieux qu’un rêve creux. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "morale inventée",
+    "consigne": "Raconte un texte qui se termine par cette phrase énigmatique : « À force de plier, on devient un nœud. »"
+  },
+  {
+    "categorie": "Morale inversée",
+    "abstraction": "maxime dystopique",
+    "consigne": "Ton histoire doit mener à : « Ceux qui ferment les yeux vivent plus longtemps. »"
+  }
 ];
