@@ -3883,5 +3883,190 @@ window.ideas = [
     "categorie": "Présent toxique",
     "abstraction": "épuisement du futur",
     "consigne": "Dans un monde sans lendemain, les gens ne font plus que répéter. Écris une journée qui tente d’échapper au cycle."
-  }
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "dissimulation",
+    "consigne": "Un personnage change totalement de comportement selon la personne en face. Raconte la même scène trois fois."
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "performance",
+    "consigne": "Ton personnage joue un rôle qu’il a lui-même inventé. À quel moment la façade craque-t-elle ?"
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "identité floue",
+    "consigne": "Le personnage ne sait plus s’il est sincère ou simplement ce qu’on attend de lui. Décris ce vertige."
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "inversion",
+    "consigne": "Deux personnes échangent leurs rôles sociaux pendant une journée. Montre l’absurdité ou la violence de cet échange."
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "théâtralité",
+    "consigne": "Une scène familiale où tout le monde feint la normalité. Laisse filtrer les tensions sous le masque."
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "règle implicite",
+    "consigne": "Dans ce monde, chacun doit porter un masque en fonction de son statut. Raconte un personnage qui tente d’en changer."
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "contrainte extérieure",
+    "consigne": "Un personnage est forcé de représenter quelque chose qu’il n’est pas. Décris sa révolte silencieuse."
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "fragmentation",
+    "consigne": "Un même personnage est décrit par plusieurs autres, chacun le voyant différemment."
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "refus",
+    "consigne": "Un personnage refuse obstinément de jouer le jeu social qu’on attend de lui. Montre les conséquences."
+  },
+  {
+    "categorie": "Masques sociaux",
+    "abstraction": "rituel",
+    "consigne": "Chaque matin, le personnage endosse un rôle différent pour survivre à sa journée. Décris un lundi en détail."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "mensonge volontaire",
+    "consigne": "Ton narrateur avoue à la fin avoir inventé toute l’histoire. Relis-la sous un autre prisme."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "trou de mémoire",
+    "consigne": "Le narrateur ne se souvient pas de certains événements, mais les personnages autour de lui oui."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "rationalisation",
+    "consigne": "Le narrateur minimise un événement grave. Laisse entrevoir la vérité entre les lignes."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "projection",
+    "consigne": "Le narrateur attribue ses pensées à un autre personnage sans s’en rendre compte."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "dissonance cognitive",
+    "consigne": "Le narrateur agit en contradiction avec ce qu’il dit croire. Décris son malaise sans l’expliquer."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "absence",
+    "consigne": "Le narrateur est omniscient mais oublie volontairement de décrire un personnage clé."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "retour différé",
+    "consigne": "Le narrateur raconte une histoire ancienne, mais ses souvenirs semblent déformés. Que manque-t-il ?"
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "folie douce",
+    "consigne": "Le narrateur ne se rend pas compte qu’il délire. Le lecteur, si."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "voix contaminée",
+    "consigne": "Le style du narrateur change progressivement, influencé par un autre personnage."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "fragmentation",
+    "consigne": "Un narrateur multiple prend la parole successivement, mais chacun nie ce que l’autre affirme."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "reconstruction",
+    "consigne": "Le narrateur tente de reconstruire un drame à partir d’éléments incomplets. Raconte ce qui résiste à la mémoire."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "distraction",
+    "consigne": "Le narrateur semble perdre le fil de son récit, dérivant vers autre chose. Rattrape-le en douceur."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "biais affectif",
+    "consigne": "Le narrateur idéalise un autre personnage, mais les faits contredisent ce regard."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "paranoïa",
+    "consigne": "Le narrateur est persuadé d’être suivi ou observé. Le lecteur doute. A-t-il raison ?"
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "fausse narration",
+    "consigne": "Un autre personnage interrompt le récit et corrige ce que le narrateur a raconté."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "voix impersonnelle",
+    "consigne": "Le narrateur prétend raconter de façon neutre, mais des indices révèlent un profond biais personnel."
+  },
+  {
+    "categorie": "Narrateur non fiable",
+    "abstraction": "mensonge affectif",
+    "consigne": "Le narrateur nie ses propres émotions tout au long du récit. Montre ce qui le trahit."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "isolement affectif",
+    "consigne": "Un personnage vit entouré, mais ne parle à personne. Décris cette solitude invisible."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "distance mentale",
+    "consigne": "Un personnage regarde sa propre vie comme s’il la rêvait ou l’observait de loin."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "langage brisé",
+    "consigne": "Le personnage perd peu à peu l’usage des mots, mais tente encore de se faire comprendre."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "absence sensorielle",
+    "consigne": "Un personnage ne sent plus rien — ni odeur, ni goût, ni émotion. Raconte sa journée."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "désynchronisation",
+    "consigne": "Tout semble aller trop vite ou trop lentement autour du personnage. Il ne suit plus le rythme du monde."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "rituel de survie",
+    "consigne": "Chaque jour, le personnage refait un geste qui lui permet de tenir. Décris ce rituel minuscule."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "auto-exclusion",
+    "consigne": "Le personnage refuse toute invitation, interaction ou regard. Pourquoi ?"
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "refuge intérieur",
+    "consigne": "Décris l’univers imaginaire qu’un personnage construit pour survivre à une réalité trop dure."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "langue étrangère",
+    "consigne": "Un personnage ne comprend plus la langue parlée autour de lui. Raconte son monde intérieur."
+  },
+  {
+    "categorie": "Exil intérieur",
+    "abstraction": "amnésie volontaire",
+    "consigne": "Le personnage choisit de ne plus se souvenir. Décris le vide qu’il entretient."
+    }
 ];
