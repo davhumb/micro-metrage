@@ -2533,5 +2533,230 @@ window.ideas = [
   categorie: "Conseils de cinéastes",
   abstraction: "inspiration artistique",
   consigne: "Un réalisateur fictif donne ses directives pendant que tu écris l’histoire. Et il se trompe souvent."
+},
+  {
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Chuck Palahniuk : commence ton histoire sans utiliser le mot « je » pendant au moins trois paragraphes."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Chuck Palahniuk : supprime autant de verbes faibles que possible. Privilégie les actions concrètes et les descriptions sensorielles."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Kurt Vonnegut : écris chaque phrase comme si tu la disais à quelqu’un que tu aimes."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Ray Bradbury : écris vite, brûle ce que tu n’aimes pas, recommence."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Boris Vian : une phrase peut ne pas être logique si elle est sincère et vivante."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "David Foster Wallace : évite la formule facile. Trouve la tournure étrange mais juste."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Alan Moore : tout est symbole. Même une coupe de cheveux peut changer un destin."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Raymond Carver : coupe la moitié de ton texte. Vois ce qui reste debout."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Ernest Hemingway : une histoire est comme un iceberg. Ne montre que la partie émergée."
+},
+{
+  categorie: "Conseils d’écrivains célèbres",
+  abstraction: "règle littéraire",
+  consigne: "Stephen King : une bonne histoire commence par une situation, pas une intrigue."
+},
+{
+  categorie: "Logiques d’enfant",
+  abstraction: "voix décalée",
+  consigne: "Écris une scène d’action en respectant les règles d’un enfant de 4 ans : le héros est invincible tant qu’il touche un mur."
+},
+{
+  categorie: "Logiques d’enfant",
+  abstraction: "voix décalée",
+  consigne: "Un personnage croit que les adultes disparaissent quand on ferme les yeux. Raconte son quotidien."
+},
+{
+  categorie: "Logiques d’enfant",
+  abstraction: "voix décalée",
+  consigne: "Le héros ne connaît que 7 mots. Il doit pourtant résoudre un grand mystère."
+},
+{
+  categorie: "Logiques d’enfant",
+  abstraction: "voix décalée",
+  consigne: "Selon un enfant de 3 ans, on ne peut pas mourir si on a encore faim. Raconte une survie absurde."
+},
+{
+  categorie: "Logiques d’enfant",
+  abstraction: "voix décalée",
+  consigne: "Ton personnage croit que tous les cauchemars vivent dans son armoire – et que certains sortent parfois pour l’aider."
+},
+{
+  categorie: "Inspirations surréalistes",
+  abstraction: "bizarre poétique",
+  consigne: "Écris une scène réaliste interrompue brutalement par un événement impossible, mais accepté par tous."
+},
+{
+  categorie: "Inspirations surréalistes",
+  abstraction: "bizarre poétique",
+  consigne: "Raconte une histoire où les personnages parlent normalement, mais où les objets ont des dialogues secrets entre eux."
+},
+{
+  categorie: "Inspirations surréalistes",
+  abstraction: "bizarre poétique",
+  consigne: "Ton héros prend un train, mais chaque gare correspond à une émotion oubliée."
+},
+{
+  categorie: "Inspirations surréalistes",
+  abstraction: "bizarre poétique",
+  consigne: "Chaque personnage est remplacé par une marionnette sans que personne ne le remarque, sauf le narrateur."
+},
+{
+  categorie: "Inspirations surréalistes",
+  abstraction: "bizarre poétique",
+  consigne: "Un enfant se rend compte qu’il est le rêve d’un meuble. Et il essaie de ne pas se réveiller."
+},
+{
+  categorie: "Structures étranges",
+  abstraction: "contrainte structurelle",
+  consigne: "Ton histoire suit la suite de Fibonacci dans la longueur des phrases (1 mot, 1 mot, 2, 3, 5, 8, etc.)."
+},
+{
+  categorie: "Structures étranges",
+  abstraction: "contrainte structurelle",
+  consigne: "Chaque chapitre a une durée plus courte que le précédent (ex. 13, 8, 5, 3, 2, 1 lignes)."
+},
+{
+  categorie: "Structures étranges",
+  abstraction: "contrainte structurelle",
+  consigne: "Le premier mot de chaque phrase compose un message secret."
+},
+{
+  categorie: "Structures étranges",
+  abstraction: "contrainte structurelle",
+  consigne: "Un chapitre est lu dans un miroir. Il n’a de sens qu’à l’envers."
+},
+{
+  categorie: "Structures étranges",
+  abstraction: "contrainte structurelle",
+  consigne: "Ton personnage écrit son journal. Mais les jours sont dans le désordre et les pages incomplètes."
+},
+{
+  categorie: "Psyché et corps",
+  abstraction: "interne sensoriel",
+  consigne: "Raconte une crise d’angoisse du point de vue des mains."
+},
+{
+  categorie: "Psyché et corps",
+  abstraction: "interne sensoriel",
+  consigne: "Un neurone raconte l’histoire de son humain préféré."
+},
+{
+  categorie: "Psyché et corps",
+  abstraction: "interne sensoriel",
+  consigne: "La douleur est une entité consciente qui s’attache à ton personnage comme un chien fidèle."
+},
+{
+  categorie: "Psyché et corps",
+  abstraction: "interne sensoriel",
+  consigne: "La peau de ton personnage réagit avant lui à tout événement important."
+},
+{
+  categorie: "Psyché et corps",
+  abstraction: "interne sensoriel",
+  consigne: "Les organes internes ont des réunions secrètes pour décider du sort du personnage."
+},
+{
+  categorie: "Personnifications absurdes",
+  abstraction: "métaphore incarnée",
+  consigne: "La Lune tombe amoureuse du personnage et cherche à l’approcher, provoquant des marées catastrophiques."
+},
+{
+  categorie: "Personnifications absurdes",
+  abstraction: "métaphore incarnée",
+  consigne: "Lundi en a marre d’être détesté. Il prend un jour de congé et part en cavale."
+},
+{
+  categorie: "Personnifications absurdes",
+  abstraction: "métaphore incarnée",
+  consigne: "Le concept de « fatigue » se matérialise en colocataire envahissant."
+},
+{
+  categorie: "Personnifications absurdes",
+  abstraction: "métaphore incarnée",
+  consigne: "Le doute grandit comme une plante dans l’appartement du narrateur."
+},
+{
+  categorie: "Personnifications absurdes",
+  abstraction: "métaphore incarnée",
+  consigne: "Le regret est un oiseau géant que l’on nourrit chaque fois qu’on repense au passé."
+},
+{
+  categorie: "Faux pitchs",
+  abstraction: "exercice d'imitation",
+  consigne: "Imagine que tu écris un film produit par Michel Gondry et écrit par Charlie Kaufman. Quel est le pitch ?"
+},
+{
+  categorie: "Faux pitchs",
+  abstraction: "exercice d'imitation",
+  consigne: "Un film imaginaire entre Kafka et Spike Jonze. Décris le personnage principal et le problème insoluble auquel il est confronté."
+},
+{
+  categorie: "Faux pitchs",
+  abstraction: "exercice d'imitation",
+  consigne: "Imagine un film où le personnage principal est persuadé d’être une idée dans l’esprit d’un spectateur."
+},
+{
+  categorie: "Faux pitchs",
+  abstraction: "exercice d'imitation",
+  consigne: "Tu dois écrire le scénario d’un court-métrage où les objets du quotidien sont conscients, mais très mauvais acteurs."
+},
+{
+  categorie: "Faux pitchs",
+  abstraction: "exercice d'imitation",
+  consigne: "Le personnage principal se réveille chaque jour dans le corps d’un personnage secondaire d’un film oublié des années 80."
+},
+{
+  categorie: "Cauchemar logique",
+  abstraction: "absurde rationnel",
+  consigne: "Un ascenseur monte, mais chaque étage est plus bas que le précédent."
+},
+{
+  categorie: "Cauchemar logique",
+  abstraction: "absurde rationnel",
+  consigne: "Un personnage traverse une porte, mais revient toujours au même endroit sans jamais faire demi-tour."
+},
+{
+  categorie: "Cauchemar logique",
+  abstraction: "absurde rationnel",
+  consigne: "Chaque fois qu’un personnage se souvient de quelque chose, il oublie autre chose – mais il ne sait pas quoi."
+},
+{
+  categorie: "Cauchemar logique",
+  abstraction: "absurde rationnel",
+  consigne: "Plus un personnage essaie de parler, plus sa bouche disparaît."
+},
+{
+  categorie: "Cauchemar logique",
+  abstraction: "absurde rationnel",
+  consigne: "Raconte un texte où le lecteur doit lui-même s’enfermer dans une boucle pour comprendre l’histoire."
 }
 ];
