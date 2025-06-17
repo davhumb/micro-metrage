@@ -2293,5 +2293,245 @@ window.ideas = [
   categorie: "Paradoxe",
   abstraction: "métaphysique",
   consigne: "Ton histoire se déroule après la fin du monde, mais personne n’en a conscience."
-  }
+  },
+  {
+  categorie: "Jung et l'inconscient",
+  abstraction: "symbolique",
+  consigne: "Ton personnage rencontre une figure qui représente son ombre – sa part refoulée – et doit négocier avec elle."
+},
+{
+  categorie: "Jung et l'inconscient",
+  abstraction: "symbolique",
+  consigne: "Une histoire où les objets se chargent d’archétypes : le feu, la mer, le miroir, le masque… et où chaque élément a un sens inconscient."
+},
+{
+  categorie: "Jung et l'inconscient",
+  abstraction: "symbolique",
+  consigne: "Ton personnage est confronté à un rêve récurrent. Chaque chapitre dévoile un symbole et sa signification profonde."
+},
+{
+  categorie: "Jung et l'inconscient",
+  abstraction: "symbolique",
+  consigne: "Un récit initiatique structuré comme une traversée de l’inconscient collectif."
+},
+{
+  categorie: "Jung et l'inconscient",
+  abstraction: "symbolique",
+  consigne: "Raconte la même histoire deux fois : d’abord en actions, puis en symboles oniriques."
+},
+{
+  categorie: "Freud et le refoulé",
+  abstraction: "psychanalyse",
+  consigne: "Une obsession parasite ton personnage. Elle prend forme dans ses rêves et ses lapsus."
+},
+{
+  categorie: "Freud et le refoulé",
+  abstraction: "psychanalyse",
+  consigne: "Un personnage est suivi à la trace par une entité invisible qui incarne son désir interdit."
+},
+{
+  categorie: "Freud et le refoulé",
+  abstraction: "psychanalyse",
+  consigne: "Tout le récit est une tentative de refoulement d’un souvenir traumatique – qui finit par refaire surface."
+},
+{
+  categorie: "Freud et le refoulé",
+  abstraction: "psychanalyse",
+  consigne: "Une scène banale est racontée deux fois : une fois telle qu’elle s’est passée, l’autre telle qu’elle est fantasmée."
+},
+{
+  categorie: "Freud et le refoulé",
+  abstraction: "psychanalyse",
+  consigne: "Ton personnage nie quelque chose de fondamental, mais tous les détails du récit le trahissent."
+},
+{
+  categorie: "Métamorphoses",
+  abstraction: "structure organique",
+  consigne: "Ton personnage se transforme petit à petit en pierre – sans que personne ne semble le remarquer."
+},
+{
+  categorie: "Métamorphoses",
+  abstraction: "structure organique",
+  consigne: "Le corps du personnage change à chaque émotion intense. Raconte l’histoire en décrivant ses altérations."
+},
+{
+  categorie: "Métamorphoses",
+  abstraction: "structure organique",
+  consigne: "Raconte l’histoire d’un personnage qui devient l’objet qu’il manipule le plus souvent."
+},
+{
+  categorie: "Métamorphoses",
+  abstraction: "structure organique",
+  consigne: "Chaque chapitre, un élément du monde change. Les personnages doivent s’adapter, ou se figer."
+},
+{
+  categorie: "Métamorphoses",
+  abstraction: "structure organique",
+  consigne: "Ton personnage s’efface petit à petit de la réalité : les objets qu’il touche, les lieux qu’il visite perdent leur nom, leur couleur, leur poids."
+},
+{
+  categorie: "Contes traditionnels détournés",
+  abstraction: "réécriture",
+  consigne: "Réécris 'Le Petit Chaperon Rouge' du point de vue du loup – sans méchanceté."
+},
+{
+  categorie: "Contes traditionnels détournés",
+  abstraction: "réécriture",
+  consigne: "Raconte une version moderne de 'Hansel et Gretel' dans un centre commercial."
+},
+{
+  categorie: "Contes traditionnels détournés",
+  abstraction: "réécriture",
+  consigne: "Écris une version inversée de 'La Belle et la Bête' où c’est la beauté qui cache un monstre."
+},
+{
+  categorie: "Contes traditionnels détournés",
+  abstraction: "réécriture",
+  consigne: "Reprends un conte connu, mais commence par la fin : que se passe-t-il après le 'ils vécurent heureux' ?"
+},
+{
+  categorie: "Contes traditionnels détournés",
+  abstraction: "réécriture",
+  consigne: "Transforme un conte en thriller psychologique contemporain."
+},
+{
+  categorie: "Philosophie",
+  abstraction: "Socratique",
+  consigne: "Un personnage remet tout en question à force de poser des questions naïves."
+},
+{
+  categorie: "Philosophie",
+  abstraction: "Platonicienne",
+  consigne: "Ton récit oppose deux mondes : celui des apparences, et celui de la vérité cachée."
+},
+{
+  categorie: "Philosophie",
+  abstraction: "Socratique",
+  consigne: "Deux personnages discutent et découvrent, à force de dialectique, qu’ils sont d’accord pour se contredire."
+},
+{
+  categorie: "Philosophie",
+  abstraction: "Platonicienne",
+  consigne: "Une ombre mène le récit : elle est la seule trace visible d’un monde qui ne se montre jamais."
+},
+{
+  categorie: "Philosophie",
+  abstraction: "existentialisme",
+  consigne: "Ton personnage prend conscience de sa liberté radicale – et en est terrifié."
+},
+{
+  categorie: "Énigmes métaphoriques",
+  abstraction: "imaginaire",
+  consigne: "Écris une histoire autour de cette idée : « Ils n’avaient pas de bouche mais hurlaient quand même. »"
+},
+{
+  categorie: "Énigmes métaphoriques",
+  abstraction: "imaginaire",
+  consigne: "Le ciel est tombé, mais tout le monde continue comme si de rien n’était."
+},
+{
+  categorie: "Énigmes métaphoriques",
+  abstraction: "imaginaire",
+  consigne: "Une voix vient de sous la terre et raconte une histoire qu’on ne comprend qu’à l’envers."
+},
+{
+  categorie: "Énigmes métaphoriques",
+  abstraction: "imaginaire",
+  consigne: "Écris un texte où le narrateur ne sait pas s’il rêve, se souvient ou invente."
+},
+{
+  categorie: "Énigmes métaphoriques",
+  abstraction: "imaginaire",
+  consigne: "Un personnage est persuadé que son reflet est une autre personne – et que c’est lui le reflet."
+},
+{
+  categorie: "Boucle inversée",
+  abstraction: "temporelle",
+  consigne: "Ton personnage vit à l’envers. Chaque chapitre le ramène plus tôt dans sa propre vie."
+},
+{
+  categorie: "Boucle inversée",
+  abstraction: "temporelle",
+  consigne: "Une lettre est envoyée dans le passé – et change tout."
+},
+{
+  categorie: "Boucle inversée",
+  abstraction: "temporelle",
+  consigne: "L’histoire commence par un adieu, et se termine par une première rencontre."
+},
+{
+  categorie: "Boucle inversée",
+  abstraction: "temporelle",
+  consigne: "Chaque jour, un personnage se réveille un jour plus tôt. Mais ses souvenirs restent."
+},
+{
+  categorie: "Boucle inversée",
+  abstraction: "temporelle",
+  consigne: "Un personnage découvre qu’il a déjà vécu sa vie – mais dans l’autre sens."
+},
+{
+  categorie: "Anatomie poétique",
+  abstraction: "point de vue interne",
+  consigne: "Raconte une nuit d’amour du point de vue d’un cœur."
+},
+{
+  categorie: "Anatomie poétique",
+  abstraction: "point de vue interne",
+  consigne: "Une journée entière est racontée par l’estomac d’un personnage."
+},
+{
+  categorie: "Anatomie poétique",
+  abstraction: "point de vue interne",
+  consigne: "Ton personnage est alcoolique : l’histoire est racontée par son foie."
+},
+{
+  categorie: "Anatomie poétique",
+  abstraction: "point de vue interne",
+  consigne: "La mémoire prend la parole et tente de manipuler le narrateur."
+},
+{
+  categorie: "Anatomie poétique",
+  abstraction: "point de vue interne",
+  consigne: "Une douleur chronique devient la narratrice invisible d’un récit mélancolique."
+},
+{
+  categorie: "Conseils de cinéastes",
+  abstraction: "inspiration artistique",
+  consigne: "David Lynch : commence ton histoire par une image incompréhensible, et ne cherche pas à l’expliquer."
+},
+{
+  categorie: "Conseils de cinéastes",
+  abstraction: "inspiration artistique",
+  consigne: "Stanley Kubrick : explore à fond une idée obsessionnelle, au point d’en devenir paranoïaque."
+},
+{
+  categorie: "Conseils de cinéastes",
+  abstraction: "inspiration artistique",
+  consigne: "Sam Raimi : donne à ton récit une énergie folle, même si tout semble absurde ou excessif."
+},
+{
+  categorie: "Conseils de cinéastes",
+  abstraction: "inspiration artistique",
+  consigne: "Luis Buñuel : filme ce que tu n’oses pas dire, raconte ce qui te dérange dans l’ordre établi."
+},
+{
+  categorie: "Conseils de cinéastes",
+  abstraction: "inspiration artistique",
+  consigne: "Michel Gondry : prends une émotion simple, et matérialise-la par un objet impossible."
+},
+{
+  categorie: "Conseils de cinéastes",
+  abstraction: "inspiration artistique",
+  consigne: "Spike Jonze : imagine une idée absurde, puis pousse-la jusqu’à ce qu’elle devienne crédible et émouvante."
+},
+{
+  categorie: "Conseils de cinéastes",
+  abstraction: "inspiration artistique",
+  consigne: "Charlie Kaufman : ton personnage sait qu’il est dans une histoire, mais ne parvient pas à s’en échapper."
+},
+{
+  categorie: "Conseils de cinéastes",
+  abstraction: "inspiration artistique",
+  consigne: "Un réalisateur fictif donne ses directives pendant que tu écris l’histoire. Et il se trompe souvent."
+}
 ];
