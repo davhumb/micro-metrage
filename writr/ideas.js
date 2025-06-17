@@ -2068,5 +2068,230 @@ window.ideas = [
   categorie: "Figures de style",
   abstraction: "personnification",
   consigne: "Le silence devient un personnage dans ton histoire."
-    }
+    },
+  {
+  categorie: "Figure de style",
+  abstraction: "contrainte",
+  consigne: "Écris un texte uniquement en utilisant des comparaisons."
+},
+{
+  categorie: "Figure de style",
+  abstraction: "contrainte",
+  consigne: "Chaque phrase de ton texte contient une allitération en 's'."
+},
+{
+  categorie: "Figure de style",
+  abstraction: "contrainte",
+  consigne: "Utilise une hyperbole à chaque paragraphe, poussée à l’absurde."
+},
+{
+  categorie: "Figure de style",
+  abstraction: "contrainte",
+  consigne: "Un dialogue entier écrit en chiasmes (structure A-B-B-A)."
+},
+{
+  categorie: "Figure de style",
+  abstraction: "contrainte",
+  consigne: "Commence chaque phrase par une anaphore : le même mot ou groupe de mots répété."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "expérimentation",
+  consigne: "Raconte l’histoire du point de vue d’un cœur amoureux."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "expérimentation",
+  consigne: "Une vieille bouteille raconte la déchéance de l’homme alcoolique qu’elle accompagne."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "expérimentation",
+  consigne: "Une valise oubliée à la consigne se souvient de toutes ses vies."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "expérimentation",
+  consigne: "Un chewing-gum mâché raconte sa journée collé sous une table."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "expérimentation",
+  consigne: "Le cœur d’un patient témoigne lors d’une opération à cœur ouvert."
+},
+{
+  categorie: "Mythologie",
+  abstraction: "réécriture",
+  consigne: "Ton personnage vit une version contemporaine du mythe d’Icare – et s’en rend compte."
+},
+{
+  categorie: "Mythologie",
+  abstraction: "réécriture",
+  consigne: "Sisyphe travaille maintenant dans une entreprise de livraison. Devine quoi ?"
+},
+{
+  categorie: "Mythologie",
+  abstraction: "réécriture",
+  consigne: "Raconte l’histoire d’un héros moderne condamné à revivre le mythe d’Orphée."
+},
+{
+  categorie: "Mythologie",
+  abstraction: "réécriture",
+  consigne: "Réinvente le mythe de Narcisse à l’ère des réseaux sociaux."
+},
+{
+  categorie: "Mythologie",
+  abstraction: "réécriture",
+  consigne: "Écris un conte où un personnage banal s’aperçoit qu’il rejoue le mythe d’Ulysse sans le savoir."
+},
+{
+  categorie: "Contrainte numérique",
+  abstraction: "forme",
+  consigne: "Chaque phrase contient un mot de plus que la précédente."
+},
+{
+  categorie: "Contrainte numérique",
+  abstraction: "forme",
+  consigne: "Écris 8 phrases dont la longueur suit la suite de Fibonacci (1, 1, 2, 3, 5, 8, 13, 21)."
+},
+{
+  categorie: "Contrainte numérique",
+  abstraction: "forme",
+  consigne: "Chaque paragraphe doit être plus court que le précédent (13, 8, 5, 3, 2, 1 lignes)."
+},
+{
+  categorie: "Contrainte numérique",
+  abstraction: "forme",
+  consigne: "Ton histoire doit avoir 10 phrases. Chaque phrase contient un mot de moins que la précédente."
+},
+{
+  categorie: "Contrainte numérique",
+  abstraction: "forme",
+  consigne: "Écris un texte où la ponctuation suit une séquence mathématique (par exemple, nombre de virgules croissant de façon exponentielle)."
+},
+{
+  categorie: "Point de vue enfantin",
+  abstraction: "absurde mais logique",
+  consigne: "L’auteur est un enfant de 3 ans qui raconte ce qu’il voit, comprend et invente."
+},
+{
+  categorie: "Point de vue enfantin",
+  abstraction: "absurde mais logique",
+  consigne: "Rédige comme un enfant de 5 ans expliquant pourquoi il faut écrire en vert et pas en noir."
+},
+{
+  categorie: "Point de vue enfantin",
+  abstraction: "absurde mais logique",
+  consigne: "Un enfant de 10 ans te donne ses conseils pour écrire un roman d’horreur réussi."
+},
+{
+  categorie: "Point de vue enfantin",
+  abstraction: "absurde mais logique",
+  consigne: "Un gamin de 12 ans t’explique ce que c’est qu’un 'rebondissement narratif' – à sa façon."
+},
+{
+  categorie: "Point de vue enfantin",
+  abstraction: "absurde mais logique",
+  consigne: "Raconte une dispute entre des personnages comme si elle était réécrite par un enfant de maternelle."
+},
+{
+  categorie: "Épuisement",
+  abstraction: "boucle infinie",
+  consigne: "Un personnage fait chaque jour exactement la même action, mais ne s’en rend compte qu’à la 100e fois."
+},
+{
+  categorie: "Épuisement",
+  abstraction: "boucle infinie",
+  consigne: "Une même scène est racontée de dix façons différentes, sans jamais progresser."
+},
+{
+  categorie: "Épuisement",
+  abstraction: "boucle infinie",
+  consigne: "Le héros essaie d’écrire un mail de rupture et recommence sans cesse, incapable de finir."
+},
+{
+  categorie: "Épuisement",
+  abstraction: "boucle infinie",
+  consigne: "Raconte une boucle temporelle minuscule : 30 secondes qui se répètent indéfiniment."
+},
+{
+  categorie: "Épuisement",
+  abstraction: "boucle infinie",
+  consigne: "Un narrateur raconte une histoire, mais revient toujours au début de la même phrase."
+},
+{
+  categorie: "Conseil d’auteur réel",
+  abstraction: "contrainte littéraire",
+  consigne: "Submerge le « je ». (Chuck Palahniuk) : écris un texte à la première personne sans dire « je » pendant les 10 premières lignes."
+},
+{
+  categorie: "Conseil d’auteur réel",
+  abstraction: "contrainte littéraire",
+  consigne: "Alan Moore : commence ton texte sans savoir ce qu’il raconte, et laisse la logique intérieure surgir d’elle-même."
+},
+{
+  categorie: "Conseil d’auteur réel",
+  abstraction: "contrainte littéraire",
+  consigne: "Kurt Vonnegut : fais que chaque personnage veuille quelque chose, même s’il s’agit juste d’un verre d’eau."
+},
+{
+  categorie: "Conseil d’auteur réel",
+  abstraction: "contrainte littéraire",
+  consigne: "David Foster Wallace : n’aie pas peur de la complexité, mais choisis un mot simple quand il suffit."
+},
+{
+  categorie: "Conseil d’auteur réel",
+  abstraction: "contrainte littéraire",
+  consigne: "Roger Zelazny : une bonne idée t’échappe toujours un peu. Si elle est trop claire, c’est qu’elle est trop simple."
+},
+{
+  categorie: "Rêverie quantique",
+  abstraction: "conceptualisation",
+  consigne: "Ton personnage existe dans deux états à la fois. Il est à la fois coupable et innocent – et l’histoire ne tranche jamais."
+},
+{
+  categorie: "Rêverie quantique",
+  abstraction: "conceptualisation",
+  consigne: "Chaque chapitre est une réalité alternative – jusqu’à ce qu’elles se rejoignent dans une incohérence troublante."
+},
+{
+  categorie: "Rêverie quantique",
+  abstraction: "conceptualisation",
+  consigne: "Tu écris deux histoires en une : elles se superposent comme deux particules intriquées."
+},
+{
+  categorie: "Rêverie quantique",
+  abstraction: "conceptualisation",
+  consigne: "Un personnage peut lire dans le passé des autres – mais seulement des événements qu’ils ont oubliés."
+},
+{
+  categorie: "Rêverie quantique",
+  abstraction: "conceptualisation",
+  consigne: "L’histoire est racontée depuis un futur potentiel qui n’existe plus."
+},
+{
+  categorie: "Paradoxe",
+  abstraction: "métaphysique",
+  consigne: "Un personnage peut remonter le temps, mais uniquement vers des moments qu’il n’a jamais vécus."
+},
+{
+  categorie: "Paradoxe",
+  abstraction: "métaphysique",
+  consigne: "Une voix off raconte l’histoire. À la fin, on comprend qu’elle n’a jamais existé."
+},
+{
+  categorie: "Paradoxe",
+  abstraction: "métaphysique",
+  consigne: "Un narrateur est mort depuis le début, mais refuse de s’en rendre compte."
+},
+{
+  categorie: "Paradoxe",
+  abstraction: "métaphysique",
+  consigne: "Une page du livre parle directement au lecteur, puis disparaît dans la page suivante."
+},
+{
+  categorie: "Paradoxe",
+  abstraction: "métaphysique",
+  consigne: "Ton histoire se déroule après la fin du monde, mais personne n’en a conscience."
+  }
 ];
