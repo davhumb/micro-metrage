@@ -2758,5 +2758,230 @@ window.ideas = [
   categorie: "Cauchemar logique",
   abstraction: "absurde rationnel",
   consigne: "Raconte un texte où le lecteur doit lui-même s’enfermer dans une boucle pour comprendre l’histoire."
+},
+  {
+  categorie: "Conseils d'auteurs célèbres",
+  abstraction: "contrainte de narration",
+  consigne: "Écris une nouvelle où le mot « je » n’apparaît qu’après le premier paragraphe. (inspiré de Chuck Palahniuk)"
+},
+{
+  categorie: "Conseils d'auteurs célèbres",
+  abstraction: "contrainte stylistique",
+  consigne: "Commence par une action. Pas de météo, pas de description. (conseil attribué à Elmore Leonard)"
+},
+{
+  categorie: "Conseils d'auteurs célèbres",
+  abstraction: "approche narrative",
+  consigne: "Écris chaque scène comme si elle devait tenir debout seule, sans les autres. (conseil d’Alan Moore)"
+},
+{
+  categorie: "Conseils d'auteurs célèbres",
+  abstraction: "contrainte thématique",
+  consigne: "Ton personnage croit en quelque chose de faux mais vital pour lui. (inspiré de Philip K. Dick)"
+},
+{
+  categorie: "Conseils d'auteurs célèbres",
+  abstraction: "contrainte de point de vue",
+  consigne: "Écris un récit à la première personne où le narrateur n’est pas fiable… mais ne ment jamais."
+},
+{
+  categorie: "Inspiré de Philip K. Dick",
+  abstraction: "problème métaphysique",
+  consigne: "Ton personnage découvre que les souvenirs de son enfance ont été implantés artificiellement."
+},
+{
+  categorie: "Inspiré de Philip K. Dick",
+  abstraction: "question d'identité",
+  consigne: "Écris une scène où ton personnage se demande s’il est un être humain ou une machine… mais sans jamais utiliser ces mots."
+},
+{
+  categorie: "Inspiré de Philip K. Dick",
+  abstraction: "distorsion de réalité",
+  consigne: "La météo est dictée par l’état d’esprit collectif. Un coup de blues généralisé, et c’est le déluge."
+},
+{
+  categorie: "Inspiré de Philip K. Dick",
+  abstraction: "temporalité incertaine",
+  consigne: "Écris un dialogue où les deux interlocuteurs ne sont pas dans la même année."
+},
+{
+  categorie: "Inspiré de Philip K. Dick",
+  abstraction: "paradoxe narratif",
+  consigne: "Ton personnage lit un roman… qui parle d’un personnage lisant un roman… etc."
+},
+{
+  categorie: "Figures de style – Point de vue singulier",
+  abstraction: "point de vue original",
+  consigne: "Raconte une scène amoureuse du point de vue du cœur."
+},
+{
+  categorie: "Figures de style – Point de vue singulier",
+  abstraction: "point de vue inhabituel",
+  consigne: "Raconte une dispute conjugale du point de vue du canapé."
+},
+{
+  categorie: "Figures de style – Point de vue singulier",
+  abstraction: "point de vue interne",
+  consigne: "Décris une journée du point de vue de l’estomac d’un personnage alcoolique."
+},
+{
+  categorie: "Figures de style – Point de vue singulier",
+  abstraction: "voix narrative originale",
+  consigne: "Écris un texte à la première personne… mais c’est le silence qui raconte l’histoire."
+},
+{
+  categorie: "Figures de style – Point de vue singulier",
+  abstraction: "transfert d’émotion",
+  consigne: "Une scène de deuil racontée par les murs de la chambre du défunt."
+},
+{
+  categorie: "Figures de style – Boucle infinie",
+  abstraction: "structure cyclique",
+  consigne: "Ton personnage croit sortir d’un cauchemar… mais se réveille dans la même scène, légèrement déformée à chaque fois."
+},
+{
+  categorie: "Figures de style – Boucle infinie",
+  abstraction: "structure en spirale",
+  consigne: "Chaque chapitre commence par la dernière phrase du précédent, mais légèrement modifiée."
+},
+{
+  categorie: "Figures de style – Boucle infinie",
+  abstraction: "cercle vicieux",
+  consigne: "Un personnage tue quelqu’un… et se rend compte qu’il doit revivre cette scène à l’infini jusqu’à ce qu’il comprenne quelque chose."
+},
+{
+  categorie: "Figures de style – Boucle infinie",
+  abstraction: "enchaînement absurde",
+  consigne: "Chaque action du personnage crée un problème qu’il tente de résoudre, ce qui crée un nouveau problème, etc."
+},
+{
+  categorie: "Figures de style – Boucle infinie",
+  abstraction: "narration cyclique",
+  consigne: "L’histoire commence à la fin, et le personnage réalise qu’il l’a déjà vécue plusieurs fois sans le savoir."
+},
+{
+  categorie: "Figures de style – Enfants narrateurs",
+  abstraction: "ton naïf",
+  consigne: "Raconte une guerre du point de vue d’un enfant de 5 ans qui croit qu’il s’agit d’un jeu."
+},
+{
+  categorie: "Figures de style – Enfants narrateurs",
+  abstraction: "fausse logique",
+  consigne: "Écris un dialogue où un enfant de 3 ans explique pourquoi les nuages pleurent."
+},
+{
+  categorie: "Figures de style – Enfants narrateurs",
+  abstraction: "perception déformée",
+  consigne: "Une scène de séparation conjugale racontée par un enfant de 8 ans qui ne comprend pas ce qu’il voit."
+},
+{
+  categorie: "Figures de style – Enfants narrateurs",
+  abstraction: "vision magique",
+  consigne: "Un enfant de 10 ans croit que ses parents sont des espions. Et il a peut-être raison."
+},
+{
+  categorie: "Figures de style – Enfants narrateurs",
+  abstraction: "naïveté et poésie",
+  consigne: "Un enfant explique comment il pense que les bébés arrivent dans le ventre des mamans. (Pas de cigognes, soyez créatif.)"
+},
+{
+  categorie: "Figures de style – Mythes modernes",
+  abstraction: "réécriture",
+  consigne: "Ton personnage rejoue le mythe de Sisyphe, mais dans un open space. Chaque jour, il vide sa boîte mail… et elle se remplit de nouveau."
+},
+{
+  categorie: "Figures de style – Mythes modernes",
+  abstraction: "métaphore contemporaine",
+  consigne: "Réinvente le mythe d’Icare dans le monde des influenceurs et des réseaux sociaux."
+},
+{
+  categorie: "Figures de style – Mythes modernes",
+  abstraction: "adaptation symbolique",
+  consigne: "Un Narcisse moderne se perd dans un miroir connecté. Son reflet finit par lui parler."
+},
+{
+  categorie: "Figures de style – Mythes modernes",
+  abstraction: "transposition narrative",
+  consigne: "Une Orphée contemporaine descend dans les limbes d’un hôpital psychiatrique pour retrouver sa sœur disparue."
+},
+{
+  categorie: "Figures de style – Mythes modernes",
+  abstraction: "récit tragique",
+  consigne: "Un personnage souffrant d’amnésie cherche à recoller les morceaux de son passé, à la manière d’un Prométhée qui oublie sa punition chaque jour."
+},
+{
+  categorie: "Figures de style – Philosophie antique",
+  abstraction: "dialogue platonicien",
+  consigne: "Écris une joute verbale entre deux personnages autour de la question : 'Qu’est-ce qu’un bon souvenir ?'"
+},
+{
+  categorie: "Figures de style – Philosophie antique",
+  abstraction: "questionnement socratique",
+  consigne: "Fais dialoguer un enfant et un vieillard autour du thème du bonheur, sans jamais qu’aucun n’ait raison."
+},
+{
+  categorie: "Figures de style – Philosophie antique",
+  abstraction: "mise en abîme",
+  consigne: "Ton personnage découvre que sa vie suit un enchaînement d’événements absurdes. Il entame un monologue à la manière d’un disciple de Diogène."
+},
+{
+  categorie: "Figures de style – Philosophie antique",
+  abstraction: "allégorie",
+  consigne: "Réinvente l’allégorie de la caverne : un personnage vit dans une salle de cinéma sans savoir qu’il existe un monde dehors."
+},
+{
+  categorie: "Figures de style – Philosophie antique",
+  abstraction: "dissonance éthique",
+  consigne: "Un stoïcien moderne tente de survivre dans une société qui valorise l’émotion instantanée. Il tient un journal de sa résistance."
+},
+{
+  categorie: "Figures de style – Conseils de cinéastes",
+  abstraction: "structuration",
+  consigne: "Commence par une image forte, termine par une révélation intime. (conseil inspiré de Stanley Kubrick)"
+},
+{
+  categorie: "Figures de style – Conseils de cinéastes",
+  abstraction: "onirisme",
+  consigne: "Rédige une scène sans logique rationnelle, comme si elle sortait d’un rêve. (conseil de David Lynch)"
+},
+{
+  categorie: "Figures de style – Conseils de cinéastes",
+  abstraction: "rythme et tension",
+  consigne: "Fais que chaque plan, chaque scène, pousse le spectateur à vouloir en voir plus. (inspiré de Sam Raimi)"
+},
+{
+  categorie: "Figures de style – Conseils de cinéastes",
+  abstraction: "poétique du réel",
+  consigne: "Inspire-toi du quotidien le plus banal pour y insuffler une étrangeté. (conseil proche de Michel Gondry)"
+},
+{
+  categorie: "Figures de style – Conseils de cinéastes",
+  abstraction: "subversion de ton",
+  consigne: "Commence comme une comédie légère. Termine comme un drame. (inspiré de Charlie Kaufman)"
+},
+{
+  categorie: "Figures de style – Inversion mathématique",
+  abstraction: "contrainte structurelle",
+  consigne: "Écris un texte en 8 phrases, dont la longueur décroît selon la suite de Fibonacci inversée (13, 8, 5, 3, 2, 1…)."
+},
+{
+  categorie: "Figures de style – Inversion mathématique",
+  abstraction: "forme progressive",
+  consigne: "Chaque phrase de ton texte contient un mot de plus que la précédente. Jusqu’à saturation."
+},
+{
+  categorie: "Figures de style – Inversion mathématique",
+  abstraction: "géométrie narrative",
+  consigne: "Ton histoire se structure comme un triangle : montée, sommet, chute. En 3 paragraphes parfaitement équilibrés."
+},
+{
+  categorie: "Figures de style – Inversion mathématique",
+  abstraction: "accumulation logique",
+  consigne: "Commence par une phrase simple. Chaque phrase suivante ajoute une proposition subordonnée."
+},
+{
+  categorie: "Figures de style – Inversion mathématique",
+  abstraction: "cycle numérique",
+  consigne: "Un personnage est piégé dans une boucle dont les événements suivent la table de multiplication de 7. À toi de rendre ça clair."
 }
 ];
