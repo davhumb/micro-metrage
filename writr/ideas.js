@@ -3678,5 +3678,211 @@ window.ideas = [
   categorie: "Onirisme",
   abstraction: "perte d'identité",
   consigne: "Un personnage se transforme lentement en un autre, mais personne ne le remarque."
-}
+},
+  ,
+  {
+    "categorie": "Conseil d’un enfant de 10 ans",
+    "abstraction": "point de vue naïf",
+    "consigne": "Imagine que tu trouves une boîte où chaque objet que tu poses dedans disparaît de la mémoire des gens. Raconte ce que tu fais avec."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 10 ans",
+    "abstraction": "spontanéité poétique",
+    "consigne": "Invente une histoire avec seulement cinq mots qui te rendent heureux, comme si tu les avais découpés dans un journal."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 10 ans",
+    "abstraction": "logique d’enfant",
+    "consigne": "Tu veux convaincre tes parents d’adopter un dinosaure : rédige ton argumentaire."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 10 ans",
+    "abstraction": "imaginaire personnel",
+    "consigne": "Ton meilleur ami invisible devient jaloux de tes autres copains : raconte une scène."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 10 ans",
+    "abstraction": "jeu de rôle",
+    "consigne": "Décris ta chambre comme si c'était un royaume magique et toi le roi ou la reine."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 12 ans",
+    "abstraction": "anticipation enfantine",
+    "consigne": "Tu écris une lettre à ton toi du futur pour te rappeler de ne pas devenir un adulte trop sérieux. Que dis-tu ?"
+  },
+  {
+    "categorie": "Conseil d’un enfant de 12 ans",
+    "abstraction": "quête d’identité",
+    "consigne": "Tu te réveilles avec le super-pouvoir de changer de prénom chaque jour. Raconte une semaine entière."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 12 ans",
+    "abstraction": "projection symbolique",
+    "consigne": "Crée une légende urbaine que tu racontes à tes camarades en prétendant qu'elle est vraie."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 12 ans",
+    "abstraction": "révolte douce",
+    "consigne": "Imagine une révolution menée par les élèves contre la sonnerie du collège."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 12 ans",
+    "abstraction": "exploration douce",
+    "consigne": "Tu explores une bibliothèque abandonnée. Les livres parlent quand on les ouvre."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 5 ans",
+    "abstraction": "logique magique",
+    "consigne": "Décris un monstre gentil qui te protège chaque nuit et change de forme selon tes rêves."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 5 ans",
+    "abstraction": "imaginaire ludique",
+    "consigne": "Un gâteau d’anniversaire prend vie et te propose une mission. Quelle est-elle ?"
+  },
+  {
+    "categorie": "Conseil d’un enfant de 5 ans",
+    "abstraction": "rêve éveillé",
+    "consigne": "Imagine que tu passes toute une journée dans un dessin que tu viens de faire."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 5 ans",
+    "abstraction": "répétition poétique",
+    "consigne": "Écris une chanson composée uniquement de tes mots préférés, répétés en boucle."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 5 ans",
+    "abstraction": "logique intuitive",
+    "consigne": "Tu expliques le fonctionnement du monde à un extraterrestre. Raconte tout à ta façon."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 3 ans",
+    "abstraction": "immédiateté sensorielle",
+    "consigne": "Tu es un gâteau d’anniversaire. On va te manger. Raconte ta dernière journée avec des mots d’enfant."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 3 ans",
+    "abstraction": "vocabulaire limité",
+    "consigne": "Écris une histoire sans utiliser plus de 30 mots différents."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 3 ans",
+    "abstraction": "regard émerveillé",
+    "consigne": "Décris un orage comme si tu le voyais pour la toute première fois de ta vie."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 3 ans",
+    "abstraction": "absolu émotionnel",
+    "consigne": "Tu perds ton doudou. Toute la planète est en deuil. Raconte cette journée."
+  },
+  {
+    "categorie": "Conseil d’un enfant de 3 ans",
+    "abstraction": "fusion langage/ressenti",
+    "consigne": "Raconte une journée où tous les mots sont remplacés par des bruits d’animaux."
+  },
+  {
+    "categorie": "Suite mathématique",
+    "abstraction": "structure cachée",
+    "consigne": "Écris un texte où chaque phrase a un mot de plus que la précédente. Jusqu’où peux-tu aller avant de perdre le contrôle ?"
+  },
+  {
+    "categorie": "Suite mathématique",
+    "abstraction": "symétrie cachée",
+    "consigne": "Compose deux paragraphes en miroir parfait, mot pour mot, comme une équation inversée."
+  },
+  {
+    "categorie": "Suite mathématique",
+    "abstraction": "accélération contrôlée",
+    "consigne": "Décris une chute ou un envol en suivant une suite géométrique (2, 4, 8, etc.) dans le rythme des phrases."
+  },
+  {
+    "categorie": "Suite mathématique",
+    "abstraction": "enchaînement obsessionnel",
+    "consigne": "Un personnage voit partout la suite 1, 1, 2, 3, 5, 8… Raconte comment elle le hante."
+  },
+  {
+    "categorie": "Suite mathématique",
+    "abstraction": "prophétie numérique",
+    "consigne": "Chaque date du calendrier cache une vérité codée. Écris une scène où un enfant comprend ce secret."
+  },
+  {
+    "categorie": "Métaphysique",
+    "abstraction": "vertige ontologique",
+    "consigne": "Tu te réveilles dans un monde où tout le monde connaît ta vie mieux que toi. Que décides-tu de faire ?"
+  },
+  {
+    "categorie": "Métaphysique",
+    "abstraction": "réalité incertaine",
+    "consigne": "Raconte une journée qui pourrait être un rêve, une mémoire ou une vie parallèle. Laisse le doute entier."
+  },
+  {
+    "categorie": "Métaphysique",
+    "abstraction": "paradoxe vivant",
+    "consigne": "Décris une scène où ton personnage découvre qu’il n’a jamais existé. Que fait-il ensuite ?"
+  },
+  {
+    "categorie": "Métaphysique",
+    "abstraction": "narrateur impossible",
+    "consigne": "Raconte une histoire où le narrateur est aussi le personnage que l’on va oublier à la fin."
+  },
+  {
+    "categorie": "Métaphysique",
+    "abstraction": "monde projeté",
+    "consigne": "Imagine que notre univers est la pensée d’un autre être. Décris ce qu’il ressent lorsqu’il rêve de nous."
+  },
+  {
+    "categorie": "Rêverie quantique",
+    "abstraction": "incertitude narrative",
+    "consigne": "Décris une scène dont chaque détail dépend de la position d’un chat dans une autre pièce."
+  },
+  {
+    "categorie": "Rêverie quantique",
+    "abstraction": "déclencheur instable",
+    "consigne": "Ton personnage vit une boucle qui change à chaque observation extérieure. Comment s’en aperçoit-il ?"
+  },
+  {
+    "categorie": "Rêverie quantique",
+    "abstraction": "décalage des mondes",
+    "consigne": "Deux versions d’un même individu coexistent sans se voir. Écris la première rencontre."
+  },
+  {
+    "categorie": "Objet narratif",
+    "abstraction": "déclencheur externe",
+    "consigne": "Un personnage trouve un objet banal qu’il ne reconnaît pas. Tous ceux qui le voient le nomment autrement. Raconte."
+  },
+  {
+    "categorie": "Objet narratif",
+    "abstraction": "transfert de mémoire",
+    "consigne": "Chaque fois qu’on touche cet objet, on absorbe un souvenir inconnu. Écris la découverte."
+  },
+  {
+    "categorie": "Objet narratif",
+    "abstraction": "mutation du réel",
+    "consigne": "L’objet que tu écris change d’apparence à chaque lecture. Propose trois versions successives."
+  },
+  {
+    "categorie": "Présent toxique",
+    "abstraction": "asphyxie temporelle",
+    "consigne": "Écris un monde où rien ne peut être gardé : les objets, les souvenirs, les liens s’effacent après une heure."
+  },
+  {
+    "categorie": "Présent toxique",
+    "abstraction": "compression existentielle",
+    "consigne": "Raconte une journée où tout s’accélère : chaque minute compte pour dix ans d’émotions."
+  },
+  {
+    "categorie": "Présent toxique",
+    "abstraction": "brouillage identitaire",
+    "consigne": "Les noms changent tous les matins. Tu ne sais plus qui tu étais hier. Comment te présentes-tu ?"
+  },
+  {
+    "categorie": "Présent toxique",
+    "abstraction": "réalité glissante",
+    "consigne": "Tout ce qui est écrit se réalise… mais seulement dans l’instant. Décris une tentative de révolte."
+  },
+  {
+    "categorie": "Présent toxique",
+    "abstraction": "épuisement du futur",
+    "consigne": "Dans un monde sans lendemain, les gens ne font plus que répéter. Écris une journée qui tente d’échapper au cycle."
+  }
 ];
