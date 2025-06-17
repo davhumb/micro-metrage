@@ -3443,5 +3443,240 @@ window.ideas = [
   "categorie": "Réflexion littéraire",
   "abstraction": "mise en abyme",
   "consigne": "Un narrateur découvre que ses souvenirs sont en réalité des extraits de romans lus dans l’enfance."
+},
+  {
+  categorie: "Point de vue inhabituel",
+  abstraction: "narration originale",
+  consigne: "Raconte une rupture amoureuse du point de vue du foie."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "narration originale",
+  consigne: "Décris la journée d’un enfant du point de vue de ses chaussures."
+},
+{
+  categorie: "Psychanalyse",
+  abstraction: "influence freudienne",
+  consigne: "Écris une scène où le héros tente d’échapper à son Surmoi, littéralement personnifié."
+},
+{
+  categorie: "Psychanalyse",
+  abstraction: "analyse jungienne",
+  consigne: "Ton personnage rencontre son Anima dans un rêve qui ne s’achève jamais."
+},
+{
+  categorie: "Psychanalyse",
+  abstraction: "mythe intérieur",
+  consigne: "Écris un dialogue entre ton héros et son propre Refoulé."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "Chuck Palahniuk",
+  consigne: "Écris une scène à la première personne, mais repousse au maximum l’apparition du mot 'je'."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "David Foster Wallace",
+  consigne: "Écris une scène banale comme si elle était d'une importance cosmique. Détaille tout."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "Alan Moore",
+  consigne: "Écris un récit où la signification véritable du texte n’émerge qu’après lecture complète."
+},
+{
+  categorie: "Mythologie grecque",
+  abstraction: "réinterprétation moderne",
+  consigne: "Ton personnage rejoue le mythe de Sisyphe en entreprise : il doit présenter le même projet, rejeté en boucle."
+},
+{
+  categorie: "Mythologie grecque",
+  abstraction: "réinterprétation moderne",
+  consigne: "Réécris le mythe d’Icare du point de vue d’un drone de surveillance."
+},
+{
+  categorie: "Expérience sensorielle",
+  abstraction: "POV organique",
+  consigne: "Écris un monologue du cœur qui tombe amoureux malgré lui."
+},
+{
+  categorie: "Expérience sensorielle",
+  abstraction: "POV organique",
+  consigne: "Décris l’existence d’un foie dans une vie de débauche."
+},
+{
+  categorie: "Expérience sensorielle",
+  abstraction: "POV sensoriel",
+  consigne: "Une peau hypersensible raconte la journée d’un personnage anxieux."
+},
+{
+  categorie: "Expérience sensorielle",
+  abstraction: "POV sensoriel",
+  consigne: "Décris une déclaration d’amour du point de vue des mains."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "objet du quotidien",
+  consigne: "Une fourchette raconte les repas d’un homme seul."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "objet du quotidien",
+  consigne: "Une montre raconte le vieillissement de son propriétaire."
+},
+{
+  categorie: "Conseil d’artiste",
+  abstraction: "David Lynch",
+  consigne: "Écris une scène à la fois banale et inquiétante. Ne cherche pas à tout comprendre."
+},
+{
+  categorie: "Conseil d’artiste",
+  abstraction: "Stanley Kubrick",
+  consigne: "Supprime toute émotion explicite dans ta scène. Laisse le décor parler à la place."
+},
+{
+  categorie: "Conseil d’artiste",
+  abstraction: "Michel Gondry",
+  consigne: "Invente un souvenir imaginaire si précis qu’il paraît réel."
+},
+{
+  categorie: "Conseil d’artiste",
+  abstraction: "Charlie Kaufman",
+  consigne: "Écris une scène où ton personnage découvre qu’il écrit lui-même son propre destin."
+},
+{
+  categorie: "Conseil d’enfant",
+  abstraction: "vue enfantine",
+  consigne: "Écris une histoire où les héros sont invisibles mais gentils."
+},
+{
+  categorie: "Conseil d’enfant",
+  abstraction: "vue enfantine",
+  consigne: "Fais une histoire où le méchant devient gentil à cause d’un câlin."
+},
+{
+  categorie: "Conseil d’enfant",
+  abstraction: "vue enfantine",
+  consigne: "Ton histoire doit avoir un dragon, un goûter, et un papa qui revient du travail."
+},
+{
+  categorie: "Suite mathématique",
+  abstraction: "contrainte formelle",
+  consigne: "Écris 8 phrases dont le nombre de mots suit une suite descendante : 13, 8, 5, 3, 2, 1."
+},
+{
+  categorie: "Suite mathématique",
+  abstraction: "contrainte formelle",
+  consigne: "Fais dialoguer deux personnages où chaque réplique contient un mot de plus que la précédente."
+},
+{
+  categorie: "Onirisme",
+  abstraction: "boucle infinie",
+  consigne: "Ton personnage se réveille dans un rêve qui mène à un autre rêve, puis encore un."
+},
+{
+  categorie: "Onirisme",
+  abstraction: "répétition absurde",
+  consigne: "Décris une journée qui recommence toujours au même instant, sans raison apparente."
+},
+{
+  categorie: "Psychanalyse",
+  abstraction: "Freudien",
+  consigne: "Écris une scène où le Moi, le Ça et le Surmoi sont trois colocataires."
+},
+{
+  categorie: "Métaphysique",
+  abstraction: "réalité douteuse",
+  consigne: "Ton personnage découvre que tous ses souvenirs sont ceux d’un autre."
+},
+{
+  categorie: "Métaphysique",
+  abstraction: "paradoxe narratif",
+  consigne: "Écris une scène qui ne peut logiquement pas exister, mais qui fonctionne quand même."
+},
+{
+  categorie: "Mythologie grecque",
+  abstraction: "métaphore contemporaine",
+  consigne: "Le Minotaure est un trader piégé dans un open space."
+},
+{
+  categorie: "Mythologie grecque",
+  abstraction: "métaphore contemporaine",
+  consigne: "Écris un monologue d’Orphée, qui ne peut plus chanter car il a supprimé tous ses réseaux sociaux."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "Kafka",
+  consigne: "Écris une scène parfaitement réaliste, puis glisse un élément absurde. Ne l’explique pas."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "Lovecraft",
+  consigne: "Évoque une entité invisible mais palpable. Jamais décrite. Juste ressentie."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "temps",
+  consigne: "Un vieillard raconte sa vie du point de vue du futur, mais à l’envers."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "distance",
+  consigne: "Une étoile morte observe la Terre depuis des milliers d’années et raconte ce qu’elle voit."
+},
+{
+  categorie: "Point de vue inhabituel",
+  abstraction: "métaphorique",
+  consigne: "Une ombre raconte la vie de son hôte. Jusqu’à ce qu’elle le quitte."
+},
+{
+  categorie: "Expérience sensorielle",
+  abstraction: "absence",
+  consigne: "Raconte une histoire où aucun des personnages ne peut entendre."
+},
+{
+  categorie: "Expérience sensorielle",
+  abstraction: "surcharge",
+  consigne: "Ton personnage ressent tout : chaque son, chaque odeur, chaque pensée."
+},
+{
+  categorie: "Expérience sensorielle",
+  abstraction: "inversion",
+  consigne: "Inverse deux sens : tu goûtes les couleurs, tu entends les textures."
+},
+{
+  categorie: "Conseil d’artiste",
+  abstraction: "Bunuel",
+  consigne: "Insère une scène onirique dans un récit banal. Ne fais aucun effort pour la justifier."
+},
+{
+  categorie: "Conseil d’artiste",
+  abstraction: "Sam Raimi",
+  consigne: "Transforme une scène dramatique en comédie gore. Puis inverse à nouveau le ton."
+},
+{
+  categorie: "Mythologie grecque",
+  abstraction: "réécriture",
+  consigne: "Raconte le mythe de Narcisse à l’ère d’Instagram."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "Philip K. Dick",
+  consigne: "Fais douter ton personnage de sa propre identité. Puis du lecteur lui-même."
+},
+{
+  categorie: "Conseil d’auteur",
+  abstraction: "Boris Vian",
+  consigne: "Insère un objet impossible dans un monde réaliste. Ne t’arrête pas à sa bizarrerie."
+},
+{
+  categorie: "Mythologie grecque",
+  abstraction: "structure narrative",
+  consigne: "Écris une histoire où chaque chapitre est une épreuve d’Héraclès revisitée."
+},
+{
+  categorie: "Onirisme",
+  abstraction: "perte d'identité",
+  consigne: "Un personnage se transforme lentement en un autre, mais personne ne le remarque."
 }
 ];
