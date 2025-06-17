@@ -4168,5 +4168,105 @@ window.ideas = [
     "categorie": "Morale inversée",
     "abstraction": "maxime dystopique",
     "consigne": "Ton histoire doit mener à : « Ceux qui ferment les yeux vivent plus longtemps. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "chute interrogative",
+    "consigne": "Écris un texte qui se termine par cette question : « Et si tout cela n’avait jamais eu lieu ? »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "retournement intime",
+    "consigne": "Ton récit doit s’achever ainsi : « Il ne m’a jamais reconnu. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "brusque illumination",
+    "consigne": "Construis une histoire qui se clôt sur : « C’est donc ça, être vivant. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "revirement brutal",
+    "consigne": "Le texte doit se terminer par : « Et alors, elle m’a tiré dessus. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "inversion morale",
+    "consigne": "Écris une scène où cette phrase finale prend tout son sens : « Le monstre, c’était moi. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "ironie tragique",
+    "consigne": "Ta dernière phrase sera : « Ce n’était qu’un jeu, après tout. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "écho troublant",
+    "consigne": "Ton texte doit finir exactement comme il commence. Même phrase, même mots."
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "rupture brutale",
+    "consigne": "Termine ton texte par une phrase unique : « Et puis, plus rien. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "boucle absurde",
+    "consigne": "Ton histoire se boucle sur cette phrase : « C’est à ce moment qu’il frappa à la porte. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "détail révélateur",
+    "consigne": "Le texte doit s’achever sur : « Et dans sa poche, il y avait ma photo. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "impasse mentale",
+    "consigne": "Termine ton récit ainsi : « J’ai oublié ce que je cherchais. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "auto-annulation",
+    "consigne": "Conclue sur : « Je t’ai inventé pour ne pas être seul. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "coup d’arrêt",
+    "consigne": "Ton histoire doit s’interrompre net sur : « Et je me suis réveillé. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "vérité désarmante",
+    "consigne": "Termine ton texte par : « J’ai toujours été ici. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "déni final",
+    "consigne": "Clôture sur cette phrase : « Ce n’est pas ce que vous croyez. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "rupture comique",
+    "consigne": "Le dernier mot doit être : « Chaussette. » Tout ton texte doit mener, logiquement ou non, à ce mot."
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "contradiction dramatique",
+    "consigne": "Termine ton récit par : « Et c’est là que j’ai compris que j’étais heureux. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "clôture mystérieuse",
+    "consigne": "Ton histoire s’achève sur : « Il y avait quelqu’un d’autre dans la pièce. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "épuisement total",
+    "consigne": "Dernière phrase obligatoire : « Je n’ai plus rien à dire. »"
+  },
+  {
+    "categorie": "Fin imposée",
+    "abstraction": "désespoir tranquille",
+    "consigne": "Conclue ton texte ainsi : « Et il ne se passa rien pendant très longtemps. »"
   }
 ];
