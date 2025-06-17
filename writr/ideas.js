@@ -3213,5 +3213,235 @@ window.ideas = [
   "categorie": "Réflexion littéraire",
   "abstraction": "mise en abyme",
   "consigne": "Un narrateur découvre que ses souvenirs sont en réalité des extraits de romans lus dans l’enfance."
+},
+  ,{
+  "categorie": "Conseil d’auteur",
+  "abstraction": "style narratif",
+  "consigne": "Écris une nouvelle en appliquant le principe d’Isaac Asimov : commence par une idée forte, puis construis l’histoire autour comme une démonstration logique."
+},
+{
+  "categorie": "Conseil d’auteur",
+  "abstraction": "voix narrative",
+  "consigne": "Suis le principe de Dostoïevski : fais cohabiter dans ton récit deux idées contradictoires, incarnées par deux personnages, jusqu’à l’effondrement de l’un des deux."
+},
+{
+  "categorie": "Conseil d’auteur",
+  "abstraction": "structure philosophique",
+  "consigne": "Inspire-toi de Camus et fais d’un geste absurde (marcher, grimper, éplucher des patates…) le moteur central d’un récit existentiel."
+},
+{
+  "categorie": "Conseil d’auteur",
+  "abstraction": "style expérimental",
+  "consigne": "Écris une nouvelle 'queneauïenne' : 99 versions différentes d’une même action banale, chacune dans un style distinct."
+},
+{
+  "categorie": "Conseil d’auteur",
+  "abstraction": "contrainte formelle",
+  "consigne": "Applique la règle de Georges Perec : interdiction d’utiliser la lettre E dans toute ta nouvelle."
+},
+{
+  "categorie": "Conseil d’auteur",
+  "abstraction": "poétique narrative",
+  "consigne": "Inspire-toi de David Foster Wallace : la fin doit être émotionnelle mais mathématiquement invisible. Le climax se dissout dans la parenthèse d’un paragraphe annexe."
+},
+{
+  "categorie": "Conseil d’auteur",
+  "abstraction": "mythe inversé",
+  "consigne": "Réinvente Sisyphe : ton héros recommence chaque jour la même tâche mais sans jamais comprendre pourquoi — jusqu’à ce qu’il découvre que c’est *lui-même* qui a décidé de ce cycle."
+},
+{
+  "categorie": "Point de vue inédit",
+  "abstraction": "corporel",
+  "consigne": "Raconte la vie d’un homme vu par son foie."
+},
+{
+  "categorie": "Point de vue inédit",
+  "abstraction": "sensoriel",
+  "consigne": "Une rencontre amoureuse racontée du point de vue de l’odeur de la peau."
+},
+{
+  "categorie": "Point de vue inédit",
+  "abstraction": "matière",
+  "consigne": "L’histoire d’un deuil racontée par le fil rouge d’un pull trop porté."
+},
+{
+  "categorie": "Figure de style",
+  "abstraction": "lipogramme",
+  "consigne": "Écris un dialogue sans utiliser une seule fois la lettre 'a'."
+},
+{
+  "categorie": "Figure de style",
+  "abstraction": "croissance formelle",
+  "consigne": "Chaque phrase de ton texte doit comporter un mot de plus que la précédente, jusqu’à saturation ou dénouement."
+},
+{
+  "categorie": "Physique quantique",
+  "abstraction": "déterminisme instable",
+  "consigne": "Ton personnage prend une décision et la réalité change autour de lui. Mais chaque relecture du texte donne une autre version."
+},
+{
+  "categorie": "Physique quantique",
+  "abstraction": "chat de Schrödinger narratif",
+  "consigne": "Écris une scène qui ne révèle jamais si un personnage est vivant ou mort. Le suspense se maintient jusqu’à l’effondrement final."
+},
+{
+  "categorie": "Conseil d’enfant (3 ans)",
+  "abstraction": "logique émotionnelle",
+  "consigne": "Commence ton histoire par un câlin et termine par un monstre qui pleure tout seul dans sa grotte."
+},
+{
+  "categorie": "Conseil d’enfant (5 ans)",
+  "abstraction": "enchaînement de surprises",
+  "consigne": "Il faut que ton héros soit un bonhomme pain d’épices qui sait se battre avec une cuillère et qui a un dinosaure pour copain."
+},
+{
+  "categorie": "Conseil d’enfant (8 ans)",
+  "abstraction": "héroïsme naïf",
+  "consigne": "Le héros n’a aucun pouvoir sauf celui de dire non. Et c’est ce qui va sauver la planète."
+},
+{
+  "categorie": "Conseil d’enfant (12 ans)",
+  "abstraction": "absurde logique",
+  "consigne": "Ton personnage meurt à la page 2 mais continue de parler aux autres comme si de rien n’était. Personne ne semble remarquer."
+},
+{
+  "categorie": "Contes traditionnels détournés",
+  "abstraction": "SF burlesque",
+  "consigne": "Le Petit Chaperon Rouge est envoyé à travers le temps pour empêcher l’invention du loup."
+},
+{
+  "categorie": "Contes traditionnels détournés",
+  "abstraction": "fusion technologique",
+  "consigne": "Blanche-Neige est une intelligence artificielle qui attend qu’on la réveille… mais le baiser est un bug."
+},
+{
+  "categorie": "Sensations",
+  "abstraction": "organes",
+  "consigne": "L’appendice raconte sa propre inflammation, depuis son coin oublié."
+},
+{
+  "categorie": "Sensations",
+  "abstraction": "matière",
+  "consigne": "Une plume de duvet raconte son trajet de lit en lit à travers les générations."
+},
+{
+  "categorie": "Sensations",
+  "abstraction": "chaleur",
+  "consigne": "L’été parle de lui-même comme d’un amant trop long et trop étouffant."
+},
+{
+  "categorie": "Mythologie antique",
+  "abstraction": "parallèle narratif",
+  "consigne": "Réécris le mythe de Perséphone… en situant l’enfer dans une chambre d’ado."
+},
+{
+  "categorie": "Mythologie antique",
+  "abstraction": "cycle inéluctable",
+  "consigne": "Ton personnage est Orphée, mais cette fois, il ne se retourne jamais… et découvre que c’est *elle* qui n’a jamais suivi."
+},
+{
+  "categorie": "Jung / Inconscient collectif",
+  "abstraction": "archétypes",
+  "consigne": "Ton personnage croise un inconnu qui semble être la version idéalisée de lui-même. Il le suit. Ça finit mal."
+},
+{
+  "categorie": "Freud / Désir refoulé",
+  "abstraction": "déplacement",
+  "consigne": "Écris une histoire où chaque élément visible cache une version déplacée de ce qui ne peut être dit."
+},
+{
+  "categorie": "Psychanalyse sauvage",
+  "abstraction": "projection",
+  "consigne": "Un personnage voit dans tous les objets une représentation de son père disparu."
+},
+{
+  "categorie": "Absurdie",
+  "abstraction": "comique existentiel",
+  "consigne": "Ton personnage tente de déposer une plainte contre une ombre. Et le commissariat prend ça très au sérieux."
+},
+{
+  "categorie": "Paradoxe",
+  "abstraction": "narratif",
+  "consigne": "Un personnage lit une histoire dans laquelle quelqu’un écrit exactement ce qu’il est en train de vivre."
+},
+{
+  "categorie": "Philip K. Dick",
+  "abstraction": "réalité glissante",
+  "consigne": "Ton personnage reçoit des messages d’un monde parallèle… qui semble être sa propre enfance."
+},
+{
+  "categorie": "Lynchisme",
+  "abstraction": "cauchemar éveillé",
+  "consigne": "Une scène banale est rejouée plusieurs fois, à l’identique, avec un détail de plus à chaque fois… jusqu’à l’effondrement."
+},
+{
+  "categorie": "Kaufman / Spoke Jonze",
+  "abstraction": "métaphysique douce",
+  "consigne": "Ton personnage découvre que tout ce qu’il vit est écrit par un enfant de six ans."
+},
+{
+  "categorie": "Temps",
+  "abstraction": "régression",
+  "consigne": "Chaque page du récit fait reculer le narrateur dans le temps. Il commence adulte et finit embryon."
+},
+{
+  "categorie": "Temps",
+  "abstraction": "perception",
+  "consigne": "Le personnage principal se rend compte que chaque jour de sa vie a été vécu par quelqu’un d’autre à sa place."
+},
+{
+  "categorie": "Contraintes formelles",
+  "abstraction": "cadavre exquis",
+  "consigne": "Chaque phrase du récit commence par la dernière lettre de la phrase précédente."
+},
+{
+  "categorie": "Contraintes formelles",
+  "abstraction": "enchaînement alphabétique",
+  "consigne": "Ton texte suit l’alphabet. Chaque mot commence par la lettre suivante : A, B, C, D…"
+},
+{
+  "categorie": "Conseil d’enfant (bonus)",
+  "abstraction": "pure logique enfantine",
+  "consigne": "Ton personnage est un nuage qui veut devenir une maison."
+},
+{
+  "categorie": "Objets parlants",
+  "abstraction": "narration inerte",
+  "consigne": "Une vis rouillée raconte le naufrage d’un couple à travers les années."
+},
+{
+  "categorie": "Objets maudits",
+  "abstraction": "malédiction narrative",
+  "consigne": "Un personnage achète une boîte vide. Tout ce qu’il jette y réapparaît."
+},
+{
+  "categorie": "Récit sensoriel",
+  "abstraction": "odeur",
+  "consigne": "Une odeur raconte son propre voyage entre les corps et les draps."
+},
+{
+  "categorie": "Cadavres exquis",
+  "abstraction": "collage",
+  "consigne": "Compose une histoire dont chaque paragraphe semble écrit par un auteur différent."
+},
+{
+  "categorie": "Rêves",
+  "abstraction": "onirisme logique",
+  "consigne": "Raconte une journée normale dans un monde où les rêves sont contrôlés par un service d’État."
+},
+{
+  "categorie": "Contes traditionnels",
+  "abstraction": "fusion",
+  "consigne": "Mélange deux contes connus pour en faire une histoire inédite (ex: Cendrillon + Le joueur de flûte)."
+},
+{
+  "categorie": "Contes traditionnels",
+  "abstraction": "monde inversé",
+  "consigne": "Les sept nains décident d’enfermer Blanche-Neige à leur tour. Pour 'la protéger'."
+},
+{
+  "categorie": "Réflexion littéraire",
+  "abstraction": "mise en abyme",
+  "consigne": "Un narrateur découvre que ses souvenirs sont en réalité des extraits de romans lus dans l’enfance."
 }
 ];
