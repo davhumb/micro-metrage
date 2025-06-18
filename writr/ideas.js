@@ -6431,5 +6431,185 @@ window.ideas = [
 
 { "categorie": "Métier vestigial", "abstraction": "oubli + fonctionnement", "consigne": "Un réparateur d’ascenseurs à Lagos réalise qu’un immeuble désert est toujours en activité, sans occupants visibles." },
 
-{ "categorie": "Métier antique", "abstraction": "pierres + symboles", "consigne": "Un tailleur de stèles en Arménie remarque que certains motifs gravés réagissent à la lumière lunaire." }
+{ "categorie": "Métier antique", "abstraction": "pierres + symboles", "consigne": "Un tailleur de stèles en Arménie remarque que certains motifs gravés réagissent à la lumière lunaire." },
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "temps arrêté", 
+  "consigne": "Et si le temps s'arrêtait sauf pour un seul personnage ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "vie parallèle", 
+  "consigne": "Et si deux versions d’un même personnage vivaient dans le même monde sans le savoir ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "oubli collectif", 
+  "consigne": "Et si un événement immense avait été effacé de toutes les mémoires sauf une ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "mensonge devenu réalité", 
+  "consigne": "Et si un mensonge raconté pour se protéger se réalisait pour de bon ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "communication impossible", 
+  "consigne": "Et si une civilisation entière communiquait uniquement par le toucher ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "couleur interdite", 
+  "consigne": "Et si une couleur devenait interdite, au point que personne ne puisse plus la percevoir ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "vie accélérée", 
+  "consigne": "Et si chaque jour passait à une vitesse deux fois plus rapide que le précédent ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "rêve contagieux", 
+  "consigne": "Et si les rêves devenaient contagieux, comme un virus qu'on attrape en dormant à côté d’un autre ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "météo affective", 
+  "consigne": "Et si la météo reflétait l’état émotionnel de la population ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "mémoire partagée", 
+  "consigne": "Et si tout le monde partageait les souvenirs d’une seule personne sans le savoir ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "sommeil interdit", 
+  "consigne": "Et si s’endormir devenait un crime ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "symbole disparu", 
+  "consigne": "Et si un symbole universel (croix, cercle, flèche…) perdait tout sens du jour au lendemain ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "verbe oublié", 
+  "consigne": "Et si un verbe essentiel (manger, aimer, marcher…) disparaissait du langage et de la pensée ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "seuil invisible", 
+  "consigne": "Et si une ville entière s’organisait autour d’un seuil qu’il ne fallait jamais franchir ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "retour à l'enfance", 
+  "consigne": "Et si tous les adultes redevenaient enfants du jour au lendemain ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "musique interdite", 
+  "consigne": "Et si chaque note de musique déclenchait une émotion incontrôlable et violente ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "absence totale", 
+  "consigne": "Et si un personnage découvrait qu’il est le dernier être humain ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "nom volé", 
+  "consigne": "Et si quelqu’un d’autre utilisait ton nom… et vivait mieux que toi ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "langue unique", 
+  "consigne": "Et si une langue mondiale remplaçait toutes les autres, mais limitait la pensée ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "coupe de soi", 
+  "consigne": "Et si chacun devait, à 18 ans, abandonner un souvenir au hasard ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "dualité corporelle", 
+  "consigne": "Et si chaque être humain possédait un double, invisible sauf à la mort ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "objet sacré", 
+  "consigne": "Et si un objet banal (une fourchette, un lacet…) devenait sacré pour une civilisation entière ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "langage du vent", 
+  "consigne": "Et si le vent était porteur de messages, mais seulement un enfant pouvait les comprendre ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "échange obligatoire", 
+  "consigne": "Et si chaque décision nécessitait de sacrifier un souvenir ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "vérité flottante", 
+  "consigne": "Et si la vérité changeait chaque jour, sans que personne ne s’en aperçoive ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "peau miroir", 
+  "consigne": "Et si la peau des gens reflétait leurs pensées du moment ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "âge inversé", 
+  "consigne": "Et si l’on naissait vieux et que l’on rajeunissait jusqu’à disparaître ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "hibernation sociale", 
+  "consigne": "Et si la société entière s’endormait une année sur deux ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "mémoire toxique", 
+  "consigne": "Et si un souvenir pouvait être transmis… mais qu’il détruisait celui qui le reçoit ?" 
+},
+
+{ 
+  "categorie": "Et si ?", 
+  "abstraction": "vol de sensations", 
+  "consigne": "Et si certaines personnes volaient les sensations des autres, sans qu’on le remarque ?" 
+  }
 ];
