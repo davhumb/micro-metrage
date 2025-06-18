@@ -6372,5 +6372,64 @@ window.ideas = [
 
 { "categorie": "Métier spectral", "abstraction": "voix + disparition", "consigne": "Un preneur de son capte, dans un musée, les voix d’anciens visiteurs disparus." },
 
-{ "categorie": "Métier inversé", "abstraction": "souvenir + anticipation", "consigne": "Un nettoyeur de scène de crime est engagé avant le crime. Il doit nettoyer l’avenir." }
+{ "categorie": "Métier inversé", "abstraction": "souvenir + anticipation", "consigne": "Un nettoyeur de scène de crime est engagé avant le crime. Il doit nettoyer l’avenir." },
+{ "categorie": "Métier du monde", "abstraction": "rituel + transmission", "consigne": "Un conteur masaï transmet des légendes orales interdites par les anciens. L'une d'elles semble décrire l’avenir." },
+
+{ "categorie": "Métier de l’ombre", "abstraction": "illusion + vérité", "consigne": "Un pousseur de métro à Tokyo remarque un passager qui disparaît systématiquement avant l’arrivée de la rame." },
+
+{ "categorie": "Métier sacré", "abstraction": "rituel + chaos", "consigne": "Un moine tibétain chargé de peindre des mandalas éphémères commence à voir ses motifs prendre vie." },
+
+{ "categorie": "Métier traditionnel", "abstraction": "mémoire + corporalité", "consigne": "Une geisha à la retraite se met à écrire son autobiographie, mais les pages s’effacent chaque nuit." },
+
+{ "categorie": "Métier extrême", "abstraction": "limite + précision", "consigne": "Un laveur de vitres de gratte-ciels à Shanghai développe une peur irrationnelle d’être observé d’en haut." },
+
+{ "categorie": "Métier symbolique", "abstraction": "poids + symbole", "consigne": "Un porteur de statues lors d’une procession en Sicile découvre que la statue devient de plus en plus lourde à chaque pas." },
+
+{ "categorie": "Métier spirituel", "abstraction": "dialogue + foi", "consigne": "Un scribe égyptien moderne recopie à la main les anciens textes. Un jour, il trouve une phrase qui n’existe dans aucun manuscrit." },
+
+{ "categorie": "Métier animalier", "abstraction": "empathie + frontière", "consigne": "Un berger mongol affirme pouvoir deviner les rêves de ses chevaux. Il en rêve un qu’il n’arrive pas à interpréter." },
+
+{ "categorie": "Métier folklorique", "abstraction": "peur + devoir", "consigne": "Un homme déguisé en Krampus dans un village autrichien commence à incarner trop parfaitement son rôle." },
+
+{ "categorie": "Métier technologique", "abstraction": "code + bug", "consigne": "Un modérateur de contenu pour une entreprise brésilienne tombe sur des images qu’il ne parvient pas à classer : elles semblent s’adresser à lui." },
+
+{ "categorie": "Métier sensoriel", "abstraction": "goût + transmission", "consigne": "Un 'nez' à Grasse perd la mémoire mais conserve intacte sa perception des parfums. Il tente de reconstruire son passé olfactif." },
+
+{ "categorie": "Métier de l’extrême", "abstraction": "froid + solitude", "consigne": "Un vigie météorologique en Antarctique pense être le seul survivant après une panne de communication." },
+
+{ "categorie": "Métier subversif", "abstraction": "censure + art", "consigne": "Un traducteur officiel en Chine insère un mot interdit dans chaque document. Personne ne semble le remarquer." },
+
+{ "categorie": "Métier insulaire", "abstraction": "répétition + nature", "consigne": "Un gardien d’île écossaise décrit chaque jour le vol des oiseaux. Un motif étrange commence à émerger." },
+
+{ "categorie": "Métier camouflé", "abstraction": "déguisement + surveillance", "consigne": "Un homme déguisé en Mickey à Disneyland Tokyo est persuadé d’être espionné par les autres mascottes." },
+
+{ "categorie": "Métier désuet", "abstraction": "temps + spectacle", "consigne": "Un projectionniste d’un vieux cinéma de Bombay découvre qu’un film qu’il n’a jamais vu est dans le projecteur." },
+
+{ "categorie": "Métier sacré", "abstraction": "souffle + destin", "consigne": "Un souffleur de verre marocain prétend que certains objets soufflés contiennent l’avenir d’un client." },
+
+{ "categorie": "Métier d’observateur", "abstraction": "invisible + obsession", "consigne": "Un surveillant de bains publics au Japon voit toujours le même client entrer… mais jamais sortir." },
+
+{ "categorie": "Métier lunaire", "abstraction": "rêve + répétition", "consigne": "Un moine taoïste en Chine trace chaque nuit le même idéogramme dans la poussière. Il est effacé par une main inconnue." },
+
+{ "categorie": "Métier ancestral", "abstraction": "son + passage", "consigne": "Un fabricant de gongs au Népal forge un instrument qui résonne avec le passé de ceux qui l’entendent." },
+
+{ "categorie": "Métier spectral", "abstraction": "vide + rituel", "consigne": "Un préposé aux temples abandonnés au Japon continue de brûler de l'encens chaque matin pour des dieux oubliés." },
+
+{ "categorie": "Métier déplacé", "abstraction": "incongru + vérité", "consigne": "Un gardien de parking à Dubaï découvre un véhicule abandonné, sans plaques, sans clés… et toujours chaud." },
+
+{ "categorie": "Métier sensoriel", "abstraction": "toucher + mémoire", "consigne": "Une brodeuse péruvienne coud des motifs transmis oralement. Chaque fil semble raconter une histoire ancienne." },
+
+{ "categorie": "Métier en miroir", "abstraction": "inversion + identité", "consigne": "Un cireur de chaussures en Égypte affirme qu’il peut voir l’âme des gens dans leurs semelles." },
+
+{ "categorie": "Métier de transition", "abstraction": "espace + passage", "consigne": "Un pousseur de fauteuils roulants dans un aéroport mexicain devient convaincu qu’il transporte des morts entre les mondes." },
+
+{ "categorie": "Métier-voile", "abstraction": "protection + paradoxe", "consigne": "Un parapluieur en Inde (porteur de parasol pour riche client) commence à abriter des gens qu’il ne voit pas." },
+
+{ "categorie": "Métier portuaire", "abstraction": "mer + attente", "consigne": "Un veilleur de digue à Istanbul reçoit chaque nuit une bouteille contenant le même message : « Ne t’endors pas »." },
+
+{ "categorie": "Métier occulte", "abstraction": "pouvoir + discrétion", "consigne": "Un scribe hindou rédige les prédictions d’un oracle illettré. Un jour, il invente une prophétie… qui se réalise." },
+
+{ "categorie": "Métier vestigial", "abstraction": "oubli + fonctionnement", "consigne": "Un réparateur d’ascenseurs à Lagos réalise qu’un immeuble désert est toujours en activité, sans occupants visibles." },
+
+{ "categorie": "Métier antique", "abstraction": "pierres + symboles", "consigne": "Un tailleur de stèles en Arménie remarque que certains motifs gravés réagissent à la lumière lunaire." }
 ];
