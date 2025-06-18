@@ -7151,5 +7151,130 @@ window.ideas = [
   "categorie": "Mash-up absurde", 
   "abstraction": "enterrement + karaoké", 
   "consigne": "Chaque discours funèbre doit être chanté. Personne ne sait pourquoi, mais c’est la règle." 
-    }
+    },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "intention expressive",
+    "consigne": "Miles Davis disait : « Ce n’est pas la note, c’est l’intention derrière. » Écris une scène où un geste infime bouleverse tout."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "rupture créative",
+    "consigne": "John Cage : « Ne craignez pas le silence. » Écris un texte où ce qui n’est pas dit a plus de poids que les mots."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "vitalité brute",
+    "consigne": "Patti Smith : « L’important c’est l’énergie, pas la perfection. » Écris une scène imparfaite, instinctive, vibrante."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "accident productif",
+    "consigne": "Brian Eno : « Honore tes erreurs comme des intentions cachées. » Raconte une scène née d’un raté qui révèle quelque chose de vrai."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "transformation du banal",
+    "consigne": "Tom Waits : « Chaque bruit est un instrument potentiel. » Fais d’un objet trivial le cœur d’un moment poétique."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "authenticité radicale",
+    "consigne": "Kurt Cobain : « Je préfère être détesté pour ce que je suis qu’aimé pour ce que je ne suis pas. » Écris une scène de rupture identitaire."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "rythme intérieur",
+    "consigne": "Keith Jarrett : « J’attends que la musique me parle. » Écris un texte où la narration émerge d’un silence habité."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "désobéissance formelle",
+    "consigne": "Frank Zappa : « Sans déviation de la norme, le progrès est impossible. » Raconte une scène qui brise les règles habituelles du récit."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "attente tendue",
+    "consigne": "Claude Debussy : « La musique, c’est ce qui se passe entre les notes. » Écris une scène tendue centrée sur ce qui ne se produit pas."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "geste libre",
+    "consigne": "Thelonious Monk : « Il n’y a pas de mauvaises notes si tu sais ce que tu fais après. » Écris une scène qui commence par une faute."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "écoute du réel",
+    "consigne": "John Cage : « Chaque son est musique. » Raconte une scène à travers les sons seuls, sans aucune image."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "urgence émotionnelle",
+    "consigne": "Nina Simone : « Tu dois apprendre à te servir de la colère comme carburant. » Écris une scène où une émotion contenue explose."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "cadence narrative",
+    "consigne": "Écris un texte comme un morceau punk : court, brutal, énergique, direct. Maximum 4 phrases."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "espace sonore",
+    "consigne": "Imagine que ta scène soit lue à voix haute, accompagnée d’un unique instrument. Lequel ? Pourquoi ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "crescendo dramatique",
+    "consigne": "Écris une scène qui monte, note après note, vers un climax. Chaque paragraphe doit être plus intense que le précédent."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "désaccord",
+    "consigne": "Écris un dialogue où les personnages ne parlent pas le même rythme. L’un coupe, l’autre allonge. Tension garantie."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "limite productive",
+    "consigne": "Jack White : « Les contraintes font naître la créativité. » Écris un texte sans adjectifs, mais chargé d’émotion."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "solitude expressive",
+    "consigne": "Écris un monologue intérieur comme une improvisation de saxophone, libre, flottant, douloureux."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "désordre fertile",
+    "consigne": "Iggy Pop : « Je ne suis pas un chanteur, je suis une explosion. » Écris un texte désorganisé mais vivant."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "identité cachée",
+    "consigne": "David Bowie : « Crée un personnage qui permet d’être toi. » Écris une scène où quelqu’un joue un rôle pour s’autoriser à parler."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "répétition obsessionnelle",
+    "consigne": "Steve Reich : « La répétition crée l’écoute. » Écris une scène où une phrase ou un geste revient sans cesse, jusqu’à ce qu’il change de sens."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "exploration intuitive",
+    "consigne": "Björn Ulvaeus (ABBA) : « Commence sans savoir où tu vas. » Écris un texte sans fin prévue. Laisse-toi porter par la voix."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "fragmentation",
+    "consigne": "Écris une scène composée uniquement de morceaux disjoints : sons, pensées, objets, titres. Comme un sample hip-hop."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "choralité",
+    "consigne": "Raconte une scène où plusieurs personnages s’expriment en même temps, comme les voix d’un chœur."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "écho",
+    "consigne": "Écris une scène dans laquelle chaque phrase contient un mot de la précédente, comme un motif qui revient."
+  }
 ];
