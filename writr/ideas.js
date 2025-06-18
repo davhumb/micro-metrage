@@ -6139,5 +6139,130 @@ window.ideas = [
   "abstraction": "désert mobile + réalité mouvante",
   "consigne": "Un désert change de configuration chaque nuit. Les cartes mentales du héros se brouillent — la géographie devient mémoire.",
   "lieu": "Erg Chebbi (Maroc)"
+  },
+{
+  "categorie": "Stratégie narrative",
+  "abstraction": "mutation + imprévisibilité",
+  "consigne": "Commence par une situation stable, puis introduis un changement minuscule qui transforme tout. Comme dans le Yi-King, chaque chose porte en elle sa propre inversion."
+},
+{
+  "categorie": "Stratégie narrative",
+  "abstraction": "agir sans agir",
+  "consigne": "Écris une scène capitale où le protagoniste ne fait rien. Et pourtant, tout change autour de lui. (principe du Wu Wei)"
+},
+{
+  "categorie": "Stratagème narratif",
+  "abstraction": "tromperie + inversion des rôles",
+  "consigne": "Fais croire au lecteur que ton personnage est faible ou naïf. Puis révèle qu’il contrôlait la situation depuis le début. (stratagème : 'Feindre la folie sans perdre l’esprit')"
+},
+{
+  "categorie": "Stratagème narratif",
+  "abstraction": "leurre + distraction",
+  "consigne": "Pendant que tous les regards sont tournés vers un événement spectaculaire, une autre scène se joue en coulisses. (stratagème : 'Faire du bruit à l’est pour attaquer à l’ouest')"
+},
+{
+  "categorie": "Image symbolique",
+  "abstraction": "figure du tigre",
+  "consigne": "Un personnage tente de chevaucher un tigre : il ne peut plus descendre sans se faire dévorer. Crée une situation sans issue douce."
+},
+{
+  "categorie": "Mutation du récit",
+  "abstraction": "échec + rebond",
+  "consigne": "Ce qui semble une défaite doit devenir la base d’un triomphe. Et inversement. Comme une vague qui se retire pour frapper plus fort."
+},
+{
+  "categorie": "Tao narratif",
+  "abstraction": "vide créateur",
+  "consigne": "Écris une scène où c’est l’absence (d’un mot, d’un personnage, d’un regard) qui fait tout basculer. Le vide devient moteur."
+},
+{
+  "categorie": "Stratagème narratif",
+  "abstraction": "renverser l’ordre",
+  "consigne": "Le maître suit l’élève. L’enfant protège l’adulte. Inverse la hiérarchie habituelle dès la première page."
+},
+{
+  "categorie": "Détournement symbolique",
+  "abstraction": "miroir + double",
+  "consigne": "Crée un personnage-miroir du héros, opposé mais complémentaire. Leur confrontation révèle un secret."
+},
+{
+  "categorie": "Tactique narrative",
+  "abstraction": "se retirer pour gagner",
+  "consigne": "Un personnage abandonne volontairement un combat, un amour ou un territoire. Ce geste passif est en fait son acte le plus puissant."
+},
+{
+  "categorie": "Stratagème narratif",
+  "abstraction": "se cacher dans la norme",
+  "consigne": "Un personnage dissimule sa vraie nature sous une normalité extrême. Plus il est banal, plus il est dangereux."
+},
+{
+  "categorie": "Paradoxe créatif",
+  "abstraction": "faiblesse apparente",
+  "consigne": "Laisse ton personnage perdre tous ses avantages. Il devient fort uniquement en cessant de résister."
+},
+{
+  "categorie": "Métamorphose",
+  "abstraction": "du solide au fluide",
+  "consigne": "Ton récit commence dans un lieu très cadré, très structuré. Il finit dans un espace mouvant, liquide, libre."
+},
+{
+  "categorie": "Stratagème narratif",
+  "abstraction": "retourner un piège contre son auteur",
+  "consigne": "Fais tendre un piège à ton héros. Il s’y laisse prendre… pour mieux coincer son adversaire dedans."
+},
+{
+  "categorie": "Symbole + action",
+  "abstraction": "poisson hors de l’eau",
+  "consigne": "Ton personnage est extrait de son élément naturel. Observe comment il tente de respirer ailleurs."
+},
+{
+  "categorie": "Paradoxe chinois",
+  "abstraction": "agir en tant qu’ombre",
+  "consigne": "Un personnage devient indispensable en se rendant invisible. Il tisse tout, mais reste hors du récit."
+},
+{
+  "categorie": "Tension implicite",
+  "abstraction": "paix fragile",
+  "consigne": "Tout est calme. Trop calme. Mets en place une harmonie de surface qui masque une menace latente."
+},
+{
+  "categorie": "Lenteur stratégique",
+  "abstraction": "ne pas répondre",
+  "consigne": "Lors d’un dialogue, un personnage ne répond jamais directement. Ce silence ou ces détours construisent un mystère."
+},
+{
+  "categorie": "Forme symbolique",
+  "abstraction": "cercle narratif",
+  "consigne": "Commence ton récit par une scène. Reviens-y à la fin, identique en apparence. Mais tout a changé en profondeur."
+},
+{
+  "categorie": "Récit-feuille",
+  "abstraction": "éléments souples + structure instable",
+  "consigne": "Raconte ton histoire comme si elle pouvait se plier, se froisser, se retourner. Fragmentée, mais vivante."
+},
+{
+  "categorie": "Stratagème narratif",
+  "abstraction": "trahison utile",
+  "consigne": "Un allié trahit ton héros. Mais c’était prévu. Ou même nécessaire."
+},
+{
+  "categorie": "Principe de retournement",
+  "abstraction": "tu es l’ennemi",
+  "consigne": "Ton personnage découvre que son propre camp est le véritable agresseur. Il doit choisir entre loyauté et lucidité."
+},
+{
+  "categorie": "Symbole ancien",
+  "abstraction": "eau contre roche",
+  "consigne": "Un personnage faible, persévérant et doux, vient à bout d’un obstacle solide, lentement mais sûrement."
+},
+{
+  "categorie": "Forme inversée",
+  "abstraction": "commencer par l’épilogue",
+  "consigne": "Raconte d’abord la fin, puis remonte jusqu’au point où tout a basculé."
+},
+{
+  "categorie": "Narration philosophique",
+  "abstraction": "chercher la non-réponse",
+  "consigne": "Fais dialoguer deux personnages autour d’une question insoluble. Ce n’est pas la réponse qui compte, mais la manière dont ils cherchent."
   }
 ];
