@@ -5703,5 +5703,255 @@ window.ideas = [
   "categorie": "Troubles narratifs",
   "abstraction": "verbe interdit",
   "consigne": "Un personnage ne peut plus conjuguer un certain verbe (ex : aimer, vivre, mourir). Il le remplace à chaque fois sans l’avouer."
-}
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "scène initiale + narration inversée",
+  "consigne": "Commence par un crime sans visage. Puis remonte l’histoire à rebours, chaque chapitre révélant un détail de la scène jusqu’à la cause exacte."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "coup de téléphone nocturne + voix unique",
+  "consigne": "Écris une nouvelle uniquement à travers ce que dit un personnage au téléphone, de plus en plus nerveux, sans jamais entendre l’autre."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "objet trouvé + récit en fragments",
+  "consigne": "Un personnage trouve une boîte pleine de lettres jamais envoyées. Chaque lettre devient un fragment d’un récit éclaté."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "visite médicale + absence de verbe être",
+  "consigne": "Décris une consultation psychiatrique où le médecin pose des questions de plus en plus dérangeantes. Interdiction d’utiliser le verbe 'être'."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "malaise en réunion + 2 points de vue",
+  "consigne": "Décris une même scène (réunion de travail tendue) à travers deux points de vue opposés. Chaque version fait du lecteur un témoin incertain."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "corps retrouvé + contrainte typographique",
+  "consigne": "Raconte la découverte d’un cadavre uniquement à travers les notes d’un carnet déchiré : chaque paragraphe a un mot ou une lettre manquante."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "rupture silencieuse + récit par objets",
+  "consigne": "Une rupture racontée uniquement à travers les objets laissés dans un appartement vide. Chaque objet révèle un morceau d’histoire."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "dérive urbaine + phrase unique",
+  "consigne": "Raconte la nuit d’un personnage qui marche sans but dans la ville — en une seule phrase continue, essoufflée, sans ponctuation forte."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "accusation + texte réversible",
+  "consigne": "Un personnage est accusé à tort. Écris le texte de façon à ce qu’on puisse le lire dans les deux sens (victime / coupable) selon l’ordre des paragraphes."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "appel d’offres bizarre + style administratif",
+  "consigne": "Un personnage répond à une étrange annonce dans le journal. Raconte son parcours sous forme de formulaire bureaucratique rempli à la main."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "regard dans la glace + fausse 2e personne",
+  "consigne": "Raconte une scène où le narrateur s’adresse à lui-même dans un miroir, en utilisant la 2e personne comme s’il parlait au lecteur."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "rituel + narration codée",
+  "consigne": "Une scène rituelle racontée à travers des fragments codés : chants, sigles, formules, symboles. Le sens émerge peu à peu."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "naissance d’un cri + onomatopées",
+  "consigne": "Un cri monte en un personnage. Écris la montée de tension en alternant narration classique et sons déformés, bruits, glissements verbaux."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "chambre d’hôtel + récit à la 3e personne collective",
+  "consigne": "Raconte la vie d’une chambre d’hôtel à travers les voix de tous ceux qui y ont dormi — une narration en 'nous' qui glisse dans l’inquiétant."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "caméra de surveillance + phrases tronquées",
+  "consigne": "Une scène importante est reconstituée uniquement à partir de vidéos incomplètes. Le texte est morcelé, haché, comme l’image."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "interrogatoire + refus du passé composé",
+  "consigne": "Un personnage est interrogé, mais refuse de parler du passé. Il n’emploie que le présent ou le conditionnel."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "lettre retrouvée + mots manquants",
+  "consigne": "Écris une lettre d’amour très ancienne retrouvée dans un mur. Certains mots sont illisibles, d’autres ont été volontairement effacés."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "panique dans un train + structure musicale",
+  "consigne": "La scène suit un crescendo : calme, tension, chaos, silence. Compose ton texte comme une partition, avec retour de motifs."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "fugue + narration télégramme",
+  "consigne": "Une fugue racontée uniquement par les messages laissés (post-it, textos, bulletins scolaires, lettres à moitié déchirées)."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "découverte d’un double + alternance styles",
+  "consigne": "Un personnage découvre quelqu’un qui lui ressemble parfaitement. Alterne deux styles : froid et sec pour l’un, lyrique pour l’autre."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "confession publique + structure spiralaire",
+  "consigne": "Un personnage fait une confession devant une foule. À chaque nouveau paragraphe, la révélation semble se contredire ou se contorsionner."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "conversation anodine + style théâtral",
+  "consigne": "Une simple discussion devient tragédie. Écris-la sous forme de pièce en actes, avec didascalies croissantes dans la folie."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "garde de nuit + narration fragmentée",
+  "consigne": "Un gardien de nuit tient un journal. Raconte son glissement dans la paranoïa par des entrées de plus en plus courtes et confuses."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "malaise familial + narration enfantine",
+  "consigne": "Décris une scène de tension familiale du point de vue d’un enfant de cinq ans, avec un vocabulaire limité mais très évocateur."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "appel radio + format podcast",
+  "consigne": "Une émission radio reçoit un appel étrange. Raconte tout à travers une retranscription en format podcast, avec bruitages inclus."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "perte de mémoire + texte effacé",
+  "consigne": "Un personnage écrit ses souvenirs, mais certains passages sont barrés, illisibles, ou remplacés par '???'."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "souvenir déclenché + résonance sensorielle",
+  "consigne": "Un parfum fait remonter un souvenir. Le texte bascule alors dans une forme libre où les sens guident la narration."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "enfermement + texte en boucle",
+  "consigne": "Un personnage enfermé vit la même minute encore et encore. Chaque paragraphe débute par la même phrase mais évolue subtilement."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "chute dans les escaliers + récit synchronisé",
+  "consigne": "Raconte une chute, seconde par seconde, en parallèle avec les pensées du personnage."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "photo découverte + texte parallèle",
+  "consigne": "Un personnage trouve une vieille photo. À gauche, sa réaction présente ; à droite, ce que montre réellement l’image."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "braquage + narration à la deuxième personne",
+  "consigne": "Plonge le lecteur dans la peau d’un braqueur, avec un récit en 'tu' qui force l’identification."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "enterrement + récit intérieur",
+  "consigne": "Un personnage assiste à un enterrement et commente tout mentalement. Aucun mot n’est prononcé à voix haute dans tout le texte."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "conversation par notes + ellipse",
+  "consigne": "Deux colocataires qui ne se croisent jamais communiquent par post-its. Chaque note est une nouvelle pièce du puzzle."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "perte de son ombre + style fantastique sobre",
+  "consigne": "Un personnage découvre que son ombre disparaît lentement. Adopte un ton réaliste pour raconter un phénomène absurde."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "processus judiciaire + ordre inversé",
+  "consigne": "Commence par la peine prononcée, puis remonte au procès, puis au crime, puis à l’intention initiale."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "naissance d’un surnom + voix collective",
+  "consigne": "Raconte l’histoire d’un surnom à travers les voix multiples de ceux qui l’ont vu naître, changer, et dévorer l’identité du porteur."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "voyage en train + style carnet de croquis",
+  "consigne": "Un trajet en train décrit uniquement via de courtes impressions, sons, visages, comme les croquis rapides d’un dessinateur."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "visite au musée + méta-récit",
+  "consigne": "Chaque œuvre décrite dans un musée semble raconter une partie de l’histoire du visiteur, à son insu."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "monologue de rupture + style oral",
+  "consigne": "Une rupture racontée dans un flot de parole ininterrompu, ponctué d’interjections, silences et hésitations."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "vidéo virale + points de vue alternés",
+  "consigne": "Une vidéo devient virale. Raconte l’événement vu par la victime, le posteur, un inconnu et l’algorithme."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "chant rituel + contrainte phonétique",
+  "consigne": "Écris un chant ancestral avec une contrainte : chaque mot doit commencer par la même lettre ou sonorité."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "photo de famille + silence forcé",
+  "consigne": "Un enfant s’aperçoit qu’un membre de la famille n’est jamais mentionné. Raconte l’enquête sous forme de silences lourds."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "lecture interdite + récit imbriqué",
+  "consigne": "Un personnage lit un manuscrit interdit. Chaque extrait modifie la réalité autour de lui."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "rencontre surnaturelle + vocabulaire limité",
+  "consigne": "Décris un événement surnaturel avec seulement les 500 mots les plus courants de la langue."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "fuite + texte en diagonale",
+  "consigne": "Le texte glisse visuellement en diagonale ou suit une mise en page fuyante, illustrant la course du personnage."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "autopsie + récit clinique",
+  "consigne": "Décris un meurtre uniquement via le rapport d’autopsie, où chaque constat évoque des scènes absentes."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "chanson entendue + récit fragmenté",
+  "consigne": "Un personnage reconnaît une chanson qui le hante. À chaque écoute, un fragment de souvenir revient."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "rêve commun + journal collectif",
+  "consigne": "Plusieurs personnes rêvent du même lieu. Raconte à travers leurs journaux, sans qu’ils se connaissent."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "odeur persistante + structure en spirale",
+  "consigne": "Une odeur obsède un personnage. Le récit revient toujours à ce détail, jusqu’à dévoiler l’origine."
+},
+{
+  "categorie": "Déclencheur + Forme",
+  "abstraction": "ami imaginaire + disparition inversée",
+  "consigne": "Un personnage adulte revoit son ami imaginaire d’enfance… qui prétend que c’est lui qui l’a inventé."
+    }
 ];
