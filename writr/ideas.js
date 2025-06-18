@@ -8329,5 +8329,104 @@ window.ideas = [
   "categorie": "Défi",
   "abstraction": "contexte formel",
   "consigne": "Écris un texte dont la première phrase est : « Le klaxon résonnait dans la cour. » et la dernière : « J’ai rendu les clés sans me retourner. »"
+  }{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Le rideau s’est décroché pendant la nuit. » et la dernière : « J’ai mangé en silence. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « L’eau était plus froide que prévu. » et la dernière : « Il m’a serré la main très fort. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je me suis coupé en ouvrant le colis. » et la dernière : « La pluie avait effacé toutes les traces. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Le téléphone sonnait, mais je n’ai pas répondu. » et la dernière : « Elle a dit qu’elle s’appelait Solène. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je ne savais pas quoi faire du sac. » et la dernière : « Il a posé la main sur mon épaule. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Les néons clignotaient bizarrement. » et la dernière : « J’ai souri sans savoir pourquoi. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Il a mis une éternité à ouvrir la boîte. » et la dernière : « Personne n’a touché au gâteau. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Les clés étaient toujours dans la serrure. » et la dernière : « Elle a sorti un sachet de thé au gingembre. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Il avait mis sa chemise à l’envers. » et la dernière : « Je n’ai pas su quoi répondre. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « La vitrine était vide. » et la dernière : « Le briquet ne fonctionnait plus. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je n’avais jamais vu autant de pigeons. » et la dernière : « Il ne restait qu’un seul biscuit. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Il a tiré une chaise sans rien dire. » et la dernière : « Le plafond s’effritait au-dessus de nous. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « J’ai failli louper le virage. » et la dernière : « Elle m’a traité de menteur. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « J’ai pris une photo avant d’y aller. » et la dernière : « Le savon avait une drôle d’odeur. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Ils s’étaient tous tus en même temps. » et la dernière : « Je me suis endormi avec mes chaussures. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Le paquet n’avait pas été ouvert. » et la dernière : « Il avait oublié de dire au revoir. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Elle a allumé la télé sans le son. » et la dernière : « Le chat était encore là, à la même place. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « La poignée de porte était grasse. » et la dernière : « Le café avait un goût d’amande. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je ne savais pas s’il fallait frapper. » et la dernière : « Une lumière verte clignotait au plafond. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je ne l’avais pas reconnu tout de suite. » et la dernière : « On a rigolé pour de faux. »"
   }
 ];
