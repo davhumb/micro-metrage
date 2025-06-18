@@ -4418,5 +4418,55 @@ window.ideas = [
   "categorie": "Ignorance lucide",
   "abstraction": "conscience",
   "consigne": "Ton personnage sait qu’il ne saura jamais. Et c’est ce savoir-là qui le guide."
-    }
+    },
+{
+  "categorie": "Réalité alternative défectueuse",
+  "abstraction": "univers",
+  "consigne": "Un détail banal (le sel, les boutons, la nuit) fonctionne autrement dans ce monde. Personne ne semble s’en étonner, sauf ton personnage."
+},
+{
+  "categorie": "Pensée contaminée",
+  "abstraction": "psychologie",
+  "consigne": "Un mot se met à apparaître dans toutes les pensées du personnage, jusqu’à s’imposer dans la narration elle-même."
+},
+{
+  "categorie": "Fusion narrative",
+  "abstraction": "forme",
+  "consigne": "Deux histoires s’écrivent en parallèle, puis fusionnent brutalement en une seule. Fais sentir le basculement."
+},
+{
+  "categorie": "Erreur système",
+  "abstraction": "structure",
+  "consigne": "Le texte contient des anomalies typographiques, syntaxiques, logiques. Le narrateur tente de les corriger… ou les ignore."
+},
+{
+  "categorie": "Langage affectif",
+  "abstraction": "émotion",
+  "consigne": "Chaque personnage parle avec la syntaxe ou le vocabulaire de son émotion dominante : colère, honte, joie, regret."
+},
+{
+  "categorie": "Monologue pré-mortem",
+  "abstraction": "structure inversée",
+  "consigne": "Un personnage raconte sa dernière journée à rebours, en sachant qu’il va mourir à la fin du récit — ou au début du texte."
+},
+{
+  "categorie": "Méta-création",
+  "abstraction": "récit réflexif",
+  "consigne": "Un personnage tente d’écrire l’histoire que tu es en train de lire, mais il échoue, recommence, ou se trompe de genre."
+},
+{
+  "categorie": "Objet mental",
+  "abstraction": "concept narratif",
+  "consigne": "Un objet n’existe que dans la tête du personnage. Pourtant, il semble influencer la réalité."
+},
+{
+  "categorie": "Écriture somatique",
+  "abstraction": "perception corporelle",
+  "consigne": "Le texte est entièrement dicté par ce que ressent physiquement le personnage : sueur, vertige, faim, douleur, chaleur."
+},
+{
+  "categorie": "Silence bavard",
+  "abstraction": "paradoxe",
+  "consigne": "Chaque silence est porteur d’un message. Le texte doit rendre leur poids sans les expliciter."
+}
 ];
