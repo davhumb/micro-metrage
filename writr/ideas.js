@@ -4768,5 +4768,20 @@ window.ideas = [
   "categorie": "Dernière phrase en premier",
   "abstraction": "structure inversée",
   "consigne": "Commence ton texte par sa dernière phrase. Et écris pour la justifier."
+},
+{
+  "categorie": "Pas de dialogue direct",
+  "abstraction": "style",
+  "consigne": "Écris une scène de confrontation ou de tendresse sans une seule réplique en dialogue direct."
+},
+{
+  "categorie": "Une seule phrase",
+  "abstraction": "forme",
+  "consigne": "Toute l’histoire doit tenir en une phrase, longue, sinueuse, haletante, ou suspendue."
+},
+{
+  "categorie": "Un mot en moins",
+  "abstraction": "défi linguistique",
+  "consigne": "Choisis un mot central à ton thème (mort, amour, peur, etc.) et raconte sans jamais l’écrire."
 }
 ];
