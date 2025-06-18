@@ -5463,5 +5463,245 @@ window.ideas = [
   "categorie": "Mystique narrative",
   "abstraction": "pierre du sommeil",
   "consigne": "Un objet permet de rêver collectivement. Mais dans ce rêve partagé, un seul peut en sortir à la fois. Les autres restent coincés."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "syndrome de Capgras",
+  "consigne": "Le personnage est convaincu qu’un proche a été remplacé par un sosie parfait. Comment le prouver sans passer pour fou ?"
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "syndrome de Cotard",
+  "consigne": "Écris l’histoire d’un personnage persuadé d’être mort. Tout ce qu’il fait est pour vérifier qu’il ne vit plus."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "hypermnésie",
+  "consigne": "Un personnage se souvient de tout, même des détails les plus infimes. Chaque souvenir est une prison."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "syndrome de Fregoli",
+  "consigne": "Un personnage croit que tout le monde autour de lui n’est qu’un seul être qui change de visage pour le piéger."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "prosopagnosie",
+  "consigne": "Un personnage ne reconnaît plus les visages, même ceux qu’il aime. Il doit inventer une autre manière d’aimer."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "synesthésie",
+  "consigne": "Décris un monde où chaque mot prononcé a une couleur, une température, une odeur."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "xénochronie",
+  "consigne": "Un personnage se souvient d’une vie qu’il n’a jamais vécue. Il tente d’en retrouver les lieux réels."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "syndrome de l’accent étranger",
+  "consigne": "Un personnage se réveille avec un accent inconnu. Ce n’est pas qu’un changement vocal : sa pensée a changé aussi."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "déréalisation",
+  "consigne": "Un personnage ne reconnaît plus le monde. Tout semble faux, trop net, trop lisse."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "déperso­nnalisation",
+  "consigne": "Un personnage ne se reconnaît plus dans ses actes. Il s’observe comme s’il était un autre."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "aphasie étrange",
+  "consigne": "Un personnage perd la capacité de nommer les objets du quotidien, mais invente des mots poétiques à la place."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "hallucination sonore",
+  "consigne": "Un personnage entend une voix chanter sous la douche… toujours la même chanson, même quand il n’est pas là."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "trouble obsessionnel rare",
+  "consigne": "Un personnage compte chaque lettre qu’il entend dans une phrase. Le mauvais total déclenche la panique."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "amnésie de l’intime",
+  "consigne": "Un personnage se souvient de tout, sauf des gens qu’il a aimés. Il ne sait pas pourquoi son cœur est vide."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "tics révélateurs",
+  "consigne": "Un personnage dit involontairement des vérités qu’il voulait cacher. Son corps trahit ses secrets."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "écholalie",
+  "consigne": "Un personnage répète tout ce qu’on lui dit. Un jour, il répète une phrase qu’on n’a pas prononcée à voix haute."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "trouble du rêve éveillé",
+  "consigne": "Un personnage vit de longues aventures dans sa tête, sans quitter sa chaise. Un jour, quelqu’un lui répond dans son monde imaginaire."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "perception inversée",
+  "consigne": "Un personnage perçoit le chaud comme froid, la joie comme peur, les insultes comme compliments."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "trouble du temps",
+  "consigne": "Le temps passe à l’envers pour un personnage. Il doit apprendre à vivre de façon inverse, tout en gardant sa mémoire."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "insomnie narrative",
+  "consigne": "Un personnage ne dort plus depuis des semaines. Le réel se fissure, et une autre logique s’installe."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "claustrophobie imaginaire",
+  "consigne": "Même en plein air, un personnage a l’impression d’être enfermé. Plus il fuit, plus il se sent pris au piège."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "maladie de la fiction",
+  "consigne": "Un personnage pense être dans un livre. Chaque coïncidence renforce sa conviction. Peut-il s’en sortir ?"
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "souvenir parasite",
+  "consigne": "Un personnage est hanté par un souvenir qui ne lui appartient pas. Il tente de trouver la vie à qui il appartient."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "pulsions involontaires",
+  "consigne": "Un personnage ressent des impulsions violentes qui ne viennent pas de lui. Elles signent chaque fois un événement à venir."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "fracture identitaire",
+  "consigne": "Chaque fois que le personnage s’endort, il change de nom et de mémoire. Mais une chose reste constante."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "trouble miroir",
+  "consigne": "Le reflet du personnage agit à sa place. Parfois en opposition, parfois en avance."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "langue imaginaire",
+  "consigne": "Un personnage ne comprend plus sa propre langue. Il en invente une nouvelle, que certains finissent par parler."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "prédictions accidentelles",
+  "consigne": "Un personnage dit sans réfléchir des choses qui se produisent ensuite. Il ne sait pas comment arrêter."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "voix familière",
+  "consigne": "Un personnage entend une voix dans sa tête depuis l’enfance. Elle semble savoir ce que lui-même ignore."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "trouble du temps subjectif",
+  "consigne": "Pour un personnage, le temps passe vite en hiver et lentement l’été. Cela change sa perception du monde."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "métamorphose somatique",
+  "consigne": "Un personnage croit que ses organes changent de forme. Il se transforme peu à peu, de l’intérieur."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "oubli sélectif",
+  "consigne": "Chaque jour, un souvenir est effacé. Le personnage doit choisir lequel abandonner."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "contagion mentale",
+  "consigne": "Les pensées d’un personnage commencent à apparaître dans l’esprit des autres. Lentement, tout le monde pense pareil."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "dédoublement affectif",
+  "consigne": "Un personnage aime et déteste quelqu’un en même temps. Les deux émotions ont une voix propre."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "mains étrangères",
+  "consigne": "Les mains du personnage ne lui obéissent plus. Elles écrivent, dessinent, agissent pour leur propre compte."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "sens inversés",
+  "consigne": "Ce qu’un personnage voit, il croit l’avoir entendu. Ce qu’il sent, il le lit. Tout est brouillé."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "répétition mentale",
+  "consigne": "Un personnage vit la même scène dans sa tête sans arrêt, sans pouvoir l’interrompre."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "absence émotionnelle",
+  "consigne": "Un personnage ne ressent plus rien. Il tente de provoquer la peur, la joie, la honte, sans résultat."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "écriture automatique",
+  "consigne": "Un personnage écrit chaque nuit sans s’en souvenir. Le texte semble signer un message étranger."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "vécu dissocié",
+  "consigne": "Le personnage vit une scène et la regarde en même temps. Il est à la fois acteur et spectateur."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "trouble de l’écho",
+  "consigne": "Tout ce que le personnage dit revient, déformé, après quelques secondes. Cela change le sens de ses paroles."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "trouble de lecture",
+  "consigne": "Un personnage lit des mots qui n’existent pas, mais qu’il comprend parfaitement. Puis ils apparaissent dans d’autres livres."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "réalité contaminée",
+  "consigne": "Les rêves d’un personnage laissent des traces dans la réalité : objets déplacés, coupures, bruissements."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "anesthésie ciblée",
+  "consigne": "Le personnage perd la sensation d’un seul endroit du corps… où se trouve un message inscrit."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "flashbacks apocryphes",
+  "consigne": "Un personnage revit des souvenirs… mais il n’y apparaît jamais dans les scènes."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "perception fractionnée",
+  "consigne": "Chaque sens du personnage est relié à un lieu différent. Il entend à Paris, voit à Tokyo, sent à Rio."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "chiffres obsessionnels",
+  "consigne": "Certains nombres déclenchent des événements étranges pour un personnage. Il commence à les éviter… ou à les provoquer."
+},
+{
+  "categorie": "Troubles narratifs",
+  "abstraction": "verbe interdit",
+  "consigne": "Un personnage ne peut plus conjuguer un certain verbe (ex : aimer, vivre, mourir). Il le remplace à chaque fois sans l’avouer."
 }
 ];
