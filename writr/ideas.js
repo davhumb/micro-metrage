@@ -5008,5 +5008,160 @@ window.ideas = [
   "categorie": "Je ne suis pas triste",
   "abstraction": "refoulement",
   "consigne": "Interdis-toi les mots 'tristesse', 'chagrin' et 'solitude'. Et écris un texte qui bouleverse malgré tout."
-}
+},
+{
+  "categorie": "Hitchcock",
+  "abstraction": "suspense différé",
+  "consigne": "Crée une scène où l’on sait qu’un événement terrible va se produire, mais on ignore quand. Le cœur du récit est cette attente, pas l’événement lui-même."
+},
+{
+  "categorie": "Hitchcock",
+  "abstraction": "dramatic irony",
+  "consigne": "Écris une scène où le lecteur sait quelque chose que les personnages ignorent, et cette connaissance génère une tension insoutenable."
+},
+{
+  "categorie": "Hitchcock",
+  "abstraction": "charisme du mal",
+  "consigne": "Fais de ton antagoniste le personnage le plus fascinant de la scène. Il ne doit pas être sympathique, mais impossible à quitter des yeux."
+},
+{
+  "categorie": "Hitchcock",
+  "abstraction": "ellipse tendue",
+  "consigne": "Élimine toutes les parties fades d’une scène pour ne garder que les moments cruciaux. Aucun remplissage. Juste du nerf."
+},
+{
+  "categorie": "Hitchcock",
+  "abstraction": "situation piégée",
+  "consigne": "Un personnage fait tout pour cacher une chose (un corps, un mensonge, un souvenir). Écris la scène où tout pourrait être révélé à tout moment."
+
+},
+{
+  "categorie": "Kubrick",
+  "abstraction": "froid clinique",
+  "consigne": "Écris une scène où la violence est montrée de manière distante, presque chirurgicale. Plus c’est froid, plus c’est troublant."
+},
+{
+  "categorie": "Kubrick",
+  "abstraction": "déréalisation",
+  "consigne": "Le décor ou l’attitude des personnages devient étrange, presque théâtral. Rien n’est faux, mais tout est inquiétant."
+},
+{
+  "categorie": "Kubrick",
+  "abstraction": "inconfort métaphysique",
+  "consigne": "Un personnage est confronté à quelque chose d’immense, incompréhensible, peut-être divin, peut-être vide. Et réagit de manière humaine."
+},
+{
+  "categorie": "Kubrick",
+  "abstraction": "contrôle absolu",
+  "consigne": "Rédige une scène extrêmement maîtrisée : aucun mot inutile, chaque geste a une signification, chaque silence pèse."
+},
+{
+  "categorie": "Kubrick",
+  "abstraction": "violence ritualisée",
+  "consigne": "Mets en scène une agression ou une humiliation comme un rite étrange, presque chorégraphié."
+
+},
+{
+  "categorie": "Lynch",
+  "abstraction": "inquiétante étrangeté",
+  "consigne": "Tout semble normal dans ta scène. Mais il y a quelque chose qui cloche, qu’on n’arrive pas à nommer."
+},
+{
+  "categorie": "Lynch",
+  "abstraction": "rêve lucide",
+  "consigne": "Ton personnage vit une scène qui pourrait être un rêve. Il s’en rend compte — mais ne peut pas en sortir."
+},
+{
+  "categorie": "Lynch",
+  "abstraction": "fracture de l’identité",
+  "consigne": "Un personnage se regarde dans un miroir et voit autre chose. Ou quelqu’un d’autre. Ce n’est que le début."
+},
+{
+  "categorie": "Lynch",
+  "abstraction": "hypnose du banal",
+  "consigne": "Décris un geste simple (faire du café, se coiffer) avec une lenteur et une précision telles qu’il devient étrange, presque sacré."
+},
+{
+  "categorie": "Lynch",
+  "abstraction": "trou narratif",
+  "consigne": "Écris une scène dont une partie semble avoir disparu. Tu ne l’expliques pas. Tu la laisses comme une blessure dans le récit."
+
+},
+{
+  "categorie": "Truffaut",
+  "abstraction": "intimité",
+  "consigne": "Deux personnages parlent, au lit, au téléphone ou au bord d’un quai. On comprend leur lien sans qu’ils n’aient à le dire."
+},
+{
+  "categorie": "Truffaut",
+  "abstraction": "nostalgie légère",
+  "consigne": "Évoque un moment d’enfance ou d’adolescence avec tendresse, mais sans mièvrerie. Juste ce qu’il faut de perte."
+},
+{
+  "categorie": "Truffaut",
+  "abstraction": "vie minuscule",
+  "consigne": "Montre un détail du quotidien qui, à lui seul, raconte une vie entière."
+},
+{
+  "categorie": "Truffaut",
+  "abstraction": "bascule douce",
+  "consigne": "Un personnage vit un moment simple (lecture, pluie, silence)… jusqu’à ce que l’émotion le submerge."
+},
+{
+  "categorie": "Truffaut",
+  "abstraction": "cinéphilie organique",
+  "consigne": "Un personnage regarde un film. Ce film change sa manière de vivre ou de voir quelqu’un."
+
+},
+{
+  "categorie": "Tarantino",
+  "abstraction": "dialogue tension",
+  "consigne": "Deux personnages parlent d’un sujet banal. Mais quelque chose couve. Écris la scène jusqu’au moment où ça explose."
+},
+{
+  "categorie": "Tarantino",
+  "abstraction": "violence jubilatoire",
+  "consigne": "Une scène de violence stylisée, presque dansée. Elle doit être too much, mais jouissive."
+},
+{
+  "categorie": "Tarantino",
+  "abstraction": "anecdote détournée",
+  "consigne": "Un personnage raconte une anecdote drôle ou étrange. À la fin, on réalise qu’elle est liée au présent de manière explosive."
+},
+{
+  "categorie": "Tarantino",
+  "abstraction": "bascule soudaine",
+  "consigne": "Tout va bien. Jusqu’à ce qu’un personnage sorte une arme. Et sourie."
+},
+{
+  "categorie": "Tarantino",
+  "abstraction": "cool & carnage",
+  "consigne": "Écris une scène où les personnages sont irrésistiblement cools. Puis fais tout déraper."
+
+},
+{
+  "categorie": "Bergman",
+  "abstraction": "face au silence",
+  "consigne": "Un personnage interroge Dieu, ou le vide, ou la mort. Il ne reçoit aucune réponse. Mais il continue de parler."
+},
+{
+  "categorie": "Bergman",
+  "abstraction": "visage fixe",
+  "consigne": "Écris une scène centrée sur un seul visage. Tout passe par les yeux, le souffle, la peau. Aucun dialogue explicatif."
+},
+{
+  "categorie": "Bergman",
+  "abstraction": "huis clos existentiel",
+  "consigne": "Deux personnages s’affrontent dans une pièce fermée. Mais ce qui est en jeu est plus grand qu’eux."
+},
+{
+  "categorie": "Bergman",
+  "abstraction": "non-dit destructeur",
+  "consigne": "Un personnage garde quelque chose en lui depuis des années. Il s’apprête à le dire… puis ne le fait pas."
+},
+{
+  "categorie": "Bergman",
+  "abstraction": "mort calme",
+  "consigne": "Un personnage se prépare à mourir. Pas de drame. Pas d’effondrement. Une acceptation nue."
+  }
 ];
