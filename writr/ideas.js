@@ -7706,7 +7706,8 @@ window.ideas = [
     "categorie": "Défis narratifs",
     "abstraction": "bruit parasite",
     "consigne": "Un son ou une vibration constante perturbe la narration. Il envahit peu à peu tout."
-  }{
+  },
+  {
   "categorie": "Situations initiales",
   "abstraction": "amorce / décor / tension implicite",
   "consigne": "Tokyo, la nuit. Il pleut. Un homme en costume s’arrête sous un lampadaire. Quelqu’un l’appelle. Il se retourne."
