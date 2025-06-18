@@ -5263,5 +5263,105 @@ window.ideas = [
   "categorie": "Fait divers transformé",
   "abstraction": "naïveté fatale",
   "consigne": "Un touriste achète un faux plan de métro à un inconnu et disparaît après avoir suivi l’itinéraire conseillé."
-}
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "solve et coagula",
+  "consigne": "Écris une scène où tout ce que le personnage possède ou croit disparaît. Puis fais-le renaître autrement, à partir des fragments."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "transmutation",
+  "consigne": "Un personnage vil, méprisé ou brisé entreprend une transformation lente vers une version plus lumineuse, presque sacrée."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "grand œuvre",
+  "consigne": "Structure ton texte en trois temps : chute dans le noir, purification douloureuse, révélation éclatante."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "nigredo",
+  "consigne": "Plonge ton personnage dans une nuit intérieure : une perte de repères, une traversée de l’ombre."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "albedo",
+  "consigne": "Fais émerger un espoir fragile dans un monde ravagé. Quelque chose de blanc, d’innocent, renaît."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "rubedo",
+  "consigne": "Clôture une histoire par un embrasement : fusion, vérité, feu. Le rouge est la couleur de l’accomplissement."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "union des contraires",
+  "consigne": "Fais se rencontrer deux êtres ou idées que tout oppose. Leur fusion est impossible, donc nécessaire."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "hermétisme",
+  "consigne": "Écris une scène minuscule (un repas, un geste), mais fais-y résonner tout l’univers. Le monde entier dans une goutte."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "materia prima",
+  "consigne": "Fais apparaître un objet sale, informe, rebutant… mais porteur d’un potentiel illimité. Qui osera le toucher ?"
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "pierre philosophale",
+  "consigne": "Ton personnage cherche un objet mythique. Mais en l’atteignant, il découvre qu’il est lui-même l’objet."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "vase clos",
+  "consigne": "Crée un huis clos où tout se transforme : les corps, les rapports, la réalité. Comme dans un creuset."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "androgyne sacré",
+  "consigne": "Un être incarne la fusion parfaite du masculin et du féminin. Comment le monde réagit-il à cet équilibre interdit ?"
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "miroir initiatique",
+  "consigne": "Un miroir ne reflète pas l’image du personnage… mais ses étapes de transformation intérieure. Que voit-il ?"
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "corps subtil",
+  "consigne": "Décris un corps qui s’élève ou se détache de lui-même. Il devient léger, invisible ou multiple. Est-ce une libération ?"
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "langue cachée",
+  "consigne": "Un personnage découvre une langue oubliée, ésotérique. Chaque mot qu’il prononce transforme ce qui l’entoure."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "or intérieur",
+  "consigne": "Dans un monde où tout est mesuré en matière, seul ce qui est invisible a de la valeur. Comment prouver sa richesse ?"
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "processus cyclique",
+  "consigne": "Raconte une transformation qui revient sans cesse à son point de départ, comme une alchimie inachevée."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "putréfaction symbolique",
+  "consigne": "Fais vivre à ton personnage une lente décomposition (physique, sociale ou morale). Il ne peut renaître qu'en touchant le fond."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "transfert de lumière",
+  "consigne": "Un personnage donne sa clarté à un autre. Il s’éteint… pendant que l’autre s’éveille."
+},
+{
+  "categorie": "Alchimie narrative",
+  "abstraction": "secret gardé",
+  "consigne": "Un savoir ancien est enfermé dans un symbole, une image, une phrase illisible. Un seul personnage comprend sa vraie nature."
+  }
 ];
