@@ -7516,5 +7516,195 @@ window.ideas = [
     "categorie": "Conseil de musicien",
     "abstraction": "boucle",
     "consigne": "Un morceau tourne en boucle dans un lieu. Pourquoi personne ne l’arrête ?"
-    }
+    },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "temps inversé",
+    "consigne": "Écris une scène où le temps semble aller à rebours : les objets reviennent à leur place, les mots se rétractent."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "onomatopées",
+    "consigne": "Crée un texte où les sons sont plus importants que les actions : intègre au moins dix onomatopées inventées."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "fausse neutralité",
+    "consigne": "Raconte une scène atroce avec un ton froid, clinique, comme un rapport médical."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "forme poétique",
+    "consigne": "Écris un dialogue sous forme de poème à rimes libres."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "lecture fragmentaire",
+    "consigne": "Construis un texte où il manque une phrase sur deux, volontairement. Le lecteur doit deviner ce qui se passe."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "code caché",
+    "consigne": "Insère un message secret dans ton texte (acrostiche, mot caché, première lettre, etc.)."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "style transformé",
+    "consigne": "Réécris un conte célèbre dans le style d’un rapport de police."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "répétition structurante",
+    "consigne": "Fais revenir la même phrase à chaque début de paragraphe, en lui donnant à chaque fois un sens différent."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "sans description",
+    "consigne": "Écris une scène uniquement en dialogues, sans aucune description ni indication."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "écriture automatique",
+    "consigne": "Laisse ton personnage écrire sans réfléchir. Tout ce qu’il pense sort d’un jet, même le plus absurde."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "texte miroir",
+    "consigne": "Construis un texte symétrique : le deuxième paragraphe inverse le premier, mot pour mot ou idée pour idée."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "incompréhension",
+    "consigne": "Deux personnages ne parlent pas la même langue. Fais quand même avancer leur relation."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "variation d’échelle",
+    "consigne": "Commence par un détail minuscule, puis élargis jusqu’au cosmos."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "phrases impossibles",
+    "consigne": "Écris une scène où chaque phrase est contradictoire, absurde ou logiquement incohérente."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "décor vivant",
+    "consigne": "Le décor devient un personnage : la maison pense, ressent, agit."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "ellipse brutale",
+    "consigne": "Fais disparaître un personnage en plein milieu d’une scène. Sans explication."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "hypnose",
+    "consigne": "Un personnage tente d’en hypnotiser un autre par la parole. Le texte lui-même doit être hypnotique."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "énumération",
+    "consigne": "Raconte une journée uniquement sous forme de liste (actions, objets, pensées, odeurs…)."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "refus du je",
+    "consigne": "Écris un texte à la première personne sans jamais utiliser le pronom 'je'."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "temps flou",
+    "consigne": "Fais en sorte qu’on ne sache jamais si la scène se passe dans le passé, le futur, ou une boucle."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "style télégraphique",
+    "consigne": "Écris une scène en supprimant tout ce qui n’est pas essentiel. Phrases sèches. Pas d'adverbes. Que du nerf."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "voix extérieures",
+    "consigne": "Ton texte est uniquement composé de messages entendus à la radio, à la télé, ou au téléphone. Aucun narrateur."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "progression sonore",
+    "consigne": "La scène devient de plus en plus bruyante. Fais-le ressentir uniquement par le style."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "langage inventé",
+    "consigne": "Un personnage s’exprime dans un langage inconnu. Le contexte seul permet de comprendre ses intentions."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "changement de support",
+    "consigne": "Écris une scène sous forme de page Wikipédia, d’annonce LeBonCoin ou de message vocal."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "prédiction",
+    "consigne": "Commence le texte par une prophétie absurde. Puis écris ce qui s’ensuit."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "objets parlants",
+    "consigne": "Un objet commente la vie de celui qui le possède. Et il en a gros sur la patate."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "figures obligées",
+    "consigne": "Intègre au moins une métaphore, une comparaison, une hyperbole et une allitération dans ton texte."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "variation d’orthographe",
+    "consigne": "Un personnage écrit avec une orthographe phonétique ou déformée. Utilise-le pour exprimer son état d’esprit."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "effondrement",
+    "consigne": "Le texte commence normalement mais se désagrège au fil des lignes : syntaxe, logique, grammaire."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "contrepoint",
+    "consigne": "Un personnage vit une scène tragique pendant qu’un autre commente quelque chose de trivial, à côté."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "négation",
+    "consigne": "Un personnage tente de raconter un souvenir qu’il refuse d’assumer. Il nie tout, même les évidences."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "objectivité forcée",
+    "consigne": "Un texte écrit comme une notice d’ascenseur ou un manuel de montage Ikea, mais sur une scène intime."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "regret en boucle",
+    "consigne": "Un personnage réécrit mentalement une scène qu’il regrette, encore et encore."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "réalité instable",
+    "consigne": "Chaque paragraphe donne une version différente de la même scène."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "métaphore filée",
+    "consigne": "Raconte une scène entière comme si c'était une partie d'échecs, une recette de cuisine, ou un sport extrême."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "interruption",
+    "consigne": "Un personnage tente de raconter une histoire mais est interrompu sans cesse."
+  },
+  {
+    "categorie": "Défis narratifs",
+    "abstraction": "bruit parasite",
+    "consigne": "Un son ou une vibration constante perturbe la narration. Il envahit peu à peu tout."
+  }
 ];
