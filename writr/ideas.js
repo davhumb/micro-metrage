@@ -7941,5 +7941,239 @@ window.ideas = [
   "categorie": "Situations initiales",
   "abstraction": "amorce / décor / tension implicite",
   "consigne": "Un homme écrit 'Désolé' au dos d’un ticket de caisse, puis le glisse dans une boîte aux lettres."
-}
+}{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme entre dans une supérette à 4h du matin. Un chariot abandonné bloque l’entrée, chargé de boîtes non étiquetées."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme se réveille dans un bus en marche. Elle ne reconnaît ni le chauffeur, ni l’itinéraire, ni les passagers."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un adolescent s'assoit sur un banc public. Quelqu’un a gravé un message très précis sur la latte sous sa main."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme nettoie la vitrine de son magasin. À l’intérieur, un client est déjà là, immobile, avant même l’ouverture."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme téléphone à un ancien numéro. Quelqu’un décroche. Il dit qu’il l’attendait."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un livreur monte au dernier étage d’un immeuble. La porte est entrebâillée. La commande est au sol, déjà signée."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme sort d’un entretien d’embauche. Dans le hall, un inconnu le félicite par son prénom."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme se gare sur une aire d'autoroute. Sa voiture est la seule sur le parking. Pourtant, elle entend une conversation étouffée."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un adolescent marche dans un couloir d’école désert. Chaque porte est entrouverte, comme si on l’attendait."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme commande un café. La serveuse le regarde fixement : « Vous avez oublié votre carnet hier. »"
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme arrive à un rendez-vous professionnel. Personne ne l’attend. Le badge à son nom est pourtant sur la table."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme promène son chien dans une rue calme. L’animal s’arrête net devant une maison, grogne, puis s’assoit."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une vieille dame trie des photos sur son lit. Sur plusieurs clichés, un inconnu apparaît à l’arrière-plan."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un employé descend au parking souterrain. Sa voiture est couverte de post-it jaunes identiques."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme retrouve une lettre jamais postée. Elle lui est adressée, mais l’écriture est la sienne."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un professeur fait l’appel dans une salle presque vide. Un élève inconnu répond présent à un nom rayé de la liste."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme entre dans un pressing. Sur le comptoir, un sac oublié contient un portefeuille gonflé d’argent."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme se penche pour ramasser un trousseau de clés. L’étiquette porte son propre nom et son adresse actuelle."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une étudiante reçoit un colis sans expéditeur. À l’intérieur, un objet qui a disparu de sa vie il y a des années."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un vieil homme tape un code sur un digicode. La porte s’ouvre. Il n’a jamais vécu là."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme entre dans une laverie. Sur tous les écrans des machines s’affiche la même phrase : « TU ES EN RETARD »."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme monte sur scène pour une conférence. Il commence à parler, puis remarque une photo de lui projetée derrière lui."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un agent immobilier visite un appartement vide. Dans le miroir, son reflet n’a pas la même expression."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un adolescent découvre un mot griffonné dans son cahier : « Ne leur dis rien. »"
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme marche dans un marché bondé. Une voix l’interpelle par un surnom d’enfance qu’elle n’a plus entendu depuis 20 ans."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme boit un verre seul au bar. Le serveur lui dit : « C’est la maison qui offre, comme d’habitude. »"
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un adolescent colle une affiche sur un mur. Il découvre une photo de lui déjà placardée à côté, inconnue."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme s'arrête à une station-service. Le pompiste la salue par son prénom et lui tend un reçu qu’elle ne reconnaît pas."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme entre dans une bibliothèque municipale. La bibliothécaire lui rend un livre qu’il n’a jamais emprunté."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un joggeur trouve un téléphone abandonné au sol. Il affiche une photo récente de lui-même."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme ouvre la boîte aux lettres d’un appartement qu’elle vient d’acheter. À l’intérieur, une lettre fraîchement datée."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un collégien rentre chez lui. Sur la table, un mot : « Je suis parti. Ne m’attends pas. » signé par lui-même."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme découvre une facture récente pour une adresse où elle n’a jamais vécu. Elle est pourtant à son nom."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme passe devant une vitrine et s’arrête net. Le mannequin porte exactement ses vêtements, avec ses initiales brodées."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un couple s’assoit à une terrasse. À leur table, une enveloppe fermée : 'À ouvrir quand vous serez prêts.'"
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un adolescent ouvre le tiroir du bureau familial. Un vieux dictaphone s’allume tout seul et diffuse un message coupé."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un conducteur s'arrête au feu rouge. Une voiture à côté contient un enfant qui lui fait signe de la main, puis mime 'aide-moi'."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme rentre dans son immeuble. L’ascenseur est bloqué au sous-sol depuis des heures, mais personne n’a signalé de panne."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme lit un article de journal dans un café. À la fin, elle découvre sa propre photo en illustration."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un agent de sécurité consulte les caméras de surveillance. Une image tourne en boucle : un couloir vide, toujours à la même heure."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un adolescent entend son prénom dans une conversation étrangère. Il ne comprend pas la langue, mais il est sûr de l’avoir entendu."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme se rend dans un hôtel. À l’accueil, on lui dit que sa chambre est prête, sans qu’il ait réservé."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un joggeur revient sur ses pas après une boucle. Tout est à sa place, sauf un banc qui a disparu."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme entre dans une salle d’attente vide. Sur la table, un dossier portant son nom est déjà ouvert."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un vieil homme donne à son petit-fils un objet qu’il lui dit avoir trouvé « au moment exact où il est né »."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un professeur trouve un mot dans son casier : « Le test est truqué. » Il ne sait pas de quel test il s’agit."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme remonte dans son grenier. Une radio s’est allumée toute seule, diffusant une voix familière qui n’existe plus."
+  }
 ];
