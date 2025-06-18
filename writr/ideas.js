@@ -6313,5 +6313,64 @@ window.ideas = [
 
 { "categorie": "Chute taoïste", "abstraction": "équilibre + glissement", "consigne": "Le personnage croit avoir trouvé un équilibre. Mais ce point d’appui était déjà en train de céder." },
 
-{ "categorie": "Éloge du non-savoir", "abstraction": "naïveté + sagesse", "consigne": "Un personnage refuse d’apprendre, de comprendre, d’expliquer. Ce refus devient sa sagesse secrète." }
+{ "categorie": "Éloge du non-savoir", "abstraction": "naïveté + sagesse", "consigne": "Un personnage refuse d’apprendre, de comprendre, d’expliquer. Ce refus devient sa sagesse secrète." },
+{ "categorie": "Métier improbable", "abstraction": "ancien + poétique", "consigne": "Ton personnage est un crieur public dans une ville qui ne l’écoute plus. Il décide de crier autre chose que les annonces officielles." },
+
+{ "categorie": "Métier étrange", "abstraction": "solitude + rituel", "consigne": "Ton personnage est gardien de phare sur un îlot isolé. Il découvre un journal appartenant à un ancien gardien qui décrit un rituel à répéter." },
+
+{ "categorie": "Métier insolite", "abstraction": "mort + confort", "consigne": "Un démonstrateur funéraire commence à parler aux cercueils qu’il vend. Un jour, l’un d’eux lui répond." },
+
+{ "categorie": "Métier méconnu", "abstraction": "urbain + animal", "consigne": "Une éthologue urbaine découvre qu’un groupe de pigeons semble la suivre de manière coordonnée." },
+
+{ "categorie": "Métier en voie d’extinction", "abstraction": "mémoire + absence", "consigne": "Un allumeur de réverbères continue chaque soir malgré l’électrification. Il prétend allumer quelque chose que les autres ne voient pas." },
+
+{ "categorie": "Métier corporel", "abstraction": "viscéral + répétitif", "consigne": "Un tordeur de boyaux ne supporte plus son travail. Il commence à rêver d’un intestin sans fin." },
+
+{ "categorie": "Métier confidentiel", "abstraction": "secret + technique", "consigne": "Un silencier est engagé pour rendre un bâtiment totalement muet. Ce qu’il découvre dans le silence va le hanter." },
+
+{ "categorie": "Métier inventé", "abstraction": "fiction + entreprise", "consigne": "Une entreprise embauche un conteur officiel chargé d’écrire des récits inspirants sur ses employés. Un jour, ses histoires deviennent réelles." },
+
+{ "categorie": "Métier sacrificiel", "abstraction": "corps + science", "consigne": "Ton personnage est cobaye humain. Chaque test modifie légèrement sa perception du monde." },
+
+{ "categorie": "Métier sonore", "abstraction": "audition + souvenirs", "consigne": "Un cueilleur de sons enregistre un paysage sonore qui contient une voix du passé." },
+
+{ "categorie": "Métier affectif", "abstraction": "animal + silence", "consigne": "Un chuchoteur de chevaux est engagé pour calmer un cheval qui ne dort plus. Il découvre que l’animal connaît un secret." },
+
+{ "categorie": "Métier de transition", "abstraction": "ancien + contemporain", "consigne": "Un racleur de goudron assiste à la disparition de son métier. Mais un jour, le goudron recommence à bouillir sous ses pieds." },
+
+{ "categorie": "Métier bureaucratique", "abstraction": "prison + empathie", "consigne": "Un écrivain public carcéral aide des détenus à rédiger des lettres. Il tombe sur un récit qui semble décrire un crime à venir." },
+
+{ "categorie": "Métier alimentaire", "abstraction": "nature + obsession", "consigne": "Une cueilleuse d’algues développe une fascination malsaine pour une espèce qu’elle seule semble percevoir." },
+
+{ "categorie": "Métier olfactif", "abstraction": "odeur + identité", "consigne": "Un créateur d’odoramas développe une fragrance qui provoque chez les gens des souvenirs qu’ils n’ont jamais vécus." },
+
+{ "categorie": "Métier aquatique", "abstraction": "plaisir + chute", "consigne": "Un testeur de toboggans découvre qu’un des tunnels aquatiques donne sur un autre monde." },
+
+{ "categorie": "Métier oublié", "abstraction": "lumière + mémoire", "consigne": "Un ancien allumeur de réverbères prétend que certains lampadaires n’éclairent pas la rue, mais les souvenirs." },
+
+{ "categorie": "Métier du passé", "abstraction": "usure + vérité", "consigne": "Un mégissier travaille sur une peau si fine qu’il découvre, tatoué dessus, un fragment d’histoire cachée." },
+
+{ "categorie": "Métier fictionnel", "abstraction": "mort + répétition", "consigne": "Un testeur de cercueils simule des morts à répétition. Un jour, il n’arrive plus à se réveiller." },
+
+{ "categorie": "Métier marginal", "abstraction": "déni + devoir", "consigne": "Un nettoyeur de scène de crime commence à reconstituer mentalement les meurtres. Il découvre une erreur dans une affaire classée." },
+
+{ "categorie": "Métier cérémoniel", "abstraction": "spectacle + disparition", "consigne": "Une sommelière en eau minérale sert une eau ancienne et provoque chez le client un effacement progressif du langage." },
+
+{ "categorie": "Métier temporel", "abstraction": "précision + vertige", "consigne": "Un horloger nucléaire remarque que les horloges atomiques commencent à diverger, révélant une faille dans le temps." },
+
+{ "categorie": "Métier rituel", "abstraction": "discours + abandon", "consigne": "Un crieur public continue de hurler chaque matin dans une ville désertée. Un jour, une voix lui répond." },
+
+{ "categorie": "Métier hyper-spécialisé", "abstraction": "mécanique + obsession", "consigne": "Un dégrilleur devient obsédé par les déchets qu’il retire des grilles. Ils semblent lui adresser des messages." },
+
+{ "categorie": "Métier paradoxal", "abstraction": "écoute + isolement", "consigne": "Un lecteur audio professionnel entend une phrase cachée dans un livre qui n’a jamais été écrite." },
+
+{ "categorie": "Métier narratif", "abstraction": "fiction + réalité", "consigne": "Un poète résident dans une mairie voit ses poèmes influencer le comportement des habitants." },
+
+{ "categorie": "Métier décalé", "abstraction": "corporate + surréalisme", "consigne": "Un consultant en storytelling est engagé pour réécrire la biographie d’un PDG. Celui-ci commence à agir selon ce nouveau récit." },
+
+{ "categorie": "Métier animalier", "abstraction": "ville + survie", "consigne": "Une éthologue découvre que certaines espèces animales urbaines développent une forme de langage entre elles." },
+
+{ "categorie": "Métier spectral", "abstraction": "voix + disparition", "consigne": "Un preneur de son capte, dans un musée, les voix d’anciens visiteurs disparus." },
+
+{ "categorie": "Métier inversé", "abstraction": "souvenir + anticipation", "consigne": "Un nettoyeur de scène de crime est engagé avant le crime. Il doit nettoyer l’avenir." }
 ];
