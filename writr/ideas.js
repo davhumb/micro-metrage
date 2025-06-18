@@ -6971,5 +6971,185 @@ window.ideas = [
   "categorie": "Mash-up", 
   "abstraction": "ballet classique + complot", 
   "consigne": "Tout se dit dans les gestes : la vérité est dans la chorégraphie." 
-}
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "bureaucratie + malédiction", 
+  "consigne": "Un formulaire mal rempli réveille une entité ancienne qui ne disparaîtra qu’une fois tous les tampons validés." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "philosophie + grille-pain", 
+  "consigne": "Un grille-pain doué de conscience refuse désormais de griller du pain sans justification éthique." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "sécurité domestique + possession", 
+  "consigne": "Un système domotique intelligent refuse de laisser sortir les habitants… pour leur propre bien." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "attente + fin du monde", 
+  "consigne": "Des gens attendent leur bus. Le bus ne vient jamais. L’apocalypse arrive, mais on continue d’attendre." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "cafétéria scolaire + cannibalisme", 
+  "consigne": "Un nouveau menu sans viande soulève des questions sur l’origine de la bolognaise." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "jeu télévisé + langage inventé", 
+  "consigne": "Un candidat participe à un jeu dont il ne comprend ni les règles ni la langue." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "mémoire + gémellité", 
+  "consigne": "Un personnage découvre que ses souvenirs appartiennent à quelqu’un d’autre… qui vit dans le mur." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "bureau open-space + surnaturel", 
+  "consigne": "Un bureau où chaque réunion est un rituel d'invocation, mais personne ne le remarque." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "poupée + capitalisme", 
+  "consigne": "Une poupée vendue en série commence à influencer les comportements de ses propriétaires." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "guerre + règle de grammaire", 
+  "consigne": "Une armée est divisée sur l’usage du subjonctif. La guerre éclate." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "musique + mutilation", 
+  "consigne": "Une mélodie pousse ceux qui l’entendent à se transformer physiquement pour 'l’accorder'." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "manifestation + mimes", 
+  "consigne": "Une révolution éclate, mais tous les participants sont des mimes." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "reflet + conscience", 
+  "consigne": "Le reflet d’un personnage agit à sa place quand il a le dos tourné." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "quête épique + agrafeuse", 
+  "consigne": "Le héros traverse trois continents pour réparer une agrafeuse." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "enfance + vérité", 
+  "consigne": "Un enfant dit toujours la vérité. Jusqu’au jour où il parle d’un homme invisible qui le suit partout." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "religion + parking", 
+  "consigne": "Un culte naît autour d’une place de parking toujours libre, mais jamais utilisée." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "obsession + architecture", 
+  "consigne": "Un personnage vit dans une maison qui ajoute chaque nuit une pièce en plus." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "justice + musique pop", 
+  "consigne": "Tous les verdicts d’un procès sont chantés en playback sur des tubes des années 2000." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "TV + rituel", 
+  "consigne": "Une émission annulée continue d’être diffusée chaque nuit. Quiconque la regarde disparaît à l’antenne." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "débat + chat", 
+  "consigne": "Deux experts débattent d’un sujet de société, mais l’un des deux est un chat. Il gagne à chaque fois." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "bain public + fusion", 
+  "consigne": "Dans un spa, les corps commencent à se confondre lentement. Plus personne ne sait qui est qui." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "bureau de vote + farce", 
+  "consigne": "Les bulletins sont remplacés par des blagues. Le peuple rit, mais élit une catastrophe." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "poésie + infection", 
+  "consigne": "Une strophe lue à voix haute se propage comme un virus. Elle s’imprime dans la chair." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "marathon + escargots", 
+  "consigne": "Tous les coureurs sont remplacés par des escargots. Personne ne s’en rend compte." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "cadeau + oubli", 
+  "consigne": "Un objet offert efface progressivement les souvenirs de celui qui le reçoit." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "drame social + trampoline", 
+  "consigne": "Une scène grave doit se dérouler uniquement sur un trampoline." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "légende urbaine + serveur vocal", 
+  "consigne": "Un ancien démon hante les options d’un standard téléphonique. Il faut choisir avec prudence." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "crash aérien + animaux parlants", 
+  "consigne": "Un avion s’écrase. Tous les survivants sont des animaux dotés de parole et de dettes." 
+},
+
+{ 
+  "categorie": "Mash-up horrifique", 
+  "abstraction": "immortalité + dette", 
+  "consigne": "Un personnage devient immortel, mais chaque jour ajoute un centime à sa dette temporelle." 
+},
+
+{ 
+  "categorie": "Mash-up absurde", 
+  "abstraction": "enterrement + karaoké", 
+  "consigne": "Chaque discours funèbre doit être chanté. Personne ne sait pourquoi, mais c’est la règle." 
+    }
 ];
