@@ -7706,5 +7706,239 @@ window.ideas = [
     "categorie": "Défis narratifs",
     "abstraction": "bruit parasite",
     "consigne": "Un son ou une vibration constante perturbe la narration. Il envahit peu à peu tout."
-  }
+  }{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Tokyo, la nuit. Il pleut. Un homme en costume s’arrête sous un lampadaire. Quelqu’un l’appelle. Il se retourne."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une salle d’attente vide. Une femme relit plusieurs fois le même formulaire sans le remplir."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un adolescent s’éloigne d’une fête. Il jette un dernier regard par-dessus son épaule, puis commence à courir."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme descend d’un bus en rase campagne. Il ne reconnaît rien autour de lui."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme dépose un bouquet devant une maison. Elle hésite, puis frappe à la porte."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un couple marche au bord d’un canal. Ils parlent peu. Le plus jeune regarde souvent son téléphone."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un ancien ouvrier attend à l’entrée d’une usine désaffectée. Il a un dossier sous le bras."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une élève reste seule dans une salle de classe. Elle recopie des phrases inscrites au tableau."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un livreur sonne chez quelqu’un. Personne ne répond. Il laisse le colis, mais reste planté là."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une voiture ralentit devant un chantier. Le passager prend une photo discrètement."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme prend un café en terrasse. Il consulte une enveloppe épaisse sans l’ouvrir."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une joggeuse s’arrête brusquement, essoufflée. Elle croit avoir reconnu quelqu’un."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un enfant revient seul de l’école. Il a les poches pleines de petits objets qu’il n’avait pas ce matin."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une jeune fille attend sur un quai de gare. Elle ne sait pas où mène le prochain train."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un serveur essuie le même verre depuis dix minutes. Il jette un œil régulier à la porte d’entrée."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme s’installe à une table dans une salle de réunion vide. Il place deux verres d’eau."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une photographe shoote une façade délabrée. Sur la dernière prise, une silhouette floue."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un étudiant range ses affaires dans un casier. À l’intérieur, une lettre pliée en quatre."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une mère regarde son enfant dormir. Elle se penche pour récupérer quelque chose sous le lit."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme entre dans un cabinet médical fermé depuis des années. Il referme la porte derrière lui."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un facteur pose une enveloppe sur une boîte. Il regarde longtemps la sonnette sans la presser."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une voiture roule lentement sur un chemin forestier. Les phares éclairent un vélo abandonné."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un garçon vend des journaux sur le trottoir. Une femme lui glisse un billet et s’éloigne sans rien prendre."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une voisine regarde par l’œilleton depuis plus de dix minutes. Elle tient un téléphone sans composer."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un groupe d’adolescents regarde le mur d’une maison. Quelqu’un a peint une phrase en lettres rouges."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme observe un arrêt de bus depuis une voiture garée à distance. Il note des heures sur un carnet."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un ouvrier se rend sur un chantier désert. Quelqu’un a déplacé son casque de sécurité."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme en robe de soirée s’allume une cigarette derrière un centre commercial."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un chien aboie face à une porte de garage. Il refuse de s’en éloigner malgré les appels de son maître."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un vieil homme s’arrête devant une vitrine. Il semble y chercher son reflet."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une file d’attente devant un bureau de poste. Un seul client sort, en larmes."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme tourne trois fois autour d’un pâté de maisons avant d’entrer dans un immeuble précis."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un lycéen retrouve son casier forcé. Rien n’a été volé, mais un mot y est collé : 'Je sais.'"
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une institutrice reçoit une lettre signée d’un élève… qui a quitté l’école depuis cinq ans."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme attend dans une voiture avec un bouquet. Il regarde sa montre toutes les deux minutes."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme trouve un ticket de métro sur son pare-brise. Elle n’habite pas en ville."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme entre dans une salle de sport vide et active une machine en souriant."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un ouvrier du métro remarque que les caméras d’une rame sont recouvertes de ruban noir."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un petit garçon tire sa mère par la manche et dit : « Il est encore là, regarde. »"
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un bus s’arrête devant un arrêt où personne ne descend. Le chauffeur attend malgré tout."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme trouve une boucle d’oreille dans son sac. Elle n’en porte pas."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un serveur demande si quelqu’un a réservé au nom de 'Reviens'."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une chambre d’hôtel. Un client photographie le numéro de la porte avant d’entrer."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une femme regarde une vidéo sans le son sur son téléphone. Elle pleure en silence."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un employé range les objets trouvés d’un train. Il s’attarde sur un carnet écorné."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Une adolescente entre dans une laverie. Elle y trouve son tee-shirt déjà en train de tourner."
+},
+{
+  "categorie": "Situations initiales",
+  "abstraction": "amorce / décor / tension implicite",
+  "consigne": "Un homme écrit 'Désolé' au dos d’un ticket de caisse, puis le glisse dans une boîte aux lettres."
+}
 ];
