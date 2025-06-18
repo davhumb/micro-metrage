@@ -4933,5 +4933,80 @@ window.ideas = [
   "categorie": "Citation inspirée",
   "abstraction": "dérèglement",
   "consigne": "« Je suis entré dans la fiction comme on entre dans une pièce sans lumière. » (Roberto Bolaño) — Ton personnage perd pied entre réel et récit."
+},
+{
+  "categorie": "Poids du non-dit",
+  "abstraction": "psychologie",
+  "consigne": "Ton personnage garde un secret depuis longtemps. Écris la scène où il est sur le point de le révéler… mais ne le fait pas."
+},
+{
+  "categorie": "Ce que je n’ai jamais dit",
+  "abstraction": "émotion retenue",
+  "consigne": "Un personnage écrit une lettre à une personne morte ou perdue. Il n’enverra jamais cette lettre."
+},
+{
+  "categorie": "Tout ce qui déborde",
+  "abstraction": "tension",
+  "consigne": "Un repas de famille. L’un des convives garde tout en lui. Jusqu’au moment où une chose infime provoque un effondrement."
+},
+{
+  "categorie": "Le souvenir qui ronge",
+  "abstraction": "obsession",
+  "consigne": "Il y a une scène que ton personnage revit chaque nuit. Toujours la même. Il tente de la modifier, en vain."
+},
+{
+  "categorie": "Ce corps n’est pas le mien",
+  "abstraction": "trouble",
+  "consigne": "Ton personnage ne se reconnaît plus. Dans un miroir, dans une photo, dans un toucher. Raconte ce glissement."
+},
+{
+  "categorie": "Je me hais, donc je suis",
+  "abstraction": "introspection sombre",
+  "consigne": "Un monologue intérieur adressé à soi-même, où la haine est lucide, précise, presque belle."
+},
+{
+  "categorie": "Une crise minuscule",
+  "abstraction": "détonateur émotionnel",
+  "consigne": "Un personnage s’effondre à cause d’un événement minuscule (une tache, une odeur, une remarque). Montre le lien caché."
+},
+{
+  "categorie": "L’enfant qu’on a été",
+  "abstraction": "mémoire enfouie",
+  "consigne": "Ton personnage retrouve un objet de son enfance. Il l’ouvre, ou l’utilise. Et tout remonte."
+},
+{
+  "categorie": "Un mot de trop",
+  "abstraction": "rupture",
+  "consigne": "Écris une scène où tout allait bien… jusqu’à ce qu’un seul mot (mal choisi, mal placé, trop vrai) fasse tout dérailler."
+},
+{
+  "categorie": "Plus personne ne m'appelle",
+  "abstraction": "solitude",
+  "consigne": "Un personnage prend conscience que plus personne ne l’appelle par son prénom. Il en déduit quelque chose de terrible."
+},
+{
+  "categorie": "Respirer devient difficile",
+  "abstraction": "anxiété",
+  "consigne": "Écris une scène d’angoisse sans jamais dire « peur » ou « panique »."
+},
+{
+  "categorie": "Il ne se passe rien",
+  "abstraction": "étouffement",
+  "consigne": "Raconte une journée banale. Aucun événement majeur. Mais un malaise, de plus en plus présent, s’installe dans chaque geste."
+},
+{
+  "categorie": "On ne fait que passer",
+  "abstraction": "impermanence",
+  "consigne": "Ton personnage entre dans un lieu vide. Quelqu’un y a vécu. Quelqu’un viendra. Il est juste de passage. Mais quelque chose l’ancre."
+},
+{
+  "categorie": "Tu ne reviendras pas",
+  "abstraction": "deuil",
+  "consigne": "Un personnage parle à quelqu’un qui ne reviendra jamais. Peut-être mort, peut-être disparu. Le doute est plus douloureux que la certitude."
+},
+{
+  "categorie": "Je ne suis pas triste",
+  "abstraction": "refoulement",
+  "consigne": "Interdis-toi les mots 'tristesse', 'chagrin' et 'solitude'. Et écris un texte qui bouleverse malgré tout."
 }
 ];
