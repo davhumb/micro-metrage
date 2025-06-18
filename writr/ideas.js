@@ -6791,5 +6791,185 @@ window.ideas = [
   "categorie": "Poétique", 
   "abstraction": "voix + solitude", 
   "consigne": "Un personnage entend une voix douce dans sa tête : ce n’est pas la sienne, mais il s’y attache." 
-  }
+  },
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "western + mutisme", 
+  "consigne": "Écris une scène de western où personne ne prononce un mot, mais où tout se comprend par les gestes." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "documentaire animalier + rupture", 
+  "consigne": "Raconte une séparation amoureuse sur le ton d’un documentaire animalier, avec voix off et analyse comportementale." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "thriller + recette", 
+  "consigne": "Écris une scène de suspense sous la forme d'une recette de cuisine, chaque ingrédient représentant une action." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "conte de fées + entretien d’embauche", 
+  "consigne": "Le Petit Poucet postule à un poste de DRH. Intègre ses aventures dans son CV et sa lettre de motivation." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "comédie romantique + apocalypse", 
+  "consigne": "Deux personnes tombent amoureuses pendant que le monde s’effondre autour d’elles." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "poésie + procès", 
+  "consigne": "Un personnage tente de défendre ses actes en vers libres devant un tribunal." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "horreur + mode d’emploi", 
+  "consigne": "Une entité démoniaque est invoquée par accident en suivant les instructions d’un meuble à monter." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "philosophie + match de foot", 
+  "consigne": "Commente un match de football comme si c’était une allégorie de l’absurde, du destin et de la liberté." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "autobiographie + objet", 
+  "consigne": "Raconte l’histoire d’un personnage à travers un seul objet qu’il garde toute sa vie." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "dialogue de sourds + comédie musicale", 
+  "consigne": "Deux personnages ne se comprennent jamais, mais leurs répliques sont chantées à la perfection." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "conte africain + science-fiction", 
+  "consigne": "Fusionne un mythe traditionnel avec une technologie futuriste incontrôlable." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "manif politique + rêve lucide", 
+  "consigne": "Un personnage rêve qu’il manifeste contre lui-même, sans savoir s’il est du bon côté." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "film noir + jardin d’enfants", 
+  "consigne": "Un détective privé enquête dans une crèche. Les suspects mesurent moins d’un mètre." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "tragédie grecque + jeu télévisé", 
+  "consigne": "Chaque choix du héros, en direct, déclenche la mort d’un proche ou d’un mythe." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "journal intime + conquête spatiale", 
+  "consigne": "Un astronaute raconte sa solitude sur Mars à travers les mots d’un adolescent." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "slow cinéma + poursuite", 
+  "consigne": "Décris une scène de poursuite effrénée à un rythme lent, contemplatif, hypnotique." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "épopée médiévale + start-up", 
+  "consigne": "Un chevalier fonde une start-up pour automatiser les quêtes. Mais rien ne fonctionne comme prévu." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "injonction administrative + voyage mystique", 
+  "consigne": "Un formulaire anodin devient le point de départ d’un voyage intérieur initiatique." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "vidéo YouTube + rituel antique", 
+  "consigne": "Une vidéo virale est en réalité un rituel ancien réactivé par erreur." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "carnet de santé + roman gothique", 
+  "consigne": "La maladie progresse à mesure que les pages se noircissent d’encre et de secrets." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "comptine + dystopie", 
+  "consigne": "Une société totalitaire est régie par une comptine enfantine qu’il est interdit d’oublier." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "livre pour enfant + adultère", 
+  "consigne": "Un album jeunesse détourne une histoire d’adultère sans jamais prononcer un mot inapproprié." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "reportage animalier + rêve lucide", 
+  "consigne": "Un narrateur explore son propre rêve comme s’il s’agissait d’un documentaire animalier immersif." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "guide touristique + possession", 
+  "consigne": "Un guide de voyage ancien possède lentement tous ceux qui le consultent." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "comédie sociale + fantôme", 
+  "consigne": "Un fantôme tente de réintégrer la société mais doit d’abord décrocher un emploi." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "publicité + tragédie familiale", 
+  "consigne": "Une pub joyeuse tente de cacher la tragédie familiale qui s’est jouée dans cette maison." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "roman policier + rêve prémonitoire", 
+  "consigne": "Chaque nuit, un détective rêve du meurtre du lendemain. Jusqu’au jour où c’est lui la victime." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "mode + deuil", 
+  "consigne": "Un personnage change de style vestimentaire à chaque étape de son deuil, sans le dire à personne." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "cuisine + vengeance", 
+  "consigne": "Chaque plat cuisiné par le personnage contient un message crypté à destination d’un ennemi." 
+},
+
+{ 
+  "categorie": "Mash-up", 
+  "abstraction": "ballet classique + complot", 
+  "consigne": "Tout se dit dans les gestes : la vérité est dans la chorégraphie." 
+}
 ];
