@@ -5163,5 +5163,105 @@ window.ideas = [
   "categorie": "Bergman",
   "abstraction": "mort calme",
   "consigne": "Un personnage se prépare à mourir. Pas de drame. Pas d’effondrement. Une acceptation nue."
-  }
+  },
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "absurde tragique",
+  "consigne": "Un homme cache un ticket de loto gagnant dans le four pour le protéger. Sa femme allume le four."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "fuite bancale",
+  "consigne": "Un homme simule son propre décès pour fuir ses dettes, mais poste ensuite une photo sur les réseaux sociaux."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "cambriolage raté",
+  "consigne": "Un voleur se cache dans une armoire pendant un cambriolage... et s’endort. Il est arrêté au matin."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "gloire minable",
+  "consigne": "Un braqueur laisse son téléphone sur les lieux du crime. Sa messagerie contient : « Voleur professionnel, laissez un message. »"
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "comédie morbide",
+  "consigne": "Une famille conserve le cadavre d’un parent chez elle pour continuer à toucher sa retraite."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "farce illégale",
+  "consigne": "Un futur marié simule son propre kidnapping pour éviter le mariage. Ses amis sont complices."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "tentative grotesque",
+  "consigne": "Un homme tente de braquer une banque avec un citron peint en vert, criant que c’est une grenade."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "mensonge judiciaire",
+  "consigne": "Un témoin oculaire clé est en fait aveugle depuis la naissance."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "arnaque brillante",
+  "consigne": "Un escroc parvient à vendre la Tour Eiffel à un ferrailleur, deux fois."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "guerre fantôme",
+  "consigne": "Un homme sort de la jungle et se rend à l’armée, croyant que la guerre n’est pas finie. Elle l’est depuis 30 ans."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "erreur identitaire",
+  "consigne": "Un homme se rend compte qu’il n’est pas qui il croyait être, après avoir vu son portrait-robot au journal."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "vengeance postale",
+  "consigne": "Un homme envoie chaque jour une lettre vide à son ex-employeur pendant huit ans. Personne ne comprend pourquoi."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "prémonition fatale",
+  "consigne": "Une femme rêve de sa propre mort. Elle meurt dans des circonstances étrangement similaires peu après."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "loyauté dérangeante",
+  "consigne": "Un chien reste cinq ans sur le pas de la porte d’une maison dont les habitants sont morts. Il attend toujours."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "impair digital",
+  "consigne": "Un homme appuie accidentellement sur « envoyer à tous » et avoue un crime vieux de dix ans."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "friction familiale",
+  "consigne": "Deux frères se disputent un terrain hérité. L’un le vend en douce... et enterre l’autre dedans."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "fantôme administratif",
+  "consigne": "Un homme découvre qu’il est officiellement mort depuis dix ans. Tout fonctionne quand même : banque, carte vitale, impôts."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "prophétie circulaire",
+  "consigne": "Un médium prédit un événement... et fait tout pour qu’il se réalise afin de ne pas perdre la face."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "déraillement banal",
+  "consigne": "Une dispute pour une place de parking dégénère en tragédie absurde."
+},
+{
+  "categorie": "Fait divers transformé",
+  "abstraction": "naïveté fatale",
+  "consigne": "Un touriste achète un faux plan de métro à un inconnu et disparaît après avoir suivi l’itinéraire conseillé."
+}
 ];
