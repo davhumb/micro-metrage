@@ -8428,5 +8428,5 @@ window.ideas = [
   "categorie": "Défi",
   "abstraction": "contexte formel",
   "consigne": "Écris un texte dont la première phrase est : « Je ne l’avais pas reconnu tout de suite. » et la dernière : « On a rigolé pour de faux. »"
-  }
+  },
 ];
