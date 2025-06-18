@@ -5953,5 +5953,191 @@ window.ideas = [
   "categorie": "Déclencheur + Forme",
   "abstraction": "ami imaginaire + disparition inversée",
   "consigne": "Un personnage adulte revoit son ami imaginaire d’enfance… qui prétend que c’est lui qui l’a inventé."
-    }
+    },
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "lieu réel + récit déclenché",
+  "consigne": "Un personnage s’éveille dans une ville engloutie par le sable, autrefois luxueuse. Chaque pièce qu’il explore ravive une mémoire qui n’est pas la sienne.",
+  "lieu": "Kolmanskop (Namibie)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "catacombes + voix intérieures",
+  "consigne": "Dans les catacombes de Paris, un guide entend les murs lui parler. À mesure qu’il descend, les voix deviennent de plus en plus intimes.",
+  "lieu": "Catacombes de Paris (France)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "île abandonnée + solitude post-industrielle",
+  "consigne": "Sur une île minière désertée, un survivant écrit chaque jour à quelqu’un qui ne répond jamais. Jusqu’à ce que l’écho lui réponde vraiment.",
+  "lieu": "Hashima Island (Japon)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "pyramide inversée + récit initiatique",
+  "consigne": "Une expédition explore une structure inversée : chaque niveau plus profond efface un souvenir du passé.",
+  "lieu": "Pyramide du Louvre inversée (France)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "forêt tordue + perception altérée",
+  "consigne": "Une forêt où les arbres poussent tous dans une même direction abrite un phénomène : les pensées se tordent comme les troncs.",
+  "lieu": "Crooked Forest (Pologne)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "chambre d’hôtel hantée + narration cyclique",
+  "consigne": "Chaque client de cette chambre d’hôtel laisse un message sur le miroir. Le héros lit ces messages à rebours, découvrant sa propre écriture à la fin.",
+  "lieu": "Hôtel Stanley (États-Unis)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "bibliothèque souterraine + perte du langage",
+  "consigne": "Un écrivain découvre une bibliothèque enterrée où chaque livre qu’il lit efface un mot de son vocabulaire.",
+  "lieu": "Bibliothèque BnF Richelieu (France)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "station polaire + paranoïa climatique",
+  "consigne": "Dans une station scientifique arctique, les relevés météo prédisent des événements précis... puis personnels... puis impossibles.",
+  "lieu": "Station de recherche de Barneo (Arctique)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "refuge de montagne + narration gelée",
+  "consigne": "Un personnage s’enferme dans un refuge hivernal. Il découvre un journal écrit par un autre... ou par lui-même ?",
+  "lieu": "Refuge du Goûter (France)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "cratère en feu + rencontre surnaturelle",
+  "consigne": "Au bord du cratère turkmène en feu, un personnage croit voir une silhouette immobile depuis des jours. Il décide de lui parler.",
+  "lieu": "Porte de l'Enfer (Turkménistan)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "musée miniature + exploration mentale",
+  "consigne": "Un musée présente des scènes minuscules et absurdes. Le visiteur comprend peu à peu qu’il les reconnaît toutes.",
+  "lieu": "Miniatur Wunderland (Allemagne)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "ville fantôme soviétique + perte d’identité",
+  "consigne": "Un homme s’installe à Pyramiden. Chaque bâtiment semble déjà avoir ses affaires. Sa photo est sur un passeport trouvé là.",
+  "lieu": "Pyramiden (Svalbard)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "forêt du silence + mémoire enterrée",
+  "consigne": "Dans une forêt sans écho, les souvenirs ressurgissent quand on s’arrête. Mais chaque souvenir volé en remplace un autre.",
+  "lieu": "Forêt d'Aokigahara (Japon)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "phare englouti + narration fragmentée",
+  "consigne": "Un journal retrouvé au fond d’un phare décrit des jours de solitude, puis une lumière qui monte des profondeurs.",
+  "lieu": "Phare d'Ar-Men (France)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "ville sous cloche + expérimentation sociale",
+  "consigne": "Une ville sous dôme climatique isole ses habitants depuis 20 ans. Le héros y entre, découvre qu’on y parle une langue inconnue.",
+  "lieu": "Biosphère 2 (États-Unis)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "maison Winchester + narration labyrinthique",
+  "consigne": "Une maison immense où chaque porte ouvre sur un souvenir alternatif. Le héros se perd dans ses propres choix non faits.",
+  "lieu": "Winchester Mystery House (États-Unis)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "salle de cinéma oubliée + mémoire collective",
+  "consigne": "Une salle projetant un film unique et changeant selon le spectateur. Le héros y voit une scène de sa vie qu’il n’a jamais vécue.",
+  "lieu": "Cinéma Paradiso abandonné (Italie)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "train figé + huis clos en boucle",
+  "consigne": "Un train arrêté en pleine nature. À bord, les passagers vivent le même trajet immobile, encore et encore.",
+  "lieu": "Transsibérien bloqué (Russie)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "gratte-ciel sans issue + vertige narratif",
+  "consigne": "Un immeuble sans escalier vers le bas. Chaque étage modifie subtilement la réalité du personnage.",
+  "lieu": "Tour Baiyoke (Thaïlande)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "souterrain en spirale + initiation inversée",
+  "consigne": "Un enfant s’aventure dans un tunnel en colimaçon. À chaque niveau, il devient plus vieux, jusqu’à sa propre naissance.",
+  "lieu": "Puits initiatique de Sintra (Portugal)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "ascenseur bloqué + voix multiples",
+  "consigne": "Des inconnus coincés dans un ascenseur. À chaque page, une voix de plus s’ajoute à la narration, jusqu’à saturation.",
+  "lieu": "Ascenseur Tour CN (Canada)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "cabane sur pilotis + solitude choisie",
+  "consigne": "Un ermite vivant au milieu d’un lac commence à recevoir des objets flottants, formant un message de plus en plus clair.",
+  "lieu": "Cabane sur le lac Inle (Birmanie)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "zoo abandonné + regards croisés",
+  "consigne": "Un enfant visite un zoo en ruines. Chaque cage vide semble l’observer. Il finit par comprendre qu’il est l’attraction.",
+  "lieu": "Zoo de Nicosie (Chypre)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "station-service isolée + ambiance lynchienne",
+  "consigne": "Une station-service au milieu du désert où le temps se fige. Le pompiste connaît déjà l’histoire de chaque client.",
+  "lieu": "Route 66 (États-Unis)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "falaise oubliée + appel ancestral",
+  "consigne": "Une falaise battue par le vent émet un son étrange. Un personnage commence à le comprendre comme une langue morte.",
+  "lieu": "Falaises de Moher (Irlande)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "hôpital abandonné + hallucinations croisées",
+  "consigne": "Un photographe explore un sanatorium désert. Les photos développées montrent des scènes qu’il n’a jamais vues.",
+  "lieu": "Sanatorium de Beelitz (Allemagne)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "grange aux miroirs + distorsion du réel",
+  "consigne": "Une vieille grange remplie de miroirs. Le reflet d’un personnage commence à agir seul, légèrement en avance.",
+  "lieu": "Mystery Spot (États-Unis)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "palais inversé + texte en miroir",
+  "consigne": "Un palais inversé où tout est à l’envers. Le texte se lit de droite à gauche. À la fin, le lecteur découvre qu’il lisait son propre rêve.",
+  "lieu": "Palais Idéal du Facteur Cheval (France)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "chambre 0 + absence d’entrée",
+  "consigne": "Une chambre qui n’existe sur aucun plan. Les clients y entrent... mais jamais personne ne les voit ressortir.",
+  "lieu": "Hôtel Grand Budapest (fictionnel, mais à inclure)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "ascenseur du souvenir + récits empilés",
+  "consigne": "Chaque étage d’un immeuble abrite un souvenir d’un inconnu. Le héros doit remonter ou descendre pour trouver le sien.",
+  "lieu": "Tour Marina City (États-Unis)"
+},
+{
+  "categorie": "Lieu inspirant",
+  "abstraction": "désert mobile + réalité mouvante",
+  "consigne": "Un désert change de configuration chaque nuit. Les cartes mentales du héros se brouillent — la géographie devient mémoire.",
+  "lieu": "Erg Chebbi (Maroc)"
+  }
 ];
