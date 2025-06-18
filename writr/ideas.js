@@ -6611,5 +6611,185 @@ window.ideas = [
   "categorie": "Et si ?", 
   "abstraction": "vol de sensations", 
   "consigne": "Et si certaines personnes volaient les sensations des autres, sans qu’on le remarque ?" 
+  },
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "silence + résonance", 
+  "consigne": "Écris une scène où un personnage entend un silence plus fort que le bruit." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "vent + absence", 
+  "consigne": "Une brise emporte un mot qu’on n’a pas eu le temps de dire. Le reste du récit tente de le retrouver." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "poussière + mémoire", 
+  "consigne": "Chaque grain de poussière dans la maison contient un souvenir que le personnage revit en le touchant." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "fleur + rage", 
+  "consigne": "Un champ de fleurs pousse chaque fois qu’un personnage éprouve de la colère." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "saison + attente", 
+  "consigne": "Un personnage attend quelqu’un qui ne viendra jamais, et chaque saison modifie son attente." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "pluie + retour", 
+  "consigne": "La pluie fait revenir les visages du passé, visibles un instant sur les vitres ou les flaques." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "ombre + lumière", 
+  "consigne": "Un personnage voit plus clairement les gens à travers leurs ombres que leurs visages." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "absence + chaleur", 
+  "consigne": "Un lit vide conserve encore la chaleur d’un corps disparu. Quelqu’un s’y allonge, par besoin." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "glace + reflet", 
+  "consigne": "Dans un miroir gelé, un personnage voit un reflet qu’il ne reconnaît pas… mais qui pleure pour lui." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "tissu + secret", 
+  "consigne": "Un vêtement ancien conserve la forme du dernier geste de son porteur." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "lumière + souvenir", 
+  "consigne": "Un rayon de lumière dans une pièce fermée évoque un souvenir oublié chez tous ceux qui y entrent." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "animal + présence", 
+  "consigne": "Un chat suit un personnage partout. Il semble être l’ombre d’un mort." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "encre + disparition", 
+  "consigne": "Tout ce qu’un personnage écrit disparaît au bout de quelques minutes… sauf ce qu’il écrit en pleurant." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "sable + passage", 
+  "consigne": "Sur une plage abandonnée, les traces de pas apparaissent avant même qu’on les marche." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "larmes + vérité", 
+  "consigne": "Un personnage ne peut pleurer que lorsqu’il ment. Cela finit par le sauver." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "brume + identité", 
+  "consigne": "Chaque matin, un personnage traverse un brouillard dense. En sortant, il a changé de nom." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "fil + lien", 
+  "consigne": "Un fil rouge relie les poignets des personnes qu’on a aimées sans le savoir." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "papier + murmure", 
+  "consigne": "Un vieux livre qu’on ne peut lire qu’à voix basse révèle une autre histoire entre les lignes." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "rêve + seuil", 
+  "consigne": "Un personnage se rend compte que sa maison s’agrandit chaque fois qu’il rêve d’un lieu nouveau." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "voix + forêt", 
+  "consigne": "Une voix appelle un personnage dans les bois. Ce n’est pas une personne, mais un souvenir d’enfance." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "peau + écriture", 
+  "consigne": "Des mots apparaissent lentement sur la peau d’un personnage : ce sont des pensées d’un autre." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "lune + retour", 
+  "consigne": "Chaque pleine lune ramène une personne disparue… mais seulement pour une heure." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "geste + résidu", 
+  "consigne": "Un personnage revoit toujours le dernier geste de ceux qui sont partis." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "souffle + passage", 
+  "consigne": "Le souffle d’un personnage permet d’ouvrir des portes invisibles dans le monde." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "métal + mémoire", 
+  "consigne": "Chaque objet en métal murmure à un personnage ce qu’il a vu dans une autre époque." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "frisson + intuition", 
+  "consigne": "Un frisson prévient toujours le personnage lorsqu’un moment va compter." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "absence + beauté", 
+  "consigne": "Un personnage tombe amoureux d’une silhouette entrevue dans un rêve, et la cherche dans la réalité." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "verre + illusion", 
+  "consigne": "En regardant à travers un verre fêlé, un personnage voit le monde tel qu’il aurait pu être." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "souvenir + lumière", 
+  "consigne": "Un flash lumineux éclaire parfois une scène du passé au milieu du présent." 
+},
+
+{ 
+  "categorie": "Poétique", 
+  "abstraction": "voix + solitude", 
+  "consigne": "Un personnage entend une voix douce dans sa tête : ce n’est pas la sienne, mais il s’y attache." 
   }
 ];
