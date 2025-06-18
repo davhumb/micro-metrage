@@ -4468,5 +4468,155 @@ window.ideas = [
   "categorie": "Silence bavard",
   "abstraction": "paradoxe",
   "consigne": "Chaque silence est porteur d’un message. Le texte doit rendre leur poids sans les expliciter."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "lipogramme",
+  "consigne": "Écris un texte sans utiliser la lettre “e”."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "lipogramme",
+  "consigne": "Écris un texte sans utiliser de voyelle. (Tu peux remplacer les sons par des gestes, des onomatopées, ou des signes.)"
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "palindrome",
+  "consigne": "Fais que ta première phrase soit lisible dans les deux sens. Construit ton histoire autour de cette symétrie."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "anagramme",
+  "consigne": "Transforme chaque mot d’un poème ou d’un titre connu en son anagramme. Crée un texte qui en découle."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "substitution lexicale",
+  "consigne": "Remplace chaque nom commun par le 7ᵉ mot suivant dans le dictionnaire. Raconte une scène absurde qui en découle."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "structure mathématique",
+  "consigne": "Écris un texte dont la structure suit celle d’un carré magique ou d’un échiquier. Chaque 'case' est un paragraphe."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "prose rimée",
+  "consigne": "Écris un texte en prose où les fins de paragraphes riment discrètement."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "monovocalisme",
+  "consigne": "N’utilise qu’une seule voyelle dans tout ton texte. Exemple : 'a', 'i' ou 'o'."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "substitution logique",
+  "consigne": "Interdis-toi tous les mots qui évoquent le temps (hier, demain, toujours, horloge, etc.). Et parle du temps."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "enchaînement",
+  "consigne": "Fais que chaque phrase commence par le mot final de la phrase précédente."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "récit fragmenté",
+  "consigne": "Écris un texte volontairement incomplet, avec des ellipses, des fragments, des passages manquants. Laisse des trous."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "répétition",
+  "consigne": "Répète une phrase ou une idée plusieurs fois dans le texte, mais en modifiant un seul mot à chaque itération."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "tautologie",
+  "consigne": "Écris un texte où chaque phrase répète l’idée de la précédente, sans jamais progresser."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "absence de verbe",
+  "consigne": "Écris un paragraphe sans utiliser un seul verbe."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "métaphore contrainte",
+  "consigne": "Tout ce qui est dit doit être une comparaison ou une métaphore. Aucun mot direct autorisé."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "expurgation volontaire",
+  "consigne": "Choisis un mot central (ex : « amour ») et raconte une histoire d’amour sans jamais le nommer, ni ses synonymes."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "structure contrainte",
+  "consigne": "Écris une scène où chaque paragraphe est plus court que le précédent, jusqu’à une seule phrase."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "inversement",
+  "consigne": "Raconte l’histoire à rebours, phrase par phrase, sans perdre le fil."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "inversion phonétique",
+  "consigne": "Invente un langage où chaque mot connu est inversé (ex : table → elbat) et écris un court texte dans ce langage."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "style imposé",
+  "consigne": "Choisis un texte célèbre. Réécris-le dans le style d’un dictionnaire, d’un tutoriel, ou d’une météo."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "désintégration lexicale",
+  "consigne": "À chaque ligne, un mot disparaît. Le texte devient de plus en plus silencieux jusqu’au blanc final."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "alphabet narratif",
+  "consigne": "Chaque phrase du texte commence par une lettre suivante de l’alphabet (A, B, C…)."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "décalage vocalique",
+  "consigne": "Raconte une scène banale en n’utilisant que des mots contenant la voyelle 'o'."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "bruitage narratif",
+  "consigne": "Remplace certains mots-clés du texte par des onomatopées. Le son devient sens."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "récit cyclique",
+  "consigne": "Fais que la dernière phrase de ton texte soit exactement la première. L’histoire tourne en boucle."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "changement de genre grammatical",
+  "consigne": "Inverser tous les genres dans ton texte : le soleil devient féminin, la mer devient masculine… et tout ce que ça implique."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "imitation",
+  "consigne": "Raconte une anecdote personnelle dans le style d’un manuel scolaire ou d’une notice d’assemblage IKEA."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "puzzle narratif",
+  "consigne": "Écris une histoire découpée en 5 fragments dans le désordre. Ne donne aucun indice d’ordre."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "prohibition symbolique",
+  "consigne": "Interdis-toi tout mot qui contient la lettre « i ». Raconte quand même une scène liée à l’intimité."
+},
+{
+  "categorie": "Contrainte oulipienne",
+  "abstraction": "recette déguisée",
+  "consigne": "Écris un texte qui semble être une recette de cuisine, mais qui cache un drame ou une confession."
 }
 ];
