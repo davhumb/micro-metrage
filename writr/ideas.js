@@ -6264,5 +6264,54 @@ window.ideas = [
   "categorie": "Narration philosophique",
   "abstraction": "chercher la non-réponse",
   "consigne": "Fais dialoguer deux personnages autour d’une question insoluble. Ce n’est pas la réponse qui compte, mais la manière dont ils cherchent."
-  }
+  },
+{ "categorie": "Philosophie narrative", "abstraction": "stoïcisme + destin", "consigne": "Écris un récit où chaque obstacle est une invitation à grandir. Le protagoniste embrasse l’adversité comme nécessaire à son accomplissement." },
+
+{ "categorie": "Voie du zen", "abstraction": "intuition + dépouillement", "consigne": "Un personnage tente de résoudre une énigme complexe, mais ne trouve la solution qu’en abandonnant toute volonté de comprendre." },
+
+{ "categorie": "Sagesse soufie", "abstraction": "dérive + extase", "consigne": "Un personnage erre sans but apparent, mais chaque rencontre absurde le rapproche d’une révélation mystique." },
+
+{ "categorie": "Mysticisme narratif", "abstraction": "transcendance + oubli", "consigne": "Plus le personnage se rapproche de la vérité, plus il oublie qui il est. La lumière efface les contours du soi." },
+
+{ "categorie": "Tension stoïcienne", "abstraction": "contrôle + détachement", "consigne": "Un protagoniste perd tout ce qu’il contrôle. Il découvre que sa liberté commence là où sa maîtrise s’arrête." },
+
+{ "categorie": "Zen paradoxal", "abstraction": "koan narratif", "consigne": "Construis une scène autour d’un paradoxe irrésolu, qui se répète jusqu’à ce que le personnage abandonne la logique." },
+
+{ "categorie": "Enigme soufie", "abstraction": "doute + vérité déguisée", "consigne": "Un sage dit toujours le contraire de ce qu’il pense. Le héros doit apprendre à lire entre les mensonges pour avancer." },
+
+{ "categorie": "Récit contemplatif", "abstraction": "ralentissement + attention", "consigne": "Raconte une journée banale, mais avec une extrême lenteur et précision. Ce sont les détails qui deviennent révélateurs." },
+
+{ "categorie": "Sagesse taoïste", "abstraction": "cycle + complémentarité", "consigne": "Deux personnages opposés (actif/passif, jeune/vieux) vivent la même épreuve, mais la surmontent chacun à leur façon, révélant leur interdépendance." },
+
+{ "categorie": "Narration stoïcienne", "abstraction": "acceptation + insensibilité", "consigne": "Un personnage vit une perte immense. Il décide de ne rien montrer, ni à lui-même ni aux autres. Mais le corps trahit ce que l’esprit nie." },
+
+{ "categorie": "Question zen", "abstraction": "répétition + illumination", "consigne": "Un personnage répète la même tâche tous les jours sans comprendre pourquoi. Un jour, sans raison, tout change." },
+
+{ "categorie": "Initiation soufie", "abstraction": "leçon + chute", "consigne": "Un personnage croit avoir compris la vérité. Mais chaque certitude lui enlève un peu de clarté. Seul celui qui chute apprend." },
+
+{ "categorie": "Épure philosophique", "abstraction": "soustraction + révélation", "consigne": "Écris une scène où chaque mot en trop masque une vérité. Épure jusqu’à ce que le silence dise tout." },
+
+{ "categorie": "Récit stoïque", "abstraction": "verticalité + intégrité", "consigne": "Un personnage reste droit malgré toutes les tentations de plier. Sa dignité est son seul bien, mais elle agit comme un phare." },
+
+{ "categorie": "Dialogue impossible", "abstraction": "langues opposées", "consigne": "Deux personnages ne parlent pas la même langue. Pourtant, ils doivent s’aimer, fuir ou décider ensemble." },
+
+{ "categorie": "Conte zen", "abstraction": "simplicité + bascule", "consigne": "Une petite action sans importance (ramasser une pierre, verser du thé) provoque un changement immense." },
+
+{ "categorie": "Cycle narratif", "abstraction": "fin + recommencement", "consigne": "Le récit se termine par la naissance d’un personnage qu’on a vu mourir au début. L’histoire forme un anneau." },
+
+{ "categorie": "Voix intérieure", "abstraction": "intuition + contradiction", "consigne": "Le personnage entend une voix douce lui donner des conseils absurdes, qui se révèlent à chaque fois justes." },
+
+{ "categorie": "Récit invisible", "abstraction": "ombres + reflets", "consigne": "On ne suit pas les protagonistes directement, mais les traces qu’ils laissent : une tasse déplacée, une empreinte, un mot oublié." },
+
+{ "categorie": "Soufisme narratif", "abstraction": "ivresse + lucidité", "consigne": "Le personnage semble perdu dans l’euphorie, mais voit les choses avec une clarté terrifiante. L’extase révèle plus que la sobriété." },
+
+{ "categorie": "Dualité philosophique", "abstraction": "ombre + lumière", "consigne": "Un personnage doit sauver un autre. Mais plus il éclaire l’autre, plus il devient lui-même obscur." },
+
+{ "categorie": "Stratégie existentielle", "abstraction": "vivre + observer", "consigne": "Un personnage décide de vivre chaque journée comme s’il l’écrivait pour quelqu’un d’autre. Peu à peu, il devient auteur de sa vie." },
+
+{ "categorie": "Symbole mouvant", "abstraction": "image + transformation", "consigne": "Une image revient tout au long du récit (un oiseau, une forme, un objet), mais change à chaque apparition. Elle grandit avec le récit." },
+
+{ "categorie": "Chute taoïste", "abstraction": "équilibre + glissement", "consigne": "Le personnage croit avoir trouvé un équilibre. Mais ce point d’appui était déjà en train de céder." },
+
+{ "categorie": "Éloge du non-savoir", "abstraction": "naïveté + sagesse", "consigne": "Un personnage refuse d’apprendre, de comprendre, d’expliquer. Ce refus devient sa sagesse secrète." }
 ];
