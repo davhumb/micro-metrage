@@ -8175,5 +8175,159 @@ window.ideas = [
   "categorie": "Situations initiales",
   "abstraction": "amorce / décor / tension implicite",
   "consigne": "Une femme remonte dans son grenier. Une radio s’est allumée toute seule, diffusant une voix familière qui n’existe plus."
+  }{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Il restait trois olives dans le fond du bocal. » et la dernière : « Je n’ai plus jamais conduit la nuit. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je l’ai suivi jusqu’à l’abribus. » et la dernière : « Mon frère ne m’a plus jamais adressé la parole. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « La moquette collait un peu. » et la dernière : « On s’est mariés trois mois plus tard. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Personne n’a remarqué qu’il manquait une chaise. » et la dernière : « C’est là que j’ai compris que j’étais enfin libre. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « J’ai renversé du café sur la lettre. » et la dernière : « Il a enfilé les gants, lentement. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « On entendait les cris jusqu’au parking. » et la dernière : « J’ai pensé à l’odeur des clémentines. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Elle m’a tendu un mouchoir propre. » et la dernière : « J’ai avalé la bague sans réfléchir. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « J’avais oublié qu’il était gaucher. » et la dernière : « L’ascenseur s’est refermé sur son sourire. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Le chien a grogné sans bouger. » et la dernière : « Il restait une place sur la banquette. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Ils portaient tous le même manteau. » et la dernière : « J’ai laissé la fenêtre entrouverte, comme d’habitude. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Elle a demandé du sel, d’une voix plate. » et la dernière : « Le train ne s’est jamais arrêté. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je crois que c’est à ce moment-là que j’ai su. » et la dernière : « Personne n’a pensé à éteindre la radio. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Le plafond était beaucoup plus bas que dans mes souvenirs. » et la dernière : « Et pourtant, il ne pleuvait pas. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Elle est venue me parler à la pause déjeuner. » et la dernière : « Il y avait une tache sur le rideau. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « J’ai claqué la porte trop fort. » et la dernière : « La photo s’est envolée par la fenêtre. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Les boîtes de conserve étaient encore tièdes. » et la dernière : « J’ai mis le tournevis dans ma poche. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « L’odeur de peinture me donnait la nausée. » et la dernière : « Quelqu’un avait volé mon prénom. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « La table était déjà dressée. » et la dernière : « Il m’a offert un poème écrit sur du papier toilette. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « La clé tournait difficilement dans la serrure. » et la dernière : « Elle s’est endormie avant la fin de la phrase. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Il a dit : “Ferme les yeux.” » et la dernière : « Il manquait un bouton à sa chemise. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « J’ai entendu un rire derrière moi. » et la dernière : « Le fauteuil grinçait légèrement. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Le carrelage était froid sous mes pieds. » et la dernière : « Il a bu le café sans me regarder. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Le vendeur avait un regard vide. » et la dernière : « Il a fini par éclater de rire, seul. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Elle s’est assise au bord du lit. » et la dernière : « Personne n’a trouvé la bague. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je me suis levé trop tôt. » et la dernière : « Il m’a laissé la moitié de son sandwich. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Les volets claquaient depuis des heures. » et la dernière : « La vitre s’est brisée sans prévenir. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je n’avais jamais vu autant de valises. » et la dernière : « Elle avait recousu ses initiales sur la doublure. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Il a lancé la pièce sans réfléchir. » et la dernière : « On ne l’a plus jamais revu. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « L’herbe était déjà humide. » et la dernière : « Je n’ai pas pris la photo. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Je suis resté coincé dans l’ascenseur. » et la dernière : « Elle m’a donné son écharpe sans un mot. »"
+},
+{
+  "categorie": "Défi",
+  "abstraction": "contexte formel",
+  "consigne": "Écris un texte dont la première phrase est : « Le klaxon résonnait dans la cour. » et la dernière : « J’ai rendu les clés sans me retourner. »"
   }
 ];
