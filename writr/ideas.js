@@ -5363,5 +5363,105 @@ window.ideas = [
   "categorie": "Alchimie narrative",
   "abstraction": "secret gardé",
   "consigne": "Un savoir ancien est enfermé dans un symbole, une image, une phrase illisible. Un seul personnage comprend sa vraie nature."
-  }
+  },
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "alphabet sacré",
+  "consigne": "Un personnage trouve une lettre inconnue entre deux pages. Elle n’existe dans aucun alphabet. Pourtant, elle résonne en lui comme un nom oublié."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "golem poétique",
+  "consigne": "Quelqu’un essaie de donner vie à un texte en l’écrivant sur la peau, sur les murs, dans l’air. Il échoue. Puis réussit."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "livre muet",
+  "consigne": "Un livre sans mot déclenche des visions. Chacun y voit autre chose. Mais tous ressortent changés."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "nom perdu",
+  "consigne": "Un nom ancien circule par erreur. Ceux qui le lisent rêvent d’un jardin. Ce jardin existe, mais personne ne sait où il est."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "ombre jungienne",
+  "consigne": "Ton personnage découvre un double silencieux qui l’imite, mais prend peu à peu de l’avance. Il sait ce que l’original ne sait pas encore."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "temple invisible",
+  "consigne": "Un personnage reçoit des instructions pour rejoindre un lieu qui n’existe pas. Pourtant, chaque détail mène à quelque chose de réel."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "langage du silence",
+  "consigne": "Deux êtres tombent amoureux sans jamais se parler. Le jour où l’un d’eux prononce un mot, tout s’effondre."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "confrontation archétypale",
+  "consigne": "Ton personnage entre dans un rêve où l’attendent quatre figures : l’Enfant, le Fou, la Mère, le Miroir. Il ne peut en tuer qu’une."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "synchronicité troublante",
+  "consigne": "Deux personnes croisent le même inconnu à la même heure dans deux villes différentes. Aucun ne peut l’avoir inventé."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "reflet ancien",
+  "consigne": "Un miroir reflète non pas l’apparence, mais l’âge intérieur du personnage. Certains y voient des enfants. D’autres des cadavres."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "pyramide intérieure",
+  "consigne": "Dans un état second, un personnage grimpe les marches d’un édifice en lui-même. À chaque palier, un souvenir est effacé."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "vérité impossible",
+  "consigne": "Un personnage apprend une vérité qui ne peut être dite. Il tente de la peindre, de la danser, de l’oublier. Rien n’y fait."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "vision kabbalistique",
+  "consigne": "Un enfant voit les liens lumineux entre les êtres. En suivant l’un d’eux, il disparaît de la réalité ordinaire."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "lignée occulte",
+  "consigne": "Un personnage découvre que ses ancêtres appartenaient à une confrérie secrète. Son corps porte les marques laissées par leur serment."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "fractale vivante",
+  "consigne": "Une créature minuscule contient un monde entier. En l’observant, le personnage y voit sa propre histoire à venir."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "parole créatrice",
+  "consigne": "Un mot prononcé dans une langue oubliée modifie la structure même du réel. Mais plus personne ne sait ce qu’il signifie."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "amour alchimique",
+  "consigne": "Deux êtres se cherchent. Quand ils se touchent enfin, le monde se modifie autour d’eux : les couleurs, le climat, la gravité."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "cercle intérieur",
+  "consigne": "Un cercle se forme autour d’un personnage en proie au doute. Il croit être seul. Mais d’autres savent ce qu’il est en train de devenir."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "musique interdite",
+  "consigne": "Un air joué à l’envers dans un rêve revient chaque nuit. Quand le personnage le rejoue dans la réalité, le monde change légèrement."
+},
+{
+  "categorie": "Mystique narrative",
+  "abstraction": "pierre du sommeil",
+  "consigne": "Un objet permet de rêver collectivement. Mais dans ce rêve partagé, un seul peut en sortir à la fois. Les autres restent coincés."
+}
 ];
