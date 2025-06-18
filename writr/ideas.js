@@ -7276,5 +7276,245 @@ window.ideas = [
     "categorie": "Conseil de musicien",
     "abstraction": "écho",
     "consigne": "Écris une scène dans laquelle chaque phrase contient un mot de la précédente, comme un motif qui revient."
-  }
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "variation",
+    "consigne": "Beethoven : « Jouer une mauvaise note est insignifiant. Jouer sans passion est inexcusable. » Écris une scène imparfaite, mais intensément sincère."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "improvisation",
+    "consigne": "Écris un dialogue comme une jam session : pas de narration, juste des répliques qui s’enchaînent sans logique apparente… jusqu’à une révélation finale."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "dissonance affective",
+    "consigne": "Écris une scène où ce que ressent un personnage ne colle jamais à ce qu’il entend. La musique et l’émotion s’opposent."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "appel intérieur",
+    "consigne": "Bob Dylan : « La musique doit être ressentie, pas comprise. » Écris un passage qui touche sans jamais expliquer."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "fragilité sonore",
+    "consigne": "Raconte une scène en chuchotements, soupirs, frottements. La fragilité est au cœur de la narration."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "transmission invisible",
+    "consigne": "Un vieil instrument change de mains. Décris ce que le nouveau joueur ressent en le touchant."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "répétition hypnotique",
+    "consigne": "Un motif musical obsède un personnage. Raconte les effets de cette ritournelle sur sa perception du monde."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "résonance émotionnelle",
+    "consigne": "Un son déclenche un souvenir brutal. Raconte ce moment sans nommer le souvenir."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "déphasage",
+    "consigne": "Décris deux personnages dans la même pièce, écoutant la même musique. Mais chacun l'entend autrement."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "prélude",
+    "consigne": "Écris une scène qui agit comme une intro musicale : elle ne dit rien, mais annonce tout."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "coda",
+    "consigne": "Un personnage vit la fin de quelque chose. Traite cette scène comme une dernière note suspendue."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "vibration",
+    "consigne": "Décris un moment de tension uniquement à travers les vibrations perçues (sol, peau, objets)."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "invention",
+    "consigne": "Un personnage invente un instrument ou une façon de jouer. Raconte la naissance de cette idée."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "concert intérieur",
+    "consigne": "Un personnage entend une musique que personne d’autre n’entend. Est-ce un don ou une malédiction ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "rythme interne",
+    "consigne": "Écris une scène où les battements de cœur dictent le rythme du récit."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "absence",
+    "consigne": "Un musicien a perdu l’audition. Raconte sa relation au silence."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "mémoire sonore",
+    "consigne": "Un personnage se souvient d’un lieu uniquement à travers les sons qu’il y a entendus."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "musique interdite",
+    "consigne": "Une société interdit certains sons. Raconte un acte de résistance sonore."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "confusion sensorielle",
+    "consigne": "Un personnage entend les couleurs et voit les sons. Raconte une journée dans sa peau."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "appel",
+    "consigne": "Une chanson réveille quelque chose d'enfoui. Raconte ce réveil."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "harmonie secrète",
+    "consigne": "Deux personnages se croisent tous les jours sans se parler. Un jour, la musique les lie."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "changement de tonalité",
+    "consigne": "Décris une scène qui semble joyeuse, mais bascule brutalement sur une note mineure."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "voix perdue",
+    "consigne": "Un chanteur perd sa voix. Écris la scène où il tente de dire ce qu’il n’a jamais osé."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "freestyle narratif",
+    "consigne": "Écris une scène en te laissant guider par la rythmique d’un morceau rap ou techno imaginaire."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "changement de tempo",
+    "consigne": "Une journée s’accélère de façon absurde. Raconte-la en variant ton style pour suivre le tempo."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "danse mentale",
+    "consigne": "Un personnage danse sans bouger. Décris cette scène intérieure comme une chorégraphie."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "guitare cassée",
+    "consigne": "Une guitare brisée devient un objet symbolique. Raconte son dernier concert."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "echo du passé",
+    "consigne": "Une vieille chanson déclenche un souvenir amoureux chez deux anciens amants. Mais chacun l’interprète autrement."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "note bleue",
+    "consigne": "Écris une scène teintée d’une tristesse douce, à la manière d’un solo de blues."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "tempo organique",
+    "consigne": "Écris une scène où le rythme des pas, de la respiration et du vent forment une musique narrative."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "symbiose",
+    "consigne": "Deux personnages jouent ensemble pour la première fois. Décris ce moment comme une fusion."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "explosion sonore",
+    "consigne": "Décris l’instant où un son très fort interrompt tout. Qu’est-ce qui explose ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "rituel",
+    "consigne": "Chaque matin, un personnage écoute un même morceau. Un jour, il change. Pourquoi ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "transe",
+    "consigne": "Un personnage entre en transe en écoutant une chanson. Que découvre-t-il dans cet état ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "percussion primitive",
+    "consigne": "Écris une scène rythmée uniquement par des sons de percussion — tout est corps et objets."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "samplé",
+    "consigne": "Construis un texte en collant des morceaux d’autres récits, comme un DJ samplerait des disques."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "absence de mélodie",
+    "consigne": "Raconte une scène sans émotion, sans musique, sans rythme. Le vide pur."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "dissonance sociale",
+    "consigne": "Un personnage joue sa musique dans un lieu où elle dérange. Raconte l’affrontement."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "secret rythmique",
+    "consigne": "Un personnage code ses messages dans le rythme d’une mélodie. Qui comprendra ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "chant intérieur",
+    "consigne": "Un personnage chante tout bas ce qu’il n’ose pas dire. L’autre l’écoute sans réagir. Et ensuite ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "langage parallèle",
+    "consigne": "Deux personnages communiquent uniquement à travers la musique. Que se disent-ils ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "bruit blanc",
+    "consigne": "Un personnage entend un souffle constant. Est-ce un problème, un indice, ou autre chose ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "polyphonie",
+    "consigne": "Écris une scène racontée par plusieurs voix intérieures en même temps, comme un contrepoint musical."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "note tueuse",
+    "consigne": "Une rumeur circule : une note jouée à une certaine fréquence tue celui qui l’écoute. Mythe ou réalité ?"
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "solo improvisé",
+    "consigne": "Un personnage prend la parole sans l’avoir prévu. Ce qu’il dit est décousu… mais bouleverse tout."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "instrument muet",
+    "consigne": "Un personnage possède un instrument qui ne fonctionne qu’avec lui. Personne ne le croit."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "tonalité cachée",
+    "consigne": "Un personnage sourit, plaisante… mais tout dans la musique de la scène dit autre chose."
+  },
+  {
+    "categorie": "Conseil de musicien",
+    "abstraction": "boucle",
+    "consigne": "Un morceau tourne en boucle dans un lieu. Pourquoi personne ne l’arrête ?"
+    }
 ];
