@@ -4618,5 +4618,155 @@ window.ideas = [
   "categorie": "Contrainte oulipienne",
   "abstraction": "recette déguisée",
   "consigne": "Écris un texte qui semble être une recette de cuisine, mais qui cache un drame ou une confession."
+},
+{
+  "categorie": "Souvenir parasite",
+  "abstraction": "mémoire",
+  "consigne": "Ton personnage se souvient d’un événement qu’il n’a jamais vécu. Il part à la recherche de sa source."
+},
+{
+  "categorie": "Absence trop bruyante",
+  "abstraction": "relation",
+  "consigne": "Décris une scène dans laquelle l’absence d’un personnage pèse plus que sa présence ne l’aurait fait."
+},
+{
+  "categorie": "Chose non dite",
+  "abstraction": "tension",
+  "consigne": "Deux personnages parlent de tout sauf de ce qu’il faudrait. Laisse entendre ce qui ne sera jamais dit."
+},
+{
+  "categorie": "Une tasse, une photo, un silence",
+  "abstraction": "éléments imposés",
+  "consigne": "Compose une scène à partir de ces trois éléments : une tasse cassée, une vieille photo, un silence qui dure trop."
+},
+{
+  "categorie": "Conversation muette",
+  "abstraction": "non verbal",
+  "consigne": "Deux personnages échangent sans parler. Par gestes, regards, gestes retenus."
+},
+{
+  "categorie": "Journal de bord",
+  "abstraction": "forme",
+  "consigne": "Écris une histoire sous forme d’entrées de journal. Un jour manque. Pourquoi ?"
+},
+{
+  "categorie": "Quelque chose de déplacé",
+  "abstraction": "étrangeté",
+  "consigne": "Ton personnage rentre chez lui et remarque un objet minuscule qui a bougé. Raconte la suite."
+},
+{
+  "categorie": "Les arbres chuchotent",
+  "abstraction": "onirique",
+  "consigne": "Chaque nuit, les arbres parlent. Un personnage commence à comprendre ce qu’ils disent."
+},
+{
+  "categorie": "Tout le monde oublie son nom",
+  "abstraction": "identité",
+  "consigne": "Un personnage découvre que plus personne ne se souvient de son nom. Même lui commence à douter."
+},
+{
+  "categorie": "L'enfant qui savait tout",
+  "abstraction": "fantastique",
+  "consigne": "Un enfant semble tout savoir. Mais uniquement ce qui concerne les autres."
+},
+{
+  "categorie": "Un rêve qui contamine le réel",
+  "abstraction": "déréalisation",
+  "consigne": "Un personnage fait un rêve récurrent dont les éléments apparaissent peu à peu dans le réel."
+},
+{
+  "categorie": "Le reflet en avance",
+  "abstraction": "troublant",
+  "consigne": "Dans le miroir, le reflet agit une seconde trop tôt. Puis deux."
+},
+{
+  "categorie": "Le téléphone sans fil",
+  "abstraction": "absurde",
+  "consigne": "Un personnage reçoit un appel sur un combiné qui n’est relié à rien. Il répond quand même."
+},
+{
+  "categorie": "La pluie efface les choses",
+  "abstraction": "étrange",
+  "consigne": "Chaque goutte d’eau dissout un détail du monde. Le personnage est trempé."
+},
+{
+  "categorie": "Écris sans adjectifs",
+  "abstraction": "contrainte stylistique",
+  "consigne": "Raconte une scène vive, précise, sans utiliser un seul adjectif qualificatif."
+},
+{
+  "categorie": "Dialogue en une phrase",
+  "abstraction": "forme",
+  "consigne": "Une dispute, une rupture ou un aveu, mais en une seule phrase continue, sans point."
+},
+{
+  "categorie": "Pas de verbe être",
+  "abstraction": "contrainte grammaticale",
+  "consigne": "Décris une personne ou une scène sans jamais utiliser le verbe “être” (ni ses conjugaisons)."
+},
+{
+  "categorie": "Rien ne bouge",
+  "abstraction": "statique",
+  "consigne": "Fais durer une scène où rien ne se passe — physiquement. Tout doit venir de l’intérieur."
+},
+{
+  "categorie": "Un bruit obsédant",
+  "abstraction": "sensoriel",
+  "consigne": "Un personnage entend un bruit que personne d’autre ne semble percevoir. Il devient central."
+},
+{
+  "categorie": "Un personnage, trois styles",
+  "abstraction": "perspective",
+  "consigne": "Raconte la même personne à travers trois regards différents : ami, inconnu, ennemi."
+},
+{
+  "categorie": "Lettre à soi-même",
+  "abstraction": "introspection",
+  "consigne": "Le personnage écrit une lettre au 'lui' de l’an dernier — ou à celui qu’il sera dans un an."
+},
+{
+  "categorie": "La chambre vide",
+  "abstraction": "départ",
+  "consigne": "Décris la chambre d’un personnage qui vient de disparaître. Chaque objet raconte quelque chose."
+},
+{
+  "categorie": "Écris à la deuxième personne",
+  "abstraction": "point de vue",
+  "consigne": "Utilise le “tu”. Immerge ton lecteur dans la peau d’un personnage troublé ou coupable."
+},
+{
+  "categorie": "Sans ponctuation",
+  "abstraction": "forme",
+  "consigne": "Écris une page sans ponctuation aucune et vois ce que cela change au souffle de ton texte"
+},
+{
+  "categorie": "Ton personnage a oublié un mot",
+  "abstraction": "langage",
+  "consigne": "Un mot essentiel lui échappe. Il tourne autour, cherche des synonymes, mais rien ne suffit."
+},
+{
+  "categorie": "L'orage à l'intérieur",
+  "abstraction": "métaphore vécue",
+  "consigne": "Un orage se prépare. À moins qu’il ne soit en lui. Ou autour. Ou dans la langue du texte."
+},
+{
+  "categorie": "Pas d’humain",
+  "abstraction": "perspective inédite",
+  "consigne": "Écris une scène sans aucun être humain. Que voit-on ? Que comprend-on ?"
+},
+{
+  "categorie": "Un seul sens activé",
+  "abstraction": "sensoriel",
+  "consigne": "Tout est perçu par un seul des cinq sens : l’ouïe, l’odorat, la vue, le toucher ou le goût."
+},
+{
+  "categorie": "Quelqu’un regarde",
+  "abstraction": "tension",
+  "consigne": "Ton personnage est observé. Il le sent. Il en est certain. Mais par qui ?"
+},
+{
+  "categorie": "Dernière phrase en premier",
+  "abstraction": "structure inversée",
+  "consigne": "Commence ton texte par sa dernière phrase. Et écris pour la justifier."
 }
 ];
