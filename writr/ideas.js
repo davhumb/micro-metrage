@@ -4268,5 +4268,155 @@ window.ideas = [
     "categorie": "Fin imposée",
     "abstraction": "désespoir tranquille",
     "consigne": "Conclue ton texte ainsi : « Et il ne se passa rien pendant très longtemps. »"
-  }
+  },
+{
+  "categorie": "Narrateur menteur",
+  "abstraction": "structure",
+  "consigne": "Le narrateur est volontairement peu fiable, exagère ou déforme les faits. Le lecteur doit deviner la vérité entre les lignes."
+},
+{
+  "categorie": "Métier inventé",
+  "abstraction": "univers",
+  "consigne": "Ton personnage exerce un métier qui n’existe pas : collecteur de silences, modérateur de rêves, réparateur d’histoires brisées…"
+},
+{
+  "categorie": "Hors-cadre",
+  "abstraction": "ellipse",
+  "consigne": "Le récit ne montre jamais l’événement central (crime, dispute, miracle), mais tout ce qui tourne autour en révèle la nature."
+},
+{
+  "categorie": "Objet omniscient",
+  "abstraction": "point de vue détourné",
+  "consigne": "Un objet observe tout, connaît tout, mais ne peut agir. Il tente d’influencer les événements par sa simple présence."
+},
+{
+  "categorie": "Inversion de tropes",
+  "abstraction": "détournement",
+  "consigne": "Prends un cliché narratif classique (ex : le héros sauve le monde) et retourne-le jusqu’à le rendre absurde ou tragique."
+},
+{
+  "categorie": "Théorie absurde prise au sérieux",
+  "abstraction": "absurde rationnel",
+  "consigne": "Une théorie délirante (la Terre est plate, les chats contrôlent Internet...) est acceptée comme vérité dans l’univers du récit."
+},
+{
+  "categorie": "Mémoire en kit",
+  "abstraction": "identité",
+  "consigne": "Un personnage reconstruit ses souvenirs à partir de fragments trouvés dans les poches d’un autre."
+},
+{
+  "categorie": "Personnage réécrit",
+  "abstraction": "récit instable",
+  "consigne": "À mesure que l’histoire progresse, le personnage principal change de nom, de rôle ou de passé. Qui est-il vraiment ?"
+},
+{
+  "categorie": "Décor central",
+  "abstraction": "structure",
+  "consigne": "Toute l’histoire se passe dans un seul lieu qui change imperceptiblement de scène en scène."
+},
+{
+  "categorie": "Rôle mal distribué",
+  "abstraction": "fonction narrative",
+  "consigne": "Un figurant prend peu à peu le rôle du protagoniste, tandis que le héros s’efface."
+},
+{
+  "categorie": "Alphabet tordu",
+  "abstraction": "forme",
+  "consigne": "Chaque phrase de ton texte doit commencer par la lettre suivante de l’alphabet, de A à Z."
+},
+{
+  "categorie": "Langage contaminé",
+  "abstraction": "style",
+  "consigne": "Des mots inconnus ou inventés apparaissent progressivement dans le texte. Le sens ne doit être compris que par le contexte."
+},
+{
+  "categorie": "Dialogue désynchronisé",
+  "abstraction": "expérimentation",
+  "consigne": "Un personnage répond toujours *avant* qu’on lui pose la question. Le dialogue semble déréglé, mais a pourtant une logique cachée."
+},
+{
+  "categorie": "Temps conditionnel",
+  "abstraction": "forme",
+  "consigne": "Tout le récit est rédigé au conditionnel, comme s’il racontait ce qui aurait pu se passer mais ne s’est jamais produit."
+},
+{
+  "categorie": "Écriture symbiotique",
+  "abstraction": "structure",
+  "consigne": "Deux styles narratifs (ex : roman noir et journal intime) coexistent dans le texte. Qui écrit vraiment ?"
+},
+{
+  "categorie": "Grammaire défaillante",
+  "abstraction": "langage",
+  "consigne": "La grammaire s’effondre au fil du texte, comme si la langue elle-même se désagrégeait."
+},
+{
+  "categorie": "Voix parasite",
+  "abstraction": "interférence",
+  "consigne": "Un commentaire intérieur, moqueur ou hostile, s’infiltre dans le récit comme un parasite."
+},
+{
+  "categorie": "Syntaxe fracturée",
+  "abstraction": "forme",
+  "consigne": "Chaque phrase est interrompue, fragmentée, incomplète. L’histoire avance malgré tout."
+},
+{
+  "categorie": "Mots en voie de disparition",
+  "abstraction": "langage",
+  "consigne": "À chaque paragraphe, un mot-clé disparaît du texte. Le narrateur doit le contourner sans l’utiliser."
+},
+{
+  "categorie": "Déni de narration",
+  "abstraction": "forme réflexive",
+  "consigne": "Le narrateur refuse d’écrire ce qu’il voit. Il rature mentalement, esquive, nie, tout en racontant."
+},
+{
+  "categorie": "Hyper-présence de l’absent",
+  "abstraction": "thème",
+  "consigne": "Le personnage principal n’apparaît jamais dans la scène, mais tout tourne autour de lui : regards, silences, décisions."
+},
+{
+  "categorie": "Flash-back d’un futur oublié",
+  "abstraction": "structure temporelle",
+  "consigne": "Ton personnage se souvient d’un événement… qui n’a pas encore eu lieu, et qui peut ne jamais arriver."
+},
+{
+  "categorie": "Présent suspendu",
+  "abstraction": "temps",
+  "consigne": "Décris un instant gelé dans le temps (un baiser, une chute, un regard), exploré en profondeur comme s’il durait une éternité."
+},
+{
+  "categorie": "Négation active",
+  "abstraction": "langage",
+  "consigne": "Le texte décrit uniquement ce qui n’arrive pas, n’est pas dit, n’est pas ressenti. Et pourtant, tout y est."
+},
+{
+  "categorie": "Souvenir inventé",
+  "abstraction": "mémoire",
+  "consigne": "Le personnage se rappelle avec émotion quelque chose qui ne lui est jamais arrivé. Mais il y croit dur comme fer."
+},
+{
+  "categorie": "Émotion indifférente",
+  "abstraction": "contraste",
+  "consigne": "Décris une scène tragique ou joyeuse avec un ton plat, froid, clinique — jusqu’à ce que ça déborde malgré tout."
+},
+{
+  "categorie": "Action immobile",
+  "abstraction": "rythme",
+  "consigne": "Un personnage ne fait rien. Pourtant, le récit avance — ou semble avancer — par son immobilité même."
+},
+{
+  "categorie": "Lumière noire",
+  "abstraction": "image contradictoire",
+  "consigne": "Raconte une scène éclairée par une lumière paradoxale : trop sombre pour voir, trop intense pour fuir."
+},
+{
+  "categorie": "Proximité distante",
+  "abstraction": "relation",
+  "consigne": "Deux personnages sont physiquement proches, mais mentalement à des années-lumière l’un de l’autre."
+},
+{
+  "categorie": "Ignorance lucide",
+  "abstraction": "conscience",
+  "consigne": "Ton personnage sait qu’il ne saura jamais. Et c’est ce savoir-là qui le guide."
+    }
 ];
