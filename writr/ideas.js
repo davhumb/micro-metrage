@@ -4783,5 +4783,155 @@ window.ideas = [
   "categorie": "Un mot en moins",
   "abstraction": "défi linguistique",
   "consigne": "Choisis un mot central à ton thème (mort, amour, peur, etc.) et raconte sans jamais l’écrire."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "profondeur",
+  "consigne": "« L’art n’est pas un miroir, c’est un marteau. » (Bertolt Brecht) — Écris une scène qui brise quelque chose chez le lecteur."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "vérité inversée",
+  "consigne": "« La vérité, c’est ce qui reste quand on a tout oublié. » (Jean Anouilh) — Raconte une histoire où tout s’efface, sauf une chose."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "vision",
+  "consigne": "« J’ai toujours préféré la folie des passions à la sagesse de l’indifférence. » (Anatole France) — Crée un personnage qui fait tout basculer par passion."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "réalité fissurée",
+  "consigne": "« La réalité, c’est ce qui refuse de disparaître quand on cesse d’y croire. » (Philip K. Dick) — Écris une histoire où le monde commence à s'effacer… sauf une chose."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "mémoire vive",
+  "consigne": "« Le passé ne meurt jamais. Il n’est même pas passé. » (William Faulkner) — Ton personnage est rattrapé par un événement qu’il croyait oublié."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "oubli",
+  "consigne": "« J’ai la mémoire qui flanche, je me souviens plus très bien… » (Jeanne Moreau) — Un personnage perd peu à peu les souvenirs d’un être cher."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "étrangeté",
+  "consigne": "« Rien n’est plus familier que ce qui vous est inconnu. » (René Magritte) — Écris une scène où tout semble normal… mais rien ne l’est."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "création",
+  "consigne": "« Créer, c’est vivre deux fois. » (Albert Camus) — Un personnage commence à écrire ou à peindre… et ce qu’il crée devient réel."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "imaginaire",
+  "consigne": "« Tout ce que vous pouvez imaginer est réel. » (Pablo Picasso) — Raconte une rencontre entre un rêve et le quotidien."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "identité",
+  "consigne": "« Qui suis-je, moi qui ne suis même pas moi ? » (Antonin Artaud) — Crée un personnage à l’identité fuyante ou fracturée."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "présence du vide",
+  "consigne": "« C’est drôle comme le vide prend de la place. » (Virginie Despentes) — Un personnage fait face à une absence qui envahit tout."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "quête de sens",
+  "consigne": "« J’écris pour ceux qui n’ont pas trouvé de réponse, et pour ceux qui n’ont pas su poser la bonne question. » (Clarice Lispector) — Écris un texte qui cherche sans savoir quoi."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "métempsychose",
+  "consigne": "« Je suis mille hommes et pourtant je ne suis personne. » (Fernando Pessoa) — Ton personnage change de rôle ou d’identité au fil du récit."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "impossibilité",
+  "consigne": "« On ne peut pas peindre du silence. » (James Whistler) — Tente de décrire l’indescriptible : une sensation, un vide, un instant."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "instabilité",
+  "consigne": "« La vie, c’est ce qui se passe pendant qu’on fait des plans. » (John Lennon) — Un personnage voit tous ses projets chamboulés par un imprévu."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "perte de repères",
+  "consigne": "« C’est quand on est perdu qu’on commence à se trouver. » (Henry Miller) — Débute ton histoire dans la confusion totale."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "peur de la page",
+  "consigne": "« Écrire, c’est aussi ne pas parler. C’est se taire. C’est hurler sans bruit. » (Marguerite Duras) — Rends palpable un cri qui ne peut être dit."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "obsession",
+  "consigne": "« Il n’y a pas de hasard, il n’y a que des rendez-vous. » (Paul Éluard) — Ton personnage voit des signes partout. A-t-il raison ?"
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "inversion",
+  "consigne": "« Je vois mieux les choses quand je ferme les yeux. » (Paul Valéry) — Écris une scène où la vérité ne passe que par l’imaginaire."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "jeu",
+  "consigne": "« L’écriture, c’est du sabotage. » (Roland Barthes) — Joue avec les codes. Triche. Détruis ce que tu écris au fur et à mesure."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "enfance",
+  "consigne": "« On ne guérit jamais de son enfance. » (Jean-Claude Grumberg) — Raconte un adulte hanté par une scène très banale, mais inoubliable."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "temps suspendu",
+  "consigne": "« L’éternité, c’est long… surtout vers la fin. » (Woody Allen) — Écris une scène qui semble ne jamais devoir finir."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "double",
+  "consigne": "« L’enfer, c’est moi. » (détournement de Sartre) — Ton personnage devient son propre ennemi, littéralement."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "doute",
+  "consigne": "« Le doute est un hommage rendu à l’espoir. » (Georges Bernanos) — Un personnage continue malgré l’incertitude."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "invisible",
+  "consigne": "« Ce qui se conçoit bien s’énonce clairement… sauf ce qu’on ne peut pas concevoir. » (contre-règle) — Écris sur ce que tu ne comprends pas."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "absence de fin",
+  "consigne": "« Une œuvre n’est jamais terminée, seulement abandonnée. » (Paul Valéry) — Écris un texte qui se dérobe à sa propre fin."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "cycle",
+  "consigne": "« Le début est la fin est le début. » (réinterprétation du tao) — Commence et termine ton texte par la même phrase, mais son sens aura changé."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "rôle du lecteur",
+  "consigne": "« Un livre ne vaut que par le lecteur qu’il rencontre. » (Marcel Proust) — Ton personnage lit un texte qui semble s’adresser directement à lui."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "présence trouble",
+  "consigne": "« Il y avait quelqu’un dans la pièce. Ce n’était pas moi. » (Kafka) — Décris cette présence. Et ce que ça change dans le récit."
+},
+{
+  "categorie": "Citation inspirée",
+  "abstraction": "dérèglement",
+  "consigne": "« Je suis entré dans la fiction comme on entre dans une pièce sans lumière. » (Roberto Bolaño) — Ton personnage perd pied entre réel et récit."
 }
 ];
